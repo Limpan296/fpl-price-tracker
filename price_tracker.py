@@ -23,16 +23,32 @@ today = datetime.utcnow().strftime("%Y-%m-%d")
 if os.path.exists(HISTORY_FILE):
     prev = pd.read_csv(HISTORY_FILE)
     merged = df.merge(prev, on="id", suffixes=("", "_prev"))
+
+    # Hitta spelare vars pris ändrats
     changes = merged[merged["price"] != merged["price_prev"]].copy()
     changes["date"] = today
-    changes = changes[["date", "web_name", "price_prev", "price"]]
+    changes["change"] = changes["price"] - changes["price_prev"]
 
     if not changes.empty:
-        out_file = os.path.join(CHANGES_DIR, f"price_changes_{today}.csv")
-        changes.to_csv(out_file, index=False)
-        print(f"{len(changes)} price changes saved to {out_file}")
+        # Prisuppgång
+        up = changes[changes["change"] > 0].copy()
+        if not up.empty:
+            out_file_up = os.path.join(CHANGES_DIR, f"price_up_{today}.csv")
+            up.to_csv(out_file_up, index=False)
+            print(f"{len(up)} players increased in price saved to {out_file_up}")
+
+        # Prisnedgång
+        down = changes[changes["change"] < 0].copy()
+        if not down.empty:
+            out_file_down = os.path.join(CHANGES_DIR, f"price_down_{today}.csv")
+            down.to_csv(out_file_down, index=False)
+            print(f"{len(down)} players decreased in price saved to {out_file_down}")
+
+        # Visa alla ändringar i terminalen
+        print(changes[["web_name", "price_prev", "price", "change"]])
     else:
         print("No price changes today.")
+
 else:
     print("No history found. Creating initial snapshot.")
 
