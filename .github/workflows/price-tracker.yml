@@ -4,14 +4,19 @@ on:
   schedule:
     - cron: "30 1 * * *"   # 01:30 UTC varje dag
   workflow_dispatch:        # så att du kan köra manuellt också
-
+permissions:
+  contents: write   # <-- Ger Actions rätt att pusha till repo
 jobs:
   run:
     runs-on: ubuntu-latest
+    
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+         with:
+          persist-credentials: true   # Behåller rättigheter för push
+
 
       - name: Set up Python
         uses: actions/setup-python@v4
