@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>FPL Price Tracker</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h2 { margin-top: 30px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    tr:nth-child(even) { background-color: #f9f9f9; }
+  </style>
+</head>
+<body>
+  <h1>FPL Price Changes</h1>
+
+  <h2>⬆ Prisuppgångar</h2>
+  <table id="up-table">
+    <thead>
+      <tr>
+        <th>Spelare</th>
+        <th>Lag</th>
+        <th>Föregående pris</th>
+        <th>Nytt pris</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h2>⬇ Prisnedgångar</h2>
+  <table id="down-table">
+    <thead>
+      <tr>
+        <th>Spelare</th>
+        <th>Lag</th>
+        <th>Föregående pris</th>
+        <th>Nytt pris</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    async function loadData() {
+      const res = await fetch("/changes");
+      const data = await res.json();
+
+      function fillTable(id, players) {
+        const tbody = document.querySelector(`#${id} tbody`);
+        tbody.innerHTML = "";
+        players.forEach(p => {
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${p.web_name}</td>
+            <td>${p.team}</td>
+            <td>${p.price_prev}</td>
+            <td>${p.new_price}</td>
+          `;
+          tbody.appendChild(row);
+        });
+      }
+
+      fillTable("up-table", data.up);
+      fillTable("down-table", data.down);
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
