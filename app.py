@@ -16,7 +16,11 @@ def get_changes():
         return jsonify({"up": [], "down": []})
 
     latest = os.path.join("changes", files[-1])
-    df = pd.read_csv(latest)
+    #df = pd.read_csv(latest)
+    
+    CSV_URL = "https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/refs/heads/main/changes/price_changes_2025-08-28.csv"
+    df = pd.read_csv(CSV_URL)
+
 
     # Dela upp uppgångar och nedgångar
     up = df[df["change"] == "up"].to_dict(orient="records")
