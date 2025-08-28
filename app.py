@@ -1,8 +1,12 @@
 from flask import Flask, jsonify, send_from_directory
 import pandas as pd
 import requests
+import re
 
 app = Flask(__name__, static_folder="static")
+
+# GitHub repo (ändra om du flyttar repot)
+GITHUB_REPO = "Limpan296/fpl-price-tracker"
 
 @app.route("/")
 def index():
@@ -10,34 +14,38 @@ def index():
 
 @app.route("/changes")
 def get_changes():
-    # Hämta lista över filer i changes-mappen via GitHub API
-    repo_api_url = "https://api.github.com/repos/Limpan296/fpl-price-tracker/contents/changes"
-    r = requests.get(repo_api_url)
-    files = r.json()
+    try:
+        # 1. Hämta mapp-lista via GitHub API (den funkar för att få filnamn)
+        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/changes"
+        r = requests.get(url)
+        files = r.json()
 
-    # Filtrera ut CSV-filer
-    csv_files = [f for f in files if f["name"].endswith(".csv")]
-    if not csv_files:
-        return jsonify({"up": [], "down": [], "latest_file": None})
+        # 2. Filtrera CSV-filer
+        csv_files = [f["name"] for f in files if f["name"].endswith(".csv")]
+        if not csv_files:
+            return jsonify({"up": [], "down": []})
 
-    # Sortera på filnamn (där datumet är med i namnet)
-    latest_file = sorted(csv_files, key=lambda x: x["name"])[-1]
+        # 3. Sortera efter datum i filnamnet (YYYY-MM-DD)
+        csv_files.sort(key=lambda x: re.search(r"\d{4}-\d{2}-\d{2}", x).group())
 
-    # Hämta raw-länken
-    csv_url = latest_file["download_url"]
+        latest_file = csv_files[-1]
 
-    # Läs CSV
-    df = pd.read_csv(csv_url)
+        # 4. Bygg raw-länk
+        csv_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/changes/{latest_file}"
 
-    # Använd rätt kolumnnamn
-    up = df[df["direction"] == "up"].to_dict(orient="records")
-    down = df[df["direction"] == "down"].to_dict(orient="records")
+        # 5. Läs CSV
+        df = pd.read_csv(csv_url)
 
-    return jsonify({
-        "up": up,
-        "down": down,
-        "latest_file": latest_file["name"]
-    })
+        if "direction" not in df.columns:
+            return jsonify({"error": "CSV missing 'direction' column", "columns": df.columns.tolist()})
+
+        up = df[df["direction"] == "up"].to_dict(orient="records")
+        down = df[df["direction"] == "down"].to_dict(orient="records")
+
+        return jsonify({"up": up, "down": down, "file": latest_file})
+
+    except Exception as e:
+        return jsonify({"error": str(e)})
 
 if __name__ == "__main__":
     app.run(debug=True)
