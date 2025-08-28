@@ -18,7 +18,7 @@ def get_changes():
     # Filtrera ut CSV-filer
     csv_files = [f for f in files if f["name"].endswith(".csv")]
     if not csv_files:
-        return jsonify({"up": [], "down": []})
+        return jsonify({"up": [], "down": [], "latest_file": None})
 
     # Sortera på filnamn (där datumet är med i namnet)
     latest_file = sorted(csv_files, key=lambda x: x["name"])[-1]
@@ -33,7 +33,11 @@ def get_changes():
     up = df[df["direction"] == "up"].to_dict(orient="records")
     down = df[df["direction"] == "down"].to_dict(orient="records")
 
-    return jsonify({"up": up, "down": down})
+    return jsonify({
+        "up": up,
+        "down": down,
+        "latest_file": latest_file["name"]
+    })
 
 if __name__ == "__main__":
     app.run(debug=True)
