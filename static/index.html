@@ -1,71 +1,89 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>FPL Price Tracker</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    h2 { margin-top: 30px; }
-    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
-    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-    th { background-color: #f2f2f2; }
-    tr:nth-child(even) { background-color: #f9f9f9; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPL Price Tracker</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2 { text-align: center; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 30px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        th { background-color: #f4f4f4; }
+        #lastUpdate { text-align:center; color:#555; font-style:italic; }
+    </style>
 </head>
 <body>
-  <h1>FPL Price Changes</h1>
+    <h1>FPL Price Tracker</h1>
+    <p id="lastUpdate">Loading last update...</p>
 
-  <h2>⬆ Prisuppgångar</h2>
-  <table id="up-table">
-    <thead>
-      <tr>
-        <th>Spelare</th>
-        <th>Lag</th>
-        <th>Föregående pris</th>
-        <th>Nytt pris</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+    <h2>Price Up</h2>
+    <table id="upTable">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Position</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
 
-  <h2>⬇ Prisnedgångar</h2>
-  <table id="down-table">
-    <thead>
-      <tr>
-        <th>Spelare</th>
-        <th>Lag</th>
-        <th>Föregående pris</th>
-        <th>Nytt pris</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+    <h2>Price Down</h2>
+    <table id="downTable">
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Position</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
 
-  <script>
-    async function loadData() {
-      const res = await fetch("/changes");
-      const data = await res.json();
+    <script>
+        async function loadChanges() {
+            const res = await fetch("/changes");
+            const data = await res.json();
 
-      function fillTable(id, players) {
-        const tbody = document.querySelector(`#${id} tbody`);
-        tbody.innerHTML = "";
-        players.forEach(p => {
-          const row = document.createElement("tr");
-          row.innerHTML = `
-            <td>${p.web_name}</td>
-            <td>${p.team}</td>
-            <td>${p.price_prev}</td>
-            <td>${p.new_price}</td>
-          `;
-          tbody.appendChild(row);
-        });
-      }
+            // Uppdatera datum
+            if (data.latest_file) {
+                document.getElementById("lastUpdate").innerText =
+                    "Last update: " + data.latest_file.replace("price_changes_", "").replace(".csv", "");
+            } else {
+                document.getElementById("lastUpdate").innerText = "No update file found";
+            }
 
-      fillTable("up-table", data.up);
-      fillTable("down-table", data.down);
-    }
+            // Price Up
+            const upTable = document.querySelector("#upTable tbody");
+            upTable.innerHTML = "";
+            data.up.forEach(row => {
+                upTable.innerHTML += `
+                    <tr>
+                        <td>${row.player}</td>
+                        <td>${row.team}</td>
+                        <td>${row.position}</td>
+                        <td>${row.price}</td>
+                    </tr>`;
+            });
 
-    loadData();
-  </script>
+            // Price Down
+            const downTable = document.querySelector("#downTable tbody");
+            downTable.innerHTML = "";
+            data.down.forEach(row => {
+                downTable.innerHTML += `
+                    <tr>
+                        <td>${row.player}</td>
+                        <td>${row.team}</td>
+                        <td>${row.position}</td>
+                        <td>${row.price}</td>
+                    </tr>`;
+            });
+        }
+
+        loadChanges();
+    </script>
 </body>
 </html>
