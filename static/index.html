@@ -11,76 +11,86 @@
         th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
         th { background-color: #f4f4f4; }
         #lastUpdate { text-align:center; color:#555; font-style:italic; }
+        .date-block { margin-bottom: 50px; }
     </style>
 </head>
 <body>
     <h1>FPL Price Tracker</h1>
-    <p id="lastUpdate">Loading last update...</p>
-
-    <h2>Price Up</h2>
-    <table id="upTable">
-        <thead>
-            <tr>
-                <th>Player</th>
-                <th>Team</th>
-                <th>New price</th>
-                <th>Old price</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
-
-    <h2>Price Down</h2>
-    <table id="downTable">
-        <thead>
-            <tr>
-                <th>Player</th>
-                <th>Team</th>
-                <th>New price</th>
-                <th>Old price</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <p id="lastUpdate">Loading updates...</p>
+    <div id="content"></div>
 
     <script>
         async function loadChanges() {
             const res = await fetch("/changes");
             const data = await res.json();
 
-            // Uppdatera datum
-            if (data.latest_file) {
+            const content = document.getElementById("content");
+            content.innerHTML = "";
+
+            const dates = Object.keys(data);
+            if (dates.length > 0) {
                 document.getElementById("lastUpdate").innerText =
-                    "Last update: " + data.latest_file.replace("price_changes_", "").replace(".csv", "");
+                    "Last update: " + dates[0]; // senaste överst
             } else {
-                document.getElementById("lastUpdate").innerText = "No update file found";
+                document.getElementById("lastUpdate").innerText = "No updates found";
+                return;
             }
 
-            // Price Up
-            const upTable = document.querySelector("#upTable tbody");
-            upTable.innerHTML = "";
-            data.up.forEach(row => {
-                upTable.innerHTML += `
-                    <tr>
-                        <td>${row.web_name}</td>
-                        <td>${row.team}</td>
-                        <td>${row.new_price}</td>
-                        <td>${row.price_prev}</td>
-                    </tr>`;
-            });
+            // Loopa över alla datum (nyaste först eftersom Python redan sorterar så)
+            for (const [date, changes] of Object.entries(data)) {
+                const block = document.createElement("div");
+                block.classList.add("date-block");
 
-            // Price Down
-            const downTable = document.querySelector("#downTable tbody");
-            downTable.innerHTML = "";
-            data.down.forEach(row => {
-                downTable.innerHTML += `
-                    <tr>
-                        <td>${row.web_name}</td>
-                        <td>${row.team}</td>
-                        <td>${row.new_price}</td>
-                        <td>${row.price_prev}</td>
-                    </tr>`;
-            });
+                block.innerHTML = `
+                    <h2>${date}</h2>
+                    
+                    <h3>Price Up</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Player</th>
+                                <th>Team</th>
+                                <th>New price</th>
+                                <th>Old price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${changes.up.map(row => `
+                                <tr>
+                                    <td>${row.web_name}</td>
+                                    <td>${row.team}</td>
+                                    <td>${row.new_price}</td>
+                                    <td>${row.price_prev}</td>
+                                </tr>
+                            `).join("")}
+                        </tbody>
+                    </table>
+
+                    <h3>Price Down</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Player</th>
+                                <th>Team</th>
+                                <th>New price</th>
+                                <th>Old price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${changes.down.map(row => `
+                                <tr>
+                                    <td>${row.web_name}</td>
+                                    <td>${row.team}</td>
+                                    <td>${row.new_price}</td>
+                                    <td>${row.price_prev}</td>
+                                </tr>
+                            `).join("")}
+                        </tbody>
+                    </table>
+                `;
+
+                content.appendChild(block);
+            }
         }
 
         loadChanges();
