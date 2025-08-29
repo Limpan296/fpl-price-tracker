@@ -1,11 +1,11 @@
 from flask import Flask, jsonify, send_from_directory
 import pandas as pd
-import requests
 import re
+import os
 
 app = Flask(__name__, static_folder="static")
 
-# GitHub repo
+# GitHub repo (för referens, används inte längre för lokala CSV)
 GITHUB_REPO = "Limpan296/fpl-price-tracker"
 
 @app.route("/")
@@ -17,6 +17,7 @@ def index():
 def price_predictions():
     return send_from_directory("static", "predictions.html")
 
+# Price changes-sida
 @app.route("/changes")
 def price_changes():
     return send_from_directory("static", "pricechanges.html")
@@ -27,6 +28,8 @@ CHANGES_FOLDER = "changes"  # mappen med dina CSV-filer
 def get_changes():
     try:
         files = [f for f in os.listdir(CHANGES_FOLDER) if f.endswith(".csv")]
+        print("Found CSV files:", files)  # DEBUG: vilka filer finns i mappen
+
         if not files:
             return jsonify({"days": []})
 
@@ -42,13 +45,24 @@ def get_changes():
             csv_path = os.path.join(CHANGES_FOLDER, file)
             df = pd.read_csv(csv_path)
 
+            # DEBUG: visa kolumnerna och första raderna
+            print(f"\nProcessing file: {file}")
+            print("Columns:", df.columns.tolist())
+            print(df.head())
+
+            # Rensa kolumnnamn: små bokstäver och inga extra mellanslag
+            df.columns = [c.strip().lower() for c in df.columns]
+
             if "direction" not in df.columns:
+                print(f"Skipping {file}: no 'direction' column found")
                 continue
 
             up = df[df["direction"] == "up"].to_dict(orient="records")
             down = df[df["direction"] == "down"].to_dict(orient="records")
-            date = extract_date(file)
 
+            print(f"Rows up: {len(up)}, Rows down: {len(down)}")  # DEBUG
+
+            date = extract_date(file)
             days.append({
                 "date": date,
                 "up": up,
@@ -56,9 +70,11 @@ def get_changes():
                 "file": file
             })
 
+        print(f"Returning {len(days)} days")  # DEBUG
         return jsonify({"days": days})
 
     except Exception as e:
+        print("Error in get_changes():", e)
         return jsonify({"error": str(e), "days": []})
 
 if __name__ == "__main__":
