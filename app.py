@@ -15,25 +15,27 @@ def index():
 @app.route("/changes")
 def get_changes():
     try:
-        # 1. Hämta lista på filer i changes-mappen via GitHub API
+        # 1) Lista filer i changes/ via GitHub API
         url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/changes"
         r = requests.get(url)
+        r.raise_for_status()
         files = r.json()
 
-        # 2. Filtrera fram CSV-filer
+        # 2) Endast CSV
         csv_files = [f["name"] for f in files if f["name"].endswith(".csv")]
         if not csv_files:
-            return jsonify({})
+            return jsonify({"days": []})
 
-        # 3. Sortera efter datum i filnamnet (YYYY-MM-DD) → nyaste först
-        csv_files.sort(key=lambda x: re.search(r"\d{4}-\d{2}-\d{2}", x).group(), reverse=True)
+        # 3) Sortera datum i filnamn (YYYY-MM-DD) → NYAST FÖRST
+        def extract_date(name):
+            m = re.search(r"\d{4}-\d{2}-\d{2}", name)
+            return m.group() if m else ""
+        csv_files.sort(key=lambda x: extract_date(x), reverse=True)
 
-        result = {}
+        # 4) Bygg en ordnad lista
+        days = []
         for file in csv_files:
-            # Bygg raw-länk
             csv_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/changes/{file}"
-
-            # Läs CSV
             df = pd.read_csv(csv_url)
 
             if "direction" not in df.columns:
@@ -42,14 +44,18 @@ def get_changes():
             up = df[df["direction"] == "up"].to_dict(orient="records")
             down = df[df["direction"] == "down"].to_dict(orient="records")
 
-            # extrahera datum
-            date = re.search(r"\d{4}-\d{2}-\d{2}", file).group()
-            result[date] = {"up": up, "down": down}
+            date = extract_date(file)
+            days.append({
+                "date": date,
+                "up": up,
+                "down": down,
+                "file": file
+            })
 
-        return jsonify(result)
+        return jsonify({"days": days})
 
     except Exception as e:
-        return jsonify({"error": str(e)})
+        return jsonify({"error": str(e), "days": []})
 
 if __name__ == "__main__":
     app.run(debug=True)
