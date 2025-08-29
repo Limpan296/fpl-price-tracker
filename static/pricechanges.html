@@ -52,7 +52,7 @@ th:nth-child(4), td:nth-child(4) { width: 15%; } /* Old price */
 
   <script>
     async function loadChanges() {
-      const res = await fetch("/changes", { cache: "no-store" });
+      const res = await fetch("/api/changes", { cache: "no-store" });
       const data = await res.json();
 
       const content = document.getElementById("content");
