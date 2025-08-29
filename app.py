@@ -17,39 +17,34 @@ def index():
 def price_predictions():
     return send_from_directory("static", "pricepredictions.html")
 
-@app.route("/changes")
+CHANGES_FOLDER = "changes"  # mappen med dina CSV-filer
+
+@app.route("/api/changes")
 def get_changes():
     try:
-        # 1) Lista filer i changes/ via GitHub API
-        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/changes"
-        r = requests.get(url)
-        r.raise_for_status()
-        files = r.json()
-
-        # 2) Endast CSV
-        csv_files = [f["name"] for f in files if f["name"].endswith(".csv")]
-        if not csv_files:
+        files = [f for f in os.listdir(CHANGES_FOLDER) if f.endswith(".csv")]
+        if not files:
             return jsonify({"days": []})
 
-        # 3) Sortera datum i filnamn (YYYY-MM-DD) → NYAST FÖRST
+        # Sortera datum (YYYY-MM-DD) → nyast först
         def extract_date(name):
             m = re.search(r"\d{4}-\d{2}-\d{2}", name)
             return m.group() if m else ""
-        csv_files.sort(key=lambda x: extract_date(x), reverse=True)
 
-        # 4) Bygg en ordnad lista
+        files.sort(key=lambda x: extract_date(x), reverse=True)
+
         days = []
-        for file in csv_files:
-            csv_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/changes/{file}"
-            df = pd.read_csv(csv_url)
+        for file in files:
+            csv_path = os.path.join(CHANGES_FOLDER, file)
+            df = pd.read_csv(csv_path)
 
             if "direction" not in df.columns:
                 continue
 
             up = df[df["direction"] == "up"].to_dict(orient="records")
             down = df[df["direction"] == "down"].to_dict(orient="records")
-
             date = extract_date(file)
+
             days.append({
                 "date": date,
                 "up": up,
