@@ -15,7 +15,11 @@ def index():
 # Price predictions-sida
 @app.route("/pricepredictions")
 def price_predictions():
-    return send_from_directory("static", "pricepredictions.html")
+    return send_from_directory("static", "predictions.html")
+
+@app.route("/changes")
+def price_predictions():
+    return send_from_directory("static", "pricechanges.html")
 
 CHANGES_FOLDER = "changes"  # mappen med dina CSV-filer
 
