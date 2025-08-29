@@ -7,37 +7,33 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; }
     h1, h2 { text-align: center; }
-    table { border-collapse: collapse; width: 100%; margin-bottom: 30px; }
-    th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
-    th { background-color: #f4f4f4; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 30px; table-layout: fixed; }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+      word-wrap: break-word; /* så text inte sticker ut */
+    }
+
+    th:nth-child(1), td:nth-child(1) { width: 40%; } /* Player */
+    th:nth-child(2), td:nth-child(2) { width: 30%; } /* Team */
+    th:nth-child(3), td:nth-child(3) { width: 15%; } /* New price */
+    th:nth-child(4), td:nth-child(4) { width: 15%; } /* Old price */
+
     #lastUpdate { text-align: center; color: #555; font-style: italic; }
-    .date-block { margin: 40px table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 30px;
-  table-layout: fixed; /* <-- Låser kolumnbredderna */
-}
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: center;
-  word-wrap: break-word; /* så text inte sticker ut */
-}
+    .date-block {
+      margin: 40px;
+    }
 
-th:nth-child(1), td:nth-child(1) { width: 40%; } /* Player */
-th:nth-child(2), td:nth-child(2) { width: 30%; } /* Team */
-th:nth-child(3), td:nth-child(3) { width: 15%; } /* New price */
-th:nth-child(4), td:nth-child(4) { width: 15%; } /* Old price */
-
-    /* Backgrundsfärg på datum */
+    /* Bakgrundsfärg på datum */
     .date-block h2 {
-  background-color: yellow;  /* valfri färg */
-  color: black;              /* textfärg */
-  padding: 5px;              /* lite luft runt texten */
-  border-radius: 5px;        /* rundar hörnen lite om du vill */
-}
-    
+      background-color: yellow;  /* valfri färg */
+      color: black;              /* textfärg */
+      padding: 5px;
+      border-radius: 5px;
+    }
   </style>
 </head>
 <body>
