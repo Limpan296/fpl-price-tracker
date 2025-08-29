@@ -12,6 +12,11 @@ GITHUB_REPO = "Limpan296/fpl-price-tracker"
 def index():
     return send_from_directory("static", "index.html")
 
+# Price predictions-sida
+@app.route("/pricepredictions")
+def price_predictions():
+    return send_from_directory("static", "pricepredictions.html")
+
 @app.route("/changes")
 def get_changes():
     try:
