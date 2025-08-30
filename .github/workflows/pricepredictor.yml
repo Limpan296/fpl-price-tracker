@@ -27,8 +27,8 @@ jobs:
       - name: Install dependencies
         run: pip install requests pandas numpy
 
-      - name: Run pricepredictor.py
-        run: python pricepredictor.py
+      - name: Run Pricepredictor.py
+        run: python Pricepredictor.py
 
       - name: Commit changes
         run: |
