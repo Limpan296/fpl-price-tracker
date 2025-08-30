@@ -6,7 +6,8 @@
   <title>FPL Predictions</title>
   <style>
     body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; margin: 20px; background-color: #f9f9f9; color: #333; }
-    h1 { text-align: center; margin-bottom: 20px; }
+    h1 { text-align: center; margin-bottom: 10px; }
+    #lastUpdate { text-align: center; color: #555; font-style: italic; margin-bottom: 20px; }
     h2 { margin-top: 40px; text-align: center; }
     table { border-collapse: collapse; width: 100%; margin-bottom: 30px; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
     th, td { border-bottom: 1px solid #eee; padding: 10px; text-align: center; }
@@ -19,6 +20,7 @@
 </head>
 <body>
   <h1>FPL Predictions</h1>
+  <p id="lastUpdate">Loading last update...</p>
   <div id="content"></div>
 
   <script>
@@ -26,6 +28,11 @@
       try {
         const res = await fetch("/api/predictions", { cache: "no-store" });
         const data = await res.json();
+
+        // Hämta Last-Modified header för CSV (om servern stödjer det)
+        const csvRes = await fetch("/static/predictions.csv", { method: "HEAD" });
+        const lastModified = csvRes.headers.get("last-modified");
+        document.getElementById("lastUpdate").innerText = lastModified ? `Last update: ${new Date(lastModified).toLocaleString('sv-SE')}` : "";
 
         const content = document.getElementById("content");
         content.innerHTML = "";
