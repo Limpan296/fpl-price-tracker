@@ -2,6 +2,7 @@ from flask import Flask, jsonify, send_from_directory
 import pandas as pd
 import re
 import os
+import json
 
 app = Flask(__name__, static_folder="static")
 
@@ -13,14 +14,26 @@ def index():
     return send_from_directory("static", "index.html")
 
 # Price predictions-sida
-@app.route("/pricepredictions")
-def price_predictions():
-    return send_from_directory("static", "predictions.html")
+@app.route("/api/predictions")
+def predictions_api():
+    df = pd.read_csv("static/predictions.csv")
+    df_up = df[df["direction"] == "up"]
+    df_down = df[df["direction"] == "down"]
+
+    # Returnera som lista av dicts
+    return jsonify({
+        "up": df_up.to_dict(orient="records"),
+        "down": df_down.to_dict(orient="records")
+    })
 
 # Price changes-sida
 @app.route("/changes")
 def price_changes():
     return send_from_directory("static", "pricechanges.html")
+
+@app.route("/predictions")
+def predictions():
+    return send_from_directory("static", "predictions.html")
 
 CHANGES_FOLDER = "changes"  # mappen med dina CSV-filer
 
