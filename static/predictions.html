@@ -26,11 +26,12 @@
   <script>
     async function loadPredictions() {
       try {
-        const res = await fetch("/api/predictions", { cache: "no-store" });
+        // 🔹 Cache-buster här
+        const res = await fetch(`/api/predictions?ts=${Date.now()}`, { cache: "no-store" });
         const data = await res.json();
 
-        // Hämta Last-Modified header för CSV (om servern stödjer det)
-        const csvRes = await fetch("/static/predictions.csv", { method: "HEAD" });
+        // 🔹 Cache-buster även för CSV HEAD request
+        const csvRes = await fetch(`/static/predictions.csv?ts=${Date.now()}`, { method: "HEAD", cache: "no-store" });
         const lastModified = csvRes.headers.get("last-modified");
         document.getElementById("lastUpdate").innerText = lastModified ? `Last update: ${new Date(lastModified).toLocaleString('sv-SE')}` : "";
 
