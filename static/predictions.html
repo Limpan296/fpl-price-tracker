@@ -30,10 +30,11 @@
         const res = await fetch(`/api/predictions?ts=${Date.now()}`, { cache: "no-store" });
         const data = await res.json();
 
-        // 🔹 Cache-buster även för CSV HEAD request
+      // 🔹 Cache-buster även för CSV HEAD request
         const csvRes = await fetch(`/static/predictions.csv?ts=${Date.now()}`, { method: "HEAD", cache: "no-store" });
         const lastModified = csvRes.headers.get("last-modified");
         document.getElementById("lastUpdate").innerText = lastModified ? `Last update: ${new Date(lastModified).toLocaleString('sv-SE')}` : "";
+
 
         const content = document.getElementById("content");
         content.innerHTML = "";
