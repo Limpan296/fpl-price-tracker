@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, send_from_directory
+from flask import Flask, jsonify, send_from_directory, make_response
 import pandas as pd
 import re
 import os
@@ -20,11 +20,16 @@ def predictions_api():
     df_up = df[df["direction"] == "up"]
     df_down = df[df["direction"] == "down"]
 
-    # Returnera som lista av dicts
-    return jsonify({
+    data = {
         "up": df_up.to_dict(orient="records"),
         "down": df_down.to_dict(orient="records")
-    })
+    }
+
+    # Skapa svar + no-cache headers
+    response = make_response(jsonify(data))
+    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+    response.headers["Pragma"] = "no-cache"
+    return response
 
 # Price changes-sida
 @app.route("/changes")
@@ -84,11 +89,17 @@ def get_changes():
             })
 
         print(f"Returning {len(days)} days")  # DEBUG
-        return jsonify({"days": days})
+        response = make_response(jsonify({"days": days}))
+        response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+        response.headers["Pragma"] = "no-cache"
+        return response
 
     except Exception as e:
         print("Error in get_changes():", e)
-        return jsonify({"error": str(e), "days": []})
+        response = make_response(jsonify({"error": str(e), "days": []}))
+        response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+        response.headers["Pragma"] = "no-cache"
+        return response
 
 if __name__ == "__main__":
     app.run(debug=True)
