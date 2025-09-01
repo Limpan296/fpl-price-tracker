@@ -16,9 +16,11 @@ def index():
 @app.route("/api/predictions")
 def predictions_api():
     try:
-        # Hämta CSV direkt från GitHub
+        # Hämta CSV från GitHub raw varje gång
+        CSV_URL = "https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv"
         df = pd.read_csv(CSV_URL)
-        df_up = df[df["direction"] == "up"].head(10)   # topp 10
+
+        df_up = df[df["direction"] == "up"].head(10)
         df_down = df[df["direction"] == "down"].head(10)
 
         data = {
