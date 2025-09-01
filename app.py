@@ -7,8 +7,7 @@ import requests
 app = Flask(__name__, static_folder="static")
 
 # URL till din CSV på GitHub (raw link!)
-CSV_URL = "https://github.com/Limpan296/fpl-price-tracker/blob/main/static/predictions.csv"
-
+CSV_URL = "https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv"
 @app.route("/")
 def index():
     return send_from_directory("static", "index.html")
