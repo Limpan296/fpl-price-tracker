@@ -88,7 +88,7 @@ def format_up(df):
         score_rise=lambda x: (100*x["score_rise"]).round(1),
         direction="up"
     ).rename(columns={
-        "web_name":"Spelare","team_name":"Lag","price":"Pris (£m)",
+        "web_name":"Player","team_name":"Team","price":"Price (£m)",
         "selected_by_percent":"Ägd (%)","net_transfers":"Net transfers (GW)",
         "effective_net":"Eff. net","rise_threshold":"Threshold",
         "progress_rise":"Progress (%)","adjusted_progress_rise":"Adj. Progress (%)",
