@@ -24,51 +24,49 @@
   <div id="content"></div>
 
   <script>
-    async function loadPredictions() {
-      try {
-        // 🔹 Cache-buster här
-        const res = await fetch(`/api/predictions?ts=${Date.now()}`, { cache: "no-store" });
-        const data = await res.json();
+  async function loadPredictions() {
+    try {
+      // Hämta data via Flask (som i sin tur hämtar från GitHub)
+      const res = await fetch(`/api/predictions?ts=${Date.now()}`, { cache: "no-store" });
+      const data = await res.json();
 
-      // 🔹 Cache-buster även för CSV HEAD request
-        const csvRes = await fetch(`/static/predictions.csv?ts=${Date.now()}`, { method: "HEAD", cache: "no-store" });
-        const lastModified = csvRes.headers.get("last-modified");
-        document.getElementById("lastUpdate").innerText = lastModified ? `Last update: ${new Date(lastModified).toLocaleString('sv-SE')}` : "";
+      // Hämta Last-Modified direkt från GitHub raw
+      const csvRes = await fetch("https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv", { method: "HEAD", cache: "no-store" });
+      const lastModified = csvRes.headers.get("last-modified");
+      document.getElementById("lastUpdate").innerText = lastModified ? `Last update: ${new Date(lastModified).toLocaleString('sv-SE')}` : "";
 
+      const content = document.getElementById("content");
+      content.innerHTML = "";
 
-        const content = document.getElementById("content");
-        content.innerHTML = "";
+      const columns = ["Spelare", "Lag", "Net transfers (GW)", "Pris (£m)", "Score (%)"];
 
-        // De kolumner vi vill visa, i önskad ordning
-        const columns = ["Spelare", "Lag", "Net transfers (GW)", "Pris (£m)", "Score (%)"];
+      function renderTable(title, rows, type) {
+        if (!rows || rows.length === 0) return;
 
-        function renderTable(title, rows, type) {
-          if (!rows || rows.length === 0) return;
-
-          const tableHTML = `
-            <h2>${title}</h2>
-            <table>
-              <thead class="${type === 'up' ? 'price-up' : 'price-down'}">
-                <tr>${columns.map(col => `<th>${col}</th>`).join('')}</tr>
-              </thead>
-              <tbody>
-                ${rows.map(r => `<tr>${columns.map(c => `<td>${r[c]}</td>`).join('')}</tr>`).join('')}
-              </tbody>
-            </table>
-          `;
-          content.innerHTML += tableHTML;
-        }
-
-        renderTable("🔼 Top 10 potential risers", data.up, "up");
-        renderTable("🔽 Top 10 potential fallers", data.down, "down");
-
-      } catch (err) {
-        console.error("Error loading predictions:", err);
-        document.getElementById("content").innerHTML = "<p>Misslyckades med att ladda predictions.</p>";
+        const tableHTML = `
+          <h2>${title}</h2>
+          <table>
+            <thead class="${type === 'up' ? 'price-up' : 'price-down'}">
+              <tr>${columns.map(col => `<th>${col}</th>`).join('')}</tr>
+            </thead>
+            <tbody>
+              ${rows.map(r => `<tr>${columns.map(c => `<td>${r[c]}</td>`).join('')}</tr>`).join('')}
+            </tbody>
+          </table>
+        `;
+        content.innerHTML += tableHTML;
       }
-    }
 
-    loadPredictions();
-  </script>
+      renderTable("🔼 Top 10 potential risers", data.up, "up");
+      renderTable("🔽 Top 10 potential fallers", data.down, "down");
+
+    } catch (err) {
+      console.error("Error loading predictions:", err);
+      document.getElementById("content").innerHTML = "<p>Misslyckades med att ladda predictions.</p>";
+    }
+  }
+
+  loadPredictions();
+</script>
 </body>
 </html>
