@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FPL Predictions</title>
   <style>
-    body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; margin: 20px; background-color: #f9f9f9; color: #333; }
+    body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
+    header { display: flex; justify-content: center; gap: 15px; padding: 15px; background-color: #333; }
+    header a { color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 6px; transition: background-color 0.2s; }
+    header a:hover { background-color: #555; }
+    header a.active { background-color: #007BFF; }
+    main { padding: 20px; }
     h1 { text-align: center; margin-bottom: 10px; }
     #lastUpdate { text-align: center; color: #555; font-style: italic; margin-bottom: 20px; }
     h2 { margin-top: 40px; text-align: center; }
@@ -19,18 +24,25 @@
   </style>
 </head>
 <body>
-  <h1>FPL Predictions</h1>
-  <p id="lastUpdate">Loading last update...</p>
-  <div id="content"></div>
+   <header>
+    <a href="/">Start</a>
+     <a href="/changes">Changes</a>
+    <a href="/predictions" class="active">Predictions</a>
+
+  </header>
+
+  <main>
+    <h1>FPL Predictions</h1>
+    <p id="lastUpdate">Loading last update...</p>
+    <div id="content"></div>
+  </main>
 
   <script>
   async function loadPredictions() {
     try {
-      // Hämta data via Flask (som i sin tur hämtar från GitHub)
       const res = await fetch(`/api/predictions?ts=${Date.now()}`, { cache: "no-store" });
       const data = await res.json();
 
-      // Hämta Last-Modified direkt från GitHub raw
       const csvRes = await fetch("https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv", { method: "HEAD", cache: "no-store" });
       const lastModified = csvRes.headers.get("last-modified");
       document.getElementById("lastUpdate").innerText = lastModified ? `Last update: ${new Date(lastModified).toLocaleString('sv-SE')}` : "";
@@ -42,7 +54,6 @@
 
       function renderTable(title, rows, type) {
         if (!rows || rows.length === 0) return;
-
         const tableHTML = `
           <h2>${title}</h2>
           <table>
