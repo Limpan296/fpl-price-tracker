@@ -38,6 +38,46 @@ def predictions_api():
         response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
         response.headers["Pragma"] = "no-cache"
         return response
+
+
+
+@app.route("/api/changes")
+def changes_api():
+    try:
+        repo_api = "https://api.github.com/repos/Limpan296/fpl-price-tracker/contents/changes"
+        r = requests.get(repo_api)
+        r.raise_for_status()
+        files = r.json()
+
+        # filtrera ut alla price_changes_YYYY-MM-DD.csv
+        csv_files = [f["name"] for f in files if f["name"].startswith("price_changes_") and f["name"].endswith(".csv")]
+        csv_files.sort(reverse=True)  # senaste först
+
+        days = []
+        for fname in csv_files[:7]:  # t.ex. hämta senaste 7 dagarna
+            raw_url = f"https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/changes/{fname}"
+            try:
+                df = pd.read_csv(raw_url)
+
+                up = df[df["direction"] == "up"].to_dict(orient="records")
+                down = df[df["direction"] == "down"].to_dict(orient="records")
+
+                days.append({
+                    "date": fname.replace("price_changes_", "").replace(".csv", ""),
+                    "up": up,
+                    "down": down
+                })
+            except Exception as e:
+                print(f"Misslyckades läsa {raw_url}: {e}")
+
+        # Se till att inget cacheas
+        response = make_response(jsonify({"days": days}))
+        response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+        response.headers["Pragma"] = "no-cache"
+        return response
+
+    except Exception as e:
+        return jsonify({"error": str(e), "days": []})
 # Price changes-sida (oförändrad)
 @app.route("/changes")
 def price_changes():
