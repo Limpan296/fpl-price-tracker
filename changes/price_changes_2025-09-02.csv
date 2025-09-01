@@ -1,2 +1,2 @@
-date	web_name	team	price_prev	new_price	direction
-2025-09-01	White	Arsenal	5.5	5.4	down
+date,web_name,team,price_prev,new_price,direction
+2025-09-02,White,Arsenal,5.5,5.4,down
