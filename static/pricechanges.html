@@ -137,78 +137,74 @@
     <div id="content"></div>
   </main>
 
-  <script>
-    async function loadChanges() {
-      const res = await fetch("/api/changes", { cache: "no-store" });
-      const data = await res.json();
-      console.log("Fetched data:", data);
+ <script>
+  async function loadChanges() {
+    const res = await fetch("/api/changes", { cache: "no-store" });
+    const data = await res.json();
+    console.log("Fetched data:", data);
 
-      const content = document.getElementById("content");
-      content.innerHTML = "";
+    const content = document.getElementById("content");
+    content.innerHTML = "";
 
-      const days = Array.isArray(data.days) ? data.days : [];
-      if (days.length === 0) {
-        document.getElementById("lastUpdate").innerText = "No updates found";
-        return;
-      }
-
-      document.getElementById("lastUpdate").innerText = "Last update: " + days[0].date;
-
-      for (const day of days) {
-        const block = document.createElement("div");
-        block.className = "date-block";
-        block.innerHTML = `
-          <h2>${day.date}</h2>
-
-          <h3>Risers</h3>
-          <table>
-            <thead class="price-up">
-              <tr>
-                <th>Player</th>
-                <th>Team</th>
-                <th>New</th>
-                <th>Old</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${day.up.map(r => `
-                <tr>
-                  <td>${r.web_name}</td>
-                  <td>${r.team}</td>
-                  <td>${r.new_price}</td>
-                  <td>${r.price_prev}</td>
-                </tr>
-              `).join("")}
-            </tbody>
-          </table>
-
-          <h3>Fallers</h3>
-          <table>
-            <thead class="price-down">
-              <tr>
-                <th>Player</th>
-                <th>Team</th>
-                <th>New</th>
-                <th>Old</th>
-              </tr>
-            </thead>
-            <tbody>
-              ${day.down.map(r => `
-                <tr>
-                  <td>${r.web_name}</td>
-                  <td>${r.team}</td>
-                  <td>${r.new_price}</td>
-                  <td>${r.price_prev}</td>
-                </tr>
-              `).join("")}
-            </tbody>
-          </table>
-        `;
-        content.appendChild(block);
-      }
+    const days = Array.isArray(data.days) ? data.days : [];
+    if (days.length === 0) {
+      document.getElementById("lastUpdate").innerText = "No updates found";
+      return;
     }
 
-    loadChanges();
-  </script>
+    document.getElementById("lastUpdate").innerText = "Last update: " + days[0].date;
+
+    function renderTable(title, rows, type) {
+      if (!rows || rows.length === 0) return "";
+
+      return `
+        <h3>${title}</h3>
+        <table>
+          <thead class="${type === "up" ? "price-up" : "price-down"}">
+            <tr>
+              <th>Player</th>
+              <th>Team</th>
+              <th>New</th>
+              <th>Old</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map(r => {
+              const team = r.team;
+              const logoPath = `/static/logos/${team}.png`;
+              return `
+                <tr>
+                  <td>
+                    <div style="display:flex; flex-direction:column; align-items:center; gap:4px;">
+                      <img src="${logoPath}" alt="${team} logo" style="height:30px;" onerror="this.style.display='none'">
+                      <span>${r.web_name}</span>
+                    </div>
+                  </td>
+                  <td>${team}</td>
+                  <td>${r.new_price}</td>
+                  <td>${r.price_prev}</td>
+                </tr>
+              `;
+            }).join("")}
+          </tbody>
+        </table>
+      `;
+    }
+
+    for (const day of days) {
+      const block = document.createElement("div");
+      block.className = "date-block";
+      block.innerHTML = `
+        <h2>${day.date}</h2>
+        ${renderTable("Risers", day.up, "up")}
+        ${renderTable("Fallers", day.down, "down")}
+      `;
+      content.appendChild(block);
+    }
+  }
+
+  loadChanges();
+</script>
+
 </body>
 </html>

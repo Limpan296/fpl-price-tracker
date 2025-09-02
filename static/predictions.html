@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FPL Predictions</title>
+  <title>FPL Price change Predictions</title>
   <style>
     body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
     header { display: flex; justify-content: center; gap: 15px; padding: 15px; background-color: #333; }
@@ -37,7 +37,7 @@
     <div id="content"></div>
   </main>
 
-  <script>
+<script>
   async function loadPredictions() {
     try {
       const res = await fetch(`/api/predictions?ts=${Date.now()}`, { cache: "no-store" });
@@ -50,7 +50,17 @@
       const content = document.getElementById("content");
       content.innerHTML = "";
 
-      const columns = ["Spelare", "Lag", "Net transfers (GW)", "Pris (£m)", "Score (%)"];
+      // Svenska CSV-kolumnnamn
+      const csvColumns = ["Spelare", "Lag", "Net transfers (GW)", "Pris (£m)", "Score (%)"];
+
+      // Mapping till engelska rubriker
+      const headerMap = {
+        "Spelare": "Player",
+        "Lag": "Team",
+        "Net transfers (GW)": "Net transfers (GW)",
+        "Pris (£m)": "Price (£m)",
+        "Score (%)": "Score"
+      };
 
       function renderTable(title, rows, type) {
         if (!rows || rows.length === 0) return;
@@ -58,10 +68,27 @@
           <h2>${title}</h2>
           <table>
             <thead class="${type === 'up' ? 'price-up' : 'price-down'}">
-              <tr>${columns.map(col => `<th>${col}</th>`).join('')}</tr>
+              <tr>${csvColumns.map(col => `<th>${headerMap[col] || col}</th>`).join('')}</tr>
             </thead>
             <tbody>
-              ${rows.map(r => `<tr>${columns.map(c => `<td>${r[c]}</td>`).join('')}</tr>`).join('')}
+              ${rows.map(r => {
+                return `<tr>${csvColumns.map(c => {
+                  if (c === "Spelare") {
+                    const team = r["Lag"];
+                    const logoPath = `/static/logos/${team}.png`;
+                    return `
+                      <td>
+                        <div style="display:flex; flex-direction:column; align-items:center; gap:4px;">
+                          <img src="${logoPath}" alt="${team} logo" style="height:30px;" onerror="this.style.display='none'">
+                          <span>${r[c]}</span>
+                        </div>
+                      </td>
+                    `;
+                  } else {
+                    return `<td>${r[c]}</td>`;
+                  }
+                }).join('')}</tr>`;
+              }).join('')}
             </tbody>
           </table>
         `;
@@ -79,5 +106,7 @@
 
   loadPredictions();
 </script>
+
+
 </body>
 </html>
