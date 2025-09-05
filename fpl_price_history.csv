@@ -188,7 +188,7 @@ id,web_name,team,price
 128,Onyeka,Brentford,5.0
 129,Yarmoliuk,Brentford,5.0
 130,Donovan,Brentford,4.5
-131,Konak,Brentford,4.5
+131,Konak,Brentford,4.4
 132,Maghoma,Brentford,4.5
 133,Peart-Harris,Brentford,4.5
 134,Trevitt,Brentford,4.5
@@ -218,7 +218,7 @@ id,web_name,team,price
 160,Minteh,Brighton,5.9
 161,Enciso,Brighton,5.4
 162,Gruda,Brighton,5.4
-163,Hinshelwood,Brighton,5.4
+163,Hinshelwood,Brighton,5.3
 164,O'Riley,Brighton,5.5
 165,Sima,Brighton,5.4
 166,Ayari,Brighton,5.0
@@ -266,7 +266,7 @@ id,web_name,team,price
 247,D.Essugo,Chelsea,4.4
 248,Paez,Chelsea,4.5
 249,João Pedro,Chelsea,7.7
-250,Delap,Chelsea,6.4
+250,Delap,Chelsea,6.3
 251,N.Jackson,Chelsea,6.5
 252,Marc Guiu,Chelsea,4.4
 453,Garnacho,Chelsea,6.4
@@ -418,7 +418,7 @@ id,web_name,team,price
 377,Tsimikas,Liverpool,4.9
 378,Nallo,Liverpool,3.9
 379,R.Williams,Liverpool,3.9
-380,Ramsay,Liverpool,4.0
+380,Ramsay,Liverpool,3.9
 381,M.Salah,Liverpool,14.5
 382,Wirtz,Liverpool,8.4
 383,Luis Díaz,Liverpool,8.0
@@ -692,7 +692,7 @@ id,web_name,team,price
 622,Orford,West Ham,4.4
 623,Potts,West Ham,4.4
 624,Bowen,West Ham,7.8
-625,Füllkrug,West Ham,5.9
+625,Füllkrug,West Ham,5.8
 626,Marshall,West Ham,4.4
 659,Walker-Peters,West Ham,4.4
 671,Wilson,West Ham,5.9
