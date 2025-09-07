@@ -13,29 +13,20 @@
     main { padding: 20px; }
     h1 { text-align: center; margin-bottom: 10px; }
     #lastUpdate { text-align: center; color: #555; font-style: italic; margin-bottom: 20px; }
-    h2 { margin-top: 40px; text-align: center; }
-    table { border-collapse: collapse; width: 100%; margin-bottom: 30px; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 10px; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
     th, td { border-bottom: 1px solid #eee; padding: 10px; text-align: center; }
-    thead.price-up th { background-color: #d4edda; color: #155724; }
-    thead.price-down th { background-color: #f8d7da; color: #721c24; }
+    th { cursor: pointer; }
     tbody tr:nth-child(odd) { background-color: #fafafa; }
     tbody tr:nth-child(even) { background-color: #fff; }
     tr:hover { background-color: #f5f5f5; }
-
-    /* Sökfält */
-    #playerSearch {
-      padding: 8px;
-      width: 250px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      margin: 0 auto 20px auto;
-      display: block;
-      text-align: center;
-    }
+    #playerSearch { padding: 8px; width: 250px; border: 1px solid #ccc; border-radius: 6px; margin: 0 auto 20px auto; display: block; text-align: center; }
+    #pagination { display: flex; justify-content: center; gap: 10px; margin-top: 15px; }
+    #pagination button { padding: 6px 12px; border: 1px solid #ccc; background: #fff; border-radius: 4px; cursor: pointer; }
+    #pagination button.active { background: #007BFF; color: #fff; border-color: #007BFF; }
   </style>
 </head>
 <body>
-   <header>
+  <header>
     <a href="/">Start</a>
     <a href="/changes">Changes</a>
     <a href="/predictions" class="active">Predictions</a>
@@ -49,87 +40,113 @@
     <input type="text" id="playerSearch" placeholder="Search player..."/>
 
     <div id="content"></div>
+    <div id="pagination"></div>
   </main>
 
 <script>
+  let players = [];
+  let currentPage = 1;
+  const rowsPerPage = 20;
+  let sortAsc = false; // default = högst score först
+
   async function loadPredictions() {
     try {
-      const res = await fetch(`/api/predictions?ts=${Date.now()}`, { cache: "no-store" });
-      const data = await res.json();
+      const res = await fetch("https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv?ts=" + Date.now());
+      const csvText = await res.text();
 
+      const rows = csvText.trim().split("\n").map(r => r.split(","));
+      const headers = rows[0];
+      players = rows.slice(1).map(r => {
+        let obj = {};
+        headers.forEach((h, i) => obj[h] = r[i]);
+        obj["Score"] = parseFloat(obj["Score"]);
+        return obj;
+      });
+
+      // sätt last update från HEAD request
       const csvRes = await fetch("https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv", { method: "HEAD", cache: "no-store" });
       const lastModified = csvRes.headers.get("last-modified");
       document.getElementById("lastUpdate").innerText = lastModified ? `Last update: ${new Date(lastModified).toLocaleString('sv-SE')}` : "";
 
-      const content = document.getElementById("content");
-      content.innerHTML = "";
-
-      const csvColumns = ["Spelare", "Lag", "Net transfers (GW)", "Pris (£m)", "Score (%)"];
-      const headerMap = {
-        "Spelare": "Player",
-        "Lag": "Team",
-        "Net transfers (GW)": "Net transfers (GW)",
-        "Pris (£m)": "Price (£m)",
-        "Score (%)": "Score"
-      };
-
-      function renderTable(title, rows, type) {
-        if (!rows || rows.length === 0) return;
-        const tableHTML = `
-          <h2>${title}</h2>
-          <table>
-            <thead class="${type === 'up' ? 'price-up' : 'price-down'}">
-              <tr>${csvColumns.map(col => `<th>${headerMap[col] || col}</th>`).join('')}</tr>
-            </thead>
-            <tbody>
-              ${rows.map(r => {
-                return `<tr>
-                  ${csvColumns.map(c => {
-                    if (c === "Spelare") {
-                      const team = r["Lag"];
-                      const logoPath = `/static/logos/${team}.png`;
-                      return `
-                        <td class="player-cell">
-                          <div style="display:flex; flex-direction:column; align-items:center; gap:4px;">
-                            <img src="${logoPath}" alt="${team} logo" style="height:30px;" onerror="this.style.display='none'">
-                            <span>${r[c]}</span>
-                          </div>
-                        </td>
-                      `;
-                    } else {
-                      return `<td>${r[c]}</td>`;
-                    }
-                  }).join('')}
-                </tr>`;
-              }).join('')}
-            </tbody>
-          </table>
-        `;
-        content.innerHTML += tableHTML;
-      }
-
-      renderTable("🔼 Top 10 potential risers", data.up, "up");
-      renderTable("🔽 Top 10 potential fallers", data.down, "down");
-
-      // 🔎 Live-sök
-      const searchInput = document.getElementById("playerSearch");
-      searchInput.addEventListener("input", function() {
-        const filter = this.value.toLowerCase();
-        document.querySelectorAll("#content table tbody tr").forEach(row => {
-          const playerCell = row.querySelector(".player-cell span");
-          if (playerCell && playerCell.textContent.toLowerCase().includes(filter)) {
-            row.style.display = "";
-          } else {
-            row.style.display = "none";
-          }
-        });
-      });
-
+      renderTable();
     } catch (err) {
       console.error("Error loading predictions:", err);
       document.getElementById("content").innerHTML = "<p>Misslyckades med att ladda predictions.</p>";
     }
   }
+
+  function renderTable() {
+    // sortering
+    players.sort((a, b) => sortAsc ? a.Score - b.Score : b.Score - a.Score);
+
+    // filtrering via sök
+    const filter = document.getElementById("playerSearch").value.toLowerCase();
+    const filtered = players.filter(p => p["Spelare"].toLowerCase().includes(filter));
+
+    // sidindelning
+    const start = (currentPage - 1) * rowsPerPage;
+    const paginated = filtered.slice(start, start + rowsPerPage);
+
+    // rendera tabell
+    const tableHTML = `
+      <table>
+        <thead>
+          <tr>
+            ${Object.keys(players[0]).map(h =>
+              `<th ${h==="Score" ? "onclick='toggleSort()'" : ""}>${h}</th>`).join("")}
+          </tr>
+        </thead>
+        <tbody>
+          ${paginated.map(r => `
+            <tr>
+              ${Object.keys(r).map(k => {
+                if (k === "Spelare") {
+                  const team = r["Lag"];
+                  const logoPath = `/static/logos/${team}.png`;
+                  return `
+                    <td>
+                      <div style="display:flex; flex-direction:column; align-items:center; gap:4px;">
+                        <img src="${logoPath}" alt="${team} logo" style="height:30px;" onerror="this.style.display='none'">
+                        <span>${r[k]}</span>
+                      </div>
+                    </td>`;
+                } else {
+                  return `<td>${r[k]}</td>`;
+                }
+              }).join("")}
+            </tr>`).join("")}
+        </tbody>
+      </table>
+    `;
+    document.getElementById("content").innerHTML = tableHTML;
+
+    renderPagination(filtered.length);
+  }
+
+  function renderPagination(totalRows) {
+    const totalPages = Math.ceil(totalRows / rowsPerPage);
+    let html = "";
+    for (let i = 1; i <= totalPages; i++) {
+      html += `<button class="${i===currentPage ? "active":""}" onclick="goToPage(${i})">${i}</button>`;
+    }
+    document.getElementById("pagination").innerHTML = html;
+  }
+
+  function goToPage(page) {
+    currentPage = page;
+    renderTable();
+  }
+
+  function toggleSort() {
+    sortAsc = !sortAsc;
+    renderTable();
+  }
+
+  // live-sök
+  document.getElementById("playerSearch").addEventListener("input", function() {
+    currentPage = 1;
+    renderTable();
+  });
 
   loadPredictions();
 </script>

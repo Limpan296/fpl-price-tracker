@@ -49,87 +49,36 @@ df["progress_fall"] = np.where(df["fall_threshold"] > 0, df["net_out"] / df["fal
 mask = (df["selected_by_percent"] >= MIN_OWNERS_PCT) & (df["net_transfers"].abs() >= MIN_ABS_NET_TRANSFERS)
 df_filt = df.loc[mask].copy()
 
-df_filt_up = df_filt[df_filt["cost_change_event"] <= 0].copy()
-df_filt_down = df_filt[df_filt["cost_change_event"] >= 0].copy()
-
-df_filt_up["adjusted_progress_rise"] = df_filt_up["progress_rise"] * (df_filt_up["selected_by_percent"]/10)
-df_filt_down["adjusted_progress_fall"] = df_filt_down["progress_fall"] * (df_filt_down["selected_by_percent"]/10)
-
 # =========================
-#  SCORE (kombinerad logik)
+#  SCORE LOGIC
 # =========================
-df_filt_up["score_rise"] = df_filt_up["progress_rise"]*0.6 + df_filt_up["adjusted_progress_rise"]/100*0.4
-df_filt_down["score_fall"] = df_filt_down["progress_fall"]*0.6 + df_filt_down["adjusted_progress_fall"]/100*0.4
+df_filt["adjusted_progress_rise"] = df_filt["progress_rise"] * (df_filt["selected_by_percent"]/10)
+df_filt["adjusted_progress_fall"] = df_filt["progress_fall"] * (df_filt["selected_by_percent"]/10)
+
+df_filt["score_rise"] = df_filt["progress_rise"]*0.6 + df_filt["adjusted_progress_rise"]/100*0.4
+df_filt["score_fall"] = -(df_filt["progress_fall"]*0.6 + df_filt["adjusted_progress_fall"]/100*0.4)  # NEGATIV score
 
 # =========================
-#  RANKA TOP 10
+#  FORMAT ALL PLAYERS
 # =========================
-top_up = (df_filt_up.sort_values(["score_rise","progress_rise"], ascending=[False,False])
-          .head(10)[["web_name","team_name","price","selected_by_percent",
-                      "net_transfers","effective_net","rise_threshold","progress_rise",
-                      "adjusted_progress_rise","score_rise"]])
-
-top_down = (df_filt_down.sort_values(["score_fall","progress_fall"], ascending=[False,False])
-            .head(10)[["web_name","team_name","price","selected_by_percent",
-                        "net_transfers","effective_net","fall_threshold","progress_fall",
-                        "adjusted_progress_fall","score_fall"]])
-
-# =========================
-#  FORMAT FUNCTIONS
-# =========================
-def format_up(df):
+def format_players(df):
     return df.assign(
-        price=lambda x: x["price"].round(1),
-        selected_by_percent=lambda x: x["selected_by_percent"].round(2),
-        effective_net=lambda x: x["effective_net"].astype(int),
-        rise_threshold=lambda x: x["rise_threshold"].astype(int),
-        progress_rise=lambda x: (100*x["progress_rise"]).round(1),
-        adjusted_progress_rise=lambda x: (100*x["adjusted_progress_rise"]).round(1),
-        score_rise=lambda x: (100*x["score_rise"]).round(1),
-        direction="up"
+        Pris=lambda x: x["price"].round(1),
+        Ägd=lambda x: x["selected_by_percent"].round(2),
+        EffNet=lambda x: x["effective_net"].astype(int),
+        Score=lambda x: np.where(
+            x["score_rise"] > 0, (100*x["score_rise"]).round(1),
+            (100*x["score_fall"]).round(1)
+        )
     ).rename(columns={
-        "web_name":"Spelare","team_name":"Lag","price":"Pris (£m)",
-        "selected_by_percent":"Ägd (%)","net_transfers":"Net transfers (GW)",
-        "effective_net":"Eff. net","rise_threshold":"Threshold",
-        "progress_rise":"Progress (%)","adjusted_progress_rise":"Adj. Progress (%)",
-        "score_rise":"Score (%)"
-    })
+        "web_name":"Spelare","team_name":"Lag",
+        "net_transfers":"Net transfers (GW)"
+    })[["Spelare","Lag","Pris","Ägd","Net transfers (GW)","EffNet","Score"]]
 
-def format_down(df):
-    return df.assign(
-        price=lambda x: x["price"].round(1),
-        selected_by_percent=lambda x: x["selected_by_percent"].round(2),
-        effective_net=lambda x: x["effective_net"].astype(int),
-        fall_threshold=lambda x: x["fall_threshold"].astype(int),
-        progress_fall=lambda x: (100*x["progress_fall"]).round(1),
-        adjusted_progress_fall=lambda x: (100*x["adjusted_progress_fall"]).round(1),
-        score_fall=lambda x: (100*x["score_fall"]).round(1),
-        direction="down"
-    ).rename(columns={
-        "web_name":"Spelare","team_name":"Lag","price":"Pris (£m)",
-        "selected_by_percent":"Ägd (%)","net_transfers":"Net transfers (GW)",
-        "effective_net":"Eff. net","fall_threshold":"Threshold",
-        "progress_fall":"Progress (%)","adjusted_progress_fall":"Adj. Progress (%)",
-        "score_fall":"Score (%)"
-    })
+df_all = format_players(df_filt)
 
 # =========================
-#  FORMAT & PRINT
-# =========================
-df_top_up = format_up(top_up)
-df_top_down = format_down(top_down)
-
-# Slå ihop för CSV
-df_all = pd.concat([df_top_up, df_top_down], ignore_index=True)
-
-print("\n🔼 Top 10 kandidater för prisuppgång:\n")
-print(df_top_up)
-
-print("\n🔽 Top 10 kandidater för prisnedgång:\n")
-print(df_top_down)
-
-# =========================
-#  SPARA RESULTAT (för webben)
+#  SAVE CSV
 # =========================
 output_file = "static/predictions.csv"
 df_all.to_csv(output_file, index=False, encoding="utf-8")
