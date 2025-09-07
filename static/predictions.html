@@ -132,7 +132,12 @@
         <tbody>
           ${pagePlayers.map(p => `
             <tr>
-              <td>${p.Player}</td>
+              <td>
+                <div style="display:flex; flex-direction:column; align-items:center; gap:4px;">
+                  <img src="/static/logos/${p.Team}.png" alt="${p.Team} logo" style="height:30px;" onerror="this.style.display='none'">
+                  <span>${p.Player}</span>
+                </div>
+              </td>
               <td>${p.Team}</td>
               <td>${p.Price}</td>
               <td class="${p.Score>100?'score-high':p.Score<-100?'score-low':''}">${p.Score}</td>
