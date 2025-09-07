@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FPL Price change Predictions</title>
+  <title>FPL Predictions</title>
   <style>
     body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #f9f9f9; color: #333; }
     header { display: flex; justify-content: center; gap: 15px; padding: 15px; background-color: #333; }
@@ -11,18 +11,29 @@
     header a:hover { background-color: #555; }
     header a.active { background-color: #007BFF; }
     main { padding: 20px; }
-    h1 { text-align: center; margin-bottom: 10px; }
-    #lastUpdate { text-align: center; color: #555; font-style: italic; margin-bottom: 20px; }
-    table { border-collapse: collapse; width: 100%; margin-bottom: 10px; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    th, td { border-bottom: 1px solid #eee; padding: 10px; text-align: center; }
-    th { cursor: pointer; }
+    h1 { text-align: center; margin-bottom: 10px; color: #222; }
+    #lastUpdate { text-align: center; color: #555; font-style: italic; margin-bottom: 10px; }
+
+    /* Sökfält */
+    #playerSearch { padding: 8px; width: 250px; border: 1px solid #ccc; border-radius: 6px; margin: 0 auto 10px auto; display: block; text-align: center; }
+
+    /* Team filter dropdown */
+    #teamDropdown { position: relative; display: inline-block; margin-bottom: 20px; text-align:center; }
+    #teamDropdownBtn { padding: 6px 12px; border: 1px solid #ccc; border-radius: 6px; background: #fff; cursor: pointer; }
+    #teamList { display: none; position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #ccc; border-radius: 6px; padding: 8px; max-height: 200px; overflow-y: auto; z-index: 1000; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+
+    table { border-collapse: collapse; width: 100%; table-layout: fixed; background-color: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+    th, td { border-bottom: 1px solid #eee; padding: 10px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    th { font-weight: 600; cursor: pointer; }
     tbody tr:nth-child(odd) { background-color: #fafafa; }
     tbody tr:nth-child(even) { background-color: #fff; }
     tr:hover { background-color: #f5f5f5; }
-    #playerSearch { padding: 8px; width: 250px; border: 1px solid #ccc; border-radius: 6px; margin: 0 auto 20px auto; display: block; text-align: center; }
-    #pagination { display: flex; justify-content: center; gap: 10px; margin-top: 15px; }
-    #pagination button { padding: 6px 12px; border: 1px solid #ccc; background: #fff; border-radius: 4px; cursor: pointer; }
-    #pagination button.active { background: #007BFF; color: #fff; border-color: #007BFF; }
+    #pagination { margin-top: 20px; text-align: center; }
+    #pagination button { margin: 2px; padding: 6px 12px; border: 1px solid #ccc; background: #fff; cursor: pointer; border-radius: 4px; }
+    #pagination button.active { background: #007BFF; color: #fff; font-weight: bold; }
+
+    .score-high { background-color: #d4edda; } /* grön */
+    .score-low { background-color: #f8d7da; }  /* röd */
   </style>
 </head>
 <body>
@@ -33,122 +44,183 @@
   </header>
 
   <main>
-    <h1>FPL price change Predictions</h1>
-    <p id="lastUpdate">Loading last update...</p>
+    <h1>FPL Predictions</h1>
+    <p id="lastUpdate">Loading predictions...</p>
 
-    <!-- 🔎 Sökfält -->
-    <input type="text" id="playerSearch" placeholder="Search player..."/>
+    <!-- Sökfält -->
+    <input type="text" id="playerSearch" placeholder="Search player or team..."/>
 
-    <div id="content"></div>
+    <!-- Team dropdown -->
+    <div id="teamDropdown">
+      <button id="teamDropdownBtn">All teams ▼</button>
+      <div id="teamList"></div>
+    </div>
+
+    <table id="predictionsTable"></table>
     <div id="pagination"></div>
   </main>
 
-<script>
-  let players = [];
-  let currentPage = 1;
-  const rowsPerPage = 20;
-  let sortAsc = false; // default = högst score först
+  <!-- PapaParse CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
-  async function loadPredictions() {
-    try {
-      const res = await fetch("https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv?ts=" + Date.now());
+  <script>
+    let players = [];
+    let currentPage = 1;
+    const rowsPerPage = 20;
+
+    const columnMap = {
+      "Spelare": "Player",
+      "Lag": "Team",
+      "Pris": "Price",
+      "Ägd": "Owned",
+      "Net transfers (GW)": "Transfers",
+      "EffNet": "EffNet",
+      "Score": "Score"
+    };
+
+    async function loadPredictions() {
+      const res = await fetch("/static/predictions.csv?nocache=" + Date.now());
       const csvText = await res.text();
+      const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
 
-      const rows = csvText.trim().split("\n").map(r => r.split(","));
-      const headers = rows[0];
-      players = rows.slice(1).map(r => {
+      players = parsed.data.map(row => {
         let obj = {};
-        headers.forEach((h, i) => obj[h] = r[i]);
-        obj["Score"] = parseFloat(obj["Score"]);
+        for (const key in row) {
+          const mappedKey = columnMap[key] || key;
+          let value = (row[key] || "").trim().replace(/"/g,"");
+          obj[mappedKey] = value;
+        }
+        ["Price","Owned","Transfers","EffNet","Score"].forEach(k => {
+          obj[k] = parseFloat((obj[k]+"").replace(",", ".")) || 0;
+        });
         return obj;
       });
 
-      // sätt last update från HEAD request
-      const csvRes = await fetch("https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv", { method: "HEAD", cache: "no-store" });
-      const lastModified = csvRes.headers.get("last-modified");
-      document.getElementById("lastUpdate").innerText = lastModified ? `Last update: ${new Date(lastModified).toLocaleString('sv-SE')}` : "";
+      players.sort((a,b) => b.Score - a.Score);
+      document.getElementById("lastUpdate").innerText = "Last update: " + new Date().toLocaleString();
 
+      populateTeamFilter();
       renderTable();
-    } catch (err) {
-      console.error("Error loading predictions:", err);
-      document.getElementById("content").innerHTML = "<p>Misslyckades med att ladda predictions.</p>";
+      renderPagination();
     }
-  }
 
-  function renderTable() {
-    // sortering
-    players.sort((a, b) => sortAsc ? a.Score - b.Score : b.Score - a.Score);
+    function renderTable() {
+      const table = document.getElementById("predictionsTable");
+      const start = (currentPage - 1) * rowsPerPage;
+      const end = start + rowsPerPage;
 
-    // filtrering via sök
-    const filter = document.getElementById("playerSearch").value.toLowerCase();
-    const filtered = players.filter(p => p["Spelare"].toLowerCase().includes(filter));
+      const searchText = document.getElementById("playerSearch").value.toLowerCase();
+      const selectedTeams = Array.from(document.querySelectorAll("#teamList input:checked")).map(i=>i.value);
 
-    // sidindelning
-    const start = (currentPage - 1) * rowsPerPage;
-    const paginated = filtered.slice(start, start + rowsPerPage);
+      const filteredPlayers = players.filter(p=>{
+        const matchesSearch = Object.values(p).some(v=>(""+v).toLowerCase().includes(searchText));
+        const matchesTeam = selectedTeams.length===0 || selectedTeams.includes(p.Team);
+        return matchesSearch && matchesTeam;
+      });
 
-    // rendera tabell
-    const tableHTML = `
-      <table>
+      const pagePlayers = filteredPlayers.slice(start,end);
+
+      table.innerHTML = `
         <thead>
           <tr>
-            ${Object.keys(players[0]).map(h =>
-              `<th ${h==="Score" ? "onclick='toggleSort()'" : ""}>${h}</th>`).join("")}
+            <th onclick="sortTable('Player')">Player</th>
+            <th onclick="sortTable('Team')">Team</th>
+            <th onclick="sortTable('Price')">Price</th>
+            <th onclick="sortTable('Score')">Score</th>
           </tr>
         </thead>
         <tbody>
-          ${paginated.map(r => `
+          ${pagePlayers.map(p => `
             <tr>
-              ${Object.keys(r).map(k => {
-                if (k === "Spelare") {
-                  const team = r["Lag"];
-                  const logoPath = `/static/logos/${team}.png`;
-                  return `
-                    <td>
-                      <div style="display:flex; flex-direction:column; align-items:center; gap:4px;">
-                        <img src="${logoPath}" alt="${team} logo" style="height:30px;" onerror="this.style.display='none'">
-                        <span>${r[k]}</span>
-                      </div>
-                    </td>`;
-                } else {
-                  return `<td>${r[k]}</td>`;
-                }
-              }).join("")}
-            </tr>`).join("")}
+              <td>${p.Player}</td>
+              <td>${p.Team}</td>
+              <td>${p.Price}</td>
+              <td class="${p.Score>100?'score-high':p.Score<-100?'score-low':''}">${p.Score}</td>
+            </tr>
+          `).join("")}
         </tbody>
-      </table>
-    `;
-    document.getElementById("content").innerHTML = tableHTML;
-
-    renderPagination(filtered.length);
-  }
-
-  function renderPagination(totalRows) {
-    const totalPages = Math.ceil(totalRows / rowsPerPage);
-    let html = "";
-    for (let i = 1; i <= totalPages; i++) {
-      html += `<button class="${i===currentPage ? "active":""}" onclick="goToPage(${i})">${i}</button>`;
+      `;
     }
-    document.getElementById("pagination").innerHTML = html;
-  }
 
-  function goToPage(page) {
-    currentPage = page;
-    renderTable();
-  }
+    function renderPagination() {
+      const searchText = document.getElementById("playerSearch").value.toLowerCase();
+      const selectedTeams = Array.from(document.querySelectorAll("#teamList input:checked")).map(i=>i.value);
+      const filteredPlayers = players.filter(p=>{
+        const matchesSearch = Object.values(p).some(v=>(""+v).toLowerCase().includes(searchText));
+        const matchesTeam = selectedTeams.length===0 || selectedTeams.includes(p.Team);
+        return matchesSearch && matchesTeam;
+      });
 
-  function toggleSort() {
-    sortAsc = !sortAsc;
-    renderTable();
-  }
+      const totalPages = Math.ceil(filteredPlayers.length / rowsPerPage);
+      const pagination = document.getElementById("pagination");
+      pagination.innerHTML = "";
 
-  // live-sök
-  document.getElementById("playerSearch").addEventListener("input", function() {
-    currentPage = 1;
-    renderTable();
-  });
+      for (let i=1;i<=totalPages;i++){
+        const btn = document.createElement("button");
+        btn.innerText = i;
+        btn.className = (i===currentPage)? "active":"";
+        btn.onclick = ()=>{ currentPage=i; renderTable(); renderPagination(); };
+        pagination.appendChild(btn);
+      }
+    }
 
-  loadPredictions();
-</script>
+    let scoreAsc=false;
+    function sortTable(key){
+      if(key==="Score"){
+        players.sort((a,b)=> scoreAsc? b.Score-a.Score: a.Score-b.Score);
+        scoreAsc = !scoreAsc;
+      }else{
+        players.sort((a,b)=>(""+a[key]).localeCompare(""+b[key]));
+      }
+      currentPage=1; renderTable(); renderPagination();
+    }
+
+    // Sökfält live
+    document.getElementById("playerSearch").addEventListener("input", ()=>{
+      currentPage=1; renderTable(); renderPagination();
+    });
+
+    // Team filter
+    function populateTeamFilter(){
+      const teams = [...new Set(players.map(p=>p.Team))].sort();
+      const teamList = document.getElementById("teamList");
+      teamList.innerHTML = "";
+      teams.forEach(team=>{
+        const label = document.createElement("label");
+        label.style.display="block";
+        label.style.marginBottom="4px";
+        label.innerHTML = `<input type="checkbox" value="${team}"> ${team}`;
+        teamList.appendChild(label);
+      });
+
+      const btn = document.getElementById("teamDropdownBtn");
+      btn.addEventListener("click", e=>{
+        e.stopPropagation();
+        teamList.style.display = teamList.style.display==="block"?"none":"block";
+      });
+
+      teamList.querySelectorAll("input[type=checkbox]").forEach(chk=>{
+        chk.addEventListener("change", ()=>{
+          currentPage=1; renderTable(); renderPagination();
+          updateDropdownButton();
+        });
+      });
+
+      document.addEventListener("click", (e)=>{
+        if(!teamList.contains(e.target) && e.target!==btn){
+          teamList.style.display="none";
+        }
+      });
+    }
+
+    function updateDropdownButton(){
+      const teamList = document.getElementById("teamList");
+      const selected = Array.from(teamList.querySelectorAll("input:checked")).map(i=>i.value);
+      const btn = document.getElementById("teamDropdownBtn");
+      btn.textContent = selected.length===0?"All teams ▼":selected.join(", ")+" ▼";
+    }
+
+    loadPredictions();
+  </script>
 </body>
 </html>
