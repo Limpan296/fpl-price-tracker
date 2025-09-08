@@ -17,16 +17,32 @@ def index():
 def predictions_api():
     try:
         # Hämta CSV från GitHub raw varje gång
-        CSV_URL = "https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv"
         df = pd.read_csv(CSV_URL)
 
-        df_up = df[df["direction"] == "up"].head(10)
-        df_down = df[df["direction"] == "down"].head(10)
-
-        data = {
-            "up": df_up.to_dict(orient="records"),
-            "down": df_down.to_dict(orient="records")
+        # Mappa kolumner som tidigare
+        columnMap = {
+            "Spelare": "Player",
+            "Lag": "Team",
+            "Pris": "Price",
+            "Ägd": "Owned",
+            "Net transfers (GW)": "Transfers",
+            "EffNet": "EffNet",
+            "Score": "Score"
         }
+
+        data = []
+        for _, row in df.iterrows():
+            obj = {}
+            for k, v in row.items():
+                mappedKey = columnMap.get(k, k)
+                val = v
+                if mappedKey in ["Price", "Owned", "Transfers", "EffNet", "Score"]:
+                    try:
+                        val = float(str(val).replace(",", "."))
+                    except:
+                        val = 0
+                obj[mappedKey] = val
+            data.append(obj)
 
         response = make_response(jsonify(data))
         response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
@@ -34,11 +50,10 @@ def predictions_api():
         return response
 
     except Exception as e:
-        response = make_response(jsonify({"error": str(e), "up": [], "down": []}))
+        response = make_response(jsonify({"error": str(e), "data": []}))
         response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
         response.headers["Pragma"] = "no-cache"
         return response
-
 
 
 @app.route("/api/changes")

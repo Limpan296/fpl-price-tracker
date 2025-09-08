@@ -79,44 +79,46 @@
     };
 
 async function loadPredictions() {
-  const res = await fetch("/static/predictions.csv", {
-    cache: "no-store"
-  });
+  try {
+    const res = await fetch("/api/predictions", { cache: "no-store" });
+    const data = await res.json();
 
-  // Hämta senaste ändringstid från servern (Last-Modified header)
-  const lastModified = res.headers.get("Last-Modified");
-
-  const csvText = await res.text();
-  const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
-
-  players = parsed.data.map(row => {
-    let obj = {};
-    for (const key in row) {
-      const mappedKey = columnMap[key] || key;
-      let value = (row[key] || "").trim().replace(/"/g,"");
-      obj[mappedKey] = value;
+    // Om error i API
+    if (data.error) {
+      document.getElementById("lastUpdate").innerText = "Error loading predictions";
+      players = [];
+      renderTable();
+      renderPagination();
+      return;
     }
-    ["Price","Owned","Transfers","EffNet","Score"].forEach(k => {
-      obj[k] = parseFloat((obj[k]+"").replace(",", ".")) || 0;
+
+    players = data.map(row => {
+      return {
+        Player: row.Player || "",
+        Team: row.Team || "",
+        Price: parseFloat(row.Price) || 0,
+        Owned: parseFloat(row.Owned) || 0,
+        Transfers: parseFloat(row.Transfers) || 0,
+        EffNet: parseFloat(row.EffNet) || 0,
+        Score: parseFloat(row.Score) || 0
+      };
     });
-    return obj;
-  });
 
-  players.sort((a,b) => b.Score - a.Score);
+    players.sort((a,b) => b.Score - a.Score);
 
-  // Visa filens ändringstid om den finns, annars fallback till nu
-  if (lastModified) {
-    document.getElementById("lastUpdate").innerText =
-      "Last update: " + new Date(lastModified).toLocaleString();
-  } else {
+    // Visa senaste uppdateringstid som nu
     document.getElementById("lastUpdate").innerText =
       "Last update: " + new Date().toLocaleString();
-  }
 
-  populateTeamFilter();
-  renderTable();
-  renderPagination();
+    populateTeamFilter();
+    renderTable();
+    renderPagination();
+  } catch (err) {
+    console.error(err);
+    document.getElementById("lastUpdate").innerText = "Error loading predictions";
+  }
 }
+
 
 
 
