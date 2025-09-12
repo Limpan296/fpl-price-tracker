@@ -3,7 +3,7 @@ import pandas as pd
 import re
 import os
 import requests
-
+ 
 app = Flask(__name__, static_folder="static")
 
 # URL till din CSV på GitHub (raw link!)
