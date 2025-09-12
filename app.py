@@ -9,10 +9,9 @@ app = Flask(__name__, static_folder="static")
 # URL till din CSV på GitHub (raw link!)
 CSV_URL = "https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv"
 
-# Lägg in din token (OBS: bättre att ha i Render environment variables, men nu hårdkodat som du bad)
-GITHUB_TOKEN = "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"
-HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
-
+# Lägg in token via Render env vars
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
 @app.route("/")
 def index():
