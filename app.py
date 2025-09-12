@@ -3,14 +3,21 @@ import pandas as pd
 import re
 import os
 import requests
- 
+
 app = Flask(__name__, static_folder="static")
 
 # URL till din CSV på GitHub (raw link!)
 CSV_URL = "https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/static/predictions.csv"
+
+# Lägg in din token (OBS: bättre att ha i Render environment variables, men nu hårdkodat som du bad)
+GITHUB_TOKEN = "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"
+HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
+
+
 @app.route("/")
 def index():
     return send_from_directory("static", "index.html")
+
 
 # Price predictions-sida (hämtar alltid färsk CSV från GitHub)
 @app.route("/api/predictions")
@@ -60,7 +67,7 @@ def predictions_api():
 def changes_api():
     try:
         repo_api = "https://api.github.com/repos/Limpan296/fpl-price-tracker/contents/changes"
-        r = requests.get(repo_api)
+        r = requests.get(repo_api, headers=HEADERS)
         r.raise_for_status()
         files = r.json()
 
@@ -93,14 +100,18 @@ def changes_api():
 
     except Exception as e:
         return jsonify({"error": str(e), "days": []})
+
+
 # Price changes-sida (oförändrad)
 @app.route("/changes")
 def price_changes():
     return send_from_directory("static", "pricechanges.html")
 
+
 @app.route("/predictions")
 def predictions():
     return send_from_directory("static", "predictions.html")
+
 
 # Din gamla /api/changes-rutt kan ligga kvar om du vill
 # ...
