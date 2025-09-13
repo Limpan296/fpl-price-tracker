@@ -1,7 +1,7 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
 Raya,Arsenal,5.5,23.4,149738,131769,89.2
 Gabriel,Arsenal,6.1,21.5,79750,70180,47.5
-Saliba,Arsenal,6.1,14.3,-406606,-357813,-135.1
+Saliba,Arsenal,6.1,14.3,-406606,-357813,-135.0
 Calafiori,Arsenal,5.7,13.0,417959,367803,247.3
 J.Timber,Arsenal,5.7,10.3,285083,250873,168.4
 Lewis-Skelly,Arsenal,5.4,2.5,-47774,-42041,-108.1
@@ -51,7 +51,7 @@ Collins,Brentford,5.0,1.5,-15642,-13764,-58.9
 Damsgaard,Brentford,5.9,0.8,-12417,-10926,-87.7
 Thiago,Brentford,6.0,1.6,25809,22711,15.2
 Verbruggen,Brighton,4.5,5.7,-61773,-54360,-61.4
-De Cuyper,Brighton,4.5,4.0,-84831,-74651,-120.1
+De Cuyper,Brighton,4.5,4.0,-84831,-74651,-120.0
 Van Hecke,Brighton,4.5,0.9,-6843,-6021,-43.0
 Mitoma,Brighton,6.4,4.8,-29190,-25687,-34.4
 O'Riley,Brighton,5.5,1.0,-60777,-53483,-245.3
@@ -59,7 +59,7 @@ Baleba,Brighton,4.9,3.3,-47983,-42225,-82.3
 Welbeck,Brighton,6.3,2.2,-38716,-34070,-99.5
 Sánchez,Chelsea,5.0,23.8,-60561,-53293,-14.6
 Cucurella,Chelsea,6.1,28.7,153613,135179,91.8
-James,Chelsea,5.5,4.9,-92004,-80963,-106.4
+James,Chelsea,5.5,4.9,-92004,-80963,-106.3
 Chalobah,Chelsea,5.1,7.9,396878,349252,234.1
 Tosin,Chelsea,4.5,1.2,14623,12868,8.6
 Acheampong,Chelsea,4.0,1.9,-46321,-40762,-137.8
@@ -133,7 +133,7 @@ Dorgu,Man Utd,4.5,6.2,-200130,-176114,-183.0
 Yoro,Man Utd,4.5,2.4,-23358,-20555,-55.0
 Heaven,Man Utd,4.0,1.2,-12988,-11429,-61.2
 B.Fernandes,Man Utd,9.0,20.6,-86041,-75716,-23.9
-Cunha,Man Utd,8.0,6.6,-682353,-600470,-418.8
+Cunha,Man Utd,8.0,6.6,-682353,-600470,-418.7
 Amad,Man Utd,6.4,1.9,-25476,-22418,-75.8
 Obi,Man Utd,4.4,1.5,-19440,-17107,-73.2
 Šeško,Man Utd,7.4,5.5,-209200,-184096,-215.5
@@ -184,7 +184,7 @@ Areola,West Ham,4.4,2.8,-46049,-40523,-93.0
 Diouf,West Ham,4.5,4.9,-53837,-47376,-62.2
 Wan-Bissaka,West Ham,4.4,13.8,-322055,-283408,-133.0
 L.Paquetá,West Ham,5.9,3.1,184586,162435,108.5
-Bowen,West Ham,7.8,7.1,-87304,-76827,-69.8
+Bowen,West Ham,7.8,7.1,-87304,-76827,-69.7
 Füllkrug,West Ham,5.8,1.4,-58203,-51218,-195.8
 José Sá,Wolves,4.5,1.7,-11955,-10520,-39.7
 Hoever,Wolves,4.0,1.5,-36794,-32378,-115.5
