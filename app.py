@@ -60,6 +60,49 @@ def predictions_api():
         response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
         response.headers["Pragma"] = "no-cache"
         return response
+@app.route("/api/changes")
+def changes_api_debug():
+    try:
+        repo_api = "https://api.github.com/repos/Limpan296/fpl-price-tracker/contents/changes"
+        print("HEADERS used:", HEADERS)
+        r = requests.get(repo_api, headers=HEADERS)
+        print("GitHub API response code:", r.status_code)
+        r.raise_for_status()
+        files = r.json()
+        print("Files from GitHub API:", files)
+
+        # filtrera ut alla price_changes_YYYY-MM-DD.csv
+        csv_files = [f["name"] for f in files if f["name"].startswith("price_changes_") and f["name"].endswith(".csv")]
+        print("Filtered CSV files:", csv_files)
+        csv_files.sort(reverse=True)  # senaste först
+
+        days = []
+        for fname in csv_files[:7]:  # senaste 7
+            raw_url = f"https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/changes/{fname}"
+            print("Trying to read CSV from URL:", raw_url)
+            try:
+                df = pd.read_csv(raw_url)
+                print(f"Read {len(df)} rows from {fname}")
+
+                up = df[df["direction"] == "up"].to_dict(orient="records")
+                down = df[df["direction"] == "down"].to_dict(orient="records")
+
+                days.append({
+                    "date": fname.replace("price_changes_", "").replace(".csv", ""),
+                    "up": up,
+                    "down": down
+                })
+            except Exception as e:
+                print(f"Misslyckades läsa {raw_url}: {e}")
+
+        response = make_response(jsonify({"days": days}))
+        response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+        response.headers["Pragma"] = "no-cache"
+        return response
+
+    except Exception as e:
+        print("Exception in /api/changes:", e)
+        return jsonify({"error": str(e), "days": []})
 
 
 @app.route("/api/changes")
