@@ -1,5 +1,5 @@
 date,web_name,team,price_prev,new_price,direction
-2025-09-15,Watkinsaaaa,Aston Villa,8.9,8.8,down
+2025-09-15,Watkins,Aston Villa,8.9,8.8,down
 2025-09-15,Lucas Pires,Burnley,4.0,3.9,down
 2025-09-15,Georginio,Brighton,5.9,5.8,down
 2025-09-15,Sosa,Crystal Palace,5.0,4.9,down
@@ -9,4 +9,3 @@ date,web_name,team,price_prev,new_price,direction
 2025-09-15,Vicario,Spurs,5.0,5.1,up
 2025-09-15,Diouf,West Ham,4.5,4.4,down
 2025-09-15,Doherty,Wolves,4.5,4.4,down
-2025-09-15,testing,Wolves,4.5,4.4,down
