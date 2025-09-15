@@ -11,7 +11,7 @@ CSV_URL = "https://raw.githubusercontent.com/Limpan296/fpl-price-tracker/main/st
 
 # Lägg in token via Render env vars
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
-HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
+HEADERS = {"Authorization": f"Bearer {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
 @app.route("/")
 def index():
