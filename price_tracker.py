@@ -10,11 +10,11 @@ CHANGES_DIR = "changes"
 os.makedirs(CHANGES_DIR, exist_ok=True)
 
 # ---- Twitter API credentials ----
-ACCESS_TOKEN = '1967616675978625024-n2YIL5W6AQ3nObeQKYLb6AvAwPtYed'
-ACCESS_TOKEN_SECRET = 'ph0Trht9Q8D9hTmTsqnv4prfmlfXGs83GrGNWwZJt4dpX'
-BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAALnY4AEAAAAAR%2FFRM3qaHxEhDFRya8QlJVl%2Fjuc%3D99ltkGVVX7U0KjDLFBj98k9VV3wWRLZg0j1AOjtaPCQiyeMraJ'
-API_KEY = 'wtVHDjccS0IgPP0d9HkabiK9j'
-API_SECRET = 'U42Htoz4EcwRkXSFhZTIRQBJBrfp4gcevy9qJ0BIlMlvGX0UtH'
+API_KEY = os.environ.get("API_KEY")
+API_SECRET = os.environ.get("API_SECRET")
+ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
+ACCESS_TOKEN_SECRET = os.environ.get("ACCESS_TOKEN_SECRET")
+BEARER_TOKEN = os.environ.get("BEARER_TOKEN")
 
 client = tweepy.Client(
     bearer_token=BEARER_TOKEN,
