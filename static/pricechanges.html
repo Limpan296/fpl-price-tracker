@@ -166,10 +166,13 @@
       return;
     }
 
-    document.getElementById("lastUpdate").innerText = "Last update: " + days[0].date;
+    document.getElementById("lastUpdate").innerText =
+  "Last update: " + days[0].date.replace("_no_changes", "");
 
     function renderTable(title, rows, type) {
-      if (!rows || rows.length === 0) return "";
+      if (!rows || rows.length === 0) {
+        return `<p style="text-align:center; color:#777; font-style:italic;">No ${title.toLowerCase()} this day</p>`;
+      }
 
       return `
         <h3>${title}</h3>
@@ -206,15 +209,17 @@
     }
 
     for (const day of days) {
-      const block = document.createElement("div");
-      block.className = "date-block";
-      block.innerHTML = `
-        <h2>${day.date}</h2>
-        ${renderTable("Risers", day.up, "up")}
-        ${renderTable("Fallers", day.down, "down")}
-      `;
-      content.appendChild(block);
-    }
+  const cleanDate = day.date.replace("_no_changes", "");  // ta bort suffix
+
+  const block = document.createElement("div");
+  block.className = "date-block";
+  block.innerHTML = `
+    <h2>${cleanDate}</h2>
+    ${renderTable("Risers", day.up, "up")}
+    ${renderTable("Fallers", day.down, "down")}
+  `;
+  content.appendChild(block);
+}
 
     // 🔎 Live-sök
     const searchInput = document.getElementById("playerSearch");
