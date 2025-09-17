@@ -22,7 +22,7 @@ id,web_name,team,price
 22,Merino,Arsenal,5.9
 23,Fábio Vieira,Arsenal,5.4
 24,Nørgaard,Arsenal,5.4
-25,Nwaneri,Arsenal,5.4
+25,Nwaneri,Arsenal,5.3
 26,Zubimendi,Arsenal,5.4
 28,Kabia,Arsenal,4.5
 29,Sambi,Arsenal,4.5
@@ -245,7 +245,7 @@ id,web_name,team,price
 225,James,Chelsea,5.5
 226,Chalobah,Chelsea,5.1
 227,Colwill,Chelsea,4.8
-228,Gusto,Chelsea,5.0
+228,Gusto,Chelsea,4.9
 229,B.Badiashile,Chelsea,4.4
 230,Fofana,Chelsea,4.4
 231,M.Sarr,Chelsea,4.5
@@ -258,14 +258,14 @@ id,web_name,team,price
 238,Estêvão,Chelsea,6.5
 239,Gittens,Chelsea,6.3
 240,Nkunku,Chelsea,5.9
-241,Caicedo,Chelsea,5.5
+241,Caicedo,Chelsea,5.6
 243,George,Chelsea,4.9
 244,Lavia,Chelsea,4.9
 245,Mudryk,Chelsea,5.0
 246,Andrey Santos,Chelsea,4.5
 247,D.Essugo,Chelsea,4.4
 248,Paez,Chelsea,4.5
-249,João Pedro,Chelsea,7.7
+249,João Pedro,Chelsea,7.8
 250,Delap,Chelsea,6.3
 251,N.Jackson,Chelsea,6.5
 252,Marc Guiu,Chelsea,4.4
@@ -540,7 +540,7 @@ id,web_name,team,price
 492,Antoñito C.,Newcastle,4.9
 494,Willock,Newcastle,5.0
 495,Hayden,Newcastle,4.5
-496,Kuol,Newcastle,4.5
+496,Kuol,Newcastle,4.4
 497,L.Miley,Newcastle,4.5
 498,White,Newcastle,4.5
 500,Osula,Newcastle,5.5
@@ -601,7 +601,7 @@ id,web_name,team,price
 540,Pembele,Sunderland,4.0
 541,Reinildo,Sunderland,4.0
 542,Seelt,Sunderland,4.0
-543,Adingra,Sunderland,5.5
+543,Adingra,Sunderland,5.4
 544,Diarra,Sunderland,5.5
 545,Roberts,Sunderland,5.4
 546,Aleksić,Sunderland,4.9
@@ -615,7 +615,7 @@ id,web_name,team,price
 554,Ba,Sunderland,4.4
 555,Browne,Sunderland,4.5
 556,Ekwah,Sunderland,4.5
-557,H.Jones,Sunderland,4.5
+557,H.Jones,Sunderland,4.4
 558,Matete,Sunderland,4.4
 559,Triantis,Sunderland,4.4
 560,Isidor,Sunderland,5.5
@@ -641,7 +641,7 @@ id,web_name,team,price
 572,Dragusin,Spurs,4.5
 573,Spence,Spurs,4.5
 574,Udogie,Spurs,4.4
-575,Van de Ven,Spurs,4.6
+575,Van de Ven,Spurs,4.7
 576,Phillips,Spurs,4.0
 577,Takai,Spurs,4.0
 578,Vuskovic,Spurs,3.9
@@ -680,7 +680,7 @@ id,web_name,team,price
 607,N.Aguerd,West Ham,4.4
 608,Scarles,West Ham,4.4
 609,Todibo,West Ham,4.4
-610,Wan-Bissaka,West Ham,4.4
+610,Wan-Bissaka,West Ham,4.3
 611,Casey,West Ham,4.0
 612,L.Paquetá,West Ham,5.9
 613,Souček,West Ham,5.8
@@ -718,7 +718,7 @@ id,web_name,team,price
 640,Pedro Lima,Wolves,4.0
 641,Pond,Wolves,4.0
 642,Hee Chan,Wolves,5.9
-643,André,Wolves,5.5
+643,André,Wolves,5.4
 644,Bellegarde,Wolves,5.4
 645,Fer López,Wolves,5.4
 646,Gomes,Wolves,5.4
