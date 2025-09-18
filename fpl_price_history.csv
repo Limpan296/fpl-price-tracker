@@ -384,7 +384,7 @@ id,web_name,team,price
 348,Rodon,Leeds,4.0
 349,Schmidt,Leeds,4.0
 350,Aaronson,Leeds,5.4
-351,Gnonto,Leeds,5.4
+351,Gnonto,Leeds,5.3
 352,Harrison,Leeds,5.3
 353,James,Leeds,5.4
 354,Ampadu,Leeds,4.9
@@ -470,7 +470,7 @@ id,web_name,team,price
 427,Reijnders,Man City,5.7
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.9
-430,Haaland,Man City,14.1
+430,Haaland,Man City,14.2
 736,Donnarumma,Man City,5.5
 739,Mukasa,Man City,4.5
 740,Mfuni,Man City,4.0
@@ -484,19 +484,19 @@ id,web_name,team,price
 437,Martinez,Man Utd,4.9
 438,Mazraoui,Man Utd,4.9
 439,D.Leon,Man Utd,4.4
-440,Dalot,Man Utd,4.5
+440,Dalot,Man Utd,4.4
 441,Dorgu,Man Utd,4.5
 442,Maguire,Man Utd,4.4
 443,Shaw,Man Utd,4.5
 444,Yoro,Man Utd,4.5
 445,Amass,Man Utd,4.0
 446,Fredricson,Man Utd,3.9
-447,Heaven,Man Utd,4.0
+447,Heaven,Man Utd,3.9
 448,Malacia,Man Utd,3.9
 449,B.Fernandes,Man Utd,9.0
 450,Cunha,Man Utd,8.0
 451,Rashford,Man Utd,7.0
-452,Amad,Man Utd,6.4
+452,Amad,Man Utd,6.3
 454,Antony,Man Utd,5.9
 455,Mount,Man Utd,5.9
 457,Casemiro,Man Utd,5.5
@@ -694,7 +694,7 @@ id,web_name,team,price
 621,Irving,West Ham,4.5
 622,Orford,West Ham,4.4
 623,Potts,West Ham,4.4
-624,Bowen,West Ham,7.8
+624,Bowen,West Ham,7.7
 625,Füllkrug,West Ham,5.8
 626,Marshall,West Ham,4.4
 659,Walker-Peters,West Ham,4.4
@@ -711,7 +711,7 @@ id,web_name,team,price
 633,H.Bueno,Wolves,4.4
 634,Mosquera,Wolves,4.4
 635,R.Gomes,Wolves,4.5
-636,S.Bueno,Wolves,4.5
+636,S.Bueno,Wolves,4.4
 637,Toti,Wolves,4.4
 638,Hoever,Wolves,4.0
 639,Meupiyou,Wolves,4.0
