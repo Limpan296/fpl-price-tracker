@@ -68,7 +68,7 @@ if os.path.exists(HISTORY_FILE):
 
         # Risers
         if not risers.empty:
-            riser_text = f"Price Risers! 💹 ({len(risers)})\n"
+            riser_text = f"Price Risers! 📈 ({len(risers)}) #FPL \n"
             for _, row in risers.iterrows():
                 riser_text += f"🟢 {row['web_name']} ({row['team']}) - £{row['new_price']:.1f}\n"
             try:
@@ -79,7 +79,7 @@ if os.path.exists(HISTORY_FILE):
 
         # Fallers
         if not fallers.empty:
-            faller_text = f"Price Fallers! 🔻 ({len(fallers)})\n"
+            faller_text = f"Price Fallers! 📉 ({len(fallers)}) #FPL \n"
             for _, row in fallers.iterrows():
                 faller_text += f"🔴 {row['web_name']} ({row['team']}) - £{row['new_price']:.1f}\n"
             try:
