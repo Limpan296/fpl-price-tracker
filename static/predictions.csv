@@ -55,10 +55,10 @@ Doku,Man City,6.4,1.5,55957,45185,30.7
 Haaland,Man City,14.2,36.4,298807,241286,95.0
 Donnarumma,Man City,5.5,2.7,140388,113363,76.7
 Pope,Newcastle,5.0,6.0,16204,13084,11.1
-Schär,Newcastle,5.5,3.1,12282,9917,7.9
+Schär,Newcastle,5.5,3.1,12282,9917,6.7
 Burn,Newcastle,5.0,5.6,4503,3636,4.7
 Livramento,Newcastle,5.1,9.6,37740,30475,24.2
-Trippier,Newcastle,5.0,2.9,11173,9022,7.2
+Trippier,Newcastle,5.0,2.9,11173,9022,6.2
 J.Murphy,Newcastle,6.3,1.2,1871,1510,1.5
 Woltemade,Newcastle,7.0,2.9,229864,185615,100.0
 Hudson-Odoi,Nott'm Forest,6.0,1.6,4277,3453,2.9
@@ -108,25 +108,25 @@ Van Hecke,Brighton,4.5,0.9,-3105,-2507,-17.7
 Baleba,Brighton,4.9,3.0,-32984,-26634,-56.4
 Welbeck,Brighton,6.3,2.1,-11940,-9641,-29.1
 Sánchez,Chelsea,5.0,22.6,-121685,-98260,-28.0
-Cucurella,Chelsea,6.2,27.7,-111922,-90377,-21.1
+Cucurella,Chelsea,6.2,27.7,-111922,-90377,-21.0
 James,Chelsea,5.4,4.6,-36867,-29770,-41.1
 Gusto,Chelsea,4.9,1.4,-12466,-10066,-45.6
 Tosin,Chelsea,4.5,1.2,-2852,-2302,-12.2
 Acheampong,Chelsea,4.0,1.7,-21200,-17119,-63.9
 Neto,Chelsea,7.0,5.2,-41512,-33520,-41.0
-Estêvão,Chelsea,6.5,2.2,-38630,-31193,-90.0
+Estêvão,Chelsea,6.5,2.2,-38630,-31193,-89.9
 Delap,Chelsea,6.3,1.4,-28753,-23218,-75.1
 Marc Guiu,Chelsea,4.4,10.2,-101404,-81883,-51.2
 Sarr,Crystal Palace,6.5,3.4,-119871,-96795,-129.1
 Mateta,Crystal Palace,7.6,12.1,-22886,-18480,-9.8
-Pickford,Everton,5.5,11.5,-32685,-26393,-14.7
+Pickford,Everton,5.5,11.5,-32685,-26393,-14.6
 Ndiaye,Everton,6.5,8.3,-18299,-14776,-11.3
 Beto,Everton,5.4,5.2,-16921,-13663,-16.7
 King,Everton,4.0,1.3,-2816,-2273,-11.1
 Robinson,Fulham,5.0,0.8,-2229,-1799,-14.3
 Iwobi,Fulham,6.5,1.4,-4885,-3944,-17.9
 Raúl,Fulham,6.3,1.2,-9715,-7844,-41.4
-Piroe,Leeds,5.3,0.8,-13560,-10949,-86.8
+Piroe,Leeds,5.3,0.8,-13560,-10949,-86.7
 Bamford,Leeds,4.9,0.8,-15481,-12500,-70.7
 Kerkez,Liverpool,6.0,5.5,-57911,-46763,-54.1
 Robertson,Liverpool,5.9,1.1,-3528,-2848,-16.4
@@ -147,7 +147,7 @@ Reijnders,Man City,5.7,30.7,-119464,-96467,-20.3
 Mbeumo,Man Utd,8.1,15.6,-75036,-60591,-24.9
 De Ligt,Man Utd,5.0,2.8,-20431,-16498,-37.4
 Dalot,Man Utd,4.4,1.2,-30805,-24875,-93.9
-Dorgu,Man Utd,4.5,5.7,-51120,-41279,-46.1
+Dorgu,Man Utd,4.5,5.7,-51120,-41279,-46.0
 Yoro,Man Utd,4.5,2.3,-14238,-11497,-31.7
 Heaven,Man Utd,3.9,1.1,-2779,-2244,-12.9
 B.Fernandes,Man Utd,9.0,19.1,-168511,-136072,-45.7
@@ -155,7 +155,7 @@ Cunha,Man Utd,8.0,4.7,-169920,-137210,-132.5
 Amad,Man Utd,6.3,1.8,-15169,-12248,-43.2
 Obi,Man Utd,4.4,1.5,-4163,-3361,-14.2
 Šeško,Man Utd,7.4,5.0,-56198,-45379,-57.7
-Wissa,Newcastle,7.5,0.9,-28963,-23387,-117.7
+Wissa,Newcastle,7.5,0.9,-28963,-23387,-117.6
 Hall,Newcastle,5.4,1.4,-15150,-12233,-55.4
 Gordon,Newcastle,7.4,0.9,-11892,-9602,-48.3
 Elanga,Newcastle,7.0,7.3,-123165,-99455,-86.7
