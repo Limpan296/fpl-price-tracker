@@ -12,7 +12,7 @@ id,web_name,team,price
 11,White,Arsenal,5.4
 13,Clarke,Arsenal,4.0
 14,Kacurri,Arsenal,3.9
-15,Nichols,Arsenal,4.0
+15,Nichols,Arsenal,3.9
 16,Saka,Arsenal,9.8
 17,Ødegaard,Arsenal,7.9
 18,Madueke,Arsenal,7.0
@@ -242,7 +242,7 @@ id,web_name,team,price
 222,Penders,Chelsea,4.0
 223,Slonina,Chelsea,4.0
 224,Cucurella,Chelsea,6.2
-225,James,Chelsea,5.5
+225,James,Chelsea,5.4
 226,Chalobah,Chelsea,5.1
 227,Colwill,Chelsea,4.8
 228,Gusto,Chelsea,4.9
@@ -326,7 +326,7 @@ id,web_name,team,price
 301,Alcaraz,Everton,5.3
 302,Gana,Everton,5.4
 303,Garner,Everton,5.0
-304,Iroegbunam,Everton,5.0
+304,Iroegbunam,Everton,4.9
 305,Armstrong,Everton,4.5
 306,Bates,Everton,4.5
 307,Ebere,Everton,4.5
@@ -378,7 +378,7 @@ id,web_name,team,price
 342,Bogle,Leeds,4.5
 343,Struijk,Leeds,4.5
 344,Bijol,Leeds,4.0
-345,Bornauw,Leeds,4.0
+345,Bornauw,Leeds,3.9
 346,Byram,Leeds,4.0
 347,Gudmundsson,Leeds,4.0
 348,Rodon,Leeds,4.0
@@ -416,12 +416,12 @@ id,web_name,team,price
 374,Konaté,Liverpool,5.5
 375,Bradley,Liverpool,5.0
 376,Gomez,Liverpool,5.0
-377,Tsimikas,Liverpool,4.9
+377,Tsimikas,Liverpool,4.8
 378,Nallo,Liverpool,3.9
 379,R.Williams,Liverpool,3.9
 380,Ramsay,Liverpool,3.9
 381,M.Salah,Liverpool,14.5
-382,Wirtz,Liverpool,8.4
+382,Wirtz,Liverpool,8.3
 383,Luis Díaz,Liverpool,8.0
 384,Gakpo,Liverpool,7.7
 385,Chiesa,Liverpool,6.5
@@ -436,7 +436,7 @@ id,web_name,team,price
 396,Nyoni,Liverpool,4.4
 397,Darwin,Liverpool,6.5
 398,Danns,Liverpool,4.4
-499,Isak,Liverpool,10.4
+499,Isak,Liverpool,10.5
 661,Ekitiké,Liverpool,8.8
 686,Ngumoha,Liverpool,4.5
 692,Leoni,Liverpool,5.0
@@ -546,7 +546,7 @@ id,web_name,team,price
 500,Osula,Newcastle,5.5
 501,Neave,Newcastle,4.4
 674,Ramsdale,Newcastle,4.9
-684,Thiaw,Newcastle,5.0
+684,Thiaw,Newcastle,4.9
 689,Seung soo,Newcastle,4.5
 714,Woltemade,Newcastle,7.0
 12,Zinchenko,Nott'm Forest,4.9
