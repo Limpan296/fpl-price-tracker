@@ -67,11 +67,11 @@ Rice,Arsenal,6.5,8.5,-5254,-4242,-3.2
 Konsa,Aston Villa,4.5,12.6,-7798,-6296,-3.2
 Alex Moreno,Aston Villa,4.0,4.1,-8858,-7152,-7.9
 Rogers,Aston Villa,7.0,7.6,-19238,-15534,-12.9
-Tielemans,Aston Villa,5.9,1.1,-6749,-5449,-22.3
+Tielemans,Aston Villa,5.9,1.1,-6749,-5449,-26.0
 Onana,Aston Villa,4.9,0.8,-3033,-2449,-13.8
 Watkins,Aston Villa,8.8,13.9,-48850,-39446,-18.1
 Estève,Burnley,4.0,16.2,-11956,-9654,-3.8
-A.Ramsey,Burnley,4.4,4.2,-12500,-10093,-10.9
+A.Ramsey,Burnley,4.4,4.2,-12500,-10093,-10.8
 O.Dango,Brentford,6.0,0.8,-3974,-3209,-25.3
 Kelleher,Brentford,4.5,8.9,-7782,-6283,-4.5
 Collins,Brentford,5.0,1.5,-1550,-1251,-5.3
@@ -95,7 +95,7 @@ Marc Guiu,Chelsea,4.3,9.5,-21676,-17503,-11.7
 Henderson,Crystal Palace,5.0,8.1,-5404,-4363,-3.4
 Muñoz,Crystal Palace,5.6,13.9,-20447,-16510,-7.6
 Lacroix,Crystal Palace,5.1,4.4,-4601,-3715,-5.3
-Sarr,Crystal Palace,6.4,2.8,-15676,-12658,-20.4
+Sarr,Crystal Palace,6.4,2.8,-15676,-12658,-23.8
 Mateta,Crystal Palace,7.6,11.9,-24151,-19501,-10.4
 Beto,Everton,5.4,5.1,-4386,-3541,-4.4
 Raúl,Fulham,6.3,1.2,-2149,-1735,-9.1
@@ -103,7 +103,7 @@ A.Becker,Liverpool,5.5,10.9,-5312,-4289,-2.5
 Frimpong,Liverpool,5.9,8.8,-14987,-12102,-8.7
 Kerkez,Liverpool,5.9,5.3,-4862,-3926,-4.7
 M.Salah,Liverpool,14.5,53.2,-46167,-37279,-4.6
-Wirtz,Liverpool,8.3,15.5,-116806,-94320,-38.8
+Wirtz,Liverpool,8.3,15.5,-116806,-94320,-38.7
 Gakpo,Liverpool,7.7,17.9,-61777,-49884,-17.8
 Mac Allister,Liverpool,6.4,1.4,-2246,-1813,-8.2
 Isak,Liverpool,10.5,9.9,-27610,-22295,-14.3
@@ -147,10 +147,10 @@ Pedro Porro,Spurs,5.6,25.0,-24022,-19397,-5.0
 Spence,Spurs,4.5,2.5,-3151,-2544,-6.4
 Johnson,Spurs,7.1,7.5,-39151,-31614,-26.7
 P.M.Sarr,Spurs,5.0,3.2,-5192,-4192,-8.3
-Solanke,Spurs,7.2,1.3,-3713,-2998,-10.4
+Solanke,Spurs,7.2,1.3,-3713,-2998,-12.1
 Areola,West Ham,4.4,2.5,-2480,-2002,-5.1
 Diouf,West Ham,4.4,4.5,-8638,-6975,-9.8
-Wan-Bissaka,West Ham,4.3,10.4,-46542,-37582,-16.4
+Wan-Bissaka,West Ham,4.3,10.4,-46542,-37582,-19.1
 L.Paquetá,West Ham,5.9,3.9,-6032,-4870,-7.9
 Bowen,West Ham,7.7,6.4,-2659,-2147,-2.1
 Füllkrug,West Ham,5.7,1.2,-2470,-1994,-10.5
