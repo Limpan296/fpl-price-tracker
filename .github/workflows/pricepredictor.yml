@@ -2,8 +2,8 @@ name: FPL Price Predictor
 
 on:
   schedule:
-    # Kör var 15:e minut
-    - cron: "*/15 * * * *"
+    # Kör var 30:e minut
+    - cron: "*/30 * * * *"
   workflow_dispatch:        # gör det möjligt att köra manuellt också
 
 permissions:

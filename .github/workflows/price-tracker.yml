@@ -9,6 +9,12 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
+    env:   # <--- gör secrets tillgängliga som os.environ
+      API_KEY: ${{ secrets.API_KEY }}
+      API_SECRET: ${{ secrets.API_SECRET }}
+      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+      BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
     
 
     steps:
