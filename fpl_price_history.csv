@@ -81,7 +81,7 @@ id,web_name,team,price
 185,Hladký,Burnley,4.0
 186,Roberts,Burnley,4.4
 187,Walker,Burnley,4.5
-188,Delcroix,Burnley,4.0
+188,Delcroix,Burnley,3.9
 189,Dodgson,Burnley,4.0
 190,Ekdal,Burnley,4.0
 191,Estève,Burnley,4.0
@@ -133,7 +133,7 @@ id,web_name,team,price
 79,Mepham,Bournemouth,4.0
 80,Soler,Bournemouth,4.0
 81,Kluivert,Bournemouth,7.0
-82,Semenyo,Bournemouth,7.6
+82,Semenyo,Bournemouth,7.7
 84,Tavernier,Bournemouth,5.5
 85,Adams,Bournemouth,5.0
 86,Brooks,Bournemouth,5.0
@@ -289,7 +289,7 @@ id,web_name,team,price
 269,Esse,Crystal Palace,4.8
 270,Hughes,Crystal Palace,4.9
 271,Kamada,Crystal Palace,5.0
-272,Lerma,Crystal Palace,5.0
+272,Lerma,Crystal Palace,4.9
 273,Wharton,Crystal Palace,5.0
 274,Agbinone,Crystal Palace,4.5
 275,Ahamada,Crystal Palace,4.5
@@ -348,7 +348,7 @@ id,web_name,team,price
 316,Robinson,Fulham,5.0
 317,Andersen,Fulham,4.5
 318,Bassey,Fulham,4.5
-319,Castagne,Fulham,4.5
+319,Castagne,Fulham,4.4
 320,Diop,Fulham,4.4
 321,J.Cuenca,Fulham,4.4
 322,Tete,Fulham,4.5
@@ -408,7 +408,7 @@ id,web_name,team,price
 741,Gray,Leeds,4.5
 366,A.Becker,Liverpool,5.5
 367,Mamardashvili,Liverpool,4.3
-368,Pécsi,Liverpool,4.0
+368,Pécsi,Liverpool,3.9
 369,Woodman,Liverpool,4.0
 370,Frimpong,Liverpool,5.9
 371,Kerkez,Liverpool,5.9
@@ -425,7 +425,7 @@ id,web_name,team,price
 382,Wirtz,Liverpool,8.3
 383,Luis Díaz,Liverpool,8.0
 384,Gakpo,Liverpool,7.7
-385,Chiesa,Liverpool,6.5
+385,Chiesa,Liverpool,6.4
 386,Mac Allister,Liverpool,6.4
 387,Szoboszlai,Liverpool,6.5
 388,C.Jones,Liverpool,5.4
@@ -471,8 +471,8 @@ id,web_name,team,price
 427,Reijnders,Man City,5.6
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.9
-430,Haaland,Man City,14.2
-736,Donnarumma,Man City,5.5
+430,Haaland,Man City,14.3
+736,Donnarumma,Man City,5.6
 739,Mukasa,Man City,4.5
 740,Mfuni,Man City,4.0
 119,Mbeumo,Man Utd,8.1
@@ -484,7 +484,7 @@ id,web_name,team,price
 436,De Ligt,Man Utd,5.0
 437,Martinez,Man Utd,4.9
 438,Mazraoui,Man Utd,4.9
-439,D.Leon,Man Utd,4.4
+439,D.Leon,Man Utd,4.3
 440,Dalot,Man Utd,4.4
 441,Dorgu,Man Utd,4.5
 442,Maguire,Man Utd,4.4
@@ -527,12 +527,12 @@ id,web_name,team,price
 478,Trippier,Newcastle,5.0
 479,Krafth,Newcastle,4.4
 480,Lascelles,Newcastle,4.4
-481,A.Murphy,Newcastle,4.0
+481,A.Murphy,Newcastle,3.9
 482,Ashby,Newcastle,3.9
 483,Pivas,Newcastle,3.9
 484,Targett,Newcastle,4.0
 485,Gordon,Newcastle,7.4
-486,Elanga,Newcastle,7.0
+486,Elanga,Newcastle,6.9
 487,Barnes,Newcastle,6.5
 488,Bruno G.,Newcastle,6.5
 489,J.Murphy,Newcastle,6.3
@@ -572,7 +572,7 @@ id,web_name,team,price
 519,Dominguez,Nott'm Forest,5.0
 520,O'Brien,Nott'm Forest,5.0
 521,Sangaré,Nott'm Forest,5.0
-522,Yates,Nott'm Forest,4.9
+522,Yates,Nott'm Forest,4.8
 523,Da Silva Moreira,Nott'm Forest,4.5
 524,Stamenic,Nott'm Forest,4.5
 525,Wood,Nott'm Forest,7.6
@@ -647,7 +647,7 @@ id,web_name,team,price
 577,Takai,Spurs,4.0
 578,Vuskovic,Spurs,3.9
 579,Son,Spurs,8.5
-580,Johnson,Spurs,7.1
+580,Johnson,Spurs,7.0
 581,Maddison,Spurs,6.9
 582,Kudus,Spurs,6.6
 583,Kulusevski,Spurs,6.4
@@ -685,7 +685,7 @@ id,web_name,team,price
 611,Casey,West Ham,4.0
 612,L.Paquetá,West Ham,5.9
 613,Souček,West Ham,5.7
-614,Ward-Prowse,West Ham,5.9
+614,Ward-Prowse,West Ham,5.8
 615,Summerville,West Ham,5.5
 616,Álvarez,West Ham,4.9
 617,Cornet,West Ham,4.9
