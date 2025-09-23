@@ -4,6 +4,7 @@ import os
 from datetime import datetime
 import tweepy
 
+
 HISTORY_FILE = "fpl_price_history.csv"
 CHANGES_DIR = "changes"
 
@@ -37,6 +38,43 @@ df = df.drop(columns=["now_cost"])
 
 today = datetime.utcnow().strftime("%Y-%m-%d")
 
+# ---- Funktion för att posta tweets ----
+def post_tweets(df, title, emoji):
+    if df.empty:
+        return
+
+    header_base = f"Price {title}! {emoji} ({len(df)}) #FPL"
+    rows = [f"{emoji} {row['web_name']} ({row['team']}) - £{row['new_price']:.1f}\n"
+            for _, row in df.iterrows()]
+
+    # Bygg tweets (lägg rader tills max längd nås)
+    tweets = []
+    current = ""
+    for line in rows:
+        if len(current) + len(line) <= 250 - len(header_base) - 6:  # plats för (X/n)
+            current += line
+        else:
+            tweets.append(current.strip())
+            current = line
+    if current:
+        tweets.append(current.strip())
+
+    total = len(tweets)
+
+    # Skicka tweets
+    for i, body in enumerate(tweets, start=1):
+        if total > 1:
+            header = f"{header_base} ({i}/{total})"
+        else:
+            header = header_base
+        text = f"{header}\n{body}".strip()
+
+        try:
+            client.create_tweet(text=text)
+            print(f"Skapade tweet {i}/{total} för {title}")
+        except Exception as e:
+            print(f"Kunde inte skapa tweet {i}/{total} för {title}:", e)
+
 # ---- Jämför med föregående snapshot ----
 if os.path.exists(HISTORY_FILE):
     prev = pd.read_csv(HISTORY_FILE)
@@ -66,27 +104,8 @@ if os.path.exists(HISTORY_FILE):
         risers = changes[changes["direction"] == "up"]
         fallers = changes[changes["direction"] == "down"]
 
-        # Risers
-        if not risers.empty:
-            riser_text = f"Price Risers! 📈 ({len(risers)}) #FPL \n"
-            for _, row in risers.iterrows():
-                riser_text += f"🟢 {row['web_name']} ({row['team']}) - £{row['new_price']:.1f}\n"
-            try:
-                client.create_tweet(text=riser_text.strip())
-                print("Skapade tweet för Risers")
-            except Exception as e:
-                print("Kunde inte skapa tweet för Risers:", e)
-
-        # Fallers
-        if not fallers.empty:
-            faller_text = f"Price Fallers! 📉 ({len(fallers)}) #FPL \n"
-            for _, row in fallers.iterrows():
-                faller_text += f"🔴 {row['web_name']} ({row['team']}) - £{row['new_price']:.1f}\n"
-            try:
-                client.create_tweet(text=faller_text.strip())
-                print("Skapade tweet för Fallers")
-            except Exception as e:
-                print("Kunde inte skapa tweet för Fallers:", e)
+        post_tweets(risers, "Risers", "📈")
+        post_tweets(fallers, "Fallers", "📉")
 
     else:
         print("No price changes today.")
