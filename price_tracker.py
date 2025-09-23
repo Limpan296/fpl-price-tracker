@@ -39,12 +39,12 @@ df = df.drop(columns=["now_cost"])
 today = datetime.utcnow().strftime("%Y-%m-%d")
 
 # ---- Funktion för att posta tweets ----
-def post_tweets(df, title, emoji):
+def post_tweets(df, title, header_emoji, line_emoji):
     if df.empty:
         return
 
-    header_base = f"Price {title}! {emoji} ({len(df)}) #FPL"
-    rows = [f"{emoji} {row['web_name']} ({row['team']}) - £{row['new_price']:.1f}\n"
+    header_base = f"Price {title}! {header_emoji} ({len(df)}) #FPL"
+    rows = [f"{line_emoji} {row['web_name']} ({row['team']}) - £{row['new_price']:.1f}\n"
             for _, row in df.iterrows()]
 
     # Bygg tweets (lägg rader tills max längd nås)
@@ -105,8 +105,8 @@ if os.path.exists(HISTORY_FILE):
         risers = changes[changes["direction"] == "up"]
         fallers = changes[changes["direction"] == "down"]
 
-        post_tweets(risers, "Risers", "📈")
-        post_tweets(fallers, "Fallers", "📉")
+        post_tweets(risers, "Risers", "📈", "🟢")
+        post_tweets(fallers, "Fallers", "📉", "🔴")
 
     else:
         print("No price changes today.")
