@@ -70,8 +70,8 @@ def post_tweets(df, title, header_emoji, line_emoji):
         text = f"{header}\n{body}".strip()
 
         try:
-            #client.create_tweet(text=text)
-            print(text)
+            client.create_tweet(text=text)
+            #print(text)
             print(f"Skapade tweet {i}/{total} för {title}")
         except Exception as e:
             print(f"Kunde inte skapa tweet {i}/{total} för {title}:", e)
