@@ -9,7 +9,7 @@
   <style>
     :root {
       --primary: #2c2c2c;  /* matchar headern */
-      --primary-hover: #444;  /* hover-effekt */
+      --primary-hover: #444;  
       --header-bg: #2c2c2c;
       --header-hover: #444;
       --header-active: #007BFF;
@@ -35,11 +35,12 @@
     header {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-between; /* Loggan till vänster */
       padding: 10px 20px;
       background-color: var(--header-bg);
       box-shadow: var(--shadow);
       position: relative;
+      flex-wrap: wrap;
     }
 
     header img.logo {
@@ -54,6 +55,7 @@
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
+      flex-wrap: wrap;
     }
 
     nav a {
@@ -88,6 +90,7 @@
       height: 150px;
       width: auto;
       margin-bottom: 25px;
+      max-width: 80%;
     }
 
     h1 {
@@ -160,6 +163,26 @@
       font-size: 0.9rem;
       color: var(--text-muted);
     }
+
+    /* 📱 Mobilanpassningar */
+    @media (max-width: 500px) {
+      nav {
+        position: static;
+        transform: none;
+        justify-content: center;
+        margin-top: 10px;
+      }
+
+      .card-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      main img.logo {
+        max-width: 80%;
+        height: auto;
+      }
+    }
   </style>
 </head>
 <body>
@@ -174,7 +197,7 @@
   <main>
     <img src="/static/logo.png" alt="FPL Logo" class="logo">
     <h1>FPL Price tracker</h1>
-    <h2>Fantasy Premier League Prices. Choose an option below</h2>
+    <h2>Fantasy Premier League Prices</h2>
 
     <div class="card-container">
       <div class="card">
