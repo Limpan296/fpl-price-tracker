@@ -14,25 +14,41 @@
 
     header {
       display: flex;
-      justify-content: center;
-      gap: 15px;
-      padding: 15px;
+      align-items: center;
+      padding: 15px 20px;
       background-color: #333;
+      position: relative;
     }
 
-    header a {
+    header img.logo {
+      height: 40px;
+      width: auto;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    nav {
+      display: flex;
+      gap: 15px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    nav a {
       color: #fff;
       text-decoration: none;
       padding: 8px 16px;
       border-radius: 6px;
       transition: background-color 0.2s;
+      font-weight: 500;
     }
 
-    header a:hover {
+    nav a:hover {
       background-color: #555;
     }
 
-    header a.active {
+    nav a.active {
       background-color: #007BFF;
     }
 
@@ -137,9 +153,12 @@
 </head>
 <body>
   <header>
-    <a href="/">Start</a>
-    <a href="/changes" class="active">Changes</a>
-    <a href="/predictions">Predictions</a>
+    <a href="/"><img src="/static/logo.png" alt="FPL Logo" class="logo"></a>
+    <nav>
+     <!-- <a href="/">Start</a> -->
+      <a href="/changes" class="active">Changes</a>
+      <a href="/predictions">Predictions</a>
+    </nav>
   </header>
 
   <main>
@@ -167,7 +186,7 @@
     }
 
     document.getElementById("lastUpdate").innerText =
-  "Last update: " + days[0].date.replace("_no_changes", "");
+      "Last update: " + days[0].date.replace("_no_changes", "");
 
     function renderTable(title, rows, type) {
       if (!rows || rows.length === 0) {
@@ -209,17 +228,17 @@
     }
 
     for (const day of days) {
-  const cleanDate = day.date.replace("_no_changes", "");  // ta bort suffix
+      const cleanDate = day.date.replace("_no_changes", "");  // ta bort suffix
 
-  const block = document.createElement("div");
-  block.className = "date-block";
-  block.innerHTML = `
-    <h2>${cleanDate}</h2>
-    ${renderTable("Risers", day.up, "up")}
-    ${renderTable("Fallers", day.down, "down")}
-  `;
-  content.appendChild(block);
-}
+      const block = document.createElement("div");
+      block.className = "date-block";
+      block.innerHTML = `
+        <h2>${cleanDate}</h2>
+        ${renderTable("Risers", day.up, "up")}
+        ${renderTable("Fallers", day.down, "down")}
+      `;
+      content.appendChild(block);
+    }
 
     // 🔎 Live-sök
     const searchInput = document.getElementById("playerSearch");
