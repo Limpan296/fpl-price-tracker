@@ -1,5 +1,5 @@
 id,web_name,team,price
-1,Raya,Arsenal,5.5
+1,Raya,Arsenal,5.6
 2,Arrizabalaga,Arsenal,4.4
 3,Hein,Arsenal,4.0
 4,Setford,Arsenal,4.0
@@ -124,7 +124,7 @@ id,web_name,team,price
 70,Paulsen,Bournemouth,4.0
 71,Zabarnyi,Bournemouth,5.0
 72,Senesi,Bournemouth,4.8
-73,Smith,Bournemouth,4.5
+73,Smith,Bournemouth,4.4
 74,Truffert,Bournemouth,4.5
 75,Akinmboni,Bournemouth,4.0
 76,Bevan,Bournemouth,4.0
@@ -243,7 +243,7 @@ id,web_name,team,price
 223,Slonina,Chelsea,4.0
 224,Cucurella,Chelsea,6.2
 225,James,Chelsea,5.4
-226,Chalobah,Chelsea,5.1
+226,Chalobah,Chelsea,5.2
 227,Colwill,Chelsea,4.8
 228,Gusto,Chelsea,4.9
 229,B.Badiashile,Chelsea,4.4
@@ -377,7 +377,7 @@ id,web_name,team,price
 341,Darlow,Leeds,4.0
 342,Bogle,Leeds,4.5
 343,Struijk,Leeds,4.5
-344,Bijol,Leeds,4.0
+344,Bijol,Leeds,3.9
 345,Bornauw,Leeds,3.9
 346,Byram,Leeds,3.9
 347,Gudmundsson,Leeds,4.0
@@ -551,7 +551,7 @@ id,web_name,team,price
 689,Seung soo,Newcastle,4.5
 714,Woltemade,Newcastle,7.1
 12,Zinchenko,Nott'm Forest,4.9
-426,McAtee,Nott'm Forest,5.4
+426,McAtee,Nott'm Forest,5.3
 502,Sels,Nott'm Forest,5.0
 503,C.Miguel,Nott'm Forest,4.0
 504,Turner,Nott'm Forest,4.0
@@ -654,7 +654,7 @@ id,web_name,team,price
 584,Tel,Spurs,6.3
 585,Bentancur,Spurs,5.4
 586,Bergvall,Spurs,5.4
-587,Bissouma,Spurs,5.3
+587,Bissouma,Spurs,5.2
 588,Odobert,Spurs,5.3
 589,Solomon,Spurs,5.4
 590,Bryan,Spurs,4.9
