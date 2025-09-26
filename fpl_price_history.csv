@@ -1,6 +1,6 @@
 id,web_name,team,price
 1,Raya,Arsenal,5.6
-2,Arrizabalaga,Arsenal,4.4
+2,Arrizabalaga,Arsenal,4.3
 3,Hein,Arsenal,4.0
 4,Setford,Arsenal,4.0
 5,Gabriel,Arsenal,6.1
@@ -23,7 +23,7 @@ id,web_name,team,price
 23,Fábio Vieira,Arsenal,5.4
 24,Nørgaard,Arsenal,5.4
 25,Nwaneri,Arsenal,5.3
-26,Zubimendi,Arsenal,5.4
+26,Zubimendi,Arsenal,5.5
 28,Kabia,Arsenal,4.5
 29,Sambi,Arsenal,4.5
 30,Havertz,Arsenal,7.3
@@ -218,7 +218,7 @@ id,web_name,team,price
 160,Minteh,Brighton,5.9
 161,Enciso,Brighton,5.4
 162,Gruda,Brighton,5.4
-163,Hinshelwood,Brighton,5.3
+163,Hinshelwood,Brighton,5.2
 164,O'Riley,Brighton,5.5
 165,Sima,Brighton,5.4
 166,Ayari,Brighton,4.9
@@ -354,7 +354,7 @@ id,web_name,team,price
 322,Tete,Fulham,4.5
 323,Amissah,Fulham,3.9
 324,Iwobi,Fulham,6.5
-325,Smith Rowe,Fulham,5.9
+325,Smith Rowe,Fulham,5.8
 326,Adama,Fulham,5.3
 327,Andreas,Fulham,5.3
 328,Sessegnon,Fulham,5.4
@@ -457,18 +457,18 @@ id,web_name,team,price
 411,O’Reilly,Man City,4.9
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
-414,Foden,Man City,8.0
+414,Foden,Man City,8.1
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.4
 417,Cherki,Man City,6.3
-418,Doku,Man City,6.4
+418,Doku,Man City,6.5
 420,Gündoğan,Man City,6.3
 421,Rodrigo,Man City,6.4
 422,Kovačić,Man City,5.9
 423,N.Gonzalez,Man City,6.0
 424,Bobb,Man City,5.5
 425,Echeverri,Man City,5.4
-427,Reijnders,Man City,5.6
+427,Reijnders,Man City,5.7
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.9
 430,Haaland,Man City,14.3
@@ -548,7 +548,7 @@ id,web_name,team,price
 501,Neave,Newcastle,4.4
 674,Ramsdale,Newcastle,4.9
 684,Thiaw,Newcastle,4.9
-689,Seung soo,Newcastle,4.5
+689,Seung soo,Newcastle,4.4
 714,Woltemade,Newcastle,7.1
 12,Zinchenko,Nott'm Forest,4.9
 426,McAtee,Nott'm Forest,5.3
@@ -575,7 +575,7 @@ id,web_name,team,price
 522,Yates,Nott'm Forest,4.8
 523,Da Silva Moreira,Nott'm Forest,4.5
 524,Stamenic,Nott'm Forest,4.5
-525,Wood,Nott'm Forest,7.6
+525,Wood,Nott'm Forest,7.5
 526,Igor Jesus,Nott'm Forest,5.8
 527,Awoniyi,Nott'm Forest,5.3
 669,Ndoye,Nott'm Forest,6.1
@@ -664,14 +664,14 @@ id,web_name,team,price
 594,Min-hyeok,Spurs,4.5
 595,Olusesi,Spurs,4.4
 596,Solanke,Spurs,7.2
-597,Richarlison,Spurs,6.7
+597,Richarlison,Spurs,6.8
 598,Lankshear,Spurs,4.5
 599,Scarlett,Spurs,4.4
 673,J.Palhinha,Spurs,5.5
 717,Xavi,Spurs,7.1
 726,Kolo Muani,Spurs,7.0
 149,Igor,West Ham,4.5
-600,Areola,West Ham,4.4
+600,Areola,West Ham,4.3
 601,Foderingham,West Ham,4.0
 602,Hegyi,West Ham,4.0
 603,Diouf,West Ham,4.4
