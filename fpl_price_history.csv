@@ -127,7 +127,7 @@ id,web_name,team,price
 73,Smith,Bournemouth,4.4
 74,Truffert,Bournemouth,4.5
 75,Akinmboni,Bournemouth,4.0
-76,Bevan,Bournemouth,4.0
+76,Bevan,Bournemouth,3.9
 77,Hill,Bournemouth,4.0
 78,J.Araujo,Bournemouth,4.0
 79,Mepham,Bournemouth,4.0
@@ -153,7 +153,7 @@ id,web_name,team,price
 100,Kroupi.Jr,Bournemouth,4.5
 391,Gannon-Doak,Bournemouth,4.9
 685,Diakité,Bournemouth,4.5
-687,Rees-Dottin,Bournemouth,4.5
+687,Rees-Dottin,Bournemouth,4.4
 697,Adli,Bournemouth,5.5
 713,A.Jimenez,Bournemouth,4.5
 721,Milosavljević,Bournemouth,4.5
@@ -322,7 +322,7 @@ id,web_name,team,price
 297,Dixon,Everton,3.9
 298,Welch,Everton,3.9
 299,Ndiaye,Everton,6.5
-300,McNeil,Everton,5.7
+300,McNeil,Everton,5.6
 301,Alcaraz,Everton,5.3
 302,Gana,Everton,5.4
 303,Garner,Everton,5.0
@@ -445,7 +445,7 @@ id,web_name,team,price
 399,Ederson M.,Man City,5.3
 400,Ortega Moreno,Man City,4.8
 401,Bettinelli,Man City,4.0
-402,Aït-Nouri,Man City,5.9
+402,Aït-Nouri,Man City,5.8
 403,Gvardiol,Man City,5.8
 404,Akanji,Man City,5.4
 405,Aké,Man City,5.4
@@ -511,7 +511,7 @@ id,web_name,team,price
 464,Moorhouse,Man Utd,4.5
 465,Højlund,Man Utd,6.3
 466,Zirkzee,Man Utd,5.9
-467,Obi,Man Utd,4.4
+467,Obi,Man Utd,4.3
 468,Wheatley,Man Utd,4.5
 681,Šeško,Man Utd,7.3
 733,Lammens,Man Utd,5.0
@@ -706,7 +706,7 @@ id,web_name,team,price
 718,S.Magassa,West Ham,5.0
 738,Fabianski,West Ham,4.5
 627,Johnstone,Wolves,4.5
-628,José Sá,Wolves,4.5
+628,José Sá,Wolves,4.4
 629,Bentley,Wolves,4.0
 631,Agbadou,Wolves,4.5
 632,Doherty,Wolves,4.4
