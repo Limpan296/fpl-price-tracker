@@ -93,14 +93,14 @@ id,web_name,team,price
 197,Sonne,Burnley,4.0
 198,Tuanzebe,Burnley,3.9
 199,Worrall,Burnley,3.9
-200,Anthony,Burnley,5.6
+200,Anthony,Burnley,5.7
 201,Benson,Burnley,5.4
 202,Bruun Larsen,Burnley,5.3
-203,Boateng,Burnley,4.9
+203,Boateng,Burnley,4.8
 204,Churlinov,Burnley,4.9
 205,Cullen,Burnley,5.0
 206,Edwards,Burnley,4.8
-207,Hannibal,Burnley,5.0
+207,Hannibal,Burnley,4.9
 208,Koleosho,Burnley,5.0
 209,Laurent,Burnley,4.9
 210,Tchaouna,Burnley,4.9
@@ -148,7 +148,7 @@ id,web_name,team,price
 95,Silcott-Duberry,Bournemouth,4.4
 96,Winterburn,Bournemouth,4.5
 97,Evanilson,Bournemouth,7.0
-98,Enes Ünal,Bournemouth,5.5
+98,Enes Ünal,Bournemouth,5.4
 99,Adu-Adjei,Bournemouth,4.4
 100,Kroupi.Jr,Bournemouth,4.5
 391,Gannon-Doak,Bournemouth,4.9
@@ -178,7 +178,7 @@ id,web_name,team,price
 117,Ji-soo,Brentford,3.9
 118,Meghoma,Brentford,4.0
 120,Schade,Brentford,7.0
-121,Damsgaard,Brentford,5.9
+121,Damsgaard,Brentford,5.8
 122,Milambo,Brentford,5.3
 123,Carvalho,Brentford,4.9
 124,Henderson,Brentford,5.0
@@ -211,7 +211,7 @@ id,web_name,team,price
 153,Webster,Brighton,4.4
 154,Cashin,Brighton,4.0
 155,Slater,Brighton,4.0
-156,Tasker,Brighton,4.0
+156,Tasker,Brighton,3.9
 157,Mitoma,Brighton,6.4
 158,Georginio,Brighton,5.8
 159,March,Brighton,5.8
@@ -369,7 +369,7 @@ id,web_name,team,price
 337,Raúl,Fulham,6.3
 338,Muniz,Fulham,5.5
 664,Lecomte,Fulham,4.0
-727,Chukwueze,Fulham,5.5
+727,Chukwueze,Fulham,5.4
 731,Kevin,Fulham,6.0
 737,Kusi-Asare,Fulham,4.5
 339,Meslier,Leeds,4.4
@@ -461,7 +461,7 @@ id,web_name,team,price
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.4
 417,Cherki,Man City,6.3
-418,Doku,Man City,6.5
+418,Doku,Man City,6.6
 420,Gündoğan,Man City,6.3
 421,Rodrigo,Man City,6.4
 422,Kovačić,Man City,5.9
@@ -628,7 +628,7 @@ id,web_name,team,price
 668,Xhaka,Sunderland,5.0
 670,Roefs,Sunderland,4.5
 678,Masuaku,Sunderland,4.0
-683,Alderete,Sunderland,4.0
+683,Alderete,Sunderland,4.1
 694,Mukiele,Sunderland,4.0
 724,Geertruida,Sunderland,4.5
 730,Brobbey,Sunderland,5.5
@@ -639,7 +639,7 @@ id,web_name,team,price
 568,Pedro Porro,Spurs,5.6
 569,Romero,Spurs,5.1
 570,Danso,Spurs,4.3
-571,Davies,Spurs,4.4
+571,Davies,Spurs,4.3
 572,Dragusin,Spurs,4.5
 573,Spence,Spurs,4.5
 574,Udogie,Spurs,4.4
