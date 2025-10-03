@@ -10,7 +10,7 @@ id,web_name,team,price
 9,Kiwior,Arsenal,5.4
 10,Lewis-Skelly,Arsenal,5.3
 11,White,Arsenal,5.4
-13,Clarke,Arsenal,4.0
+13,Clarke,Arsenal,3.9
 14,Kacurri,Arsenal,3.9
 15,Nichols,Arsenal,3.9
 16,Saka,Arsenal,9.8
@@ -28,7 +28,7 @@ id,web_name,team,price
 29,Sambi,Arsenal,4.5
 30,Havertz,Arsenal,7.3
 31,G.Jesus,Arsenal,6.4
-266,Eze,Arsenal,7.5
+266,Eze,Arsenal,7.6
 662,Mosquera,Arsenal,5.4
 666,Gyökeres,Arsenal,9.0
 700,Dowman,Arsenal,4.5
@@ -265,7 +265,7 @@ id,web_name,team,price
 246,Andrey Santos,Chelsea,4.5
 247,D.Essugo,Chelsea,4.4
 248,Paez,Chelsea,4.5
-249,João Pedro,Chelsea,7.8
+249,João Pedro,Chelsea,7.7
 250,Delap,Chelsea,6.2
 251,N.Jackson,Chelsea,6.5
 252,Marc Guiu,Chelsea,4.3
@@ -424,9 +424,9 @@ id,web_name,team,price
 381,M.Salah,Liverpool,14.5
 382,Wirtz,Liverpool,8.2
 383,Luis Díaz,Liverpool,8.0
-384,Gakpo,Liverpool,7.6
+384,Gakpo,Liverpool,7.5
 385,Chiesa,Liverpool,6.4
-386,Mac Allister,Liverpool,6.4
+386,Mac Allister,Liverpool,6.3
 387,Szoboszlai,Liverpool,6.5
 388,C.Jones,Liverpool,5.4
 390,Gravenberch,Liverpool,5.6
@@ -517,7 +517,7 @@ id,web_name,team,price
 733,Lammens,Man Utd,5.0
 52,J.Ramsey,Newcastle,5.3
 135,Wissa,Newcastle,7.4
-469,Pope,Newcastle,5.0
+469,Pope,Newcastle,5.1
 471,Gillespie,Newcastle,4.0
 472,Odysseas,Newcastle,4.0
 473,Hall,Newcastle,5.3
@@ -566,7 +566,7 @@ id,web_name,team,price
 512,O.Richards,Nott'm Forest,4.5
 513,Abbott,Nott'm Forest,3.9
 514,Boly,Nott'm Forest,3.9
-515,Gibbs-White,Nott'm Forest,7.5
+515,Gibbs-White,Nott'm Forest,7.4
 516,Hudson-Odoi,Nott'm Forest,6.0
 517,Anderson,Nott'm Forest,5.4
 518,Jota,Nott'm Forest,5.4
@@ -576,7 +576,7 @@ id,web_name,team,price
 522,Yates,Nott'm Forest,4.8
 523,Da Silva Moreira,Nott'm Forest,4.5
 524,Stamenic,Nott'm Forest,4.5
-525,Wood,Nott'm Forest,7.5
+525,Wood,Nott'm Forest,7.4
 526,Igor Jesus,Nott'm Forest,5.8
 527,Awoniyi,Nott'm Forest,5.3
 669,Ndoye,Nott'm Forest,6.0
@@ -626,7 +626,7 @@ id,web_name,team,price
 563,Luís Hemir,Sunderland,4.4
 564,Rusyn,Sunderland,4.4
 668,Xhaka,Sunderland,5.0
-670,Roefs,Sunderland,4.5
+670,Roefs,Sunderland,4.6
 678,Masuaku,Sunderland,4.0
 683,Alderete,Sunderland,4.1
 694,Mukiele,Sunderland,4.0
@@ -648,7 +648,7 @@ id,web_name,team,price
 577,Takai,Spurs,4.0
 578,Vuskovic,Spurs,3.9
 579,Son,Spurs,8.5
-580,Johnson,Spurs,7.0
+580,Johnson,Spurs,6.9
 581,Maddison,Spurs,6.9
 582,Kudus,Spurs,6.7
 583,Kulusevski,Spurs,6.4
