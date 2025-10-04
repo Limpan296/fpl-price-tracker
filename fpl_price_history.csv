@@ -8,12 +8,12 @@ id,web_name,team,price
 7,Calafiori,Arsenal,5.7
 8,J.Timber,Arsenal,5.8
 9,Kiwior,Arsenal,5.4
-10,Lewis-Skelly,Arsenal,5.3
+10,Lewis-Skelly,Arsenal,5.2
 11,White,Arsenal,5.4
 13,Clarke,Arsenal,3.9
 14,Kacurri,Arsenal,3.9
 15,Nichols,Arsenal,3.9
-16,Saka,Arsenal,9.8
+16,Saka,Arsenal,9.9
 17,Ødegaard,Arsenal,7.9
 18,Madueke,Arsenal,6.9
 19,Martinelli,Arsenal,6.9
@@ -30,7 +30,7 @@ id,web_name,team,price
 31,G.Jesus,Arsenal,6.4
 266,Eze,Arsenal,7.6
 662,Mosquera,Arsenal,5.4
-666,Gyökeres,Arsenal,9.0
+666,Gyökeres,Arsenal,9.1
 700,Dowman,Arsenal,4.5
 711,Harriman-Annous,Arsenal,4.5
 725,Hincapie,Arsenal,5.4
@@ -80,7 +80,7 @@ id,web_name,team,price
 184,Green,Burnley,4.0
 185,Hladký,Burnley,4.0
 186,Roberts,Burnley,4.4
-187,Walker,Burnley,4.5
+187,Walker,Burnley,4.4
 188,Delcroix,Burnley,3.9
 189,Dodgson,Burnley,4.0
 190,Ekdal,Burnley,4.0
@@ -164,7 +164,7 @@ id,web_name,team,price
 103,Cox,Brentford,4.0
 104,Eyestone,Brentford,4.0
 105,Valdimarsson,Brentford,4.0
-106,Collins,Brentford,5.0
+106,Collins,Brentford,4.9
 107,Lewis-Potter,Brentford,5.0
 108,Ajer,Brentford,4.4
 109,Henry,Brentford,4.4
@@ -190,7 +190,7 @@ id,web_name,team,price
 130,Donovan,Brentford,4.5
 131,Konak,Brentford,4.4
 132,Maghoma,Brentford,4.5
-133,Peart-Harris,Brentford,4.5
+133,Peart-Harris,Brentford,4.4
 134,Trevitt,Brentford,4.5
 136,Thiago,Brentford,6.0
 137,Morgan,Brentford,4.4
@@ -215,7 +215,7 @@ id,web_name,team,price
 157,Mitoma,Brighton,6.4
 158,Georginio,Brighton,5.8
 159,March,Brighton,5.8
-160,Minteh,Brighton,5.9
+160,Minteh,Brighton,6.0
 161,Enciso,Brighton,5.4
 162,Gruda,Brighton,5.4
 163,Hinshelwood,Brighton,5.2
@@ -234,7 +234,7 @@ id,web_name,team,price
 177,Moran,Brighton,4.5
 178,Welbeck,Brighton,6.3
 179,Ferguson,Brighton,5.5
-180,Tzimas,Brighton,5.4
+180,Tzimas,Brighton,5.3
 181,Kostoulas,Brighton,4.9
 168,Buonanotte,Chelsea,4.8
 220,Sánchez,Chelsea,4.9
@@ -243,7 +243,7 @@ id,web_name,team,price
 223,Slonina,Chelsea,4.0
 224,Cucurella,Chelsea,6.1
 225,James,Chelsea,5.4
-226,Chalobah,Chelsea,5.2
+226,Chalobah,Chelsea,5.1
 227,Colwill,Chelsea,4.8
 228,Gusto,Chelsea,4.9
 229,B.Badiashile,Chelsea,4.4
@@ -333,7 +333,7 @@ id,web_name,team,price
 308,Heath,Everton,4.5
 309,Metcalfe,Everton,4.5
 310,Barry,Everton,5.8
-311,Beto,Everton,5.4
+311,Beto,Everton,5.3
 312,Y.Chermiti,Everton,4.9
 313,Sherif,Everton,4.4
 419,Grealish,Everton,6.9
@@ -421,15 +421,15 @@ id,web_name,team,price
 378,Nallo,Liverpool,3.9
 379,R.Williams,Liverpool,3.9
 380,Ramsay,Liverpool,3.9
-381,M.Salah,Liverpool,14.5
-382,Wirtz,Liverpool,8.2
+381,M.Salah,Liverpool,14.4
+382,Wirtz,Liverpool,8.1
 383,Luis Díaz,Liverpool,8.0
 384,Gakpo,Liverpool,7.5
 385,Chiesa,Liverpool,6.4
 386,Mac Allister,Liverpool,6.3
 387,Szoboszlai,Liverpool,6.5
 388,C.Jones,Liverpool,5.4
-390,Gravenberch,Liverpool,5.6
+390,Gravenberch,Liverpool,5.7
 392,Endo,Liverpool,4.9
 393,Bajcetic,Liverpool,4.4
 394,McConnell,Liverpool,4.4
@@ -471,7 +471,7 @@ id,web_name,team,price
 427,Reijnders,Man City,5.8
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.9
-430,Haaland,Man City,14.4
+430,Haaland,Man City,14.5
 736,Donnarumma,Man City,5.6
 739,Mukasa,Man City,4.5
 740,Mfuni,Man City,4.0
@@ -523,7 +523,7 @@ id,web_name,team,price
 473,Hall,Newcastle,5.3
 474,Schär,Newcastle,5.4
 475,Botman,Newcastle,4.9
-476,Burn,Newcastle,5.0
+476,Burn,Newcastle,5.1
 477,Livramento,Newcastle,5.1
 478,Trippier,Newcastle,5.0
 479,Krafth,Newcastle,4.4
@@ -534,7 +534,7 @@ id,web_name,team,price
 484,Targett,Newcastle,4.0
 485,Gordon,Newcastle,7.4
 486,Elanga,Newcastle,6.9
-487,Barnes,Newcastle,6.5
+487,Barnes,Newcastle,6.4
 488,Bruno G.,Newcastle,6.5
 489,J.Murphy,Newcastle,6.2
 490,Joelinton,Newcastle,5.9
@@ -550,7 +550,7 @@ id,web_name,team,price
 674,Ramsdale,Newcastle,4.9
 684,Thiaw,Newcastle,4.9
 689,Seung soo,Newcastle,4.4
-714,Woltemade,Newcastle,7.1
+714,Woltemade,Newcastle,7.2
 12,Zinchenko,Nott'm Forest,4.9
 426,McAtee,Nott'm Forest,5.3
 502,Sels,Nott'm Forest,4.9
@@ -610,7 +610,7 @@ id,web_name,team,price
 547,E.Le Fée,Sunderland,4.9
 548,Mundle,Sunderland,4.9
 549,Neil,Sunderland,4.9
-550,Poveda,Sunderland,4.9
+550,Poveda,Sunderland,4.8
 551,Rigg,Sunderland,4.8
 552,Sadiki,Sunderland,5.0
 553,Talbi,Sunderland,5.0
@@ -653,7 +653,7 @@ id,web_name,team,price
 582,Kudus,Spurs,6.7
 583,Kulusevski,Spurs,6.4
 584,Tel,Spurs,6.3
-585,Bentancur,Spurs,5.4
+585,Bentancur,Spurs,5.3
 586,Bergvall,Spurs,5.4
 587,Bissouma,Spurs,5.2
 588,Odobert,Spurs,5.3
