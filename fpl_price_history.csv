@@ -6,7 +6,7 @@ id,web_name,team,price
 5,Gabriel,Arsenal,6.2
 6,Saliba,Arsenal,6.0
 7,Calafiori,Arsenal,5.7
-8,J.Timber,Arsenal,5.8
+8,J.Timber,Arsenal,5.9
 9,Kiwior,Arsenal,5.4
 10,Lewis-Skelly,Arsenal,5.2
 11,White,Arsenal,5.4
@@ -60,7 +60,7 @@ id,web_name,team,price
 56,Barrenechea,Aston Villa,5.0
 57,Dobbin,Aston Villa,5.0
 58,Kamara,Aston Villa,4.9
-59,Onana,Aston Villa,4.9
+59,Onana,Aston Villa,4.8
 60,Broggio,Aston Villa,4.5
 61,Dendoncker,Aston Villa,4.5
 62,Jimoh-Aloba,Aston Villa,4.5
@@ -133,7 +133,7 @@ id,web_name,team,price
 79,Mepham,Bournemouth,4.0
 80,Soler,Bournemouth,4.0
 81,Kluivert,Bournemouth,7.0
-82,Semenyo,Bournemouth,7.8
+82,Semenyo,Bournemouth,7.9
 84,Tavernier,Bournemouth,5.5
 85,Adams,Bournemouth,5.0
 86,Brooks,Bournemouth,5.0
@@ -213,7 +213,7 @@ id,web_name,team,price
 155,Slater,Brighton,4.0
 156,Tasker,Brighton,3.9
 157,Mitoma,Brighton,6.4
-158,Georginio,Brighton,5.8
+158,Georginio,Brighton,5.7
 159,March,Brighton,5.8
 160,Minteh,Brighton,6.0
 161,Enciso,Brighton,5.4
@@ -271,6 +271,7 @@ id,web_name,team,price
 252,Marc Guiu,Chelsea,4.3
 453,Garnacho,Chelsea,6.4
 672,Hato,Chelsea,4.8
+743,Emenalo,Chelsea,4.5
 253,Henderson,Crystal Palace,5.0
 254,Benitez,Crystal Palace,4.0
 255,Matthews,Crystal Palace,4.0
@@ -284,7 +285,7 @@ id,web_name,team,price
 263,Clyne,Crystal Palace,3.9
 264,Holding,Crystal Palace,4.0
 265,Kporha,Crystal Palace,4.0
-267,Sarr,Crystal Palace,6.4
+267,Sarr,Crystal Palace,6.5
 268,Doucouré,Crystal Palace,4.9
 269,Esse,Crystal Palace,4.8
 270,Hughes,Crystal Palace,4.9
@@ -366,7 +367,7 @@ id,web_name,team,price
 334,Harris,Fulham,4.5
 335,King,Fulham,4.5
 336,Reed,Fulham,4.4
-337,Raúl,Fulham,6.3
+337,Raúl,Fulham,6.2
 338,Muniz,Fulham,5.5
 664,Lecomte,Fulham,4.0
 727,Chukwueze,Fulham,5.4
