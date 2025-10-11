@@ -185,7 +185,7 @@ id,web_name,team,price
 125,Janelt,Brentford,4.9
 126,Jensen,Brentford,4.9
 127,Nunes,Brentford,4.9
-128,Onyeka,Brentford,5.0
+128,Onyeka,Brentford,4.9
 129,Yarmoliuk,Brentford,5.0
 130,Donovan,Brentford,4.5
 131,Konak,Brentford,4.4
@@ -200,7 +200,7 @@ id,web_name,team,price
 141,Rushworth,Brighton,4.0
 142,Scherpen,Brighton,4.0
 143,Boscagli,Brighton,4.3
-144,Coppola,Brighton,4.4
+144,Coppola,Brighton,4.3
 145,De Cuyper,Brighton,4.4
 146,Dunk,Brighton,4.5
 147,Estupiñan,Brighton,4.5
@@ -373,7 +373,7 @@ id,web_name,team,price
 727,Chukwueze,Fulham,5.4
 731,Kevin,Fulham,6.0
 737,Kusi-Asare,Fulham,4.5
-339,Meslier,Leeds,4.4
+339,Meslier,Leeds,4.3
 340,Cairns,Leeds,4.0
 341,Darlow,Leeds,4.0
 342,Bogle,Leeds,4.5
@@ -417,7 +417,7 @@ id,web_name,team,price
 373,Virgil,Liverpool,6.1
 374,Konaté,Liverpool,5.5
 375,Bradley,Liverpool,5.0
-376,Gomez,Liverpool,5.0
+376,Gomez,Liverpool,4.9
 377,Tsimikas,Liverpool,4.8
 378,Nallo,Liverpool,3.9
 379,R.Williams,Liverpool,3.9
@@ -525,7 +525,7 @@ id,web_name,team,price
 474,Schär,Newcastle,5.4
 475,Botman,Newcastle,4.9
 476,Burn,Newcastle,5.1
-477,Livramento,Newcastle,5.1
+477,Livramento,Newcastle,5.0
 478,Trippier,Newcastle,5.0
 479,Krafth,Newcastle,4.4
 480,Lascelles,Newcastle,4.4
@@ -573,14 +573,14 @@ id,web_name,team,price
 518,Jota,Nott'm Forest,5.4
 519,Dominguez,Nott'm Forest,5.0
 520,O'Brien,Nott'm Forest,5.0
-521,Sangaré,Nott'm Forest,5.0
+521,Sangaré,Nott'm Forest,4.9
 522,Yates,Nott'm Forest,4.8
 523,Da Silva Moreira,Nott'm Forest,4.5
 524,Stamenic,Nott'm Forest,4.5
 525,Wood,Nott'm Forest,7.4
 526,Igor Jesus,Nott'm Forest,5.8
 527,Awoniyi,Nott'm Forest,5.2
-669,Ndoye,Nott'm Forest,6.0
+669,Ndoye,Nott'm Forest,5.9
 675,Gunn,Nott'm Forest,4.0
 693,Hutchinson,Nott'm Forest,5.5
 696,Kalimuendo,Nott'm Forest,6.0
