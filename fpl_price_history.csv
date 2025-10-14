@@ -22,7 +22,7 @@ id,web_name,team,price
 22,Merino,Arsenal,5.9
 23,Fábio Vieira,Arsenal,5.4
 24,Nørgaard,Arsenal,5.3
-25,Nwaneri,Arsenal,5.3
+25,Nwaneri,Arsenal,5.2
 26,Zubimendi,Arsenal,5.5
 28,Kabia,Arsenal,4.5
 29,Sambi,Arsenal,4.5
@@ -577,7 +577,7 @@ id,web_name,team,price
 522,Yates,Nott'm Forest,4.8
 523,Da Silva Moreira,Nott'm Forest,4.5
 524,Stamenic,Nott'm Forest,4.5
-525,Wood,Nott'm Forest,7.4
+525,Wood,Nott'm Forest,7.3
 526,Igor Jesus,Nott'm Forest,5.8
 527,Awoniyi,Nott'm Forest,5.2
 669,Ndoye,Nott'm Forest,5.9
@@ -651,7 +651,7 @@ id,web_name,team,price
 579,Son,Spurs,8.5
 580,Johnson,Spurs,6.9
 581,Maddison,Spurs,6.9
-582,Kudus,Spurs,6.7
+582,Kudus,Spurs,6.8
 583,Kulusevski,Spurs,6.4
 584,Tel,Spurs,6.3
 585,Bentancur,Spurs,5.3
