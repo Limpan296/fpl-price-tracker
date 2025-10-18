@@ -31,7 +31,7 @@ id,web_name,team,price
 266,Eze,Arsenal,7.6
 662,Mosquera,Arsenal,5.4
 666,Gyökeres,Arsenal,9.1
-700,Dowman,Arsenal,4.5
+700,Dowman,Arsenal,4.4
 711,Harriman-Annous,Arsenal,4.5
 725,Hincapie,Arsenal,5.4
 32,Martinez,Aston Villa,5.0
@@ -65,7 +65,7 @@ id,web_name,team,price
 61,Dendoncker,Aston Villa,4.5
 62,Jimoh-Aloba,Aston Villa,4.5
 63,Young,Aston Villa,4.4
-64,Watkins,Aston Villa,8.7
+64,Watkins,Aston Villa,8.6
 65,Redmond,Aston Villa,4.5
 389,Elliott,Aston Villa,5.4
 456,Sancho,Aston Villa,5.9
@@ -90,7 +90,7 @@ id,web_name,team,price
 194,Jordan,Burnley,4.0
 195,Lucas Pires,Burnley,3.9
 196,Sambo,Burnley,4.0
-197,Sonne,Burnley,4.0
+197,Sonne,Burnley,3.9
 198,Tuanzebe,Burnley,3.9
 199,Worrall,Burnley,3.9
 200,Anthony,Burnley,5.7
@@ -129,11 +129,11 @@ id,web_name,team,price
 75,Akinmboni,Bournemouth,4.0
 76,Bevan,Bournemouth,3.9
 77,Hill,Bournemouth,4.0
-78,J.Araujo,Bournemouth,4.0
+78,J.Araujo,Bournemouth,3.9
 79,Mepham,Bournemouth,4.0
 80,Soler,Bournemouth,4.0
 81,Kluivert,Bournemouth,7.0
-82,Semenyo,Bournemouth,7.9
+82,Semenyo,Bournemouth,8.0
 84,Tavernier,Bournemouth,5.5
 85,Adams,Bournemouth,5.0
 86,Brooks,Bournemouth,5.0
@@ -235,7 +235,7 @@ id,web_name,team,price
 178,Welbeck,Brighton,6.3
 179,Ferguson,Brighton,5.5
 180,Tzimas,Brighton,5.3
-181,Kostoulas,Brighton,4.9
+181,Kostoulas,Brighton,4.8
 168,Buonanotte,Chelsea,4.8
 220,Sánchez,Chelsea,4.9
 221,Jörgensen,Chelsea,4.4
@@ -265,7 +265,7 @@ id,web_name,team,price
 246,Andrey Santos,Chelsea,4.5
 247,D.Essugo,Chelsea,4.4
 248,Paez,Chelsea,4.5
-249,João Pedro,Chelsea,7.7
+249,João Pedro,Chelsea,7.6
 250,Delap,Chelsea,6.2
 251,N.Jackson,Chelsea,6.5
 252,Marc Guiu,Chelsea,4.3
@@ -356,7 +356,7 @@ id,web_name,team,price
 323,Amissah,Fulham,3.9
 324,Iwobi,Fulham,6.5
 325,Smith Rowe,Fulham,5.7
-326,Adama,Fulham,5.3
+326,Adama,Fulham,5.2
 327,Andreas,Fulham,5.3
 328,Sessegnon,Fulham,5.4
 329,Wilson,Fulham,5.3
@@ -392,11 +392,11 @@ id,web_name,team,price
 355,Greenwood,Leeds,4.9
 356,Gruev,Leeds,4.9
 357,Ramazani,Leeds,4.9
-358,Tanaka,Leeds,4.9
+358,Tanaka,Leeds,4.8
 359,Crew,Leeds,4.5
 360,Gelhardt,Leeds,4.5
 361,Gyabi,Leeds,4.5
-362,Piroe,Leeds,5.2
+362,Piroe,Leeds,5.1
 363,Bamford,Leeds,4.9
 364,Mateo Joseph,Leeds,5.0
 365,Nmecha,Leeds,5.0
@@ -435,14 +435,14 @@ id,web_name,team,price
 393,Bajcetic,Liverpool,4.4
 394,McConnell,Liverpool,4.4
 395,Morton,Liverpool,4.5
-396,Nyoni,Liverpool,4.4
+396,Nyoni,Liverpool,4.3
 397,Darwin,Liverpool,6.5
 398,Danns,Liverpool,4.4
 499,Isak,Liverpool,10.6
 661,Ekitiké,Liverpool,8.7
 686,Ngumoha,Liverpool,4.5
 692,Leoni,Liverpool,4.9
-182,Trafford,Man City,4.8
+182,Trafford,Man City,4.7
 399,Ederson M.,Man City,5.3
 400,Ortega Moreno,Man City,4.8
 401,Bettinelli,Man City,4.0
@@ -472,12 +472,12 @@ id,web_name,team,price
 427,Reijnders,Man City,5.8
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.9
-430,Haaland,Man City,14.5
+430,Haaland,Man City,14.6
 736,Donnarumma,Man City,5.7
 739,Mukasa,Man City,4.5
 740,Mfuni,Man City,4.0
 742,McAidoo,Man City,4.5
-119,Mbeumo,Man Utd,8.1
+119,Mbeumo,Man Utd,8.0
 431,Bayindir,Man Utd,4.9
 432,Onana,Man Utd,4.9
 433,Harrison,Man Utd,4.0
@@ -551,9 +551,9 @@ id,web_name,team,price
 674,Ramsdale,Newcastle,4.8
 684,Thiaw,Newcastle,4.9
 689,Seung soo,Newcastle,4.4
-714,Woltemade,Newcastle,7.2
+714,Woltemade,Newcastle,7.3
 12,Zinchenko,Nott'm Forest,4.9
-426,McAtee,Nott'm Forest,5.3
+426,McAtee,Nott'm Forest,5.2
 502,Sels,Nott'm Forest,4.9
 503,C.Miguel,Nott'm Forest,4.0
 504,Turner,Nott'm Forest,4.0
@@ -687,17 +687,17 @@ id,web_name,team,price
 611,Casey,West Ham,4.0
 612,L.Paquetá,West Ham,5.9
 613,Souček,West Ham,5.7
-614,Ward-Prowse,West Ham,5.8
+614,Ward-Prowse,West Ham,5.7
 615,Summerville,West Ham,5.5
 616,Álvarez,West Ham,4.9
 617,Cornet,West Ham,4.9
-618,G.Rodriguez,West Ham,4.9
+618,G.Rodriguez,West Ham,4.8
 619,L.Guilherme,West Ham,4.9
 620,Earthy,West Ham,4.5
 621,Irving,West Ham,4.4
 622,Orford,West Ham,4.4
 623,Potts,West Ham,4.4
-624,Bowen,West Ham,7.7
+624,Bowen,West Ham,7.8
 625,Füllkrug,West Ham,5.7
 626,Marshall,West Ham,4.4
 659,Walker-Peters,West Ham,4.4
@@ -715,7 +715,7 @@ id,web_name,team,price
 634,Mosquera,Wolves,4.4
 635,R.Gomes,Wolves,4.5
 636,S.Bueno,Wolves,4.4
-637,Toti,Wolves,4.4
+637,Toti,Wolves,4.3
 638,Hoever,Wolves,4.0
 639,Meupiyou,Wolves,4.0
 640,Pedro Lima,Wolves,4.0
@@ -735,7 +735,7 @@ id,web_name,team,price
 654,Strand Larsen,Wolves,6.4
 655,Fábio Silva,Wolves,4.9
 656,Kalajdžić,Wolves,4.9
-657,Chiwome,Wolves,4.5
+657,Chiwome,Wolves,4.4
 658,Fraser,Wolves,4.4
 663,J.Arias,Wolves,5.2
 682,Møller Wolfe,Wolves,4.4
