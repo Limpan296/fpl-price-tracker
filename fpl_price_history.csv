@@ -3,7 +3,7 @@ id,web_name,team,price
 2,Arrizabalaga,Arsenal,4.3
 3,Hein,Arsenal,4.0
 4,Setford,Arsenal,4.0
-5,Gabriel,Arsenal,6.3
+5,Gabriel,Arsenal,6.4
 6,Saliba,Arsenal,6.0
 7,Calafiori,Arsenal,5.8
 8,J.Timber,Arsenal,5.9
@@ -165,7 +165,7 @@ id,web_name,team,price
 104,Eyestone,Brentford,4.0
 105,Valdimarsson,Brentford,3.9
 106,Collins,Brentford,4.9
-107,Lewis-Potter,Brentford,5.0
+107,Lewis-Potter,Brentford,4.9
 108,Ajer,Brentford,4.4
 109,Henry,Brentford,4.4
 110,Kayode,Brentford,4.5
@@ -391,7 +391,7 @@ id,web_name,team,price
 353,James,Leeds,5.3
 354,Ampadu,Leeds,4.9
 355,Greenwood,Leeds,4.9
-356,Gruev,Leeds,4.9
+356,Gruev,Leeds,4.8
 357,Ramazani,Leeds,4.9
 358,Tanaka,Leeds,4.8
 359,Crew,Leeds,4.5
@@ -439,7 +439,7 @@ id,web_name,team,price
 396,Nyoni,Liverpool,4.3
 397,Darwin,Liverpool,6.5
 398,Danns,Liverpool,4.4
-499,Isak,Liverpool,10.6
+499,Isak,Liverpool,10.5
 661,Ekitiké,Liverpool,8.7
 686,Ngumoha,Liverpool,4.5
 692,Leoni,Liverpool,4.9
@@ -473,7 +473,7 @@ id,web_name,team,price
 427,Reijnders,Man City,5.7
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.9
-430,Haaland,Man City,14.6
+430,Haaland,Man City,14.7
 736,Donnarumma,Man City,5.7
 739,Mukasa,Man City,4.5
 740,Mfuni,Man City,4.0
@@ -667,7 +667,7 @@ id,web_name,team,price
 594,Min-hyeok,Spurs,4.5
 595,Olusesi,Spurs,4.4
 596,Solanke,Spurs,7.2
-597,Richarlison,Spurs,6.7
+597,Richarlison,Spurs,6.6
 598,Lankshear,Spurs,4.5
 599,Scarlett,Spurs,4.4
 673,J.Palhinha,Spurs,5.5
