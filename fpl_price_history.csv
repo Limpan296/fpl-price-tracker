@@ -257,7 +257,7 @@ id,web_name,team,price
 236,Neto,Chelsea,7.0
 237,Enzo,Chelsea,6.7
 238,Estêvão,Chelsea,6.5
-239,Gittens,Chelsea,6.2
+239,Gittens,Chelsea,6.1
 240,Nkunku,Chelsea,5.9
 241,Caicedo,Chelsea,5.9
 243,George,Chelsea,4.9
@@ -276,8 +276,8 @@ id,web_name,team,price
 253,Henderson,Crystal Palace,5.0
 254,Benitez,Crystal Palace,4.0
 255,Matthews,Crystal Palace,4.0
-256,Muñoz,Crystal Palace,5.6
-257,Lacroix,Crystal Palace,5.1
+256,Muñoz,Crystal Palace,5.7
+257,Lacroix,Crystal Palace,5.0
 258,Mitchell,Crystal Palace,5.0
 259,Sosa,Crystal Palace,4.9
 260,Guéhi,Crystal Palace,4.9
@@ -339,7 +339,7 @@ id,web_name,team,price
 312,Y.Chermiti,Everton,4.9
 313,Sherif,Everton,4.4
 419,Grealish,Everton,6.9
-630,King,Everton,4.0
+630,King,Everton,3.9
 667,Aznou,Everton,4.3
 704,Onyango,Everton,4.5
 705,Campbell,Everton,4.0
@@ -347,7 +347,7 @@ id,web_name,team,price
 728,Röhl,Everton,5.0
 314,Leno,Fulham,5.0
 315,Benda,Fulham,4.0
-316,Robinson,Fulham,5.0
+316,Robinson,Fulham,4.9
 317,Andersen,Fulham,4.5
 318,Bassey,Fulham,4.5
 319,Castagne,Fulham,4.4
@@ -464,7 +464,7 @@ id,web_name,team,price
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.3
 417,Cherki,Man City,6.3
-418,Doku,Man City,6.6
+418,Doku,Man City,6.5
 420,Gündoğan,Man City,6.3
 421,Rodrigo,Man City,6.3
 422,Kovačić,Man City,5.9
@@ -479,7 +479,7 @@ id,web_name,team,price
 739,Mukasa,Man City,4.5
 740,Mfuni,Man City,4.0
 742,McAidoo,Man City,4.5
-119,Mbeumo,Man Utd,8.1
+119,Mbeumo,Man Utd,8.2
 431,Bayindir,Man Utd,4.9
 432,Onana,Man Utd,4.9
 433,Harrison,Man Utd,4.0
@@ -617,7 +617,7 @@ id,web_name,team,price
 551,Rigg,Sunderland,4.8
 552,Sadiki,Sunderland,5.0
 553,Talbi,Sunderland,5.0
-554,Ba,Sunderland,4.4
+554,Ba,Sunderland,4.3
 555,Browne,Sunderland,4.5
 556,Ekwah,Sunderland,4.5
 557,H.Jones,Sunderland,4.4
@@ -640,7 +640,7 @@ id,web_name,team,price
 566,Austin,Spurs,3.9
 567,Kinsky,Spurs,3.9
 568,Pedro Porro,Spurs,5.6
-569,Romero,Spurs,5.1
+569,Romero,Spurs,5.0
 570,Danso,Spurs,4.3
 571,Davies,Spurs,4.3
 572,Dragusin,Spurs,4.5
@@ -672,7 +672,7 @@ id,web_name,team,price
 598,Lankshear,Spurs,4.5
 599,Scarlett,Spurs,4.4
 673,J.Palhinha,Spurs,5.5
-717,Xavi,Spurs,6.9
+717,Xavi,Spurs,6.8
 726,Kolo Muani,Spurs,6.9
 745,Byfield,Spurs,4.0
 149,Igor,West Ham,4.5
