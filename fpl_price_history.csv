@@ -115,7 +115,7 @@ id,web_name,team,price
 219,Obafemi,Burnley,4.4
 470,Dúbravka,Burnley,4.0
 676,Ugochukwu,Burnley,5.0
-680,Broja,Burnley,5.3
+680,Broja,Burnley,5.2
 722,Florentino,Burnley,5.0
 66,Neto,Bournemouth,4.5
 67,Petrović,Bournemouth,4.5
@@ -194,6 +194,7 @@ id,web_name,team,price
 134,Trevitt,Brentford,4.5
 136,Thiago,Brentford,6.2
 137,Morgan,Brentford,4.4
+748,Dasilva,Brentford,5.0
 138,Steele,Brighton,4.3
 139,Verbruggen,Brighton,4.4
 140,McGill,Brighton,4.0
@@ -397,7 +398,7 @@ id,web_name,team,price
 359,Crew,Leeds,4.5
 360,Gelhardt,Leeds,4.5
 361,Gyabi,Leeds,4.5
-362,Piroe,Leeds,5.1
+362,Piroe,Leeds,5.0
 363,Bamford,Leeds,4.9
 364,Mateo Joseph,Leeds,5.0
 365,Nmecha,Leeds,5.0
@@ -479,7 +480,7 @@ id,web_name,team,price
 739,Mukasa,Man City,4.5
 740,Mfuni,Man City,4.0
 742,McAidoo,Man City,4.5
-119,Mbeumo,Man Utd,8.3
+119,Mbeumo,Man Utd,8.4
 431,Bayindir,Man Utd,4.8
 432,Onana,Man Utd,4.9
 433,Harrison,Man Utd,4.0
@@ -519,7 +520,7 @@ id,web_name,team,price
 681,Šeško,Man Utd,7.3
 733,Lammens,Man Utd,5.0
 52,J.Ramsey,Newcastle,5.3
-135,Wissa,Newcastle,7.4
+135,Wissa,Newcastle,7.3
 469,Pope,Newcastle,5.2
 471,Gillespie,Newcastle,4.0
 472,Odysseas,Newcastle,4.0
@@ -646,14 +647,14 @@ id,web_name,team,price
 572,Dragusin,Spurs,4.5
 573,Spence,Spurs,4.5
 574,Udogie,Spurs,4.4
-575,Van de Ven,Spurs,4.7
+575,Van de Ven,Spurs,4.8
 576,Phillips,Spurs,4.0
 577,Takai,Spurs,4.0
 578,Vuskovic,Spurs,3.9
 579,Son,Spurs,8.5
 580,Johnson,Spurs,6.7
 581,Maddison,Spurs,6.9
-582,Kudus,Spurs,6.7
+582,Kudus,Spurs,6.6
 583,Kulusevski,Spurs,6.4
 584,Tel,Spurs,6.3
 585,Bentancur,Spurs,5.3
