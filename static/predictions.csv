@@ -1,171 +1,172 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
-Raya,Arsenal,5.8,31.7,101242,81752,67.2
-Gabriel,Arsenal,6.6,41.8,277865,224375,91.5
-Calafiori,Arsenal,5.8,16.0,4249,3431,8.7
-J.Timber,Arsenal,6.1,25.3,48703,39327,36.3
-Rice,Arsenal,6.8,17.3,325112,262527,94.4
-Cash,Aston Villa,4.6,5.2,9508,7677,7.2
-Hartman,Burnley,4.0,0.9,6862,5541,4.1
-Dúbravka,Burnley,4.0,34.4,9068,7322,18.6
-Petrović,Bournemouth,4.5,5.6,6871,5548,5.9
-Truffert,Bournemouth,4.5,2.3,3284,2651,2.7
-Semenyo,Bournemouth,8.1,64.4,22824,18430,38.0
-Tavernier,Bournemouth,5.5,1.6,11632,9392,6.9
-Kroupi.Jr,Bournemouth,4.6,4.3,44053,35572,25.4
-Thiago,Brentford,6.2,8.3,22509,18176,15.4
-Van Hecke,Brighton,4.4,1.4,4878,3938,3.2
-Minteh,Brighton,6.0,4.5,35093,28337,20.7
-Welbeck,Brighton,6.5,8.2,101956,82329,30.7
-Sánchez,Chelsea,4.8,13.5,13509,10908,12.7
-Cucurella,Chelsea,6.1,21.9,10068,8129,14.2
-James,Chelsea,5.5,8.1,57695,46588,34.3
-Chalobah,Chelsea,5.1,7.7,17440,14082,12.5
+Raya,Arsenal,5.8,31.7,101359,81847,67.2
+Gabriel,Arsenal,6.6,41.8,278088,224556,91.6
+Calafiori,Arsenal,5.8,16.0,4257,3437,8.7
+J.Timber,Arsenal,6.1,25.3,48764,39376,36.4
+Rice,Arsenal,6.8,17.3,325510,262849,94.5
+Cash,Aston Villa,4.6,5.2,9510,7679,7.2
+Hartman,Burnley,4.0,0.9,6872,5549,4.1
+Dúbravka,Burnley,4.0,34.4,9086,7336,18.7
+Petrović,Bournemouth,4.5,5.6,6868,5545,5.9
+Truffert,Bournemouth,4.5,2.3,3287,2654,2.7
+Semenyo,Bournemouth,8.1,64.4,22840,18443,38.1
+Tavernier,Bournemouth,5.5,1.6,11643,9401,6.9
+Kroupi.Jr,Bournemouth,4.6,4.3,44111,35619,25.5
+Thiago,Brentford,6.2,8.3,22564,18220,15.5
+Van Hecke,Brighton,4.4,1.4,4854,3919,3.2
+Minteh,Brighton,6.0,4.5,35114,28354,20.7
+Welbeck,Brighton,6.5,8.2,102012,82374,30.7
+Sánchez,Chelsea,4.8,13.5,13526,10922,12.7
+Cucurella,Chelsea,6.1,21.9,10088,8146,14.2
+James,Chelsea,5.5,8.1,57770,46649,34.3
+Chalobah,Chelsea,5.1,7.7,17468,14105,12.5
 Gusto,Chelsea,4.9,1.0,1941,1567,1.4
-Neto,Chelsea,7.1,6.1,55210,44582,17.3
-Caicedo,Chelsea,6.0,20.7,279772,225915,83.6
-João Pedro,Chelsea,7.4,46.1,124410,100461,85.4
-Delap,Chelsea,6.2,0.9,1707,1378,1.3
-Henderson,Crystal Palace,5.0,7.6,1870,1510,4.0
-Muñoz,Crystal Palace,5.7,15.4,34535,27887,24.8
-Lacroix,Crystal Palace,5.0,3.7,2370,1913,2.8
-Guéhi,Crystal Palace,5.0,34.5,128566,103817,83.0
-Richards,Crystal Palace,4.5,3.3,3179,2567,3.0
-Sarr,Crystal Palace,6.6,11.7,46743,37744,29.8
-Mateta,Crystal Palace,7.9,24.2,349147,281936,100.0
-Ndiaye,Everton,6.5,11.2,9337,7539,8.7
-King,Everton,3.9,1.3,6886,5560,4.2
-King,Fulham,4.5,4.0,2288,1847,2.8
-Mamardashvili,Liverpool,4.3,0.9,3337,2694,2.2
-Szoboszlai,Liverpool,6.6,4.3,18706,15105,6.8
-Gravenberch,Liverpool,5.6,4.2,47223,38132,27.1
-O’Reilly,Man City,4.9,1.1,10023,8093,5.8
-Cherki,Man City,6.3,2.7,70488,56919,39.0
-Haaland,Man City,14.8,69.9,76055,61414,68.9
-Mbeumo,Man Utd,8.4,28.9,132117,106684,47.1
-Heaven,Man Utd,3.8,1.0,5887,4753,3.6
-Amad,Man Utd,6.3,1.4,9390,7582,5.6
-Bruno G.,Newcastle,6.6,3.7,15477,12497,5.6
-J.Murphy,Newcastle,6.1,1.1,8675,7005,5.1
-Gibbs-White,Nott'm Forest,7.3,3.0,12667,10228,8.0
-Xhaka,Sunderland,5.1,5.3,22067,17819,14.0
-Roefs,Sunderland,4.7,7.0,12854,10379,9.7
-Mukiele,Sunderland,4.2,5.5,11129,8986,5.2
-Van de Ven,Spurs,4.8,32.8,42401,34238,24.5
-J.Palhinha,Spurs,5.5,1.7,8099,6539,5.0
-L.Paquetá,West Ham,5.9,2.6,16121,13017,9.7
-Saliba,Arsenal,6.0,11.6,-5786,-4672,-2.5
-Lewis-Skelly,Arsenal,5.2,1.6,-4789,-3867,-14.6
-Saka,Arsenal,10.1,17.1,-47479,-38339,-13.7
-Ødegaard,Arsenal,7.8,1.4,-3165,-2555,-7.9
-Martinelli,Arsenal,6.8,0.9,-10823,-8739,-49.0
-Zubimendi,Arsenal,5.4,3.3,-55363,-44705,-68.4
-Eze,Arsenal,7.6,14.0,-40313,-32552,-14.2
-Gyökeres,Arsenal,9.0,19.5,-200935,-162255,-42.5
-Konsa,Aston Villa,4.4,8.5,-14731,-11895,-8.5
-Mings,Aston Villa,4.4,0.9,-6310,-5095,-28.6
-Alex Moreno,Aston Villa,4.0,2.4,-6373,-5146,-9.3
-Rogers,Aston Villa,6.8,4.8,-1852,-1495,-1.9
-Watkins,Aston Villa,8.5,6.5,-13231,-10684,-10.0
-Ekdal,Burnley,4.0,1.1,-5573,-4500,-24.8
-Estève,Burnley,4.0,12.2,-17452,-14092,-7.0
-Anthony,Burnley,5.7,6.0,-45009,-36344,-36.8
-Cullen,Burnley,5.0,2.3,-7910,-6387,-16.8
-A.Ramsey,Burnley,4.4,2.2,-6387,-5157,-10.1
-Foster,Burnley,5.0,1.7,-6626,-5350,-19.1
-Senesi,Bournemouth,5.0,26.1,-22014,-17776,-4.2
-Hill,Bournemouth,4.0,0.8,-2254,-1820,-13.8
-Kluivert,Bournemouth,7.0,1.0,-4393,-3547,-21.5
-Evanilson,Bournemouth,7.0,1.4,-2920,-2357,-10.2
-Kelleher,Brentford,4.5,7.8,-8545,-6900,-5.4
-Collins,Brentford,4.9,1.1,-4132,-3336,-18.4
-Verbruggen,Brighton,4.4,4.1,-3048,-2461,-3.6
-De Cuyper,Brighton,4.3,1.9,-9545,-7707,-24.6
-Dunk,Brighton,4.5,1.1,-1736,-1401,-7.7
-Mitoma,Brighton,6.2,2.2,-17862,-14423,-33.1
-Baleba,Brighton,4.7,2.1,-1664,-1343,-3.9
-Palmer,Chelsea,10.3,9.2,-20473,-16531,-7.8
-Enzo,Chelsea,6.7,14.3,-17716,-14305,-6.1
-Estêvão,Chelsea,6.5,2.3,-8359,-6749,-17.8
-Marc Guiu,Chelsea,4.2,6.9,-7421,-5992,-5.3
-Mitchell,Crystal Palace,5.0,2.2,-3373,-2723,-7.5
-Devenny,Crystal Palace,4.4,1.1,-2473,-1996,-11.0
-Dewsbury-Hall,Everton,4.9,2.9,-7768,-6272,-13.1
-Pickford,Everton,5.5,9.7,-10976,-8863,-5.6
-Tarkowski,Everton,5.5,6.2,-20185,-16299,-16.0
-Garner,Everton,5.0,0.9,-3197,-2581,-17.4
+Neto,Chelsea,7.1,6.1,55276,44635,17.3
+Caicedo,Chelsea,6.0,20.7,280103,226183,83.7
+João Pedro,Chelsea,7.4,46.1,124657,100660,85.5
+Delap,Chelsea,6.2,0.9,1716,1385,1.3
+Henderson,Crystal Palace,5.0,7.6,1863,1504,4.0
+Muñoz,Crystal Palace,5.7,15.4,34548,27897,24.8
+Lacroix,Crystal Palace,5.0,3.7,2373,1916,2.8
+Guéhi,Crystal Palace,5.0,34.5,128674,103904,83.1
+Richards,Crystal Palace,4.5,3.3,3184,2571,3.0
+Sarr,Crystal Palace,6.6,11.7,46774,37770,29.9
+Mateta,Crystal Palace,7.9,24.2,349586,282290,100.0
+Ndiaye,Everton,6.5,11.2,9297,7507,8.7
+King,Everton,3.9,1.3,6891,5564,4.2
+King,Fulham,4.5,4.0,2289,1848,2.8
+Mamardashvili,Liverpool,4.3,0.9,3345,2701,2.2
+Szoboszlai,Liverpool,6.6,4.3,18772,15158,6.8
+Gravenberch,Liverpool,5.6,4.2,47275,38174,27.1
+O’Reilly,Man City,4.9,1.1,10043,8109,5.8
+Cherki,Man City,6.3,2.7,70724,57109,39.2
+Haaland,Man City,14.8,69.9,76136,61479,68.9
+Mbeumo,Man Utd,8.4,28.9,132265,106803,47.2
+Heaven,Man Utd,3.8,1.0,5895,4760,3.6
+Amad,Man Utd,6.3,1.4,9401,7591,5.6
+Bruno G.,Newcastle,6.6,3.7,15487,12505,5.6
+J.Murphy,Newcastle,6.1,1.1,8680,7009,5.1
+Gibbs-White,Nott'm Forest,7.3,3.0,12698,10253,8.0
+Xhaka,Sunderland,5.1,5.3,22127,17867,14.0
+Roefs,Sunderland,4.7,7.0,12880,10400,9.7
+Mukiele,Sunderland,4.2,5.5,11130,8987,5.2
+Van de Ven,Spurs,4.8,32.8,42542,34352,24.6
+J.Palhinha,Spurs,5.5,1.7,8128,6563,5.1
+L.Paquetá,West Ham,5.9,2.6,16171,13058,9.7
+Saliba,Arsenal,6.0,11.6,-5780,-4667,-2.5
+Lewis-Skelly,Arsenal,5.2,1.6,-4791,-3868,-14.6
+Saka,Arsenal,10.1,17.1,-47481,-38340,-13.7
+Ødegaard,Arsenal,7.8,1.4,-3167,-2557,-7.9
+Martinelli,Arsenal,6.8,0.9,-10832,-8746,-49.0
+Zubimendi,Arsenal,5.4,3.3,-55426,-44756,-68.5
+Eze,Arsenal,7.6,14.0,-40366,-32595,-14.2
+Gyökeres,Arsenal,9.0,19.5,-201473,-162689,-42.6
+Konsa,Aston Villa,4.4,8.5,-14748,-11909,-8.5
+Mings,Aston Villa,4.4,0.9,-6321,-5104,-28.6
+Alex Moreno,Aston Villa,4.0,2.4,-6377,-5149,-9.3
+Rogers,Aston Villa,6.8,4.8,-1859,-1501,-1.9
+Watkins,Aston Villa,8.5,6.5,-13240,-10691,-10.0
+Walker,Burnley,4.4,1.6,-1500,-1211,-4.6
+Ekdal,Burnley,4.0,1.1,-5577,-4503,-24.8
+Estève,Burnley,4.0,12.2,-17487,-14120,-7.1
+Anthony,Burnley,5.7,6.0,-45051,-36378,-36.8
+Cullen,Burnley,5.0,2.3,-7914,-6390,-16.8
+A.Ramsey,Burnley,4.4,2.2,-6390,-5159,-10.1
+Foster,Burnley,5.0,1.7,-6629,-5352,-19.1
+Senesi,Bournemouth,5.0,26.1,-22026,-17785,-4.2
+Hill,Bournemouth,4.0,0.8,-2255,-1820,-13.8
+Kluivert,Bournemouth,7.0,1.0,-4396,-3549,-21.5
+Evanilson,Bournemouth,7.0,1.4,-2923,-2360,-10.2
+Kelleher,Brentford,4.5,7.8,-8569,-6919,-5.4
+Collins,Brentford,4.9,1.1,-4148,-3349,-18.4
+Verbruggen,Brighton,4.4,4.1,-3070,-2479,-3.7
+De Cuyper,Brighton,4.3,1.9,-9556,-7716,-24.6
+Dunk,Brighton,4.5,1.1,-1755,-1417,-7.8
+Mitoma,Brighton,6.2,2.2,-17885,-14442,-33.1
+Baleba,Brighton,4.7,2.1,-1672,-1350,-3.9
+Palmer,Chelsea,10.3,9.2,-20496,-16550,-7.8
+Enzo,Chelsea,6.7,14.3,-17686,-14281,-6.1
+Estêvão,Chelsea,6.5,2.3,-8331,-6727,-17.7
+Marc Guiu,Chelsea,4.2,6.9,-7420,-5991,-5.3
+Mitchell,Crystal Palace,5.0,2.2,-3386,-2734,-7.5
+Devenny,Crystal Palace,4.4,1.1,-2474,-1997,-11.0
+Dewsbury-Hall,Everton,4.9,2.9,-7788,-6288,-13.1
+Pickford,Everton,5.5,9.7,-10959,-8849,-5.6
+Tarkowski,Everton,5.5,6.2,-20206,-16316,-16.0
+Garner,Everton,5.0,0.9,-3198,-2582,-17.4
 Beto,Everton,5.2,3.3,-9865,-7965,-14.6
-Grealish,Everton,6.9,17.3,-56392,-45536,-16.1
-Iwobi,Fulham,6.5,1.6,-11388,-9195,-34.8
-Darlow,Leeds,4.0,2.3,-3576,-2887,-7.6
-Gudmundsson,Leeds,4.0,4.8,-13354,-10783,-13.6
-Rodon,Leeds,4.1,6.4,-3756,-3032,-2.9
-Longstaff,Leeds,4.9,1.1,-5060,-4085,-22.5
-Stach,Leeds,5.0,2.4,-18151,-14656,-37.0
-Calvert-Lewin,Leeds,5.5,1.3,-16931,-13671,-53.1
-A.Becker,Liverpool,5.4,5.7,-25450,-20550,-15.6
-Frimpong,Liverpool,5.8,5.3,-26356,-21282,-17.4
-Kerkez,Liverpool,5.7,3.5,-20454,-16516,-28.6
-Virgil,Liverpool,6.0,23.4,-69650,-56242,-14.8
-Konaté,Liverpool,5.4,2.7,-2230,-1800,-4.0
-M.Salah,Liverpool,14.2,24.7,-45617,-36835,-9.2
-Wirtz,Liverpool,8.0,7.3,-28305,-22856,-19.0
-Gakpo,Liverpool,7.6,13.9,-54707,-44175,-19.4
-Isak,Liverpool,10.4,4.9,-61183,-49405,-51.0
-Ekitiké,Liverpool,8.6,15.8,-61751,-49863,-19.3
-Trafford,Man City,4.7,1.2,-2405,-1942,-9.8
-Aït-Nouri,Man City,5.8,4.8,-9785,-7901,-10.0
-Gvardiol,Man City,5.9,5.3,-19931,-16094,-18.4
-Matheus N.,Man City,5.3,0.8,-3317,-2678,-20.3
-Rúben,Man City,5.5,4.5,-11279,-9107,-12.3
-Lewis,Man City,4.9,1.7,-7645,-6173,-22.0
-Marmoush,Man City,8.3,2.6,-2311,-1866,-4.3
-Foden,Man City,8.0,4.2,-21772,-17580,-25.4
-Doku,Man City,6.4,4.8,-54918,-44346,-56.1
-Reijnders,Man City,5.5,22.3,-229150,-185038,-50.9
-Donnarumma,Man City,5.7,10.1,-25727,-20774,-12.5
-De Ligt,Man Utd,5.0,2.9,-9307,-7515,-15.7
+Grealish,Everton,6.9,17.3,-56460,-45591,-16.1
+Iwobi,Fulham,6.5,1.6,-11425,-9225,-34.9
+Darlow,Leeds,4.0,2.3,-3584,-2894,-7.6
+Gudmundsson,Leeds,4.0,4.8,-13363,-10790,-13.6
+Rodon,Leeds,4.1,6.4,-3776,-3049,-2.9
+Longstaff,Leeds,4.9,1.1,-5066,-4090,-22.5
+Stach,Leeds,5.0,2.4,-18180,-14680,-37.1
+Calvert-Lewin,Leeds,5.5,1.3,-16973,-13705,-53.2
+A.Becker,Liverpool,5.4,5.7,-25473,-20569,-15.7
+Frimpong,Liverpool,5.8,5.3,-26381,-21302,-17.4
+Kerkez,Liverpool,5.7,3.5,-20480,-16537,-28.6
+Virgil,Liverpool,6.0,23.4,-69693,-56277,-14.8
+Konaté,Liverpool,5.4,2.7,-2228,-1799,-4.0
+M.Salah,Liverpool,14.2,24.7,-45656,-36867,-9.2
+Wirtz,Liverpool,8.0,7.3,-28326,-22873,-19.0
+Gakpo,Liverpool,7.6,13.9,-54815,-44263,-19.4
+Isak,Liverpool,10.4,4.9,-61249,-49458,-51.0
+Ekitiké,Liverpool,8.6,15.8,-61778,-49885,-19.3
+Trafford,Man City,4.7,1.2,-2409,-1945,-9.8
+Aït-Nouri,Man City,5.8,4.8,-9795,-7909,-10.0
+Gvardiol,Man City,5.9,5.3,-19966,-16122,-18.5
+Matheus N.,Man City,5.3,0.8,-3320,-2680,-20.3
+Rúben,Man City,5.5,4.5,-11298,-9123,-12.3
+Lewis,Man City,4.9,1.7,-7651,-6178,-22.0
+Marmoush,Man City,8.3,2.6,-2315,-1869,-4.4
+Foden,Man City,8.0,4.2,-21724,-17542,-25.3
+Doku,Man City,6.4,4.8,-54994,-44407,-56.1
+Reijnders,Man City,5.5,22.3,-229395,-185236,-51.0
+Donnarumma,Man City,5.7,10.1,-25780,-20817,-12.6
+De Ligt,Man Utd,5.0,2.9,-9314,-7521,-15.7
 Dalot,Man Utd,4.4,1.0,-2209,-1783,-10.8
-Dorgu,Man Utd,4.3,3.0,-16410,-13251,-26.8
-Yoro,Man Utd,4.4,1.7,-5959,-4811,-17.1
-B.Fernandes,Man Utd,8.9,16.3,-5771,-4660,-1.7
-Cunha,Man Utd,7.9,4.4,-1756,-1417,-2.0
-Obi,Man Utd,4.3,1.5,-4386,-3541,-14.3
-Šeško,Man Utd,7.3,5.2,-28752,-23217,-27.1
-Pope,Newcastle,5.2,12.1,-14935,-12060,-6.1
-Schär,Newcastle,5.4,1.8,-5726,-4623,-15.6
-Burn,Newcastle,5.2,10.5,-51282,-41410,-24.0
-Livramento,Newcastle,4.9,3.0,-24535,-19812,-28.6
-Trippier,Newcastle,5.0,2.6,-14478,-11690,-27.2
-Gordon,Newcastle,7.5,3.0,-24376,-19683,-39.8
-Elanga,Newcastle,6.7,3.6,-16573,-13382,-22.5
-Tonali,Newcastle,5.4,1.3,-3442,-2779,-12.9
-L.Miley,Newcastle,4.4,2.1,-1544,-1246,-3.6
-Woltemade,Newcastle,7.5,24.0,-124936,-100885,-25.8
-Sels,Nott'm Forest,4.8,8.3,-17229,-13912,-10.2
-Milenković,Nott'm Forest,5.2,3.9,-13556,-10946,-17.0
-Aina,Nott'm Forest,4.7,2.5,-9733,-7859,-13.6
-N.Williams,Nott'm Forest,4.7,3.5,-8310,-6710,-11.6
-Wood,Nott'm Forest,7.2,6.4,-47739,-38549,-30.5
-Ndoye,Nott'm Forest,5.7,1.2,-5734,-4630,-23.4
-Gunn,Nott'm Forest,4.0,1.4,-3670,-2963,-9.2
-Ballard,Sunderland,4.6,2.4,-3437,-2775,-7.0
-Reinildo,Sunderland,4.0,4.4,-7513,-6066,-8.4
-Isidor,Sunderland,5.6,3.6,-9069,-7323,-12.3
-Alderete,Sunderland,4.1,5.4,-31401,-25356,-23.8
-Vicario,Spurs,5.1,10.0,-21647,-17479,-10.6
-Pedro Porro,Spurs,5.5,18.2,-69206,-55883,-18.8
-Romero,Spurs,5.0,4.2,-15716,-12690,-18.3
-Spence,Spurs,4.5,1.6,-7206,-5818,-22.0
-Johnson,Spurs,6.7,3.1,-15091,-12185,-23.8
-Kudus,Spurs,6.6,29.2,-256393,-207037,-36.4
-P.M.Sarr,Spurs,4.9,1.7,-2273,-1835,-6.5
-Richarlison,Spurs,6.5,8.3,-79284,-64021,-46.9
-Xavi,Spurs,6.7,1.5,-21574,-17421,-70.3
-Diouf,West Ham,4.4,3.2,-7179,-5797,-11.0
+Dorgu,Man Utd,4.3,3.0,-16422,-13260,-26.8
+Yoro,Man Utd,4.4,1.7,-5966,-4817,-17.2
+B.Fernandes,Man Utd,8.9,16.3,-5787,-4673,-1.8
+Cunha,Man Utd,7.9,4.4,-1757,-1418,-2.0
+Obi,Man Utd,4.3,1.5,-4391,-3545,-14.3
+Šeško,Man Utd,7.3,5.2,-28774,-23235,-27.1
+Pope,Newcastle,5.2,12.1,-14954,-12075,-6.1
+Schär,Newcastle,5.4,1.8,-5733,-4629,-15.6
+Burn,Newcastle,5.2,10.5,-51337,-41454,-24.0
+Livramento,Newcastle,4.9,3.0,-24557,-19829,-28.6
+Trippier,Newcastle,5.0,2.6,-14502,-11710,-27.3
+Gordon,Newcastle,7.5,3.0,-24428,-19725,-39.9
+Elanga,Newcastle,6.7,3.6,-16593,-13398,-22.6
+Tonali,Newcastle,5.4,1.3,-3455,-2789,-13.0
+L.Miley,Newcastle,4.4,2.1,-1541,-1244,-3.6
+Woltemade,Newcastle,7.5,24.0,-125070,-100994,-25.9
+Sels,Nott'm Forest,4.8,8.3,-17243,-13923,-10.2
+Milenković,Nott'm Forest,5.2,3.9,-13576,-10962,-17.0
+Aina,Nott'm Forest,4.7,2.5,-9739,-7864,-13.6
+N.Williams,Nott'm Forest,4.7,3.5,-8317,-6715,-11.6
+Wood,Nott'm Forest,7.2,6.4,-47775,-38578,-30.5
+Ndoye,Nott'm Forest,5.7,1.2,-5741,-4635,-23.4
+Gunn,Nott'm Forest,4.0,1.4,-3676,-2968,-9.2
+Ballard,Sunderland,4.6,2.4,-3442,-2779,-7.0
+Reinildo,Sunderland,4.0,4.4,-7518,-6070,-8.4
+Isidor,Sunderland,5.6,3.6,-9095,-7344,-12.4
+Alderete,Sunderland,4.1,5.4,-31441,-25388,-23.8
+Vicario,Spurs,5.1,10.0,-21652,-17483,-10.6
+Pedro Porro,Spurs,5.5,18.2,-69278,-55941,-18.8
+Romero,Spurs,5.0,4.2,-15727,-12699,-18.3
+Spence,Spurs,4.5,1.6,-7216,-5826,-22.1
+Johnson,Spurs,6.7,3.1,-15107,-12198,-23.9
+Kudus,Spurs,6.6,29.2,-257069,-207583,-36.5
+P.M.Sarr,Spurs,4.9,1.7,-2264,-1828,-6.5
+Richarlison,Spurs,6.5,8.3,-79357,-64080,-47.0
+Xavi,Spurs,6.7,1.5,-21586,-17430,-70.4
+Diouf,West Ham,4.4,3.2,-7171,-5790,-11.0
 Wan-Bissaka,West Ham,4.3,5.8,-4370,-3528,-3.7
-Bowen,West Ham,7.7,7.6,-16564,-13375,-10.7
-José Sá,Wolves,4.3,1.2,-3088,-2493,-12.6
-Pond,Wolves,3.9,1.4,-2159,-1743,-7.5
-Gonzalez,Wolves,4.4,1.4,-3235,-2612,-11.3
-Strand Larsen,Wolves,6.4,1.3,-7484,-6043,-28.1
-Fraser,Wolves,4.4,1.9,-4539,-3665,-11.7
+Bowen,West Ham,7.7,7.6,-16527,-13345,-10.7
+José Sá,Wolves,4.3,1.2,-3090,-2495,-12.6
+Pond,Wolves,3.9,1.4,-2157,-1741,-7.5
+Gonzalez,Wolves,4.4,1.4,-3244,-2619,-11.3
+Strand Larsen,Wolves,6.4,1.3,-7506,-6061,-28.2
+Fraser,Wolves,4.4,1.9,-4546,-3670,-11.7
