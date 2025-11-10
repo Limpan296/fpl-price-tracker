@@ -18,11 +18,11 @@ id,web_name,team,price
 18,Madueke,Arsenal,6.8
 19,Martinelli,Arsenal,6.8
 20,Trossard,Arsenal,6.9
-21,Rice,Arsenal,6.8
+21,Rice,Arsenal,6.9
 22,Merino,Arsenal,5.9
 23,Fábio Vieira,Arsenal,5.4
 24,Nørgaard,Arsenal,5.2
-25,Nwaneri,Arsenal,5.2
+25,Nwaneri,Arsenal,5.1
 26,Zubimendi,Arsenal,5.4
 28,Kabia,Arsenal,4.5
 29,Sambi,Arsenal,4.5
@@ -180,7 +180,7 @@ id,web_name,team,price
 120,Schade,Brentford,7.0
 121,Damsgaard,Brentford,5.8
 122,Milambo,Brentford,5.2
-123,Carvalho,Brentford,4.9
+123,Carvalho,Brentford,4.8
 124,Henderson,Brentford,5.0
 125,Janelt,Brentford,4.9
 126,Jensen,Brentford,4.9
@@ -251,7 +251,7 @@ id,web_name,team,price
 229,B.Badiashile,Chelsea,4.4
 230,Fofana,Chelsea,4.4
 231,M.Sarr,Chelsea,4.5
-232,Tosin,Chelsea,4.3
+232,Tosin,Chelsea,4.2
 233,Acheampong,Chelsea,3.9
 234,Anselmino,Chelsea,4.0
 235,Palmer,Chelsea,10.3
@@ -413,7 +413,7 @@ id,web_name,team,price
 367,Mamardashvili,Liverpool,4.3
 368,Pécsi,Liverpool,3.9
 369,Woodman,Liverpool,3.9
-370,Frimpong,Liverpool,5.8
+370,Frimpong,Liverpool,5.7
 371,Kerkez,Liverpool,5.7
 372,Robertson,Liverpool,5.8
 373,Virgil,Liverpool,5.9
@@ -427,7 +427,7 @@ id,web_name,team,price
 381,M.Salah,Liverpool,14.2
 382,Wirtz,Liverpool,8.0
 383,Luis Díaz,Liverpool,8.0
-384,Gakpo,Liverpool,7.6
+384,Gakpo,Liverpool,7.5
 385,Chiesa,Liverpool,6.4
 386,Mac Allister,Liverpool,6.3
 387,Szoboszlai,Liverpool,6.6
@@ -480,7 +480,7 @@ id,web_name,team,price
 739,Mukasa,Man City,4.5
 740,Mfuni,Man City,4.0
 742,McAidoo,Man City,4.5
-119,Mbeumo,Man Utd,8.4
+119,Mbeumo,Man Utd,8.5
 431,Bayindir,Man Utd,4.8
 432,Onana,Man Utd,4.9
 433,Harrison,Man Utd,4.0
@@ -654,7 +654,7 @@ id,web_name,team,price
 579,Son,Spurs,8.5
 580,Johnson,Spurs,6.7
 581,Maddison,Spurs,6.9
-582,Kudus,Spurs,6.6
+582,Kudus,Spurs,6.5
 583,Kulusevski,Spurs,6.4
 584,Tel,Spurs,6.3
 585,Bentancur,Spurs,5.3
@@ -665,7 +665,7 @@ id,web_name,team,price
 590,Bryan,Spurs,4.9
 591,Gray,Spurs,4.8
 592,Moore,Spurs,5.0
-593,P.M.Sarr,Spurs,4.9
+593,P.M.Sarr,Spurs,4.8
 594,Min-hyeok,Spurs,4.5
 595,Olusesi,Spurs,4.4
 596,Solanke,Spurs,7.2
@@ -693,7 +693,7 @@ id,web_name,team,price
 611,Casey,West Ham,4.0
 612,L.Paquetá,West Ham,5.9
 613,Souček,West Ham,5.7
-614,Ward-Prowse,West Ham,5.7
+614,Ward-Prowse,West Ham,5.6
 615,Summerville,West Ham,5.5
 616,Álvarez,West Ham,4.9
 617,Cornet,West Ham,4.9
