@@ -8,7 +8,7 @@ id,web_name,team,price
 7,Calafiori,Arsenal,5.8
 8,J.Timber,Arsenal,6.1
 9,Kiwior,Arsenal,5.4
-10,Lewis-Skelly,Arsenal,5.2
+10,Lewis-Skelly,Arsenal,5.1
 11,White,Arsenal,5.3
 13,Clarke,Arsenal,3.9
 14,Kacurri,Arsenal,3.9
@@ -41,7 +41,7 @@ id,web_name,team,price
 36,Cash,Aston Villa,4.6
 37,Digne,Aston Villa,4.5
 38,Konsa,Aston Villa,4.4
-39,Maatsen,Aston Villa,4.3
+39,Maatsen,Aston Villa,4.2
 40,Mings,Aston Villa,4.4
 41,Pau,Aston Villa,4.3
 42,A.García,Aston Villa,3.9
@@ -93,7 +93,7 @@ id,web_name,team,price
 197,Sonne,Burnley,3.9
 198,Tuanzebe,Burnley,3.9
 199,Worrall,Burnley,3.9
-200,Anthony,Burnley,5.7
+200,Anthony,Burnley,5.6
 201,Benson,Burnley,5.4
 202,Bruun Larsen,Burnley,5.3
 203,Boateng,Burnley,4.8
@@ -325,7 +325,7 @@ id,web_name,team,price
 297,Dixon,Everton,3.9
 298,Welch,Everton,3.9
 299,Ndiaye,Everton,6.6
-300,McNeil,Everton,5.6
+300,McNeil,Everton,5.5
 301,Alcaraz,Everton,5.2
 302,Gana,Everton,5.4
 303,Garner,Everton,5.0
@@ -475,7 +475,7 @@ id,web_name,team,price
 427,Reijnders,Man City,5.5
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.8
-430,Haaland,Man City,14.8
+430,Haaland,Man City,14.9
 736,Donnarumma,Man City,5.7
 739,Mukasa,Man City,4.5
 740,Mfuni,Man City,4.0
@@ -491,7 +491,7 @@ id,web_name,team,price
 438,Mazraoui,Man Utd,4.9
 439,D.Leon,Man Utd,4.2
 440,Dalot,Man Utd,4.4
-441,Dorgu,Man Utd,4.3
+441,Dorgu,Man Utd,4.2
 442,Maguire,Man Utd,4.4
 443,Shaw,Man Utd,4.5
 444,Yoro,Man Utd,4.4
