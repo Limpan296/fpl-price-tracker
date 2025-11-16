@@ -76,7 +76,7 @@ id,web_name,team,price
 703,Proctor,Aston Villa,4.0
 710,Patterson,Aston Villa,3.9
 719,Lindelöf,Aston Villa,4.5
-183,Weiss,Burnley,4.4
+183,Weiss,Burnley,4.3
 184,Green,Burnley,4.0
 185,Hladký,Burnley,4.0
 186,Roberts,Burnley,4.4
@@ -84,7 +84,7 @@ id,web_name,team,price
 188,Delcroix,Burnley,3.9
 189,Dodgson,Burnley,4.0
 190,Ekdal,Burnley,4.0
-191,Estève,Burnley,4.0
+191,Estève,Burnley,3.9
 192,Hartman,Burnley,4.0
 193,Humphreys,Burnley,4.0
 194,Jordan,Burnley,4.0
@@ -728,7 +728,7 @@ id,web_name,team,price
 639,Meupiyou,Wolves,4.0
 640,Pedro Lima,Wolves,4.0
 641,Pond,Wolves,3.9
-642,Hee Chan,Wolves,5.8
+642,Hee Chan,Wolves,5.7
 643,André,Wolves,5.3
 644,Bellegarde,Wolves,5.2
 645,Fer López,Wolves,5.2
@@ -746,7 +746,7 @@ id,web_name,team,price
 657,Chiwome,Wolves,4.4
 658,Fraser,Wolves,4.4
 663,J.Arias,Wolves,5.1
-682,Møller Wolfe,Wolves,4.4
+682,Møller Wolfe,Wolves,4.3
 695,Tchatchoua,Wolves,4.5
 709,Krejčí,Wolves,4.5
 720,Tolu,Wolves,5.5
