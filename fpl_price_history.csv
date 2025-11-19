@@ -6,11 +6,11 @@ id,web_name,team,price
 5,Gabriel,Arsenal,6.6
 6,Saliba,Arsenal,6.0
 7,Calafiori,Arsenal,5.8
-8,J.Timber,Arsenal,6.1
+8,J.Timber,Arsenal,6.2
 9,Kiwior,Arsenal,5.4
 10,Lewis-Skelly,Arsenal,5.1
 11,White,Arsenal,5.3
-13,Clarke,Arsenal,3.9
+13,Clarke,Arsenal,3.8
 14,Kacurri,Arsenal,3.9
 15,Nichols,Arsenal,3.9
 16,Saka,Arsenal,10.1
@@ -510,7 +510,7 @@ id,web_name,team,price
 459,Ugarte,Man Utd,4.8
 460,Collyer,Man Utd,4.5
 461,Fitzgerald,Man Utd,4.4
-462,J.Fletcher,Man Utd,4.4
+462,J.Fletcher,Man Utd,4.3
 463,Kone,Man Utd,4.4
 464,Moorhouse,Man Utd,4.5
 465,Højlund,Man Utd,6.3
@@ -571,7 +571,7 @@ id,web_name,team,price
 513,Abbott,Nott'm Forest,3.9
 514,Boly,Nott'm Forest,3.9
 515,Gibbs-White,Nott'm Forest,7.3
-516,Hudson-Odoi,Nott'm Forest,5.8
+516,Hudson-Odoi,Nott'm Forest,5.7
 517,Anderson,Nott'm Forest,5.3
 518,Jota,Nott'm Forest,5.4
 519,Dominguez,Nott'm Forest,5.0
