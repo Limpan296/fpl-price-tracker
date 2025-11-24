@@ -3,7 +3,7 @@ id,web_name,team,price
 2,Arrizabalaga,Arsenal,4.2
 3,Hein,Arsenal,4.0
 4,Setford,Arsenal,4.0
-5,Gabriel,Arsenal,6.5
+5,Gabriel,Arsenal,6.4
 6,Saliba,Arsenal,6.0
 7,Calafiori,Arsenal,5.8
 8,J.Timber,Arsenal,6.3
@@ -76,6 +76,7 @@ id,web_name,team,price
 703,Proctor,Aston Villa,4.0
 710,Patterson,Aston Villa,3.9
 719,Lindelöf,Aston Villa,4.5
+754,George Hemmings,Aston Villa,4.5
 183,Weiss,Burnley,4.3
 184,Green,Burnley,4.0
 185,Hladký,Burnley,4.0
@@ -192,7 +193,7 @@ id,web_name,team,price
 132,Maghoma,Brentford,4.5
 133,Peart-Harris,Brentford,4.4
 134,Trevitt,Brentford,4.5
-136,Thiago,Brentford,6.4
+136,Thiago,Brentford,6.5
 137,Morgan,Brentford,4.4
 748,Dasilva,Brentford,5.0
 138,Steele,Brighton,4.3
@@ -233,7 +234,7 @@ id,web_name,team,price
 175,Knight,Brighton,4.5
 176,Mazilu,Brighton,4.5
 177,Moran,Brighton,4.5
-178,Welbeck,Brighton,6.5
+178,Welbeck,Brighton,6.6
 179,Ferguson,Brighton,5.5
 180,Tzimas,Brighton,5.3
 181,Kostoulas,Brighton,4.8
@@ -277,7 +278,7 @@ id,web_name,team,price
 253,Henderson,Crystal Palace,5.0
 254,Benitez,Crystal Palace,4.0
 255,Matthews,Crystal Palace,3.9
-256,Muñoz,Crystal Palace,5.8
+256,Muñoz,Crystal Palace,5.9
 257,Lacroix,Crystal Palace,5.0
 258,Mitchell,Crystal Palace,5.0
 259,Sosa,Crystal Palace,4.8
@@ -376,7 +377,7 @@ id,web_name,team,price
 731,Kevin,Fulham,5.9
 737,Kusi-Asare,Fulham,4.5
 339,Meslier,Leeds,4.3
-340,Cairns,Leeds,4.0
+340,Cairns,Leeds,3.9
 341,Darlow,Leeds,4.0
 342,Bogle,Leeds,4.5
 343,Struijk,Leeds,4.4
@@ -534,7 +535,7 @@ id,web_name,team,price
 480,Lascelles,Newcastle,4.3
 481,A.Murphy,Newcastle,3.9
 482,Ashby,Newcastle,3.9
-483,Pivas,Newcastle,3.9
+483,Pivas,Newcastle,3.8
 484,Targett,Newcastle,4.0
 485,Gordon,Newcastle,7.3
 486,Elanga,Newcastle,6.6
@@ -592,7 +593,7 @@ id,web_name,team,price
 715,John,Nott'm Forest,4.0
 716,Savona,Nott'm Forest,4.5
 729,Cuiabano,Nott'm Forest,4.5
-734,Bakwa,Nott'm Forest,6.0
+734,Bakwa,Nott'm Forest,5.9
 528,Patterson,Sunderland,4.3
 529,Moore,Sunderland,3.9
 530,Nna Noukeu,Sunderland,3.9
@@ -738,7 +739,7 @@ id,web_name,team,price
 648,Munetsi,Wolves,5.4
 649,B.Traore,Wolves,5.0
 650,Chirewa,Wolves,4.3
-651,Edozie,Wolves,4.4
+651,Edozie,Wolves,4.3
 652,Gonzalez,Wolves,4.4
 653,Hodge,Wolves,4.5
 654,Strand Larsen,Wolves,6.3
