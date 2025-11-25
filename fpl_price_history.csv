@@ -28,7 +28,7 @@ id,web_name,team,price
 29,Sambi,Arsenal,4.5
 30,Havertz,Arsenal,7.3
 31,G.Jesus,Arsenal,6.4
-266,Eze,Arsenal,7.6
+266,Eze,Arsenal,7.7
 662,Mosquera,Arsenal,5.4
 666,Gyökeres,Arsenal,8.8
 700,Dowman,Arsenal,4.3
@@ -89,7 +89,7 @@ id,web_name,team,price
 192,Hartman,Burnley,4.0
 193,Humphreys,Burnley,4.0
 194,Jordan,Burnley,4.0
-195,Lucas Pires,Burnley,3.9
+195,Lucas Pires,Burnley,3.8
 196,Sambo,Burnley,4.0
 197,Sonne,Burnley,3.9
 198,Tuanzebe,Burnley,3.9
@@ -166,7 +166,7 @@ id,web_name,team,price
 104,Eyestone,Brentford,3.9
 105,Valdimarsson,Brentford,3.9
 106,Collins,Brentford,4.9
-107,Lewis-Potter,Brentford,4.9
+107,Lewis-Potter,Brentford,4.8
 108,Ajer,Brentford,4.4
 109,Henry,Brentford,4.3
 110,Kayode,Brentford,4.5
@@ -353,8 +353,8 @@ id,web_name,team,price
 317,Andersen,Fulham,4.5
 318,Bassey,Fulham,4.5
 319,Castagne,Fulham,4.4
-320,Diop,Fulham,4.4
-321,J.Cuenca,Fulham,4.4
+320,Diop,Fulham,4.3
+321,J.Cuenca,Fulham,4.3
 322,Tete,Fulham,4.5
 323,Amissah,Fulham,3.9
 324,Iwobi,Fulham,6.5
@@ -520,6 +520,7 @@ id,web_name,team,price
 468,Wheatley,Man Utd,4.5
 681,Šeško,Man Utd,7.3
 733,Lammens,Man Utd,5.0
+755,Lacey,Man Utd,4.5
 52,J.Ramsey,Newcastle,5.3
 135,Wissa,Newcastle,7.3
 469,Pope,Newcastle,5.2
@@ -627,7 +628,7 @@ id,web_name,team,price
 558,Matete,Sunderland,4.4
 559,Triantis,Sunderland,4.4
 560,Isidor,Sunderland,5.6
-561,Mayenda,Sunderland,5.4
+561,Mayenda,Sunderland,5.3
 562,Abdullahi,Sunderland,4.3
 563,Luís Hemir,Sunderland,4.4
 564,Rusyn,Sunderland,4.4
