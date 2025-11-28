@@ -79,7 +79,7 @@ id,web_name,team,price
 754,George Hemmings,Aston Villa,4.5
 183,Weiss,Burnley,4.3
 184,Green,Burnley,4.0
-185,Hladký,Burnley,4.0
+185,Hladký,Burnley,3.9
 186,Roberts,Burnley,4.4
 187,Walker,Burnley,4.4
 188,Delcroix,Burnley,3.9
@@ -217,7 +217,7 @@ id,web_name,team,price
 157,Mitoma,Brighton,6.1
 158,Georginio,Brighton,5.7
 159,March,Brighton,5.8
-160,Minteh,Brighton,6.1
+160,Minteh,Brighton,6.2
 161,Enciso,Brighton,5.4
 162,Gruda,Brighton,5.4
 163,Hinshelwood,Brighton,5.1
@@ -357,7 +357,7 @@ id,web_name,team,price
 321,J.Cuenca,Fulham,4.3
 322,Tete,Fulham,4.5
 323,Amissah,Fulham,3.9
-324,Iwobi,Fulham,6.5
+324,Iwobi,Fulham,6.4
 325,Smith Rowe,Fulham,5.6
 326,Adama,Fulham,5.2
 327,Andreas,Fulham,5.3
@@ -459,7 +459,7 @@ id,web_name,team,price
 408,Rúben,Man City,5.5
 409,Stones,Man City,5.4
 410,Lewis,Man City,4.8
-411,O’Reilly,Man City,5.0
+411,O’Reilly,Man City,5.1
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
 414,Foden,Man City,8.0
