@@ -12,13 +12,13 @@ id,web_name,team,price
 11,White,Arsenal,5.3
 13,Clarke,Arsenal,3.8
 14,Kacurri,Arsenal,3.9
-15,Nichols,Arsenal,3.9
+15,Nichols,Arsenal,3.8
 16,Saka,Arsenal,10.1
 17,Ødegaard,Arsenal,7.8
 18,Madueke,Arsenal,6.8
 19,Martinelli,Arsenal,6.8
 20,Trossard,Arsenal,6.9
-21,Rice,Arsenal,6.9
+21,Rice,Arsenal,7.0
 22,Merino,Arsenal,5.9
 23,Fábio Vieira,Arsenal,5.4
 24,Nørgaard,Arsenal,5.2
@@ -67,7 +67,7 @@ id,web_name,team,price
 63,Young,Aston Villa,4.4
 64,Watkins,Aston Villa,8.5
 65,Redmond,Aston Villa,4.5
-389,Elliott,Aston Villa,5.4
+389,Elliott,Aston Villa,5.3
 456,Sancho,Aston Villa,5.8
 677,Guessand,Aston Villa,6.2
 688,Wright,Aston Villa,4.0
@@ -82,7 +82,7 @@ id,web_name,team,price
 185,Hladký,Burnley,3.9
 186,Roberts,Burnley,4.4
 187,Walker,Burnley,4.4
-188,Delcroix,Burnley,3.9
+188,Delcroix,Burnley,3.8
 189,Dodgson,Burnley,4.0
 190,Ekdal,Burnley,4.0
 191,Estève,Burnley,3.9
@@ -94,7 +94,7 @@ id,web_name,team,price
 197,Sonne,Burnley,3.9
 198,Tuanzebe,Burnley,3.9
 199,Worrall,Burnley,3.9
-200,Anthony,Burnley,5.6
+200,Anthony,Burnley,5.5
 201,Benson,Burnley,5.4
 202,Bruun Larsen,Burnley,5.3
 203,Boateng,Burnley,4.8
@@ -193,7 +193,7 @@ id,web_name,team,price
 132,Maghoma,Brentford,4.5
 133,Peart-Harris,Brentford,4.4
 134,Trevitt,Brentford,4.5
-136,Thiago,Brentford,6.5
+136,Thiago,Brentford,6.6
 137,Morgan,Brentford,4.4
 748,Dasilva,Brentford,5.0
 138,Steele,Brighton,4.3
@@ -261,7 +261,7 @@ id,web_name,team,price
 238,Estêvão,Chelsea,6.5
 239,Gittens,Chelsea,6.1
 240,Nkunku,Chelsea,5.9
-241,Caicedo,Chelsea,6.1
+241,Caicedo,Chelsea,6.0
 243,George,Chelsea,4.9
 244,Lavia,Chelsea,4.9
 245,Mudryk,Chelsea,4.9
@@ -466,7 +466,7 @@ id,web_name,team,price
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.3
 417,Cherki,Man City,6.4
-418,Doku,Man City,6.5
+418,Doku,Man City,6.6
 420,Gündoğan,Man City,6.3
 421,Rodrigo,Man City,6.3
 422,Kovačić,Man City,5.9
@@ -538,7 +538,7 @@ id,web_name,team,price
 482,Ashby,Newcastle,3.9
 483,Pivas,Newcastle,3.8
 484,Targett,Newcastle,4.0
-485,Gordon,Newcastle,7.3
+485,Gordon,Newcastle,7.2
 486,Elanga,Newcastle,6.6
 487,Barnes,Newcastle,6.3
 488,Bruno G.,Newcastle,6.6
@@ -551,7 +551,7 @@ id,web_name,team,price
 496,Kuol,Newcastle,4.4
 497,L.Miley,Newcastle,4.4
 498,White,Newcastle,4.5
-500,Osula,Newcastle,5.5
+500,Osula,Newcastle,5.4
 501,Neave,Newcastle,4.4
 674,Ramsdale,Newcastle,4.8
 684,Thiaw,Newcastle,4.9
@@ -748,7 +748,7 @@ id,web_name,team,price
 656,Kalajdžić,Wolves,4.9
 657,Chiwome,Wolves,4.4
 658,Fraser,Wolves,4.3
-663,J.Arias,Wolves,5.1
+663,J.Arias,Wolves,5.0
 682,Møller Wolfe,Wolves,4.3
 695,Tchatchoua,Wolves,4.5
 709,Krejčí,Wolves,4.5
