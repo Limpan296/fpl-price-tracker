@@ -1,19 +1,30 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
-J.Timber,Arsenal,6.3,31.8,5409,4367,15.6
-Rice,Arsenal,7.0,23.0,2390,1929,10.5
-Eze,Arsenal,7.7,18.3,7070,5709,11.1
-Thiago,Brentford,6.6,21.1,2468,1992,9.8
-Minteh,Brighton,6.2,7.8,1847,1491,4.1
-Cucurella,Chelsea,6.1,23.0,1560,1259,10.0
-Palmer,Chelsea,10.3,9.0,1516,1224,4.4
-Neto,Chelsea,7.1,7.2,1754,1416,3.8
-Muñoz,Crystal Palace,5.9,21.9,4940,3989,11.4
-O’Reilly,Man City,5.1,6.1,3423,2764,4.3
-Foden,Man City,8.0,5.4,2201,1777,3.3
-Gabriel,Arsenal,6.4,22.5,-11193,-9038,-1.7
-Semenyo,Bournemouth,7.9,53.1,-4590,-3706,-0.4
-Grealish,Everton,6.7,13.9,-1524,-1230,-0.5
-M.Salah,Liverpool,14.2,22.2,-1717,-1386,-0.4
-Ekitiké,Liverpool,8.5,13.5,-3156,-2548,-1.0
-Reijnders,Man City,5.4,15.9,-1752,-1414,-0.5
-Cunha,Man Utd,7.9,3.9,-1569,-1266,-1.4
+J.Timber,Arsenal,6.3,31.8,7649,6176,16.8
+Rice,Arsenal,7.0,23.0,3505,2830,11.1
+Eze,Arsenal,7.7,18.3,10497,8476,13.0
+Thiago,Brentford,6.6,21.1,13543,10935,15.7
+Minteh,Brighton,6.2,7.8,2718,2194,4.6
+Cucurella,Chelsea,6.1,23.0,2234,1803,10.4
+Palmer,Chelsea,10.3,9.0,2247,1814,4.8
+Neto,Chelsea,7.1,7.2,2662,2149,4.3
+Muñoz,Crystal Palace,5.9,22.0,7045,5688,12.6
+Lacroix,Crystal Palace,5.0,5.0,1721,1389,2.9
+Keane,Everton,4.5,2.1,1697,1370,1.8
+O’Reilly,Man City,5.1,6.1,4303,3474,4.8
+Foden,Man City,8.0,5.4,7111,5742,6.0
+Mbeumo,Man Utd,8.6,36.4,1582,1277,15.4
+Gabriel,Arsenal,6.4,22.5,-15283,-12341,-2.4
+Gyökeres,Arsenal,8.8,10.8,-1923,-1552,-0.7
+Anthony,Burnley,5.5,4.3,-1939,-1565,-2.2
+Senesi,Bournemouth,5.0,26.6,-1840,-1485,-0.3
+Semenyo,Bournemouth,7.9,53.0,-9727,-7854,-0.8
+João Pedro,Chelsea,7.5,43.8,-2934,-2369,-0.3
+Grealish,Everton,6.7,13.9,-2357,-1903,-0.8
+Virgil,Liverpool,6.0,26.2,-2048,-1653,-0.4
+M.Salah,Liverpool,14.2,22.2,-2432,-1963,-0.5
+Gakpo,Liverpool,7.5,12.4,-2116,-1708,-0.8
+Ekitiké,Liverpool,8.5,13.5,-4942,-3990,-1.5
+Reijnders,Man City,5.4,15.9,-3172,-2561,-1.0
+Cunha,Man Utd,7.9,3.9,-2084,-1682,-1.8
+Woltemade,Newcastle,7.4,19.1,-2254,-1820,-0.6
+Kudus,Spurs,6.5,16.7,-2059,-1662,-0.6
