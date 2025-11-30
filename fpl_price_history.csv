@@ -2,7 +2,7 @@ id,web_name,team,price
 1,Raya,Arsenal,5.9
 2,Arrizabalaga,Arsenal,4.2
 3,Hein,Arsenal,4.0
-4,Setford,Arsenal,4.0
+4,Setford,Arsenal,3.9
 5,Gabriel,Arsenal,6.4
 6,Saliba,Arsenal,6.0
 7,Calafiori,Arsenal,5.8
@@ -23,12 +23,12 @@ id,web_name,team,price
 23,Fábio Vieira,Arsenal,5.4
 24,Nørgaard,Arsenal,5.2
 25,Nwaneri,Arsenal,5.1
-26,Zubimendi,Arsenal,5.4
+26,Zubimendi,Arsenal,5.3
 28,Kabia,Arsenal,4.5
 29,Sambi,Arsenal,4.5
 30,Havertz,Arsenal,7.3
 31,G.Jesus,Arsenal,6.4
-266,Eze,Arsenal,7.7
+266,Eze,Arsenal,7.8
 662,Mosquera,Arsenal,5.4
 666,Gyökeres,Arsenal,8.8
 700,Dowman,Arsenal,4.3
@@ -70,7 +70,7 @@ id,web_name,team,price
 389,Elliott,Aston Villa,5.3
 456,Sancho,Aston Villa,5.8
 677,Guessand,Aston Villa,6.2
-688,Wright,Aston Villa,4.0
+688,Wright,Aston Villa,3.9
 701,Rowe,Aston Villa,4.0
 702,Burrowes,Aston Villa,4.4
 703,Proctor,Aston Villa,4.0
@@ -87,7 +87,7 @@ id,web_name,team,price
 190,Ekdal,Burnley,4.0
 191,Estève,Burnley,3.9
 192,Hartman,Burnley,4.0
-193,Humphreys,Burnley,4.0
+193,Humphreys,Burnley,3.9
 194,Jordan,Burnley,4.0
 195,Lucas Pires,Burnley,3.8
 196,Sambo,Burnley,4.0
@@ -134,7 +134,7 @@ id,web_name,team,price
 79,Mepham,Bournemouth,4.0
 80,Soler,Bournemouth,4.0
 81,Kluivert,Bournemouth,7.0
-82,Semenyo,Bournemouth,7.9
+82,Semenyo,Bournemouth,7.8
 84,Tavernier,Bournemouth,5.5
 85,Adams,Bournemouth,5.0
 86,Brooks,Bournemouth,5.0
@@ -153,7 +153,7 @@ id,web_name,team,price
 99,Adu-Adjei,Bournemouth,4.4
 100,Kroupi.Jr,Bournemouth,4.6
 391,Gannon-Doak,Bournemouth,4.9
-685,Diakité,Bournemouth,4.5
+685,Diakité,Bournemouth,4.4
 687,Rees-Dottin,Bournemouth,4.4
 697,Adli,Bournemouth,5.4
 713,A.Jimenez,Bournemouth,4.5
@@ -256,7 +256,7 @@ id,web_name,team,price
 233,Acheampong,Chelsea,3.9
 234,Anselmino,Chelsea,4.0
 235,Palmer,Chelsea,10.3
-236,Neto,Chelsea,7.1
+236,Neto,Chelsea,7.2
 237,Enzo,Chelsea,6.7
 238,Estêvão,Chelsea,6.5
 239,Gittens,Chelsea,6.1
@@ -279,7 +279,7 @@ id,web_name,team,price
 254,Benitez,Crystal Palace,4.0
 255,Matthews,Crystal Palace,3.9
 256,Muñoz,Crystal Palace,5.9
-257,Lacroix,Crystal Palace,5.0
+257,Lacroix,Crystal Palace,5.1
 258,Mitchell,Crystal Palace,5.0
 259,Sosa,Crystal Palace,4.8
 260,Guéhi,Crystal Palace,5.1
@@ -321,7 +321,7 @@ id,web_name,team,price
 292,Mykolenko,Everton,4.9
 293,O'Brien,Everton,4.9
 294,Coleman,Everton,4.3
-295,Keane,Everton,4.5
+295,Keane,Everton,4.6
 296,Patterson,Everton,4.4
 297,Dixon,Everton,3.9
 298,Welch,Everton,3.9
@@ -340,12 +340,12 @@ id,web_name,team,price
 311,Beto,Everton,5.1
 312,Y.Chermiti,Everton,4.9
 313,Sherif,Everton,4.4
-419,Grealish,Everton,6.7
+419,Grealish,Everton,6.6
 630,King,Everton,3.9
 667,Aznou,Everton,4.3
 704,Onyango,Everton,4.5
 705,Campbell,Everton,3.9
-707,Dibling,Everton,5.4
+707,Dibling,Everton,5.3
 728,Röhl,Everton,5.0
 314,Leno,Fulham,5.0
 315,Benda,Fulham,4.0
@@ -364,7 +364,7 @@ id,web_name,team,price
 328,Sessegnon,Fulham,5.4
 329,Wilson,Fulham,5.2
 330,Berge,Fulham,4.9
-331,Cairney,Fulham,4.9
+331,Cairney,Fulham,4.8
 332,Lukić,Fulham,5.0
 333,Godo,Fulham,4.5
 334,Harris,Fulham,4.5
@@ -374,13 +374,13 @@ id,web_name,team,price
 338,Muniz,Fulham,5.4
 664,Lecomte,Fulham,3.9
 727,Chukwueze,Fulham,5.3
-731,Kevin,Fulham,5.9
+731,Kevin,Fulham,5.8
 737,Kusi-Asare,Fulham,4.5
 339,Meslier,Leeds,4.3
 340,Cairns,Leeds,3.9
 341,Darlow,Leeds,4.0
 342,Bogle,Leeds,4.5
-343,Struijk,Leeds,4.4
+343,Struijk,Leeds,4.3
 344,Bijol,Leeds,3.9
 345,Bornauw,Leeds,3.9
 346,Byram,Leeds,3.9
@@ -425,7 +425,7 @@ id,web_name,team,price
 378,Nallo,Liverpool,3.8
 379,R.Williams,Liverpool,3.8
 380,Ramsay,Liverpool,3.8
-381,M.Salah,Liverpool,14.2
+381,M.Salah,Liverpool,14.1
 382,Wirtz,Liverpool,8.0
 383,Luis Díaz,Liverpool,8.0
 384,Gakpo,Liverpool,7.5
@@ -456,7 +456,7 @@ id,web_name,team,price
 405,Aké,Man City,5.3
 406,Khusanov,Man City,5.4
 407,Matheus N.,Man City,5.3
-408,Rúben,Man City,5.5
+408,Rúben,Man City,5.6
 409,Stones,Man City,5.4
 410,Lewis,Man City,4.8
 411,O’Reilly,Man City,5.1
@@ -473,7 +473,7 @@ id,web_name,team,price
 423,N.Gonzalez,Man City,5.9
 424,Bobb,Man City,5.3
 425,Echeverri,Man City,5.4
-427,Reijnders,Man City,5.4
+427,Reijnders,Man City,5.3
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.8
 430,Haaland,Man City,14.9
@@ -495,7 +495,7 @@ id,web_name,team,price
 441,Dorgu,Man Utd,4.2
 442,Maguire,Man Utd,4.4
 443,Shaw,Man Utd,4.5
-444,Yoro,Man Utd,4.4
+444,Yoro,Man Utd,4.3
 445,Amass,Man Utd,4.0
 446,Fredricson,Man Utd,3.8
 447,Heaven,Man Utd,3.8
@@ -512,7 +512,7 @@ id,web_name,team,price
 460,Collyer,Man Utd,4.5
 461,Fitzgerald,Man Utd,4.4
 462,J.Fletcher,Man Utd,4.3
-463,Kone,Man Utd,4.4
+463,Kone,Man Utd,4.3
 464,Moorhouse,Man Utd,4.5
 465,Højlund,Man Utd,6.3
 466,Zirkzee,Man Utd,5.8
@@ -534,7 +534,7 @@ id,web_name,team,price
 478,Trippier,Newcastle,5.0
 479,Krafth,Newcastle,4.3
 480,Lascelles,Newcastle,4.3
-481,A.Murphy,Newcastle,3.9
+481,A.Murphy,Newcastle,3.8
 482,Ashby,Newcastle,3.9
 483,Pivas,Newcastle,3.8
 484,Targett,Newcastle,4.0
@@ -685,7 +685,7 @@ id,web_name,team,price
 600,Areola,West Ham,4.3
 601,Foderingham,West Ham,4.0
 602,Hegyi,West Ham,3.9
-603,Diouf,West Ham,4.3
+603,Diouf,West Ham,4.2
 604,Emerson,West Ham,4.4
 605,Kilman,West Ham,4.3
 606,Mavropanos,West Ham,4.4
