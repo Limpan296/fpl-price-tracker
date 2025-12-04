@@ -77,6 +77,7 @@ id,web_name,team,price
 710,Patterson,Aston Villa,3.9
 719,Lindelöf,Aston Villa,4.5
 754,George Hemmings,Aston Villa,4.5
+757,Hollingshead,Aston Villa,4.0
 183,Weiss,Burnley,4.3
 184,Green,Burnley,4.0
 185,Hladký,Burnley,3.9
@@ -94,7 +95,7 @@ id,web_name,team,price
 197,Sonne,Burnley,3.9
 198,Tuanzebe,Burnley,3.9
 199,Worrall,Burnley,3.9
-200,Anthony,Burnley,5.5
+200,Anthony,Burnley,5.4
 201,Benson,Burnley,5.4
 202,Bruun Larsen,Burnley,5.3
 203,Boateng,Burnley,4.8
@@ -103,7 +104,7 @@ id,web_name,team,price
 206,Edwards,Burnley,4.7
 207,Hannibal,Burnley,4.8
 208,Koleosho,Burnley,5.0
-209,Laurent,Burnley,4.9
+209,Laurent,Burnley,4.8
 210,Tchaouna,Burnley,4.9
 211,A.Ramsey,Burnley,4.4
 212,Adewumi,Burnley,4.5
@@ -134,7 +135,7 @@ id,web_name,team,price
 79,Mepham,Bournemouth,4.0
 80,Soler,Bournemouth,4.0
 81,Kluivert,Bournemouth,7.0
-82,Semenyo,Bournemouth,7.8
+82,Semenyo,Bournemouth,7.7
 84,Tavernier,Bournemouth,5.5
 85,Adams,Bournemouth,5.0
 86,Brooks,Bournemouth,5.0
@@ -360,7 +361,7 @@ id,web_name,team,price
 323,Amissah,Fulham,3.8
 324,Iwobi,Fulham,6.4
 325,Smith Rowe,Fulham,5.6
-326,Adama,Fulham,5.2
+326,Adama,Fulham,5.1
 327,Andreas,Fulham,5.3
 328,Sessegnon,Fulham,5.4
 329,Wilson,Fulham,5.2
@@ -443,7 +444,7 @@ id,web_name,team,price
 397,Darwin,Liverpool,6.5
 398,Danns,Liverpool,4.3
 499,Isak,Liverpool,10.4
-661,Ekitiké,Liverpool,8.5
+661,Ekitiké,Liverpool,8.4
 686,Ngumoha,Liverpool,4.4
 692,Leoni,Liverpool,4.9
 746,Morrison,Liverpool,4.5
@@ -688,7 +689,7 @@ id,web_name,team,price
 602,Hegyi,West Ham,3.9
 603,Diouf,West Ham,4.2
 604,Emerson,West Ham,4.4
-605,Kilman,West Ham,4.3
+605,Kilman,West Ham,4.2
 606,Mavropanos,West Ham,4.4
 607,N.Aguerd,West Ham,4.4
 608,Scarles,West Ham,4.3
