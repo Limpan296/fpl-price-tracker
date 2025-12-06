@@ -131,7 +131,7 @@ id,web_name,team,price
 75,Akinmboni,Bournemouth,3.9
 76,Bevan,Bournemouth,3.9
 77,Hill,Bournemouth,4.0
-78,J.Araujo,Bournemouth,3.9
+78,J.Araujo,Bournemouth,3.8
 79,Mepham,Bournemouth,4.0
 80,Soler,Bournemouth,4.0
 81,Kluivert,Bournemouth,7.0
@@ -197,7 +197,7 @@ id,web_name,team,price
 134,Trevitt,Brentford,4.5
 136,Thiago,Brentford,6.8
 137,Morgan,Brentford,4.4
-748,Dasilva,Brentford,5.0
+748,Dasilva,Brentford,4.9
 138,Steele,Brighton,4.3
 139,Verbruggen,Brighton,4.4
 140,McGill,Brighton,4.0
@@ -210,7 +210,7 @@ id,web_name,team,price
 147,Estupiñan,Brighton,4.5
 148,F.Kadıoğlu,Brighton,4.4
 150,Lamptey,Brighton,4.4
-151,Van Hecke,Brighton,4.4
+151,Van Hecke,Brighton,4.5
 152,Veltman,Brighton,4.3
 153,Webster,Brighton,4.4
 154,Cashin,Brighton,4.0
@@ -263,7 +263,7 @@ id,web_name,team,price
 238,Estêvão,Chelsea,6.6
 239,Gittens,Chelsea,6.1
 240,Nkunku,Chelsea,5.9
-241,Caicedo,Chelsea,5.9
+241,Caicedo,Chelsea,5.8
 243,George,Chelsea,4.9
 244,Lavia,Chelsea,4.9
 245,Mudryk,Chelsea,4.9
@@ -304,7 +304,7 @@ id,web_name,team,price
 278,J.Rak-Sakyi,Crystal Palace,4.4
 279,M.França,Crystal Palace,4.5
 280,Ozoh,Crystal Palace,4.5
-281,Rodney,Crystal Palace,4.5
+281,Rodney,Crystal Palace,4.4
 282,Umeh,Crystal Palace,4.5
 283,Mateta,Crystal Palace,8.1
 284,Nketiah,Crystal Palace,5.4
@@ -460,11 +460,11 @@ id,web_name,team,price
 407,Matheus N.,Man City,5.3
 408,Rúben,Man City,5.6
 409,Stones,Man City,5.4
-410,Lewis,Man City,4.8
+410,Lewis,Man City,4.7
 411,O’Reilly,Man City,5.2
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
-414,Foden,Man City,8.3
+414,Foden,Man City,8.4
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.2
 417,Cherki,Man City,6.4
@@ -483,7 +483,7 @@ id,web_name,team,price
 739,Mukasa,Man City,4.5
 740,Mfuni,Man City,4.0
 742,McAidoo,Man City,4.5
-119,Mbeumo,Man Utd,8.6
+119,Mbeumo,Man Utd,8.5
 431,Bayindir,Man Utd,4.8
 432,Onana,Man Utd,4.9
 433,Harrison,Man Utd,4.0
@@ -521,7 +521,7 @@ id,web_name,team,price
 467,Obi,Man Utd,4.3
 468,Wheatley,Man Utd,4.5
 681,Šeško,Man Utd,7.2
-733,Lammens,Man Utd,5.0
+733,Lammens,Man Utd,5.1
 755,Lacey,Man Utd,4.5
 52,J.Ramsey,Newcastle,5.3
 135,Wissa,Newcastle,7.3
@@ -558,7 +558,7 @@ id,web_name,team,price
 674,Ramsdale,Newcastle,4.8
 684,Thiaw,Newcastle,5.0
 689,Seung soo,Newcastle,4.4
-714,Woltemade,Newcastle,7.4
+714,Woltemade,Newcastle,7.5
 753,Ruddy,Newcastle,4.0
 12,Zinchenko,Nott'm Forest,4.9
 426,McAtee,Nott'm Forest,5.1
@@ -746,7 +746,7 @@ id,web_name,team,price
 651,Edozie,Wolves,4.3
 652,Gonzalez,Wolves,4.3
 653,Hodge,Wolves,4.5
-654,Strand Larsen,Wolves,6.3
+654,Strand Larsen,Wolves,6.2
 655,Fábio Silva,Wolves,4.9
 656,Kalajdžić,Wolves,4.9
 657,Chiwome,Wolves,4.4
@@ -755,5 +755,5 @@ id,web_name,team,price
 682,Møller Wolfe,Wolves,4.3
 695,Tchatchoua,Wolves,4.5
 709,Krejčí,Wolves,4.5
-720,Tolu,Wolves,5.5
+720,Tolu,Wolves,5.4
 749,Mané,Wolves,4.5
