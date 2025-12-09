@@ -1,6 +1,6 @@
 id,web_name,team,price
 1,Raya,Arsenal,6.0
-2,Arrizabalaga,Arsenal,4.2
+2,Arrizabalaga,Arsenal,4.1
 3,Hein,Arsenal,4.0
 4,Setford,Arsenal,3.9
 5,Gabriel,Arsenal,6.2
@@ -96,7 +96,7 @@ id,web_name,team,price
 197,Sonne,Burnley,3.9
 198,Tuanzebe,Burnley,3.9
 199,Worrall,Burnley,3.9
-200,Anthony,Burnley,5.4
+200,Anthony,Burnley,5.3
 201,Benson,Burnley,5.4
 202,Bruun Larsen,Burnley,5.3
 203,Boateng,Burnley,4.7
@@ -317,7 +317,7 @@ id,web_name,team,price
 732,Uche,Crystal Palace,5.5
 242,Dewsbury-Hall,Everton,5.1
 287,Pickford,Everton,5.5
-288,Travers,Everton,4.4
+288,Travers,Everton,4.3
 289,Tyrer,Everton,3.9
 290,Branthwaite,Everton,5.3
 291,Tarkowski,Everton,5.4
@@ -365,7 +365,7 @@ id,web_name,team,price
 326,Adama,Fulham,5.1
 327,Andreas,Fulham,5.3
 328,Sessegnon,Fulham,5.4
-329,Wilson,Fulham,5.2
+329,Wilson,Fulham,5.3
 330,Berge,Fulham,4.9
 331,Cairney,Fulham,4.8
 332,Lukić,Fulham,5.0
@@ -465,7 +465,7 @@ id,web_name,team,price
 411,O’Reilly,Man City,5.2
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
-414,Foden,Man City,8.5
+414,Foden,Man City,8.6
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.2
 417,Cherki,Man City,6.4
@@ -496,7 +496,7 @@ id,web_name,team,price
 439,D.Leon,Man Utd,4.2
 440,Dalot,Man Utd,4.4
 441,Dorgu,Man Utd,4.1
-442,Maguire,Man Utd,4.4
+442,Maguire,Man Utd,4.3
 443,Shaw,Man Utd,4.5
 444,Yoro,Man Utd,4.3
 445,Amass,Man Utd,4.0
@@ -589,7 +589,7 @@ id,web_name,team,price
 525,Wood,Nott'm Forest,7.2
 526,Igor Jesus,Nott'm Forest,5.8
 527,Awoniyi,Nott'm Forest,5.2
-669,Ndoye,Nott'm Forest,5.6
+669,Ndoye,Nott'm Forest,5.5
 675,Gunn,Nott'm Forest,4.0
 693,Hutchinson,Nott'm Forest,5.4
 696,Kalimuendo,Nott'm Forest,6.0
