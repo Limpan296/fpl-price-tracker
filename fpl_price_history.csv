@@ -129,7 +129,7 @@ id,web_name,team,price
 72,Senesi,Bournemouth,5.0
 73,Smith,Bournemouth,4.4
 74,Truffert,Bournemouth,4.5
-75,Akinmboni,Bournemouth,3.9
+75,Akinmboni,Bournemouth,3.8
 76,Bevan,Bournemouth,3.9
 77,Hill,Bournemouth,4.0
 78,J.Araujo,Bournemouth,3.8
@@ -261,7 +261,7 @@ id,web_name,team,price
 235,Palmer,Chelsea,10.3
 236,Neto,Chelsea,7.3
 237,Enzo,Chelsea,6.6
-238,Estêvão,Chelsea,6.6
+238,Estêvão,Chelsea,6.5
 239,Gittens,Chelsea,6.1
 240,Nkunku,Chelsea,5.9
 241,Caicedo,Chelsea,5.8
@@ -281,7 +281,7 @@ id,web_name,team,price
 253,Henderson,Crystal Palace,5.1
 254,Benitez,Crystal Palace,4.0
 255,Matthews,Crystal Palace,3.9
-256,Muñoz,Crystal Palace,6.1
+256,Muñoz,Crystal Palace,6.0
 257,Lacroix,Crystal Palace,5.1
 258,Mitchell,Crystal Palace,5.0
 259,Sosa,Crystal Palace,4.8
@@ -320,7 +320,7 @@ id,web_name,team,price
 288,Travers,Everton,4.3
 289,Tyrer,Everton,3.9
 290,Branthwaite,Everton,5.3
-291,Tarkowski,Everton,5.4
+291,Tarkowski,Everton,5.5
 292,Mykolenko,Everton,4.9
 293,O'Brien,Everton,4.9
 294,Coleman,Everton,4.3
@@ -434,7 +434,7 @@ id,web_name,team,price
 384,Gakpo,Liverpool,7.5
 385,Chiesa,Liverpool,6.3
 386,Mac Allister,Liverpool,6.2
-387,Szoboszlai,Liverpool,6.6
+387,Szoboszlai,Liverpool,6.7
 388,C.Jones,Liverpool,5.4
 390,Gravenberch,Liverpool,5.6
 392,Endo,Liverpool,4.9
@@ -532,7 +532,7 @@ id,web_name,team,price
 473,Hall,Newcastle,5.2
 474,Schär,Newcastle,5.3
 475,Botman,Newcastle,4.9
-476,Burn,Newcastle,5.1
+476,Burn,Newcastle,5.2
 477,Livramento,Newcastle,4.9
 478,Trippier,Newcastle,4.9
 479,Krafth,Newcastle,4.3
@@ -567,14 +567,14 @@ id,web_name,team,price
 503,C.Miguel,Nott'm Forest,4.0
 504,Turner,Nott'm Forest,4.0
 505,Milenković,Nott'm Forest,5.2
-506,Murillo,Nott'm Forest,5.3
+506,Murillo,Nott'm Forest,5.2
 507,Aina,Nott'm Forest,4.7
 508,N.Williams,Nott'm Forest,4.7
 509,David Carmo,Nott'm Forest,4.5
 510,Jair Cunha,Nott'm Forest,4.3
 511,Morato,Nott'm Forest,4.3
 512,O.Richards,Nott'm Forest,4.5
-513,Abbott,Nott'm Forest,3.9
+513,Abbott,Nott'm Forest,3.8
 514,Boly,Nott'm Forest,3.9
 515,Gibbs-White,Nott'm Forest,7.3
 516,Hudson-Odoi,Nott'm Forest,5.7
@@ -688,7 +688,7 @@ id,web_name,team,price
 600,Areola,West Ham,4.3
 601,Foderingham,West Ham,4.0
 602,Hegyi,West Ham,3.9
-603,Diouf,West Ham,4.2
+603,Diouf,West Ham,4.1
 604,Emerson,West Ham,4.4
 605,Kilman,West Ham,4.2
 606,Mavropanos,West Ham,4.4
@@ -722,7 +722,7 @@ id,web_name,team,price
 752,Golambeckis,West Ham,4.0
 758,Mohamadou Kanté,West Ham,4.5
 627,Johnstone,Wolves,4.5
-628,José Sá,Wolves,4.3
+628,José Sá,Wolves,4.2
 629,Bentley,Wolves,4.0
 631,Agbadou,Wolves,4.3
 632,Doherty,Wolves,4.4
