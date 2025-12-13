@@ -5,11 +5,11 @@ id,web_name,team,price
 4,Setford,Arsenal,3.9
 5,Gabriel,Arsenal,6.2
 6,Saliba,Arsenal,6.0
-7,Calafiori,Arsenal,5.8
+7,Calafiori,Arsenal,5.7
 8,J.Timber,Arsenal,6.5
 9,Kiwior,Arsenal,5.4
 10,Lewis-Skelly,Arsenal,5.1
-11,White,Arsenal,5.3
+11,White,Arsenal,5.4
 13,Clarke,Arsenal,3.8
 14,Kacurri,Arsenal,3.9
 15,Nichols,Arsenal,3.8
@@ -19,7 +19,7 @@ id,web_name,team,price
 19,Martinelli,Arsenal,6.8
 20,Trossard,Arsenal,6.9
 21,Rice,Arsenal,7.1
-22,Merino,Arsenal,6.0
+22,Merino,Arsenal,6.1
 23,Fábio Vieira,Arsenal,5.4
 24,Nørgaard,Arsenal,5.2
 25,Nwaneri,Arsenal,5.1
@@ -33,13 +33,13 @@ id,web_name,team,price
 666,Gyökeres,Arsenal,8.8
 700,Dowman,Arsenal,4.3
 711,Harriman-Annous,Arsenal,4.5
-725,Hincapie,Arsenal,5.4
+725,Hincapie,Arsenal,5.5
 759,Salmon,Arsenal,4.0
 32,Martinez,Aston Villa,5.1
 33,M.Bizot,Aston Villa,4.2
 34,Gauci,Aston Villa,4.0
 35,Marschall,Aston Villa,4.0
-36,Cash,Aston Villa,4.8
+36,Cash,Aston Villa,4.9
 37,Digne,Aston Villa,4.5
 38,Konsa,Aston Villa,4.4
 39,Maatsen,Aston Villa,4.2
@@ -131,7 +131,7 @@ id,web_name,team,price
 74,Truffert,Bournemouth,4.5
 75,Akinmboni,Bournemouth,3.8
 76,Bevan,Bournemouth,3.9
-77,Hill,Bournemouth,4.0
+77,Hill,Bournemouth,3.9
 78,J.Araujo,Bournemouth,3.8
 79,Mepham,Bournemouth,4.0
 80,Soler,Bournemouth,4.0
@@ -162,7 +162,7 @@ id,web_name,team,price
 721,Milosavljević,Bournemouth,4.5
 756,DaCosta,Bournemouth,4.5
 27,Nelson,Brentford,4.8
-83,O.Dango,Brentford,6.0
+83,O.Dango,Brentford,6.1
 101,Kelleher,Brentford,4.5
 102,Balcombe,Brentford,4.0
 103,Cox,Brentford,3.9
@@ -196,7 +196,7 @@ id,web_name,team,price
 132,Maghoma,Brentford,4.5
 133,Peart-Harris,Brentford,4.4
 134,Trevitt,Brentford,4.5
-136,Thiago,Brentford,7.0
+136,Thiago,Brentford,7.1
 137,Morgan,Brentford,4.4
 748,Dasilva,Brentford,4.9
 138,Steele,Brighton,4.3
@@ -237,7 +237,7 @@ id,web_name,team,price
 175,Knight,Brighton,4.4
 176,Mazilu,Brighton,4.5
 177,Moran,Brighton,4.5
-178,Welbeck,Brighton,6.6
+178,Welbeck,Brighton,6.5
 179,Ferguson,Brighton,5.5
 180,Tzimas,Brighton,5.3
 181,Kostoulas,Brighton,4.8
@@ -249,13 +249,13 @@ id,web_name,team,price
 223,Slonina,Chelsea,3.9
 224,Cucurella,Chelsea,6.2
 225,James,Chelsea,5.6
-226,Chalobah,Chelsea,5.3
+226,Chalobah,Chelsea,5.4
 227,Colwill,Chelsea,4.8
 228,Gusto,Chelsea,4.9
 229,B.Badiashile,Chelsea,4.4
 230,Fofana,Chelsea,4.4
 231,M.Sarr,Chelsea,4.5
-232,Tosin,Chelsea,4.2
+232,Tosin,Chelsea,4.1
 233,Acheampong,Chelsea,3.9
 234,Anselmino,Chelsea,4.0
 235,Palmer,Chelsea,10.3
@@ -264,7 +264,7 @@ id,web_name,team,price
 238,Estêvão,Chelsea,6.5
 239,Gittens,Chelsea,6.1
 240,Nkunku,Chelsea,5.9
-241,Caicedo,Chelsea,5.8
+241,Caicedo,Chelsea,5.7
 243,George,Chelsea,4.8
 244,Lavia,Chelsea,4.9
 245,Mudryk,Chelsea,4.9
@@ -298,8 +298,8 @@ id,web_name,team,price
 271,Kamada,Crystal Palace,5.0
 272,Lerma,Crystal Palace,4.9
 273,Wharton,Crystal Palace,5.0
-274,Agbinone,Crystal Palace,4.4
-275,Ahamada,Crystal Palace,4.4
+274,Agbinone,Crystal Palace,4.3
+275,Ahamada,Crystal Palace,4.3
 276,Devenny,Crystal Palace,4.3
 277,Ebiowei,Crystal Palace,4.5
 278,J.Rak-Sakyi,Crystal Palace,4.4
@@ -307,7 +307,7 @@ id,web_name,team,price
 280,Ozoh,Crystal Palace,4.5
 281,Rodney,Crystal Palace,4.4
 282,Umeh,Crystal Palace,4.5
-283,Mateta,Crystal Palace,8.0
+283,Mateta,Crystal Palace,7.9
 284,Nketiah,Crystal Palace,5.4
 285,Édouard,Crystal Palace,5.0
 286,Marsh,Crystal Palace,4.5
@@ -340,7 +340,7 @@ id,web_name,team,price
 308,Heath,Everton,4.5
 309,Metcalfe,Everton,4.5
 310,Barry,Everton,5.7
-311,Beto,Everton,5.1
+311,Beto,Everton,5.0
 312,Y.Chermiti,Everton,4.9
 313,Sherif,Everton,4.4
 419,Grealish,Everton,6.6
@@ -365,7 +365,7 @@ id,web_name,team,price
 326,Adama,Fulham,5.1
 327,Andreas,Fulham,5.3
 328,Sessegnon,Fulham,5.4
-329,Wilson,Fulham,5.3
+329,Wilson,Fulham,5.4
 330,Berge,Fulham,4.9
 331,Cairney,Fulham,4.8
 332,Lukić,Fulham,5.0
@@ -373,7 +373,7 @@ id,web_name,team,price
 334,Harris,Fulham,4.5
 335,King,Fulham,4.5
 336,Reed,Fulham,4.3
-337,Raúl,Fulham,6.2
+337,Raúl,Fulham,6.3
 338,Muniz,Fulham,5.4
 664,Lecomte,Fulham,3.9
 727,Chukwueze,Fulham,5.3
@@ -396,7 +396,7 @@ id,web_name,team,price
 353,James,Leeds,5.3
 354,Ampadu,Leeds,4.9
 355,Greenwood,Leeds,4.9
-356,Gruev,Leeds,4.8
+356,Gruev,Leeds,4.7
 357,Ramazani,Leeds,4.9
 358,Tanaka,Leeds,4.8
 359,Crew,Leeds,4.5
@@ -420,7 +420,7 @@ id,web_name,team,price
 370,Frimpong,Liverpool,5.7
 371,Kerkez,Liverpool,5.6
 372,Robertson,Liverpool,5.8
-373,Virgil,Liverpool,6.0
+373,Virgil,Liverpool,5.9
 374,Konaté,Liverpool,5.4
 375,Bradley,Liverpool,5.0
 376,Gomez,Liverpool,4.9
@@ -431,7 +431,7 @@ id,web_name,team,price
 381,M.Salah,Liverpool,14.0
 382,Wirtz,Liverpool,8.0
 383,Luis Díaz,Liverpool,8.0
-384,Gakpo,Liverpool,7.5
+384,Gakpo,Liverpool,7.4
 385,Chiesa,Liverpool,6.3
 386,Mac Allister,Liverpool,6.2
 387,Szoboszlai,Liverpool,6.7
@@ -445,7 +445,7 @@ id,web_name,team,price
 397,Darwin,Liverpool,6.5
 398,Danns,Liverpool,4.3
 499,Isak,Liverpool,10.4
-661,Ekitiké,Liverpool,8.4
+661,Ekitiké,Liverpool,8.5
 686,Ngumoha,Liverpool,4.3
 692,Leoni,Liverpool,4.9
 746,Morrison,Liverpool,4.5
@@ -465,7 +465,7 @@ id,web_name,team,price
 411,O’Reilly,Man City,5.2
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
-414,Foden,Man City,8.6
+414,Foden,Man City,8.7
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.2
 417,Cherki,Man City,6.4
@@ -484,7 +484,7 @@ id,web_name,team,price
 739,Mukasa,Man City,4.4
 740,Mfuni,Man City,4.0
 742,McAidoo,Man City,4.5
-119,Mbeumo,Man Utd,8.4
+119,Mbeumo,Man Utd,8.3
 431,Bayindir,Man Utd,4.8
 432,Onana,Man Utd,4.9
 433,Harrison,Man Utd,4.0
@@ -503,7 +503,7 @@ id,web_name,team,price
 446,Fredricson,Man Utd,3.8
 447,Heaven,Man Utd,3.8
 448,Malacia,Man Utd,3.8
-449,B.Fernandes,Man Utd,9.1
+449,B.Fernandes,Man Utd,9.2
 450,Cunha,Man Utd,7.9
 451,Rashford,Man Utd,7.0
 452,Amad,Man Utd,6.3
@@ -544,7 +544,7 @@ id,web_name,team,price
 485,Gordon,Newcastle,7.2
 486,Elanga,Newcastle,6.6
 487,Barnes,Newcastle,6.4
-488,Bruno G.,Newcastle,6.9
+488,Bruno G.,Newcastle,7.0
 489,J.Murphy,Newcastle,6.1
 490,Joelinton,Newcastle,5.9
 491,Tonali,Newcastle,5.3
@@ -566,7 +566,7 @@ id,web_name,team,price
 502,Sels,Nott'm Forest,4.7
 503,C.Miguel,Nott'm Forest,4.0
 504,Turner,Nott'm Forest,4.0
-505,Milenković,Nott'm Forest,5.2
+505,Milenković,Nott'm Forest,5.1
 506,Murillo,Nott'm Forest,5.2
 507,Aina,Nott'm Forest,4.7
 508,N.Williams,Nott'm Forest,4.7
@@ -575,7 +575,7 @@ id,web_name,team,price
 511,Morato,Nott'm Forest,4.3
 512,O.Richards,Nott'm Forest,4.5
 513,Abbott,Nott'm Forest,3.8
-514,Boly,Nott'm Forest,3.9
+514,Boly,Nott'm Forest,3.8
 515,Gibbs-White,Nott'm Forest,7.3
 516,Hudson-Odoi,Nott'm Forest,5.7
 517,Anderson,Nott'm Forest,5.4
@@ -611,9 +611,9 @@ id,web_name,team,price
 538,Johnson,Sunderland,3.9
 539,O'Nien,Sunderland,4.0
 540,Pembele,Sunderland,3.9
-541,Reinildo,Sunderland,4.0
+541,Reinildo,Sunderland,3.9
 542,Seelt,Sunderland,4.0
-543,Adingra,Sunderland,5.0
+543,Adingra,Sunderland,4.9
 544,Diarra,Sunderland,5.3
 545,Roberts,Sunderland,5.4
 546,Aleksić,Sunderland,4.9
@@ -621,13 +621,13 @@ id,web_name,team,price
 548,Mundle,Sunderland,4.9
 549,Neil,Sunderland,4.8
 550,Poveda,Sunderland,4.8
-551,Rigg,Sunderland,4.8
+551,Rigg,Sunderland,4.7
 552,Sadiki,Sunderland,5.0
 553,Talbi,Sunderland,5.0
 554,Ba,Sunderland,4.3
 555,Browne,Sunderland,4.5
 556,Ekwah,Sunderland,4.5
-557,H.Jones,Sunderland,4.4
+557,H.Jones,Sunderland,4.3
 558,Matete,Sunderland,4.3
 559,Triantis,Sunderland,4.4
 560,Isidor,Sunderland,5.5
@@ -658,20 +658,20 @@ id,web_name,team,price
 577,Takai,Spurs,4.0
 578,Vuskovic,Spurs,3.9
 579,Son,Spurs,8.5
-580,Johnson,Spurs,6.6
+580,Johnson,Spurs,6.5
 581,Maddison,Spurs,6.8
 582,Kudus,Spurs,6.5
 583,Kulusevski,Spurs,6.4
 584,Tel,Spurs,6.2
 585,Bentancur,Spurs,5.3
-586,Bergvall,Spurs,5.4
+586,Bergvall,Spurs,5.3
 587,Bissouma,Spurs,5.2
 588,Odobert,Spurs,5.3
 589,Solomon,Spurs,5.4
 590,Bryan,Spurs,4.9
 591,Gray,Spurs,4.8
 592,Moore,Spurs,5.0
-593,P.M.Sarr,Spurs,4.7
+593,P.M.Sarr,Spurs,4.6
 594,Min-hyeok,Spurs,4.5
 595,Olusesi,Spurs,4.3
 596,Solanke,Spurs,7.2
@@ -735,7 +735,7 @@ id,web_name,team,price
 639,Meupiyou,Wolves,4.0
 640,Pedro Lima,Wolves,4.0
 641,Pond,Wolves,3.9
-642,Hee Chan,Wolves,5.7
+642,Hee Chan,Wolves,5.6
 643,André,Wolves,5.3
 644,Bellegarde,Wolves,5.2
 645,Fer López,Wolves,5.2
