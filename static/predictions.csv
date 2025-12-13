@@ -1,45 +1,54 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
-Eze,Arsenal,7.8,19.6,2016,1627,8.9
-Cash,Aston Villa,4.9,13.4,3175,2563,7.1
-Rogers,Aston Villa,7.0,10.6,1875,1514,5.2
-Semenyo,Bournemouth,7.6,41.9,3929,3172,18.9
-Thiago,Brentford,7.1,38.5,4661,3763,17.9
-Van Hecke,Brighton,4.5,3.7,2097,1693,2.6
-Chalobah,Chelsea,5.4,16.5,5573,4500,9.6
-Gusto,Chelsea,4.9,1.7,1798,1451,1.6
-Palmer,Chelsea,10.3,10.3,9663,7802,9.3
-Lacroix,Crystal Palace,5.1,6.7,3027,2444,4.3
-Guéhi,Crystal Palace,5.2,39.1,11397,9203,21.8
-Dewsbury-Hall,Everton,5.1,9.8,3730,3011,5.9
-Tarkowski,Everton,5.5,7.6,2195,1772,4.2
-Wilson,Fulham,5.4,6.4,5930,4788,5.8
-Calvert-Lewin,Leeds,5.6,3.0,1501,1212,2.0
-Szoboszlai,Liverpool,6.7,6.8,3223,2602,4.5
-Ekitiké,Liverpool,8.5,14.9,13061,10546,13.0
-Gvardiol,Man City,5.9,7.9,3329,2688,5.0
-Rúben,Man City,5.6,5.9,1504,1214,3.2
-O'Reilly,Man City,5.2,9.0,2971,2399,5.2
-Foden,Man City,8.7,32.7,13295,10735,20.2
-Cherki,Man City,6.4,4.3,2282,1842,2.9
-B.Fernandes,Man Utd,9.2,26.5,16136,13029,19.3
-Cunha,Man Utd,7.9,3.8,1996,1611,2.6
-Bruno G.,Newcastle,7.0,15.0,6152,4967,9.3
-Gabriel,Arsenal,6.2,14.0,-2770,-2236,-0.7
-Calafiori,Arsenal,5.7,9.8,-3648,-2945,-1.3
-J.Timber,Arsenal,6.5,33.3,-6062,-4895,-0.7
-Rice,Arsenal,7.1,22.1,-1769,-1428,-0.3
-Senesi,Bournemouth,5.0,16.2,-1592,-1285,-0.4
-O.Dango,Brentford,6.1,2.0,-3841,-3101,-9.2
-Welbeck,Brighton,6.5,8.6,-2410,-1946,-1.4
-Caicedo,Chelsea,5.7,9.1,-2794,-2256,-1.1
-João Pedro,Chelsea,7.3,32.8,-4224,-3410,-0.6
-Muñoz,Crystal Palace,6.0,15.0,-26691,-21552,-6.2
-Mateta,Crystal Palace,7.9,17.2,-9102,-7349,-2.1
-Ndiaye,Everton,6.4,7.8,-9440,-7622,-5.8
-Iwobi,Fulham,6.4,1.3,-1822,-1471,-6.7
-M.Salah,Liverpool,14.0,16.8,-3787,-3058,-1.1
-Gakpo,Liverpool,7.4,7.4,-7149,-5772,-3.3
-Mbeumo,Man Utd,8.3,24.8,-43724,-35307,-8.6
-Amad,Man Utd,6.3,1.6,-1655,-1336,-5.0
-Woltemade,Newcastle,7.5,21.7,-3370,-2721,-0.8
-Reinildo,Sunderland,3.9,3.6,-1688,-1363,-2.3
+Merino,Arsenal,6.1,4.6,1684,1359,2.7
+Eze,Arsenal,7.8,19.6,2560,2067,9.2
+Cash,Aston Villa,4.9,13.5,4207,3397,7.7
+Rogers,Aston Villa,7.0,10.7,2461,1987,5.6
+Semenyo,Bournemouth,7.6,41.9,4792,3869,19.3
+Thiago,Brentford,7.1,38.5,5403,4362,18.3
+Van Hecke,Brighton,4.5,3.7,2773,2239,3.0
+James,Chelsea,5.6,9.1,1689,1363,4.5
+Chalobah,Chelsea,5.4,16.5,7790,6290,10.8
+Gusto,Chelsea,4.9,1.7,3060,2470,2.3
+Palmer,Chelsea,10.3,10.3,12319,9947,10.8
+Neto,Chelsea,7.3,9.2,2301,1858,4.9
+Lacroix,Crystal Palace,5.1,6.7,3954,3192,4.8
+Guéhi,Crystal Palace,5.2,39.1,14786,11939,23.6
+Dewsbury-Hall,Everton,5.1,9.8,5051,4078,6.6
+Tarkowski,Everton,5.5,7.6,2593,2093,4.4
+Andersen,Fulham,4.6,6.6,1584,1279,3.5
+Wilson,Fulham,5.4,6.4,7896,6376,6.8
+Calvert-Lewin,Leeds,5.6,3.0,1831,1478,2.2
+Szoboszlai,Liverpool,6.7,6.8,4086,3299,4.9
+Ekitiké,Liverpool,8.5,15.0,29192,23572,21.7
+Gvardiol,Man City,5.9,7.9,4226,3412,5.4
+Rúben,Man City,5.6,6.0,1934,1561,3.4
+O'Reilly,Man City,5.2,9.0,3734,3015,5.6
+Foden,Man City,8.7,32.7,17287,13959,22.4
+Cherki,Man City,6.4,4.3,3054,2466,3.4
+B.Fernandes,Man Utd,9.2,26.6,20794,16791,21.8
+Cunha,Man Utd,7.9,3.9,2542,2052,2.9
+Bruno G.,Newcastle,7.0,15.1,8430,6807,10.6
+Gabriel,Arsenal,6.2,14.0,-3844,-3104,-0.9
+Calafiori,Arsenal,5.7,9.8,-4870,-3932,-1.7
+J.Timber,Arsenal,6.5,33.3,-8081,-6525,-1.0
+Rice,Arsenal,7.1,22.1,-2311,-1866,-0.4
+Senesi,Bournemouth,5.0,16.2,-2129,-1719,-0.5
+O.Dango,Brentford,6.1,2.0,-4936,-3985,-11.8
+Welbeck,Brighton,6.5,8.6,-4473,-3611,-2.5
+Caicedo,Chelsea,5.7,9.1,-3663,-2957,-1.4
+João Pedro,Chelsea,7.3,32.8,-7778,-6280,-1.2
+Muñoz,Crystal Palace,6.0,14.9,-34874,-28160,-8.1
+Mateta,Crystal Palace,7.9,17.2,-14213,-11476,-3.3
+Ndiaye,Everton,6.4,7.7,-12708,-10261,-8.0
+Iwobi,Fulham,6.4,1.3,-2312,-1866,-8.5
+M.Salah,Liverpool,14.0,16.8,-4996,-4034,-1.4
+Gakpo,Liverpool,7.4,7.4,-9335,-7538,-4.3
+Isak,Liverpool,10.4,4.4,-1669,-1347,-1.5
+Mbeumo,Man Utd,8.3,24.7,-57899,-46753,-11.4
+De Ligt,Man Utd,5.0,2.7,-1835,-1481,-2.3
+Amad,Man Utd,6.3,1.6,-2139,-1727,-6.4
+Pope,Newcastle,5.1,5.4,-1673,-1350,-1.2
+Woltemade,Newcastle,7.5,21.7,-7254,-5857,-1.6
+Reinildo,Sunderland,3.9,3.6,-2229,-1799,-3.0
+Diouf,West Ham,4.1,2.2,-1564,-1262,-3.4
+Wan-Bissaka,West Ham,4.2,5.1,-1750,-1413,-1.7
