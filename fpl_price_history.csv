@@ -50,7 +50,7 @@ id,web_name,team,price
 44,Bogarde,Aston Villa,4.0
 45,Sousa,Aston Villa,3.9
 46,Yasin,Aston Villa,4.0
-47,Rogers,Aston Villa,7.0
+47,Rogers,Aston Villa,7.1
 48,Tielemans,Aston Villa,5.9
 49,Bailey,Aston Villa,5.5
 50,Buendía,Aston Villa,5.3
@@ -282,7 +282,7 @@ id,web_name,team,price
 254,Benitez,Crystal Palace,4.0
 255,Matthews,Crystal Palace,3.9
 256,Muñoz,Crystal Palace,5.9
-257,Lacroix,Crystal Palace,5.1
+257,Lacroix,Crystal Palace,5.2
 258,Mitchell,Crystal Palace,5.0
 259,Sosa,Crystal Palace,4.8
 260,Guéhi,Crystal Palace,5.3
@@ -307,7 +307,7 @@ id,web_name,team,price
 280,Ozoh,Crystal Palace,4.5
 281,Rodney,Crystal Palace,4.4
 282,Umeh,Crystal Palace,4.5
-283,Mateta,Crystal Palace,7.9
+283,Mateta,Crystal Palace,7.8
 284,Nketiah,Crystal Palace,5.4
 285,Édouard,Crystal Palace,5.0
 286,Marsh,Crystal Palace,4.5
@@ -365,7 +365,7 @@ id,web_name,team,price
 326,Adama,Fulham,5.1
 327,Andreas,Fulham,5.3
 328,Sessegnon,Fulham,5.4
-329,Wilson,Fulham,5.5
+329,Wilson,Fulham,5.6
 330,Berge,Fulham,4.9
 331,Cairney,Fulham,4.8
 332,Lukić,Fulham,5.0
@@ -475,7 +475,7 @@ id,web_name,team,price
 421,Rodrigo,Man City,6.3
 422,Kovačić,Man City,5.9
 423,N.Gonzalez,Man City,5.9
-424,Bobb,Man City,5.2
+424,Bobb,Man City,5.1
 425,Echeverri,Man City,5.4
 427,Reijnders,Man City,5.2
 428,Nypan,Man City,5.0
@@ -637,7 +637,7 @@ id,web_name,team,price
 563,Luís Hemir,Sunderland,4.4
 564,Rusyn,Sunderland,4.4
 668,Xhaka,Sunderland,5.2
-670,Roefs,Sunderland,4.7
+670,Roefs,Sunderland,4.8
 678,Masuaku,Sunderland,3.9
 683,Alderete,Sunderland,4.0
 694,Mukiele,Sunderland,4.2
