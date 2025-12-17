@@ -28,7 +28,7 @@ id,web_name,team,price
 29,Sambi,Arsenal,4.5
 30,Havertz,Arsenal,7.3
 31,G.Jesus,Arsenal,6.4
-266,Eze,Arsenal,7.8
+266,Eze,Arsenal,7.7
 662,Mosquera,Arsenal,5.4
 666,Gyökeres,Arsenal,8.8
 700,Dowman,Arsenal,4.3
@@ -96,7 +96,7 @@ id,web_name,team,price
 197,Sonne,Burnley,3.8
 198,Tuanzebe,Burnley,3.9
 199,Worrall,Burnley,3.9
-200,Anthony,Burnley,5.3
+200,Anthony,Burnley,5.2
 201,Benson,Burnley,5.4
 202,Bruun Larsen,Burnley,5.3
 203,Boateng,Burnley,4.7
@@ -162,7 +162,7 @@ id,web_name,team,price
 721,Milosavljević,Bournemouth,4.5
 756,DaCosta,Bournemouth,4.5
 27,Nelson,Brentford,4.8
-83,O.Dango,Brentford,6.1
+83,O.Dango,Brentford,6.0
 101,Kelleher,Brentford,4.5
 102,Balcombe,Brentford,4.0
 103,Cox,Brentford,3.9
@@ -220,7 +220,7 @@ id,web_name,team,price
 157,Mitoma,Brighton,6.1
 158,Georginio,Brighton,5.6
 159,March,Brighton,5.8
-160,Minteh,Brighton,6.2
+160,Minteh,Brighton,6.1
 161,Enciso,Brighton,5.4
 162,Gruda,Brighton,5.4
 163,Hinshelwood,Brighton,5.1
@@ -328,7 +328,7 @@ id,web_name,team,price
 296,Patterson,Everton,4.4
 297,Dixon,Everton,3.8
 298,Welch,Everton,3.8
-299,Ndiaye,Everton,6.4
+299,Ndiaye,Everton,6.3
 300,McNeil,Everton,5.5
 301,Alcaraz,Everton,5.2
 302,Gana,Everton,5.4
@@ -406,10 +406,10 @@ id,web_name,team,price
 363,Bamford,Leeds,4.9
 364,Mateo Joseph,Leeds,5.0
 365,Nmecha,Leeds,5.0
-493,Longstaff,Leeds,4.9
+493,Longstaff,Leeds,4.8
 660,Stach,Leeds,4.8
 665,Perri,Leeds,4.5
-691,Calvert-Lewin,Leeds,5.6
+691,Calvert-Lewin,Leeds,5.7
 698,Okafor,Leeds,5.5
 706,Justin,Leeds,3.9
 741,Gray,Leeds,4.5
