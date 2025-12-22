@@ -28,14 +28,14 @@ id,web_name,team,price
 29,Sambi,Arsenal,4.5
 30,Havertz,Arsenal,7.3
 31,G.Jesus,Arsenal,6.4
-266,Eze,Arsenal,7.7
+266,Eze,Arsenal,7.6
 662,Mosquera,Arsenal,5.4
 666,Gyökeres,Arsenal,8.8
 700,Dowman,Arsenal,4.3
 711,Harriman-Annous,Arsenal,4.5
 725,Hincapie,Arsenal,5.5
 759,Salmon,Arsenal,4.0
-32,Martinez,Aston Villa,5.1
+32,Martinez,Aston Villa,5.0
 33,M.Bizot,Aston Villa,4.2
 34,Gauci,Aston Villa,4.0
 35,Marschall,Aston Villa,4.0
@@ -50,7 +50,7 @@ id,web_name,team,price
 44,Bogarde,Aston Villa,4.0
 45,Sousa,Aston Villa,3.9
 46,Yasin,Aston Villa,4.0
-47,Rogers,Aston Villa,7.1
+47,Rogers,Aston Villa,7.2
 48,Tielemans,Aston Villa,5.9
 49,Bailey,Aston Villa,5.5
 50,Buendía,Aston Villa,5.3
@@ -79,6 +79,7 @@ id,web_name,team,price
 719,Lindelöf,Aston Villa,4.5
 754,George Hemmings,Aston Villa,4.5
 757,Hollingshead,Aston Villa,4.0
+768,Leon Routh,Aston Villa,4.0
 183,Weiss,Burnley,4.3
 184,Green,Burnley,4.0
 185,Hladký,Burnley,3.9
@@ -159,10 +160,10 @@ id,web_name,team,price
 687,Rees-Dottin,Bournemouth,4.4
 697,Adli,Bournemouth,5.4
 713,A.Jimenez,Bournemouth,4.5
-721,Milosavljević,Bournemouth,4.5
+721,Milosavljević,Bournemouth,4.4
 756,DaCosta,Bournemouth,4.5
 27,Nelson,Brentford,4.8
-83,O.Dango,Brentford,6.0
+83,O.Dango,Brentford,5.9
 101,Kelleher,Brentford,4.5
 102,Balcombe,Brentford,4.0
 103,Cox,Brentford,3.9
@@ -257,12 +258,12 @@ id,web_name,team,price
 230,Fofana,Chelsea,4.4
 231,M.Sarr,Chelsea,4.5
 232,Tosin,Chelsea,4.1
-233,Acheampong,Chelsea,3.9
+233,Acheampong,Chelsea,3.8
 234,Anselmino,Chelsea,4.0
 235,Palmer,Chelsea,10.4
 236,Neto,Chelsea,7.3
 237,Enzo,Chelsea,6.5
-238,Estêvão,Chelsea,6.5
+238,Estêvão,Chelsea,6.4
 239,Gittens,Chelsea,6.1
 240,Nkunku,Chelsea,5.9
 241,Caicedo,Chelsea,5.7
@@ -317,7 +318,7 @@ id,web_name,team,price
 723,Canvot,Crystal Palace,4.5
 732,Uche,Crystal Palace,5.5
 762,Drakes-Thomas,Crystal Palace,4.5
-242,Dewsbury-Hall,Everton,5.1
+242,Dewsbury-Hall,Everton,5.0
 287,Pickford,Everton,5.5
 288,Travers,Everton,4.3
 289,Tyrer,Everton,3.9
@@ -367,7 +368,7 @@ id,web_name,team,price
 326,Adama,Fulham,5.1
 327,Andreas,Fulham,5.3
 328,Sessegnon,Fulham,5.4
-329,Wilson,Fulham,5.7
+329,Wilson,Fulham,5.8
 330,Berge,Fulham,4.9
 331,Cairney,Fulham,4.8
 332,Lukić,Fulham,5.0
@@ -411,7 +412,7 @@ id,web_name,team,price
 493,Longstaff,Leeds,4.8
 660,Stach,Leeds,4.8
 665,Perri,Leeds,4.5
-691,Calvert-Lewin,Leeds,5.7
+691,Calvert-Lewin,Leeds,5.8
 698,Okafor,Leeds,5.5
 706,Justin,Leeds,3.9
 741,Gray,Leeds,4.5
@@ -471,8 +472,8 @@ id,web_name,team,price
 414,Foden,Man City,8.9
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.2
-417,Cherki,Man City,6.5
-418,Doku,Man City,6.5
+417,Cherki,Man City,6.6
+418,Doku,Man City,6.4
 420,Gündoğan,Man City,6.3
 421,Rodrigo,Man City,6.3
 422,Kovačić,Man City,5.9
@@ -489,7 +490,7 @@ id,web_name,team,price
 742,McAidoo,Man City,4.5
 763,Gray,Man City,4.5
 764,Heskey,Man City,4.5
-119,Mbeumo,Man Utd,8.2
+119,Mbeumo,Man Utd,8.1
 431,Bayindir,Man Utd,4.8
 432,Onana,Man Utd,4.9
 433,Harrison,Man Utd,4.0
@@ -509,7 +510,7 @@ id,web_name,team,price
 447,Heaven,Man Utd,3.8
 448,Malacia,Man Utd,3.8
 449,B.Fernandes,Man Utd,9.4
-450,Cunha,Man Utd,7.9
+450,Cunha,Man Utd,8.0
 451,Rashford,Man Utd,7.0
 452,Amad,Man Utd,6.3
 454,Antony,Man Utd,5.9
@@ -529,6 +530,7 @@ id,web_name,team,price
 681,Šeško,Man Utd,7.2
 733,Lammens,Man Utd,5.0
 755,Lacey,Man Utd,4.5
+769,Bendito Mantato,Man Utd,4.5
 52,J.Ramsey,Newcastle,5.3
 135,Wissa,Newcastle,7.3
 469,Pope,Newcastle,5.1
@@ -654,7 +656,7 @@ id,web_name,team,price
 567,Kinsky,Spurs,3.9
 568,Pedro Porro,Spurs,5.3
 569,Romero,Spurs,5.0
-570,Danso,Spurs,4.3
+570,Danso,Spurs,4.2
 571,Davies,Spurs,4.3
 572,Dragusin,Spurs,4.5
 573,Spence,Spurs,4.3
