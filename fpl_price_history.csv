@@ -9,7 +9,7 @@ id,web_name,team,price
 8,J.Timber,Arsenal,6.5
 9,Kiwior,Arsenal,5.4
 10,Lewis-Skelly,Arsenal,5.1
-11,White,Arsenal,5.3
+11,White,Arsenal,5.2
 13,Clarke,Arsenal,3.8
 14,Kacurri,Arsenal,3.9
 15,Nichols,Arsenal,3.8
@@ -18,8 +18,8 @@ id,web_name,team,price
 18,Madueke,Arsenal,6.8
 19,Martinelli,Arsenal,6.8
 20,Trossard,Arsenal,6.9
-21,Rice,Arsenal,7.1
-22,Merino,Arsenal,6.0
+21,Rice,Arsenal,7.2
+22,Merino,Arsenal,5.9
 23,Fábio Vieira,Arsenal,5.4
 24,Nørgaard,Arsenal,5.2
 25,Nwaneri,Arsenal,5.1
@@ -114,7 +114,7 @@ id,web_name,team,price
 214,Trésor,Burnley,4.4
 215,Flemming,Burnley,5.3
 216,Amdouni,Burnley,4.8
-217,Foster,Burnley,5.0
+217,Foster,Burnley,4.9
 218,Barnes,Burnley,4.3
 219,Obafemi,Burnley,4.4
 470,Dúbravka,Burnley,4.0
@@ -240,7 +240,7 @@ id,web_name,team,price
 177,Moran,Brighton,4.5
 178,Welbeck,Brighton,6.4
 179,Ferguson,Brighton,5.5
-180,Tzimas,Brighton,5.3
+180,Tzimas,Brighton,5.2
 181,Kostoulas,Brighton,4.8
 744,Oriola,Brighton,4.5
 761,Simmonds,Brighton,4.0
@@ -264,7 +264,7 @@ id,web_name,team,price
 236,Neto,Chelsea,7.3
 237,Enzo,Chelsea,6.5
 238,Estêvão,Chelsea,6.4
-239,Gittens,Chelsea,6.1
+239,Gittens,Chelsea,6.0
 240,Nkunku,Chelsea,5.9
 241,Caicedo,Chelsea,5.7
 243,George,Chelsea,4.8
@@ -438,7 +438,7 @@ id,web_name,team,price
 384,Gakpo,Liverpool,7.3
 385,Chiesa,Liverpool,6.3
 386,Mac Allister,Liverpool,6.2
-387,Szoboszlai,Liverpool,6.7
+387,Szoboszlai,Liverpool,6.6
 388,C.Jones,Liverpool,5.4
 390,Gravenberch,Liverpool,5.6
 392,Endo,Liverpool,4.9
@@ -470,7 +470,7 @@ id,web_name,team,price
 411,O'Reilly,Man City,5.3
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
-414,Foden,Man City,8.9
+414,Foden,Man City,9.0
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.2
 417,Cherki,Man City,6.6
@@ -510,7 +510,7 @@ id,web_name,team,price
 446,Fredricson,Man Utd,3.8
 447,Heaven,Man Utd,3.8
 448,Malacia,Man Utd,3.8
-449,B.Fernandes,Man Utd,9.4
+449,B.Fernandes,Man Utd,9.3
 450,Cunha,Man Utd,8.0
 451,Rashford,Man Utd,7.0
 452,Amad,Man Utd,6.3
@@ -587,7 +587,7 @@ id,web_name,team,price
 514,Boly,Nott'm Forest,3.8
 515,Gibbs-White,Nott'm Forest,7.3
 516,Hudson-Odoi,Nott'm Forest,5.7
-517,Anderson,Nott'm Forest,5.4
+517,Anderson,Nott'm Forest,5.3
 518,Jota,Nott'm Forest,5.4
 519,Dominguez,Nott'm Forest,5.0
 520,O'Brien,Nott'm Forest,5.0
@@ -610,7 +610,7 @@ id,web_name,team,price
 528,Patterson,Sunderland,4.2
 529,Moore,Sunderland,3.9
 530,Nna Noukeu,Sunderland,3.9
-531,Ballard,Sunderland,4.6
+531,Ballard,Sunderland,4.7
 532,Hume,Sunderland,4.5
 533,Alese,Sunderland,4.0
 534,Anderson,Sunderland,3.9
@@ -730,9 +730,9 @@ id,web_name,team,price
 747,Mayers,West Ham,4.0
 752,Golambeckis,West Ham,4.0
 758,Mohamadou Kanté,West Ham,4.5
-627,Johnstone,Wolves,4.5
+627,Johnstone,Wolves,4.4
 628,José Sá,Wolves,4.2
-629,Bentley,Wolves,4.0
+629,Bentley,Wolves,3.9
 631,Agbadou,Wolves,4.3
 632,Doherty,Wolves,4.4
 633,H.Bueno,Wolves,4.3
