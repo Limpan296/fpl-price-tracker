@@ -1,21 +1,27 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
-Rice,Arsenal,7.2,25.9,2878,2323,11.9
-Rogers,Aston Villa,7.3,21.9,10020,8091,14.2
-Calvert-Lewin,Leeds,5.8,8.4,1880,1518,4.4
-Ekitiké,Liverpool,9.0,33.5,6645,5365,17.0
-Foden,Man City,9.0,41.8,3674,2966,18.7
-Cherki,Man City,6.6,9.0,1518,1225,4.4
-Dalot,Man Utd,4.4,1.9,2135,1724,1.9
-Dorgu,Man Utd,4.1,2.3,4670,3771,3.4
-Cunha,Man Utd,8.0,8.5,10962,8851,9.3
-Gordon,Newcastle,7.3,3.9,3222,2601,3.3
-Woltemade,Newcastle,7.3,18.6,2258,1823,8.7
-Eze,Arsenal,7.6,14.2,-1835,-1481,-0.6
-Thiago,Brentford,7.1,30.0,-5186,-4187,-0.8
-Welbeck,Brighton,6.4,5.0,-1568,-1266,-1.2
-Muñoz,Crystal Palace,5.9,8.0,-2582,-2084,-1.1
-Dewsbury-Hall,Everton,5.0,5.2,-2030,-1639,-1.6
-Wilson,Fulham,5.8,18.8,-1812,-1463,-0.4
-Mbeumo,Man Utd,8.1,10.7,-2797,-2258,-1.3
-B.Fernandes,Man Utd,9.2,17.3,-22090,-17837,-4.4
-Burn,Newcastle,5.1,4.8,-1900,-1534,-1.4
+Rice,Arsenal,7.2,25.9,3353,2707,12.2
+Rogers,Aston Villa,7.3,21.9,11739,9479,15.1
+Chalobah,Chelsea,5.5,19.4,1644,1327,8.6
+Calvert-Lewin,Leeds,5.8,8.4,2208,1782,4.5
+Ekitiké,Liverpool,9.0,33.5,7876,6359,17.6
+Foden,Man City,9.0,41.8,4265,3443,19.0
+Cherki,Man City,6.6,9.0,1801,1454,4.6
+Dalot,Man Utd,4.4,1.9,3176,2564,2.5
+Dorgu,Man Utd,4.1,2.3,6529,5272,4.4
+Heaven,Man Utd,3.8,1.8,1548,1250,1.6
+Cunha,Man Utd,8.0,8.5,14057,11351,11.0
+Gordon,Newcastle,7.3,4.0,4017,3243,3.8
+Woltemade,Newcastle,7.3,18.6,2394,1933,8.7
+Eze,Arsenal,7.6,14.2,-2143,-1730,-0.7
+Estève,Burnley,3.9,10.7,-1546,-1248,-0.6
+Thiago,Brentford,7.1,29.9,-6210,-5014,-1.0
+Welbeck,Brighton,6.4,5.0,-1877,-1515,-1.5
+Muñoz,Crystal Palace,5.9,8.0,-3046,-2459,-1.3
+Richards,Crystal Palace,4.6,3.7,-1765,-1425,-1.9
+Mateta,Crystal Palace,7.7,13.1,-1551,-1252,-0.6
+Dewsbury-Hall,Everton,5.0,5.2,-2434,-1965,-1.9
+Wilson,Fulham,5.8,18.8,-2302,-1858,-0.5
+Doku,Man City,6.4,3.5,-1727,-1394,-1.7
+Mbeumo,Man Utd,8.1,10.7,-3268,-2638,-1.5
+B.Fernandes,Man Utd,9.2,17.3,-26577,-21460,-5.3
+Burn,Newcastle,5.1,4.8,-2313,-1867,-1.6
