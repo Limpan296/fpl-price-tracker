@@ -1,48 +1,50 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
-Rice,Arsenal,7.2,25.9,5814,4694,13.5
-Rogers,Aston Villa,7.3,22.0,19482,15731,19.3
-Lewis-Potter,Brentford,4.8,1.5,1500,1211,1.4
-James,Chelsea,5.6,9.8,1584,1279,4.8
-Chalobah,Chelsea,5.5,19.4,2593,2093,9.2
-Palmer,Chelsea,10.4,11.6,1738,1403,5.6
-Guéhi,Crystal Palace,5.3,41.6,1529,1234,17.5
-Keane,Everton,4.7,5.2,2273,1835,3.3
-Stach,Leeds,4.9,2.8,1677,1354,1.6
-Calvert-Lewin,Leeds,5.8,8.4,3670,2963,5.3
-Wirtz,Liverpool,8.1,9.5,1964,1585,4.9
-Ekitiké,Liverpool,9.0,33.6,13272,10717,20.6
-Foden,Man City,9.0,41.8,7050,5692,20.5
-Cherki,Man City,6.6,9.0,3007,2428,5.2
-Dalot,Man Utd,4.4,2.0,7373,5953,4.8
-Dorgu,Man Utd,4.1,2.4,14475,11688,8.8
-Heaven,Man Utd,3.8,1.8,3489,2817,2.6
-Cunha,Man Utd,8.0,8.7,25778,20815,17.4
-Hall,Newcastle,5.2,1.1,2009,1622,1.5
-Gordon,Newcastle,7.4,4.0,7374,5954,3.6
-L.Miley,Newcastle,4.4,3.2,1923,1552,2.3
-Woltemade,Newcastle,7.4,18.6,3532,2852,8.4
-Bowen,West Ham,7.6,7.3,1854,1497,3.9
-Gabriel,Arsenal,6.2,12.3,-1593,-1286,-0.5
-Eze,Arsenal,7.6,14.2,-3553,-2869,-1.2
-Cash,Aston Villa,4.9,13.0,-2276,-1837,-0.8
-Estève,Burnley,3.9,10.6,-3095,-2499,-1.2
-Senesi,Bournemouth,4.9,16.7,-2014,-1626,-0.6
-Thiago,Brentford,7.0,29.9,-10438,-8428,-1.7
-Van Hecke,Brighton,4.6,3.9,-1755,-1417,-1.8
-Welbeck,Brighton,6.4,5.0,-3216,-2596,-2.6
-João Pedro,Chelsea,7.2,28.7,-1853,-1496,-0.3
-Muñoz,Crystal Palace,5.8,8.0,-5183,-4185,-2.2
-Richards,Crystal Palace,4.6,3.7,-3233,-2610,-3.5
-Mateta,Crystal Palace,7.7,13.1,-2506,-2023,-0.9
-Dewsbury-Hall,Everton,5.0,5.2,-4247,-3429,-3.3
-Ndiaye,Everton,6.2,3.9,-1648,-1330,-2.0
-Andersen,Fulham,4.6,6.7,-1676,-1353,-1.2
-Wilson,Fulham,5.8,18.8,-4397,-3550,-0.9
-M.Salah,Liverpool,14.0,15.0,-1836,-1482,-0.6
-Szoboszlai,Liverpool,6.6,4.4,-2163,-1746,-1.7
-Doku,Man City,6.4,3.5,-2814,-2272,-2.7
-Mbeumo,Man Utd,8.1,10.7,-5602,-4523,-2.5
-B.Fernandes,Man Utd,9.2,17.2,-44821,-36192,-9.0
-Burn,Newcastle,5.1,4.8,-4005,-3234,-2.8
-Romero,Spurs,5.0,3.7,-1763,-1423,-1.6
-Van de Ven,Spurs,4.5,26.5,-2860,-2309,-0.5
+Rice,Arsenal,7.2,25.9,5942,4798,13.6
+Rogers,Aston Villa,7.3,22.0,19925,16089,19.5
+Lewis-Potter,Brentford,4.8,1.5,1532,1237,1.4
+James,Chelsea,5.6,9.8,1611,1300,4.8
+Chalobah,Chelsea,5.5,19.4,2653,2142,9.2
+Palmer,Chelsea,10.4,11.6,1781,1438,5.6
+Guéhi,Crystal Palace,5.3,41.6,1588,1282,17.5
+Keane,Everton,4.7,5.2,2338,1887,3.3
+Stach,Leeds,4.9,2.8,1713,1383,1.6
+Calvert-Lewin,Leeds,5.8,8.4,3745,3024,5.4
+Wirtz,Liverpool,8.1,9.5,2016,1627,4.9
+Ekitiké,Liverpool,9.0,33.6,13576,10962,20.7
+Foden,Man City,9.0,41.8,7230,5838,20.6
+Cherki,Man City,6.6,9.0,3096,2500,5.3
+Dalot,Man Utd,4.4,2.0,7552,6098,4.9
+Dorgu,Man Utd,4.1,2.4,14873,12009,9.0
+Heaven,Man Utd,3.8,1.8,3589,2898,2.7
+Cunha,Man Utd,8.0,8.7,26142,21109,17.6
+Hall,Newcastle,5.2,1.1,2045,1651,1.5
+Gordon,Newcastle,7.4,4.0,7481,6040,3.6
+L.Miley,Newcastle,4.4,3.2,1951,1575,2.3
+Woltemade,Newcastle,7.4,18.6,3568,2881,8.4
+Bowen,West Ham,7.6,7.3,1877,1515,3.9
+Gabriel,Arsenal,6.2,12.3,-1627,-1313,-0.5
+Saka,Arsenal,10.3,21.9,-1505,-1215,-0.3
+Eze,Arsenal,7.6,14.2,-3618,-2921,-1.2
+Hincapie,Arsenal,5.5,2.6,-1518,-1225,-2.3
+Cash,Aston Villa,4.9,13.0,-2328,-1879,-0.9
+Estève,Burnley,3.9,10.6,-3168,-2558,-1.2
+Senesi,Bournemouth,4.9,16.7,-2056,-1660,-0.6
+Thiago,Brentford,7.0,29.9,-10615,-8571,-1.7
+Van Hecke,Brighton,4.6,3.9,-1805,-1457,-1.8
+Welbeck,Brighton,6.4,5.0,-3304,-2667,-2.6
+João Pedro,Chelsea,7.2,28.7,-1907,-1539,-0.3
+Muñoz,Crystal Palace,5.8,8.0,-5327,-4301,-2.3
+Richards,Crystal Palace,4.6,3.7,-3301,-2665,-3.6
+Mateta,Crystal Palace,7.7,13.1,-2564,-2070,-0.9
+Dewsbury-Hall,Everton,5.0,5.1,-4346,-3509,-3.4
+Ndiaye,Everton,6.2,3.9,-1682,-1358,-2.1
+Andersen,Fulham,4.6,6.7,-1707,-1378,-1.2
+Wilson,Fulham,5.8,18.7,-4499,-3632,-1.0
+M.Salah,Liverpool,14.0,15.0,-1886,-1522,-0.6
+Szoboszlai,Liverpool,6.6,4.4,-2199,-1775,-1.7
+Doku,Man City,6.4,3.5,-2886,-2330,-2.8
+Mbeumo,Man Utd,8.1,10.7,-5761,-4652,-2.6
+B.Fernandes,Man Utd,9.2,17.2,-45643,-36856,-9.1
+Burn,Newcastle,5.1,4.8,-4089,-3301,-2.9
+Romero,Spurs,5.0,3.7,-1822,-1471,-1.7
+Van de Ven,Spurs,4.5,26.5,-2946,-2378,-0.5
