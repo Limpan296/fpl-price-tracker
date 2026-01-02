@@ -50,7 +50,7 @@ id,web_name,team,price
 44,Bogarde,Aston Villa,4.0
 45,Sousa,Aston Villa,3.9
 46,Yasin,Aston Villa,4.0
-47,Rogers,Aston Villa,7.4
+47,Rogers,Aston Villa,7.5
 48,Tielemans,Aston Villa,5.9
 49,Bailey,Aston Villa,5.5
 50,Buendía,Aston Villa,5.3
@@ -66,7 +66,7 @@ id,web_name,team,price
 61,Dendoncker,Aston Villa,4.5
 62,Jimoh-Aloba,Aston Villa,4.5
 63,Young,Aston Villa,4.3
-64,Watkins,Aston Villa,8.5
+64,Watkins,Aston Villa,8.6
 65,Redmond,Aston Villa,4.5
 389,Elliott,Aston Villa,5.2
 456,Sancho,Aston Villa,5.8
@@ -320,6 +320,7 @@ id,web_name,team,price
 732,Uche,Crystal Palace,5.5
 762,Drakes-Thomas,Crystal Palace,4.5
 773,Benamar,Crystal Palace,4.0
+780,Casey,Crystal Palace,4.5
 242,Dewsbury-Hall,Everton,5.0
 287,Pickford,Everton,5.5
 288,Travers,Everton,4.3
