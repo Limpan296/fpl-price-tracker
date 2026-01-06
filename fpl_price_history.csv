@@ -33,7 +33,7 @@ id,web_name,team,price
 666,Gyökeres,Arsenal,8.8
 700,Dowman,Arsenal,4.3
 711,Harriman-Annous,Arsenal,4.5
-725,Hincapie,Arsenal,5.4
+725,Hincapie,Arsenal,5.3
 759,Salmon,Arsenal,4.0
 32,Martinez,Aston Villa,5.0
 33,M.Bizot,Aston Villa,4.2
@@ -62,7 +62,7 @@ id,web_name,team,price
 57,Dobbin,Aston Villa,5.0
 58,Kamara,Aston Villa,4.9
 59,Onana,Aston Villa,4.8
-60,Broggio,Aston Villa,4.5
+60,Broggio,Aston Villa,4.4
 61,Dendoncker,Aston Villa,4.5
 62,Jimoh-Aloba,Aston Villa,4.5
 63,Young,Aston Villa,4.3
@@ -201,7 +201,7 @@ id,web_name,team,price
 132,Maghoma,Brentford,4.5
 133,Peart-Harris,Brentford,4.4
 134,Trevitt,Brentford,4.5
-136,Thiago,Brentford,6.9
+136,Thiago,Brentford,7.0
 137,Morgan,Brentford,4.4
 748,Dasilva,Brentford,4.9
 138,Steele,Brighton,4.2
@@ -332,7 +332,7 @@ id,web_name,team,price
 288,Travers,Everton,4.3
 289,Tyrer,Everton,3.9
 290,Branthwaite,Everton,5.3
-291,Tarkowski,Everton,5.6
+291,Tarkowski,Everton,5.7
 292,Mykolenko,Everton,4.9
 293,O'Brien,Everton,4.9
 294,Coleman,Everton,4.2
@@ -461,7 +461,7 @@ id,web_name,team,price
 397,Darwin,Liverpool,6.5
 398,Danns,Liverpool,4.3
 499,Isak,Liverpool,10.3
-661,Ekitiké,Liverpool,9.1
+661,Ekitiké,Liverpool,9.0
 686,Ngumoha,Liverpool,4.3
 692,Leoni,Liverpool,4.9
 746,Morrison,Liverpool,4.5
@@ -475,14 +475,14 @@ id,web_name,team,price
 404,Akanji,Man City,5.4
 405,Aké,Man City,5.3
 406,Khusanov,Man City,5.4
-407,Matheus N.,Man City,5.4
+407,Matheus N.,Man City,5.5
 408,Rúben,Man City,5.7
 409,Stones,Man City,5.4
 410,Lewis,Man City,4.7
 411,O'Reilly,Man City,5.3
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
-414,Foden,Man City,8.9
+414,Foden,Man City,8.8
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.2
 417,Cherki,Man City,6.8
@@ -628,7 +628,7 @@ id,web_name,team,price
 531,Ballard,Sunderland,4.6
 532,Hume,Sunderland,4.5
 533,Alese,Sunderland,4.0
-534,Anderson,Sunderland,3.9
+534,Anderson,Sunderland,3.8
 535,Cirkin,Sunderland,4.0
 536,Hjelde,Sunderland,4.0
 537,Huggins,Sunderland,4.0
@@ -721,7 +721,7 @@ id,web_name,team,price
 607,N.Aguerd,West Ham,4.4
 608,Scarles,West Ham,4.3
 609,Todibo,West Ham,4.3
-610,Wan-Bissaka,West Ham,4.2
+610,Wan-Bissaka,West Ham,4.1
 611,Casey,West Ham,4.0
 612,L.Paquetá,West Ham,5.9
 613,Souček,West Ham,5.7
