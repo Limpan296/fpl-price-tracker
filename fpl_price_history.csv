@@ -243,7 +243,7 @@ id,web_name,team,price
 175,Knight,Brighton,4.4
 176,Mazilu,Brighton,4.5
 177,Moran,Brighton,4.5
-178,Welbeck,Brighton,6.3
+178,Welbeck,Brighton,6.2
 179,Ferguson,Brighton,5.5
 180,Tzimas,Brighton,5.2
 181,Kostoulas,Brighton,4.8
@@ -427,7 +427,7 @@ id,web_name,team,price
 493,Longstaff,Leeds,4.8
 660,Stach,Leeds,4.9
 665,Perri,Leeds,4.5
-691,Calvert-Lewin,Leeds,5.9
+691,Calvert-Lewin,Leeds,6.0
 698,Okafor,Leeds,5.5
 706,Justin,Leeds,3.9
 741,Gray,Leeds,4.5
@@ -464,7 +464,7 @@ id,web_name,team,price
 397,Darwin,Liverpool,6.5
 398,Danns,Liverpool,4.3
 499,Isak,Liverpool,10.3
-661,Ekitiké,Liverpool,9.0
+661,Ekitiké,Liverpool,8.9
 686,Ngumoha,Liverpool,4.3
 692,Leoni,Liverpool,4.9
 746,Morrison,Liverpool,4.5
@@ -485,7 +485,7 @@ id,web_name,team,price
 411,O'Reilly,Man City,5.3
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
-414,Foden,Man City,8.8
+414,Foden,Man City,8.7
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.2
 417,Cherki,Man City,6.8
@@ -667,7 +667,7 @@ id,web_name,team,price
 670,Roefs,Sunderland,4.9
 678,Masuaku,Sunderland,3.9
 683,Alderete,Sunderland,4.1
-694,Mukiele,Sunderland,4.3
+694,Mukiele,Sunderland,4.4
 724,Geertruida,Sunderland,4.5
 730,Brobbey,Sunderland,5.5
 735,Traoré,Sunderland,5.5
