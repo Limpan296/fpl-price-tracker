@@ -50,7 +50,7 @@ id,web_name,team,price
 44,Bogarde,Aston Villa,4.0
 45,Sousa,Aston Villa,3.9
 46,Yasin,Aston Villa,4.0
-47,Rogers,Aston Villa,7.6
+47,Rogers,Aston Villa,7.7
 48,Tielemans,Aston Villa,5.9
 49,Bailey,Aston Villa,5.5
 50,Buendía,Aston Villa,5.3
@@ -527,7 +527,7 @@ id,web_name,team,price
 447,Heaven,Man Utd,3.9
 448,Malacia,Man Utd,3.8
 449,B.Fernandes,Man Utd,9.1
-450,Cunha,Man Utd,8.2
+450,Cunha,Man Utd,8.1
 451,Rashford,Man Utd,7.0
 452,Amad,Man Utd,6.2
 454,Antony,Man Utd,5.9
@@ -783,7 +783,7 @@ id,web_name,team,price
 655,Fábio Silva,Wolves,4.9
 656,Kalajdžić,Wolves,4.9
 657,Chiwome,Wolves,4.4
-658,Fraser,Wolves,4.3
+658,Fraser,Wolves,4.2
 663,J.Arias,Wolves,4.9
 682,Møller Wolfe,Wolves,4.3
 695,Tchatchoua,Wolves,4.4
