@@ -167,6 +167,7 @@ id,web_name,team,price
 756,DaCosta,Bournemouth,4.5
 782,Forster,Bournemouth,4.0
 799,Stevens,Bournemouth,4.5
+801,Tóth.A,Bournemouth,5.0
 27,Nelson,Brentford,4.8
 83,O.Dango,Brentford,5.8
 101,Kelleher,Brentford,4.6
@@ -491,7 +492,7 @@ id,web_name,team,price
 414,Foden,Man City,8.6
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.2
-417,Cherki,Man City,6.8
+417,Cherki,Man City,6.7
 418,Doku,Man City,6.4
 420,Gündoğan,Man City,6.3
 421,Rodrigo,Man City,6.3
@@ -573,7 +574,7 @@ id,web_name,team,price
 485,Gordon,Newcastle,7.5
 486,Elanga,Newcastle,6.5
 487,Barnes,Newcastle,6.1
-488,Bruno G.,Newcastle,7.2
+488,Bruno G.,Newcastle,7.3
 489,J.Murphy,Newcastle,6.0
 490,Joelinton,Newcastle,5.9
 491,Tonali,Newcastle,5.3
@@ -676,6 +677,7 @@ id,web_name,team,price
 735,Traoré,Sunderland,5.5
 774,Jenson Jones,Sunderland,4.0
 775,Tutierov,Sunderland,4.5
+800,Jocelin.T,Sunderland,5.0
 565,Vicario,Spurs,4.8
 566,Austin,Spurs,3.9
 567,Kinsky,Spurs,3.9
