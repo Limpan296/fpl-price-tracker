@@ -33,7 +33,7 @@ id,web_name,team,price
 666,Gyökeres,Arsenal,8.7
 700,Dowman,Arsenal,4.2
 711,Harriman-Annous,Arsenal,4.4
-725,Hincapie,Arsenal,5.2
+725,Hincapie,Arsenal,5.1
 759,Salmon,Arsenal,4.0
 32,Martinez,Aston Villa,5.0
 33,M.Bizot,Aston Villa,4.2
@@ -270,7 +270,7 @@ id,web_name,team,price
 234,Anselmino,Chelsea,4.0
 235,Palmer,Chelsea,10.4
 236,Neto,Chelsea,7.1
-237,Enzo,Chelsea,6.6
+237,Enzo,Chelsea,6.7
 238,Estêvão,Chelsea,6.4
 239,Gittens,Chelsea,6.0
 240,Nkunku,Chelsea,5.9
@@ -281,7 +281,7 @@ id,web_name,team,price
 246,Andrey Santos,Chelsea,4.5
 247,D.Essugo,Chelsea,4.3
 248,Paez,Chelsea,4.5
-249,João Pedro,Chelsea,7.1
+249,João Pedro,Chelsea,7.2
 250,Delap,Chelsea,6.2
 251,N.Jackson,Chelsea,6.5
 252,Marc Guiu,Chelsea,4.2
@@ -289,6 +289,7 @@ id,web_name,team,price
 672,Hato,Chelsea,4.6
 743,Emenalo,Chelsea,4.5
 789,Merrick,Chelsea,4.0
+803,Sharman-Lowe,Chelsea,4.0
 253,Henderson,Crystal Palace,5.0
 254,Benitez,Crystal Palace,4.0
 255,Matthews,Crystal Palace,3.9
@@ -447,7 +448,7 @@ id,web_name,team,price
 376,Gomez,Liverpool,4.9
 377,Tsimikas,Liverpool,4.8
 378,Nallo,Liverpool,3.7
-379,R.Williams,Liverpool,3.8
+379,R.Williams,Liverpool,3.7
 380,Ramsay,Liverpool,3.8
 381,M.Salah,Liverpool,14.0
 382,Wirtz,Liverpool,8.3
@@ -466,12 +467,12 @@ id,web_name,team,price
 397,Darwin,Liverpool,6.5
 398,Danns,Liverpool,4.3
 499,Isak,Liverpool,10.3
-661,Ekitiké,Liverpool,8.9
+661,Ekitiké,Liverpool,8.8
 686,Ngumoha,Liverpool,4.3
 692,Leoni,Liverpool,4.9
 746,Morrison,Liverpool,4.5
 760,Lucky,Liverpool,4.0
-82,Semenyo,Man City,7.7
+82,Semenyo,Man City,7.8
 182,Trafford,Man City,4.5
 260,Guéhi,Man City,5.2
 399,Ederson M.,Man City,5.3
@@ -511,7 +512,7 @@ id,web_name,team,price
 763,Gray,Man City,4.5
 764,Heskey,Man City,4.5
 794,Alleyne,Man City,4.4
-119,Mbeumo,Man Utd,8.2
+119,Mbeumo,Man Utd,8.3
 431,Bayindir,Man Utd,4.7
 432,Onana,Man Utd,4.9
 433,Harrison,Man Utd,4.0
@@ -522,7 +523,7 @@ id,web_name,team,price
 438,Mazraoui,Man Utd,4.9
 439,D.Leon,Man Utd,4.2
 440,Dalot,Man Utd,4.5
-441,Dorgu,Man Utd,4.3
+441,Dorgu,Man Utd,4.4
 442,Maguire,Man Utd,4.3
 443,Shaw,Man Utd,4.5
 444,Yoro,Man Utd,4.2
