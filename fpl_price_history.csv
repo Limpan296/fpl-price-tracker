@@ -13,7 +13,7 @@ id,web_name,team,price
 13,Clarke,Arsenal,3.8
 14,Kacurri,Arsenal,3.9
 15,Nichols,Arsenal,3.8
-16,Saka,Arsenal,10.1
+16,Saka,Arsenal,10.0
 17,Ødegaard,Arsenal,7.8
 18,Madueke,Arsenal,6.8
 19,Martinelli,Arsenal,6.8
@@ -487,7 +487,7 @@ id,web_name,team,price
 408,Rúben,Man City,5.6
 409,Stones,Man City,5.4
 410,Lewis,Man City,4.6
-411,O'Reilly,Man City,5.1
+411,O'Reilly,Man City,5.0
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
 414,Foden,Man City,8.5
@@ -531,7 +531,7 @@ id,web_name,team,price
 446,Fredricson,Man Utd,3.8
 447,Heaven,Man Utd,3.8
 448,Malacia,Man Utd,3.8
-449,B.Fernandes,Man Utd,9.4
+449,B.Fernandes,Man Utd,9.5
 450,Cunha,Man Utd,8.0
 451,Rashford,Man Utd,7.0
 452,Amad,Man Utd,6.2
@@ -711,7 +711,7 @@ id,web_name,team,price
 594,Min-hyeok,Spurs,4.5
 595,Olusesi,Spurs,4.3
 596,Solanke,Spurs,7.2
-597,Richarlison,Spurs,6.4
+597,Richarlison,Spurs,6.3
 598,Lankshear,Spurs,4.5
 599,Scarlett,Spurs,4.3
 673,J.Palhinha,Spurs,5.5
