@@ -82,6 +82,7 @@ id,web_name,team,price
 768,Leon Routh,Aston Villa,4.0
 781,Carroll,Aston Villa,4.0
 792,Alysson,Aston Villa,5.0
+808,Abraham,Aston Villa,6.0
 183,Weiss,Burnley,4.3
 184,Green,Burnley,4.0
 185,Hladký,Burnley,3.9
@@ -168,6 +169,8 @@ id,web_name,team,price
 782,Forster,Bournemouth,4.0
 799,Stevens,Bournemouth,4.5
 801,Tóth.A,Bournemouth,5.0
+806,Mandas,Bournemouth,4.0
+807,Rayan,Bournemouth,5.5
 27,Nelson,Brentford,4.8
 83,O.Dango,Brentford,5.8
 101,Kelleher,Brentford,4.6
@@ -218,6 +221,7 @@ id,web_name,team,price
 146,Dunk,Brighton,4.5
 147,Estupiñan,Brighton,4.5
 148,F.Kadıoğlu,Brighton,4.4
+149,Igor,Brighton,4.5
 150,Lamptey,Brighton,4.4
 151,Van Hecke,Brighton,4.5
 152,Veltman,Brighton,4.3
@@ -380,7 +384,6 @@ id,web_name,team,price
 323,Amissah,Fulham,3.8
 324,Iwobi,Fulham,6.3
 325,Smith Rowe,Fulham,5.6
-326,Adama,Fulham,5.1
 327,Andreas,Fulham,5.3
 328,Sessegnon,Fulham,5.4
 329,Wilson,Fulham,6.0
@@ -490,7 +493,7 @@ id,web_name,team,price
 411,O'Reilly,Man City,5.0
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
-414,Foden,Man City,8.5
+414,Foden,Man City,8.4
 415,Savinho,Man City,6.9
 416,Bernardo,Man City,6.2
 417,Cherki,Man City,6.6
@@ -504,14 +507,14 @@ id,web_name,team,price
 427,Reijnders,Man City,5.2
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.8
-430,Haaland,Man City,15.1
+430,Haaland,Man City,15.0
 736,Donnarumma,Man City,5.7
 739,Mukasa,Man City,4.4
 740,Mfuni,Man City,3.9
 742,McAidoo,Man City,4.5
 763,Gray,Man City,4.5
 764,Heskey,Man City,4.5
-794,Alleyne,Man City,4.4
+794,Alleyne,Man City,4.3
 119,Mbeumo,Man Utd,8.3
 431,Bayindir,Man Utd,4.7
 432,Onana,Man Utd,4.9
@@ -723,7 +726,7 @@ id,web_name,team,price
 790,Williams-Barnett,Spurs,4.5
 796,Gallagher,Spurs,5.5
 804,Souza,Spurs,4.0
-149,Igor,West Ham,4.5
+326,Adama,West Ham,5.1
 600,Areola,West Ham,4.3
 601,Foderingham,West Ham,4.0
 602,Hegyi,West Ham,3.9
