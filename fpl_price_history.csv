@@ -50,7 +50,7 @@ id,web_name,team,price
 44,Bogarde,Aston Villa,4.0
 45,Sousa,Aston Villa,3.8
 46,Yasin,Aston Villa,4.0
-47,Rogers,Aston Villa,7.6
+47,Rogers,Aston Villa,7.7
 48,Tielemans,Aston Villa,5.9
 49,Bailey,Aston Villa,5.5
 50,Buendía,Aston Villa,5.3
@@ -156,7 +156,7 @@ id,web_name,team,price
 94,Sadi,Bournemouth,4.5
 95,Silcott-Duberry,Bournemouth,4.4
 96,Winterburn,Bournemouth,4.5
-97,Evanilson,Bournemouth,7.0
+97,Evanilson,Bournemouth,6.9
 98,Enes Ünal,Bournemouth,5.4
 99,Adu-Adjei,Bournemouth,4.4
 100,Kroupi.Jr,Bournemouth,4.7
@@ -390,7 +390,7 @@ id,web_name,team,price
 325,Smith Rowe,Fulham,5.6
 327,Andreas,Fulham,5.3
 328,Sessegnon,Fulham,5.4
-329,Wilson,Fulham,6.0
+329,Wilson,Fulham,5.9
 330,Berge,Fulham,4.9
 331,Cairney,Fulham,4.8
 332,Lukić,Fulham,4.9
@@ -438,7 +438,7 @@ id,web_name,team,price
 493,Longstaff,Leeds,4.8
 660,Stach,Leeds,4.7
 665,Perri,Leeds,4.5
-691,Calvert-Lewin,Leeds,5.9
+691,Calvert-Lewin,Leeds,5.8
 698,Okafor,Leeds,5.5
 706,Justin,Leeds,3.9
 741,Gray,Leeds,4.5
@@ -510,7 +510,7 @@ id,web_name,team,price
 427,Reijnders,Man City,5.1
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.7
-430,Haaland,Man City,14.9
+430,Haaland,Man City,14.8
 736,Donnarumma,Man City,5.6
 739,Mukasa,Man City,4.4
 740,Mfuni,Man City,3.9
@@ -581,7 +581,7 @@ id,web_name,team,price
 485,Gordon,Newcastle,7.2
 486,Elanga,Newcastle,6.5
 487,Barnes,Newcastle,6.1
-488,Bruno G.,Newcastle,7.0
+488,Bruno G.,Newcastle,6.9
 489,J.Murphy,Newcastle,5.9
 490,Joelinton,Newcastle,5.9
 491,Tonali,Newcastle,5.3
