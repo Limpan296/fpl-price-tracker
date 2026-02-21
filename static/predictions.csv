@@ -1,18 +1,26 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
-Hill,Bournemouth,4.0,4.6,2630,2123,3.3
-Kelleher,Brentford,4.6,10.9,1864,1505,5.4
-Thiago,Brentford,7.0,31.7,3121,2520,14.4
-João Pedro,Chelsea,7.7,47.8,2079,1678,20.2
-Virgil,Liverpool,5.9,23.5,6492,5242,12.9
-Wirtz,Liverpool,8.4,13.9,1764,1424,6.5
-Szoboszlai,Liverpool,6.7,6.8,4705,3799,5.3
-Ekitiké,Liverpool,8.9,26.2,2317,1870,11.7
-Semenyo,Man City,8.0,51.7,4184,3378,22.9
-Guéhi,Man City,5.2,37.4,2347,1895,16.2
-J.Timber,Arsenal,6.4,29.8,-2455,-1982,-0.4
-Gyökeres,Arsenal,8.8,11.8,-2070,-1671,-0.8
-Cucurella,Chelsea,6.1,15.4,-5069,-4093,-1.1
-Chalobah,Chelsea,5.8,23.9,-2708,-2186,-0.5
-Enzo,Chelsea,6.9,22.4,-4494,-3628,-1.0
-Lacroix,Crystal Palace,5.1,5.8,-3688,-2978,-2.5
-Bruno G.,Newcastle,6.9,7.8,-7962,-6429,-3.4
+Hill,Bournemouth,4.0,4.6,3503,2828,3.7
+Rayan,Bournemouth,5.5,1.5,1526,1232,1.4
+O.Dango,Brentford,5.8,1.2,1725,1392,1.4
+Kelleher,Brentford,4.6,10.9,2721,2197,5.8
+Thiago,Brentford,7.0,31.7,3706,2992,14.7
+João Pedro,Chelsea,7.7,47.8,1971,1591,20.2
+Virgil,Liverpool,5.9,23.5,9086,7336,14.3
+Wirtz,Liverpool,8.4,13.9,2737,2210,7.0
+Szoboszlai,Liverpool,6.7,6.8,6539,5280,6.2
+Ekitiké,Liverpool,8.9,26.2,3372,2722,12.3
+Semenyo,Man City,8.0,51.7,5820,4699,23.8
+Guéhi,Man City,5.2,37.4,3082,2488,16.6
+Mbeumo,Man Utd,8.6,22.7,1524,1230,9.9
+B.Fernandes,Man Utd,9.8,37.0,1989,1606,15.9
+J.Timber,Arsenal,6.4,29.8,-3227,-2605,-0.5
+Rice,Arsenal,7.6,34.2,-1624,-1311,-0.2
+Gyökeres,Arsenal,8.8,11.8,-2605,-2103,-1.0
+Sánchez,Chelsea,4.9,15.0,-2572,-2076,-0.8
+Cucurella,Chelsea,6.1,15.4,-6268,-5061,-1.4
+Chalobah,Chelsea,5.8,23.9,-4796,-3872,-1.0
+Palmer,Chelsea,10.6,17.2,-1816,-1466,-0.5
+Enzo,Chelsea,6.9,22.4,-7202,-5815,-1.5
+Lacroix,Crystal Palace,5.1,5.8,-4619,-3729,-3.1
+Calvert-Lewin,Leeds,5.8,10.2,-1734,-1400,-0.8
+Bruno G.,Newcastle,6.9,7.8,-9877,-7975,-4.3
