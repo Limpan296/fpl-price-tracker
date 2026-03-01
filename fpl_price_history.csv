@@ -212,6 +212,7 @@ id,web_name,team,price
 748,Dasilva,Brentford,4.9
 797,Furo,Brentford,4.5
 810,Bentt,Brentford,4.5
+819,Shield,Brentford,4.0
 138,Steele,Brighton,4.2
 139,Verbruggen,Brighton,4.5
 140,McGill,Brighton,3.9
@@ -494,7 +495,7 @@ id,web_name,team,price
 408,Rúben,Man City,5.5
 409,Stones,Man City,5.4
 410,Lewis,Man City,4.6
-411,O'Reilly,Man City,5.0
+411,O'Reilly,Man City,5.1
 412,Vitor Reis,Man City,5.0
 413,Marmoush,Man City,8.3
 414,Foden,Man City,8.1
@@ -530,7 +531,7 @@ id,web_name,team,price
 439,D.Leon,Man Utd,4.2
 440,Dalot,Man Utd,4.6
 441,Dorgu,Man Utd,4.2
-442,Maguire,Man Utd,4.3
+442,Maguire,Man Utd,4.4
 443,Shaw,Man Utd,4.5
 444,Yoro,Man Utd,4.1
 445,Amass,Man Utd,4.0
@@ -589,7 +590,7 @@ id,web_name,team,price
 494,Willock,Newcastle,5.0
 495,Hayden,Newcastle,4.5
 496,Kuol,Newcastle,4.4
-497,L.Miley,Newcastle,4.5
+497,L.Miley,Newcastle,4.4
 498,White,Newcastle,4.5
 500,Osula,Newcastle,5.4
 501,Neave,Newcastle,4.3
@@ -658,7 +659,7 @@ id,web_name,team,price
 544,Diarra,Sunderland,5.3
 545,Roberts,Sunderland,5.4
 546,Aleksić,Sunderland,4.9
-547,E.Le Fée,Sunderland,4.9
+547,E.Le Fée,Sunderland,5.0
 548,Mundle,Sunderland,4.9
 549,Neil,Sunderland,4.8
 550,Poveda,Sunderland,4.8
@@ -740,7 +741,7 @@ id,web_name,team,price
 602,Hegyi,West Ham,3.9
 603,Diouf,West Ham,4.0
 604,Emerson,West Ham,4.4
-605,Kilman,West Ham,4.2
+605,Kilman,West Ham,4.1
 606,Mavropanos,West Ham,4.4
 607,N.Aguerd,West Ham,4.4
 608,Scarles,West Ham,4.3
@@ -758,7 +759,7 @@ id,web_name,team,price
 621,Irving,West Ham,4.3
 622,Orford,West Ham,4.4
 623,Potts,West Ham,4.4
-624,Bowen,West Ham,7.6
+624,Bowen,West Ham,7.5
 625,Füllkrug,West Ham,5.6
 626,Marshall,West Ham,4.3
 659,Walker-Peters,West Ham,4.2
