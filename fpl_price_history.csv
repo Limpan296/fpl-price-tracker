@@ -18,7 +18,7 @@ id,web_name,team,price
 18,Madueke,Arsenal,6.8
 19,Martinelli,Arsenal,6.8
 20,Trossard,Arsenal,6.7
-21,Rice,Arsenal,7.5
+21,Rice,Arsenal,7.4
 22,Merino,Arsenal,5.4
 23,Fábio Vieira,Arsenal,5.4
 24,Nørgaard,Arsenal,5.1
@@ -90,7 +90,7 @@ id,web_name,team,price
 187,Walker,Burnley,4.4
 188,Delcroix,Burnley,3.8
 189,Dodgson,Burnley,4.0
-190,Ekdal,Burnley,3.9
+190,Ekdal,Burnley,3.8
 191,Estève,Burnley,3.9
 192,Hartman,Burnley,4.0
 193,Humphreys,Burnley,3.9
@@ -139,11 +139,11 @@ id,web_name,team,price
 74,Truffert,Bournemouth,4.6
 75,Akinmboni,Bournemouth,3.8
 76,Bevan,Bournemouth,3.8
-77,Hill,Bournemouth,4.1
+77,Hill,Bournemouth,4.2
 78,J.Araujo,Bournemouth,3.8
 79,Mepham,Bournemouth,4.0
 80,Soler,Bournemouth,4.0
-81,Kluivert,Bournemouth,7.0
+81,Kluivert,Bournemouth,6.9
 84,Tavernier,Bournemouth,5.3
 85,Adams,Bournemouth,4.9
 86,Brooks,Bournemouth,5.0
@@ -288,7 +288,7 @@ id,web_name,team,price
 246,Andrey Santos,Chelsea,4.5
 247,D.Essugo,Chelsea,4.3
 248,Paez,Chelsea,4.5
-249,João Pedro,Chelsea,7.6
+249,João Pedro,Chelsea,7.7
 250,Delap,Chelsea,6.2
 251,N.Jackson,Chelsea,6.5
 252,Marc Guiu,Chelsea,4.1
@@ -452,7 +452,7 @@ id,web_name,team,price
 370,Frimpong,Liverpool,5.7
 371,Kerkez,Liverpool,5.6
 372,Robertson,Liverpool,5.7
-373,Virgil,Liverpool,6.1
+373,Virgil,Liverpool,6.2
 374,Konaté,Liverpool,5.5
 375,Bradley,Liverpool,4.9
 376,Gomez,Liverpool,4.9
@@ -482,7 +482,7 @@ id,web_name,team,price
 692,Leoni,Liverpool,4.9
 746,Morrison,Liverpool,4.5
 760,Lucky,Liverpool,4.0
-82,Semenyo,Man City,8.2
+82,Semenyo,Man City,8.3
 182,Trafford,Man City,4.5
 260,Guéhi,Man City,5.2
 399,Ederson M.,Man City,5.3
