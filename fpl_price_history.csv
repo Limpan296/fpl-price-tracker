@@ -214,6 +214,8 @@ id,web_name,team,price
 797,Furo,Brentford,4.5
 810,Bentt,Brentford,4.5
 819,Shield,Brentford,4.0
+823,Stephenson,Brentford,4.0
+824,McManus,Brentford,4.0
 138,Steele,Brighton,4.2
 139,Verbruggen,Brighton,4.5
 140,McGill,Brighton,3.9
@@ -742,7 +744,7 @@ id,web_name,team,price
 600,Areola,West Ham,4.3
 601,Foderingham,West Ham,4.0
 602,Hegyi,West Ham,3.9
-603,Diouf,West Ham,4.0
+603,Diouf,West Ham,4.1
 604,Emerson,West Ham,4.4
 605,Kilman,West Ham,4.1
 606,Mavropanos,West Ham,4.4
