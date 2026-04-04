@@ -129,7 +129,7 @@ id,web_name,team,price
 784,Brierley,Burnley,4.5
 820,McMahon-Brown,Burnley,4.5
 66,Neto,Bournemouth,4.5
-67,Petrović,Bournemouth,4.5
+67,Petrović,Bournemouth,4.6
 68,Dennis,Bournemouth,4.0
 69,McKenna,Bournemouth,3.9
 70,Paulsen,Bournemouth,4.0
@@ -179,7 +179,7 @@ id,web_name,team,price
 102,Balcombe,Brentford,3.9
 103,Cox,Brentford,3.9
 104,Eyestone,Brentford,3.9
-105,Valdimarsson,Brentford,3.9
+105,Valdimarsson,Brentford,3.8
 106,Collins,Brentford,4.9
 107,Lewis-Potter,Brentford,4.8
 108,Ajer,Brentford,4.4
@@ -280,7 +280,7 @@ id,web_name,team,price
 234,Anselmino,Chelsea,4.0
 235,Palmer,Chelsea,10.6
 236,Neto,Chelsea,7.0
-237,Enzo,Chelsea,6.6
+237,Enzo,Chelsea,6.5
 238,Estêvão,Chelsea,6.4
 239,Gittens,Chelsea,6.0
 240,Nkunku,Chelsea,5.9
@@ -468,7 +468,7 @@ id,web_name,team,price
 384,Gakpo,Liverpool,7.3
 385,Chiesa,Liverpool,6.3
 386,Mac Allister,Liverpool,6.3
-387,Szoboszlai,Liverpool,7.0
+387,Szoboszlai,Liverpool,7.1
 388,C.Jones,Liverpool,5.4
 390,Gravenberch,Liverpool,5.5
 392,Endo,Liverpool,4.9
