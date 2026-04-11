@@ -157,10 +157,10 @@ id,web_name,team,price
 94,Sadi,Bournemouth,4.5
 95,Silcott-Duberry,Bournemouth,4.4
 96,Winterburn,Bournemouth,4.5
-97,Evanilson,Bournemouth,6.8
+97,Evanilson,Bournemouth,6.7
 98,Enes Ünal,Bournemouth,5.4
 99,Adu-Adjei,Bournemouth,4.4
-100,Kroupi.Jr,Bournemouth,4.7
+100,Kroupi.Jr,Bournemouth,4.6
 391,Gannon-Doak,Bournemouth,4.8
 685,Diakité,Bournemouth,4.1
 687,Rees-Dottin,Bournemouth,4.3
@@ -278,7 +278,7 @@ id,web_name,team,price
 232,Tosin,Chelsea,4.0
 233,Acheampong,Chelsea,3.7
 234,Anselmino,Chelsea,4.0
-235,Palmer,Chelsea,10.6
+235,Palmer,Chelsea,10.5
 236,Neto,Chelsea,7.0
 237,Enzo,Chelsea,6.5
 238,Estêvão,Chelsea,6.4
@@ -290,7 +290,7 @@ id,web_name,team,price
 246,Andrey Santos,Chelsea,4.5
 247,D.Essugo,Chelsea,4.3
 248,Paez,Chelsea,4.5
-249,João Pedro,Chelsea,7.8
+249,João Pedro,Chelsea,7.7
 250,Delap,Chelsea,6.2
 251,N.Jackson,Chelsea,6.5
 252,Marc Guiu,Chelsea,4.0
@@ -479,7 +479,7 @@ id,web_name,team,price
 397,Darwin,Liverpool,6.5
 398,Danns,Liverpool,4.3
 499,Isak,Liverpool,10.3
-661,Ekitiké,Liverpool,9.3
+661,Ekitiké,Liverpool,9.2
 686,Ngumoha,Liverpool,4.3
 692,Leoni,Liverpool,4.9
 746,Morrison,Liverpool,4.5
@@ -522,7 +522,7 @@ id,web_name,team,price
 763,Gray,Man City,4.5
 764,Heskey,Man City,4.5
 794,Alleyne,Man City,3.9
-119,Mbeumo,Man Utd,8.6
+119,Mbeumo,Man Utd,8.5
 431,Bayindir,Man Utd,4.7
 432,Onana,Man Utd,4.9
 433,Harrison,Man Utd,4.0
