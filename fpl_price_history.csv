@@ -6,7 +6,7 @@ id,web_name,team,price
 5,Gabriel,Arsenal,7.2
 6,Saliba,Arsenal,6.1
 7,Calafiori,Arsenal,5.6
-8,J.Timber,Arsenal,6.3
+8,J.Timber,Arsenal,6.2
 9,Kiwior,Arsenal,5.4
 10,Lewis-Skelly,Arsenal,5.0
 11,White,Arsenal,5.1
@@ -73,7 +73,7 @@ id,web_name,team,price
 688,Wright,Aston Villa,3.9
 699,Douglas Luiz,Aston Villa,4.9
 701,Rowe,Aston Villa,4.0
-702,Burrowes,Aston Villa,4.4
+702,Burrowes,Aston Villa,4.3
 703,Proctor,Aston Villa,3.9
 710,Patterson,Aston Villa,3.9
 719,Lindelöf,Aston Villa,4.5
@@ -216,6 +216,7 @@ id,web_name,team,price
 819,Shield,Brentford,4.0
 823,Stephenson,Brentford,4.0
 824,McManus,Brentford,4.0
+826,Owen,Brentford,4.5
 138,Steele,Brighton,4.2
 139,Verbruggen,Brighton,4.5
 140,McGill,Brighton,3.9
@@ -407,7 +408,7 @@ id,web_name,team,price
 424,Bobb,Fulham,5.1
 664,Lecomte,Fulham,3.9
 727,Chukwueze,Fulham,5.3
-731,Kevin,Fulham,5.8
+731,Kevin,Fulham,5.7
 737,Kusi-Asare,Fulham,4.5
 770,Ridgeon,Fulham,4.5
 786,McNally,Fulham,4.0
@@ -548,7 +549,7 @@ id,web_name,team,price
 454,Antony,Man Utd,5.9
 455,Mount,Man Utd,5.9
 457,Casemiro,Man Utd,5.7
-458,Mainoo,Man Utd,4.6
+458,Mainoo,Man Utd,4.7
 459,Ugarte,Man Utd,4.7
 460,Collyer,Man Utd,4.5
 461,Fitzgerald,Man Utd,4.3
@@ -622,7 +623,7 @@ id,web_name,team,price
 514,Boly,Nott'm Forest,3.8
 515,Gibbs-White,Nott'm Forest,7.4
 516,Hudson-Odoi,Nott'm Forest,5.7
-517,Anderson,Nott'm Forest,5.5
+517,Anderson,Nott'm Forest,5.6
 518,Jota,Nott'm Forest,5.4
 519,Dominguez,Nott'm Forest,5.0
 520,O'Brien,Nott'm Forest,5.0
@@ -690,7 +691,7 @@ id,web_name,team,price
 735,Traoré,Sunderland,5.5
 774,Jenson Jones,Sunderland,4.0
 775,Tutierov,Sunderland,4.5
-800,Jocelin.T,Sunderland,5.0
+800,Jocelin.T,Sunderland,4.9
 812,Ellborg,Sunderland,4.0
 813,Angulo,Sunderland,5.0
 821,Whittaker,Sunderland,4.5
@@ -703,7 +704,7 @@ id,web_name,team,price
 570,Danso,Spurs,4.2
 571,Davies,Spurs,4.3
 572,Dragusin,Spurs,4.5
-573,Spence,Spurs,4.2
+573,Spence,Spurs,4.1
 574,Udogie,Spurs,4.3
 575,Van de Ven,Spurs,4.4
 576,Phillips,Spurs,4.0
@@ -736,7 +737,7 @@ id,web_name,team,price
 750,Rowswell,Spurs,4.0
 751,Akhamrich,Spurs,4.5
 790,Williams-Barnett,Spurs,4.5
-796,Gallagher,Spurs,5.1
+796,Gallagher,Spurs,5.0
 804,Souza,Spurs,4.0
 811,Kyerematen,Spurs,4.5
 818,Wilson,Spurs,4.5
