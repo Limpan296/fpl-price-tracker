@@ -1,25 +1,30 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
-Gabriel,Arsenal,7.1,43.1,2051,1656,18.3
-Saliba,Arsenal,6.1,14.2,1989,1606,6.8
-Rogers,Aston Villa,7.4,24.9,3174,2563,11.7
-Watkins,Aston Villa,8.7,15.8,4811,3884,8.9
-Van Hecke,Brighton,4.6,9.6,1872,1511,4.8
-Calvert-Lewin,Leeds,5.7,11.1,3005,2426,6.1
-Okafor,Leeds,5.5,1.4,5522,4459,3.5
-O'Reilly,Man City,5.1,14.6,8202,6623,10.3
-Cherki,Man City,6.4,10.4,9552,7713,9.3
-Haaland,Man City,14.5,58.2,8354,6745,27.8
-Gibbs-White,Nott'm Forest,7.5,9.5,12485,10081,10.5
-Igor Jesus,Nott'm Forest,5.8,1.7,1595,1287,1.5
-J.Timber,Arsenal,6.1,19.8,-9978,-8057,-1.7
-Dúbravka,Burnley,4.0,28.1,-1808,-1459,-0.3
-Palmer,Chelsea,10.5,17.1,-2169,-1751,-0.6
-João Pedro,Chelsea,7.6,43.5,-6171,-4983,-0.7
-Beto,Everton,5.0,3.1,-2374,-1917,-2.5
-Wilson,Fulham,6.0,22.2,-4528,-3656,-1.0
-Szoboszlai,Liverpool,7.1,13.4,-1682,-1358,-0.6
-Ekitiké,Liverpool,9.1,18.7,-6048,-4883,-1.1
-Semenyo,Man City,8.2,51.4,-3078,-2485,-0.3
-Mbeumo,Man Utd,8.5,17.5,-5536,-4470,-1.2
-Gordon,Newcastle,7.4,5.3,-6913,-5582,-4.3
-Bowen,West Ham,7.7,14.4,-1720,-1388,-0.6
+Gabriel,Arsenal,7.1,43.1,2617,2113,18.6
+Saliba,Arsenal,6.1,14.2,2521,2035,7.0
+Rogers,Aston Villa,7.4,24.9,4144,3346,12.2
+Watkins,Aston Villa,8.7,15.9,6223,5025,9.7
+Van Hecke,Brighton,4.6,9.6,2363,1908,5.1
+Darlow,Leeds,3.9,5.9,1900,1534,3.4
+Calvert-Lewin,Leeds,5.7,11.1,3835,3096,6.5
+Okafor,Leeds,5.5,1.5,6888,5562,4.3
+O'Reilly,Man City,5.1,14.6,10549,8518,11.5
+Cherki,Man City,6.4,10.4,12149,9810,10.7
+Haaland,Man City,14.5,58.2,10450,8438,28.9
+Gibbs-White,Nott'm Forest,7.5,9.5,16541,13356,12.7
+Igor Jesus,Nott'm Forest,5.8,1.7,2101,1696,1.8
+J.Timber,Arsenal,6.1,19.8,-12591,-10167,-2.1
+Dúbravka,Burnley,4.0,28.1,-2484,-2005,-0.4
+Palmer,Chelsea,10.5,17.1,-2909,-2349,-0.8
+João Pedro,Chelsea,7.6,43.4,-7868,-6353,-0.9
+Beto,Everton,5.0,3.1,-2935,-2370,-3.7
+Andersen,Fulham,4.5,4.7,-2015,-1627,-2.0
+Iwobi,Fulham,6.3,1.6,-1654,-1335,-3.4
+Wilson,Fulham,6.0,22.2,-5956,-4809,-1.3
+Virgil,Liverpool,6.2,33.7,-1789,-1444,-0.3
+Szoboszlai,Liverpool,7.1,13.4,-2203,-1778,-0.8
+Ekitiké,Liverpool,9.1,18.7,-7673,-6195,-1.4
+Semenyo,Man City,8.2,51.4,-3995,-3225,-0.4
+Mbeumo,Man Utd,8.5,17.4,-7074,-5712,-1.6
+Gordon,Newcastle,7.4,5.3,-8765,-7077,-6.4
+Thiaw,Newcastle,5.1,5.9,-1924,-1553,-1.5
+Bowen,West Ham,7.7,14.4,-2210,-1784,-0.7
