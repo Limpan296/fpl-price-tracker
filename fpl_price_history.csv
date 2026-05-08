@@ -4,7 +4,7 @@ id,web_name,team,price
 3,Hein,Arsenal,4.0
 4,Setford,Arsenal,3.9
 5,Gabriel,Arsenal,7.2
-6,Saliba,Arsenal,6.1
+6,Saliba,Arsenal,6.2
 7,Calafiori,Arsenal,5.6
 8,J.Timber,Arsenal,6.0
 9,Kiwior,Arsenal,5.4
@@ -193,7 +193,7 @@ id,web_name,team,price
 116,Hickey,Brentford,4.0
 117,Ji-soo,Brentford,3.9
 118,Meghoma,Brentford,4.0
-120,Schade,Brentford,6.9
+120,Schade,Brentford,6.8
 121,Damsgaard,Brentford,5.6
 122,Milambo,Brentford,5.2
 123,Carvalho,Brentford,4.6
@@ -208,7 +208,7 @@ id,web_name,team,price
 132,Maghoma,Brentford,4.5
 133,Peart-Harris,Brentford,4.4
 134,Trevitt,Brentford,4.5
-136,Thiago,Brentford,7.4
+136,Thiago,Brentford,7.3
 137,Morgan,Brentford,4.4
 748,Dasilva,Brentford,4.9
 797,Furo,Brentford,4.5
@@ -262,7 +262,7 @@ id,web_name,team,price
 181,Kostoulas,Brighton,4.8
 744,Oriola,Brighton,4.5
 761,Simmonds,Brighton,4.0
-783,Groß,Brighton,5.5
+783,Groß,Brighton,5.6
 795,Howell,Brighton,4.5
 220,Sánchez,Chelsea,4.8
 221,Jörgensen,Chelsea,4.3
@@ -272,7 +272,7 @@ id,web_name,team,price
 225,James,Chelsea,5.6
 226,Chalobah,Chelsea,5.4
 227,Colwill,Chelsea,4.7
-228,Gusto,Chelsea,4.9
+228,Gusto,Chelsea,4.8
 229,B.Badiashile,Chelsea,4.4
 230,Fofana,Chelsea,4.4
 231,M.Sarr,Chelsea,4.5
@@ -518,7 +518,7 @@ id,web_name,team,price
 427,Reijnders,Man City,5.0
 428,Nypan,Man City,5.0
 429,Phillips,Man City,4.7
-430,Haaland,Man City,14.6
+430,Haaland,Man City,14.7
 736,Donnarumma,Man City,5.6
 739,Mukasa,Man City,4.4
 740,Mfuni,Man City,3.9
