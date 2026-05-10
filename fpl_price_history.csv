@@ -3,7 +3,7 @@ id,web_name,team,price
 2,Arrizabalaga,Arsenal,4.0
 3,Hein,Arsenal,4.0
 4,Setford,Arsenal,3.9
-5,Gabriel,Arsenal,7.2
+5,Gabriel,Arsenal,7.3
 6,Saliba,Arsenal,6.2
 7,Calafiori,Arsenal,5.6
 8,J.Timber,Arsenal,6.0
@@ -13,7 +13,7 @@ id,web_name,team,price
 13,Clarke,Arsenal,3.7
 14,Kacurri,Arsenal,3.9
 15,Nichols,Arsenal,3.7
-16,Saka,Arsenal,9.9
+16,Saka,Arsenal,10.0
 17,Ødegaard,Arsenal,7.8
 18,Madueke,Arsenal,6.8
 19,Martinelli,Arsenal,6.8
@@ -50,7 +50,7 @@ id,web_name,team,price
 44,Bogarde,Aston Villa,4.0
 45,Sousa,Aston Villa,3.8
 46,Yasin,Aston Villa,4.0
-47,Rogers,Aston Villa,7.5
+47,Rogers,Aston Villa,7.4
 48,Tielemans,Aston Villa,5.9
 49,Bailey,Aston Villa,5.5
 50,Buendía,Aston Villa,5.3
@@ -187,7 +187,7 @@ id,web_name,team,price
 110,Kayode,Brentford,4.6
 111,Pinnock,Brentford,4.2
 112,Roerslev,Brentford,4.5
-113,Van den Berg,Brentford,4.5
+113,Van den Berg,Brentford,4.4
 114,Arthur,Brentford,3.8
 115,Fredrick,Brentford,4.0
 116,Hickey,Brentford,4.0
@@ -281,7 +281,7 @@ id,web_name,team,price
 234,Anselmino,Chelsea,4.0
 235,Palmer,Chelsea,10.3
 236,Neto,Chelsea,7.0
-237,Enzo,Chelsea,6.5
+237,Enzo,Chelsea,6.4
 238,Estêvão,Chelsea,6.4
 239,Gittens,Chelsea,6.0
 240,Nkunku,Chelsea,5.9
@@ -301,6 +301,8 @@ id,web_name,team,price
 789,Merrick,Chelsea,4.0
 803,Sharman-Lowe,Chelsea,4.0
 829,Derry,Chelsea,4.5
+833,Eboué,Chelsea,4.5
+834,Kavuma-McQueen,Chelsea,4.5
 253,Henderson,Crystal Palace,5.1
 254,Benitez,Crystal Palace,3.9
 255,Matthews,Crystal Palace,3.9
@@ -392,7 +394,7 @@ id,web_name,team,price
 321,J.Cuenca,Fulham,4.3
 322,Tete,Fulham,4.5
 323,Amissah,Fulham,3.8
-324,Iwobi,Fulham,6.2
+324,Iwobi,Fulham,6.1
 325,Smith Rowe,Fulham,5.6
 327,Andreas,Fulham,5.3
 328,Sessegnon,Fulham,5.4
@@ -551,7 +553,7 @@ id,web_name,team,price
 452,Amad,Man Utd,6.2
 454,Antony,Man Utd,5.9
 455,Mount,Man Utd,5.9
-457,Casemiro,Man Utd,5.8
+457,Casemiro,Man Utd,5.9
 458,Mainoo,Man Utd,4.7
 459,Ugarte,Man Utd,4.7
 460,Collyer,Man Utd,4.5
@@ -646,7 +648,7 @@ id,web_name,team,price
 716,Savona,Nott'm Forest,4.5
 729,Cuiabano,Nott'm Forest,4.5
 734,Bakwa,Nott'm Forest,5.9
-805,Lucca,Nott'm Forest,5.4
+805,Lucca,Nott'm Forest,5.3
 814,Netz,Nott'm Forest,4.5
 528,Patterson,Sunderland,4.2
 529,Moore,Sunderland,3.9
@@ -731,7 +733,7 @@ id,web_name,team,price
 594,Min-hyeok,Spurs,4.5
 595,Olusesi,Spurs,4.3
 596,Solanke,Spurs,7.1
-597,Richarlison,Spurs,6.3
+597,Richarlison,Spurs,6.4
 598,Lankshear,Spurs,4.5
 599,Scarlett,Spurs,4.3
 673,J.Palhinha,Spurs,5.5
