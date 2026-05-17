@@ -1,72 +1,73 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
-Raya,Arsenal,6.2,36.3,8321,6719,16.8
-Gabriel,Arsenal,7.3,46.1,6026,4865,21.7
-Saliba,Arsenal,6.3,17.1,6489,5239,8.6
-Saka,Arsenal,10.0,13.0,4609,3721,7.7
-Trossard,Arsenal,6.6,2.0,1785,1441,1.3
-Gyökeres,Arsenal,9.1,18.2,6797,5488,9.1
-Watkins,Aston Villa,8.7,13.4,2364,1908,6.6
-Estève,Burnley,3.8,6.8,1507,1216,3.5
-Anthony,Burnley,5.0,1.9,3936,3178,2.9
-Senesi,Bournemouth,5.2,20.9,10769,8695,14.2
-Truffert,Bournemouth,4.7,4.7,7490,6048,5.9
-Kroupi.Jr,Bournemouth,4.6,6.3,3260,2632,4.3
-Rayan,Bournemouth,5.4,1.7,5654,4565,3.7
-João Pedro,Chelsea,7.4,37.9,2926,2362,16.7
-Tarkowski,Everton,5.8,12.7,1515,1223,5.5
-Calvert-Lewin,Leeds,5.8,13.2,10209,8243,10.8
-Justin,Leeds,4.0,2.2,2841,2294,2.4
-Virgil,Liverpool,6.0,30.1,13715,11074,19.4
-M.Salah,Liverpool,14.0,13.7,2582,2084,6.9
-Szoboszlai,Liverpool,7.0,13.2,18188,14686,15.1
-Ngumoha,Liverpool,4.3,1.4,1991,1607,1.6
-Doku,Man City,6.5,6.5,8547,6901,7.2
-Haaland,Man City,14.7,64.5,4706,3800,28.3
-Shaw,Man Utd,4.5,1.0,2360,1905,1.7
-B.Fernandes,Man Utd,10.4,47.7,1910,1542,20.1
-Cunha,Man Utd,8.1,8.4,3811,3077,5.4
-Lammens,Man Utd,5.1,3.5,2698,2178,2.9
-Bruno G.,Newcastle,6.9,6.1,2577,2080,3.8
-Osula,Newcastle,5.4,1.1,4488,3624,2.9
-Anderson,Nott'm Forest,5.6,7.5,16255,13125,11.8
-Igor Jesus,Nott'm Forest,5.9,2.4,2805,2265,2.5
-Pedro Porro,Spurs,5.2,10.7,2518,2033,5.6
-Richarlison,Spurs,6.4,6.2,3092,2496,4.1
-Mavropanos,West Ham,4.5,1.9,3063,2473,2.4
-Bowen,West Ham,7.7,12.6,15072,12170,13.2
-J.Timber,Arsenal,6.0,15.5,-9751,-7873,-2.1
-Martinez,Aston Villa,5.1,4.5,-2755,-2224,-2.8
-Cash,Aston Villa,4.7,7.7,-5792,-4677,-3.5
-Konsa,Aston Villa,4.4,7.2,-3242,-2617,-2.1
-Rogers,Aston Villa,7.4,21.3,-9973,-8053,-2.2
-Kelleher,Brentford,4.8,12.3,-3542,-2860,-1.3
-Thiago,Brentford,7.3,32.3,-21887,-17673,-3.2
-Verbruggen,Brighton,4.6,9.5,-1799,-1452,-0.9
-Van Hecke,Brighton,4.7,11.0,-2572,-2076,-1.1
-Mitoma,Brighton,6.1,2.0,-2388,-1928,-3.9
-Welbeck,Brighton,6.4,9.1,-5717,-4616,-2.9
-Sánchez,Chelsea,4.8,10.3,-2018,-1629,-0.9
-Palmer,Chelsea,10.3,12.5,-2201,-1777,-0.8
-Henderson,Crystal Palace,5.1,9.3,-4568,-3688,-2.3
-Muñoz,Crystal Palace,5.9,9.5,-5106,-4123,-2.5
-Lacroix,Crystal Palace,5.2,7.6,-5616,-4534,-3.4
-Richards,Crystal Palace,4.4,2.6,-1607,-1297,-2.9
-Sarr,Crystal Palace,6.4,6.2,-6043,-4879,-4.5
-Mateta,Crystal Palace,7.6,8.7,-8686,-7013,-4.6
-Garner,Everton,5.2,3.8,-2131,-1720,-2.6
-Andersen,Fulham,4.4,3.3,-6612,-5339,-6.6
-Wilson,Fulham,5.9,19.0,-17133,-13834,-4.2
-Struijk,Leeds,4.2,2.2,-2625,-2119,-4.6
-Gudmundsson,Leeds,3.8,2.6,-1652,-1333,-2.5
-Okafor,Leeds,5.5,1.3,-7773,-6276,-23.1
-Frimpong,Liverpool,5.7,5.0,-1959,-1581,-1.5
-Wirtz,Liverpool,8.3,8.5,-3762,-3037,-2.1
-Isak,Liverpool,10.3,3.9,-2644,-2135,-2.6
-Ekitiké,Liverpool,9.0,15.9,-7126,-5754,-1.5
-Cherki,Man City,6.6,19.6,-2922,-2359,-0.7
-Mbeumo,Man Utd,8.3,14.9,-1910,-1542,-0.6
-Casemiro,Man Utd,5.9,5.4,-4598,-3712,-4.0
-Šeško,Man Utd,7.2,5.1,-12213,-9861,-9.3
-Gordon,Newcastle,7.3,3.3,-1916,-1547,-2.7
-Gibbs-White,Nott'm Forest,7.5,7.0,-2319,-1872,-1.3
-Ballard,Sunderland,4.6,2.6,-2648,-2138,-3.4
+Raya,Arsenal,6.2,36.3,8601,6945,16.8
+Gabriel,Arsenal,7.3,46.1,6205,5010,21.8
+Saliba,Arsenal,6.3,17.1,6675,5390,8.6
+Saka,Arsenal,10.0,13.0,4710,3803,7.7
+Trossard,Arsenal,6.6,2.0,1815,1465,1.3
+Gyökeres,Arsenal,9.1,18.2,7019,5667,9.2
+Watkins,Aston Villa,8.7,13.4,2416,1950,6.7
+Estève,Burnley,3.8,6.8,1533,1237,3.5
+Anthony,Burnley,5.0,1.9,4015,3242,2.9
+Senesi,Bournemouth,5.2,20.9,11005,8886,14.3
+Truffert,Bournemouth,4.7,4.7,7673,6195,6.0
+Kroupi.Jr,Bournemouth,4.6,6.3,3339,2696,4.3
+Rayan,Bournemouth,5.4,1.7,5762,4652,3.8
+João Pedro,Chelsea,7.4,37.9,2986,2411,16.8
+Calvert-Lewin,Leeds,5.8,13.2,10911,8810,11.2
+Justin,Leeds,4.0,2.3,3029,2445,2.6
+Virgil,Liverpool,6.0,30.1,14286,11535,19.7
+M.Salah,Liverpool,14.0,13.7,2650,2139,6.9
+Szoboszlai,Liverpool,7.0,13.2,18802,15182,15.4
+Ngumoha,Liverpool,4.3,1.4,2058,1661,1.7
+Doku,Man City,6.5,6.5,8734,7052,7.3
+Haaland,Man City,14.7,64.5,4868,3930,28.4
+Shaw,Man Utd,4.5,1.0,2475,1998,1.7
+B.Fernandes,Man Utd,10.4,47.7,2043,1649,20.2
+Cunha,Man Utd,8.1,8.4,4025,3250,5.5
+Lammens,Man Utd,5.1,3.5,2779,2244,2.9
+Bruno G.,Newcastle,6.9,6.1,2629,2122,3.9
+Osula,Newcastle,5.4,1.1,5248,4237,3.3
+Anderson,Nott'm Forest,5.6,7.5,17316,13982,12.3
+Igor Jesus,Nott'm Forest,5.9,2.4,2841,2294,2.5
+Pedro Porro,Spurs,5.2,10.7,2605,2103,5.7
+Richarlison,Spurs,6.4,6.2,3209,2591,4.2
+Mavropanos,West Ham,4.5,1.9,3123,2521,2.4
+Bowen,West Ham,7.7,12.6,15025,12132,13.1
+J.Timber,Arsenal,6.0,15.5,-9971,-8051,-2.1
+Martinez,Aston Villa,5.1,4.5,-2836,-2290,-2.9
+Cash,Aston Villa,4.7,7.7,-5967,-4818,-3.6
+Konsa,Aston Villa,4.4,7.2,-3355,-2709,-2.2
+Rogers,Aston Villa,7.4,21.3,-10381,-8382,-2.3
+Kelleher,Brentford,4.8,12.3,-3679,-2970,-1.4
+Thiago,Brentford,7.3,32.3,-22933,-18518,-3.4
+Verbruggen,Brighton,4.6,9.5,-1880,-1518,-0.9
+Van Hecke,Brighton,4.7,11.0,-2713,-2190,-1.1
+Mitoma,Brighton,6.1,2.0,-2439,-1969,-4.0
+Welbeck,Brighton,6.4,9.1,-6023,-4863,-3.1
+Sánchez,Chelsea,4.8,10.3,-2027,-1636,-0.9
+Palmer,Chelsea,10.3,12.5,-2275,-1837,-0.8
+Henderson,Crystal Palace,5.1,9.3,-4751,-3836,-2.4
+Muñoz,Crystal Palace,5.9,9.5,-5248,-4237,-2.6
+Lacroix,Crystal Palace,5.2,7.6,-5829,-4706,-3.6
+Richards,Crystal Palace,4.4,2.6,-1675,-1352,-3.0
+Sarr,Crystal Palace,6.4,6.2,-6214,-5017,-4.7
+Mateta,Crystal Palace,7.6,8.7,-9035,-7295,-4.8
+Strand Larsen,Crystal Palace,5.9,1.5,-1531,-1236,-4.7
+Garner,Everton,5.2,3.8,-2273,-1835,-2.8
+Andersen,Fulham,4.4,3.3,-6807,-5496,-6.8
+Wilson,Fulham,5.9,19.0,-18094,-14610,-4.5
+Raúl,Fulham,6.0,1.9,-1558,-1258,-3.8
+Struijk,Leeds,4.2,2.2,-2720,-2196,-4.8
+Gudmundsson,Leeds,3.8,2.6,-1710,-1380,-2.5
+Okafor,Leeds,5.5,1.3,-8022,-6477,-23.8
+Frimpong,Liverpool,5.7,5.0,-2023,-1633,-1.6
+Wirtz,Liverpool,8.3,8.5,-3838,-3099,-2.1
+Isak,Liverpool,10.3,3.9,-2728,-2202,-2.7
+Ekitiké,Liverpool,9.0,15.9,-7280,-5878,-1.5
+Cherki,Man City,6.6,19.6,-3068,-2477,-0.7
+Mbeumo,Man Utd,8.3,14.9,-1871,-1510,-0.6
+Casemiro,Man Utd,5.9,5.4,-4896,-3953,-4.2
+Šeško,Man Utd,7.2,5.1,-12573,-10152,-9.5
+Gordon,Newcastle,7.3,3.3,-2070,-1671,-2.9
+Gibbs-White,Nott'm Forest,7.5,7.0,-1928,-1556,-1.1
+Ballard,Sunderland,4.6,2.6,-2724,-2199,-3.5
