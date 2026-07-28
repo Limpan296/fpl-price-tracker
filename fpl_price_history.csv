@@ -168,6 +168,8 @@ id,web_name,team,price
 168,Marc Guiu,Chelsea,5.0
 169,Mheuka,Chelsea,4.5
 170,Emegha,Chelsea,5.0
+560,Penders,Chelsea,4.5
+561,Anselmino,Chelsea,4.5
 104,Onyeka,Coventry City,5.0
 171,Dovin,Coventry City,4.0
 172,Wilson,Coventry City,4.5
@@ -297,6 +299,7 @@ id,web_name,team,price
 298,Destan,Hull City,4.5
 299,Burstow,Hull City,4.5
 556,Targett,Hull City,4.0
+563,Morita,Hull City,5.0
 259,Diop,Ipswich Town,4.0
 300,Walton,Ipswich Town,4.5
 301,Palmer,Ipswich Town,4.0
@@ -324,6 +327,7 @@ id,web_name,team,price
 323,McAteer,Ipswich Town,4.5
 324,Mehmeti,Ipswich Town,5.0
 554,Van Oevelen,Ipswich Town,4.5
+562,Maeda,Ipswich Town,5.5
 260,Wilson,Leeds,6.5
 326,Perri,Leeds,4.5
 327,Bijol,Leeds,5.0
@@ -469,6 +473,7 @@ id,web_name,team,price
 464,Wissa,Newcastle,6.0
 465,Osula,Newcastle,6.0
 466,Neave,Newcastle,4.5
+559,Bamba,Newcastle,5.0
 467,Sels,Nott'm Forest,5.0
 468,John,Nott'm Forest,4.5
 469,N.Williams,Nott'm Forest,5.0
