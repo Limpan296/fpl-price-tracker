@@ -168,6 +168,7 @@ id,web_name,team,price
 168,Marc Guiu,Chelsea,5.0
 169,Mheuka,Chelsea,4.5
 170,Emegha,Chelsea,5.0
+200,Lacroix,Chelsea,6.0
 560,Penders,Chelsea,4.5
 561,Anselmino,Chelsea,4.5
 104,Onyeka,Coventry City,5.0
@@ -200,7 +201,6 @@ id,web_name,team,price
 197,Bassette,Coventry City,4.5
 198,Henderson,Crystal Palace,5.0
 199,Benitez,Crystal Palace,4.5
-200,Lacroix,Crystal Palace,6.0
 201,Muñoz,Crystal Palace,5.5
 202,Richards,Crystal Palace,5.0
 203,Canvot,Crystal Palace,5.0
