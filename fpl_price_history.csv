@@ -80,6 +80,7 @@ id,web_name,team,price
 79,Evanilson,Bournemouth,6.0
 80,Enes Ünal,Bournemouth,5.5
 81,Rodríguez,Bournemouth,6.0
+566,Silva,Bournemouth,5.0
 82,Kelleher,Brentford,5.0
 83,Valdimarsson,Brentford,4.5
 84,Collins,Brentford,5.5
@@ -106,6 +107,7 @@ id,web_name,team,price
 106,Thiago,Brentford,8.0
 107,Furo,Brentford,4.5
 108,Wilson,Brentford,5.5
+565,Sangaré,Brentford,5.5
 109,Verbruggen,Brighton,4.5
 110,Rushworth,Brighton,4.5
 111,Steele,Brighton,4.0
@@ -132,13 +134,13 @@ id,web_name,team,price
 133,Watson,Brighton,5.0
 134,Oriola,Brighton,4.5
 135,Yohanna,Brighton,5.0
-136,Welbeck,Brighton,6.0
 137,Tzimas,Brighton,5.5
 138,Kostoulas,Brighton,5.5
 139,Ferguson,Brighton,5.0
 328,Struijk,Brighton,5.0
 504,Vuskovic,Brighton,5.0
 40,Rogers,Chelsea,7.5
+136,Welbeck,Chelsea,6.0
 140,Sánchez,Chelsea,5.0
 141,Jörgensen,Chelsea,5.0
 142,James,Chelsea,5.5
@@ -475,6 +477,7 @@ id,web_name,team,price
 465,Osula,Newcastle,6.0
 466,Neave,Newcastle,4.5
 559,Bamba,Newcastle,5.0
+567,Horníček,Newcastle,5.0
 467,Sels,Nott'm Forest,5.0
 468,John,Nott'm Forest,4.5
 469,N.Williams,Nott'm Forest,5.0
