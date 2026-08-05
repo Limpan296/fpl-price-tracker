@@ -100,7 +100,6 @@ id,web_name,team,price
 98,Janelt,Brentford,5.0
 99,Milambo,Brentford,5.0
 100,Carvalho,Brentford,5.0
-101,Henderson,Brentford,5.0
 102,Yarmoliuk,Brentford,5.0
 103,Dasilva,Brentford,5.0
 105,Anthony,Brentford,6.0
@@ -109,7 +108,6 @@ id,web_name,team,price
 108,Wilson,Brentford,5.5
 565,Sangaré,Brentford,5.5
 109,Verbruggen,Brighton,4.5
-110,Rushworth,Brighton,4.5
 111,Steele,Brighton,4.0
 113,F.Kadıoğlu,Brighton,4.5
 114,Boscagli,Brighton,4.5
@@ -140,6 +138,7 @@ id,web_name,team,price
 328,Struijk,Brighton,5.0
 504,Vuskovic,Brighton,5.0
 40,Rogers,Chelsea,7.5
+101,Henderson,Chelsea,5.0
 136,Welbeck,Chelsea,6.0
 140,Sánchez,Chelsea,5.0
 141,Jörgensen,Chelsea,5.0
@@ -173,7 +172,9 @@ id,web_name,team,price
 200,Lacroix,Chelsea,6.0
 560,Penders,Chelsea,4.5
 561,Anselmino,Chelsea,4.5
+568,Barco,Chelsea,5.5
 104,Onyeka,Coventry City,5.0
+110,Rushworth,Coventry City,4.5
 171,Dovin,Coventry City,4.0
 172,Wilson,Coventry City,4.5
 173,Thomas,Coventry City,4.0
