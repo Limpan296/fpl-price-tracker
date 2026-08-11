@@ -25,6 +25,7 @@ id,web_name,team,price
 25,Gyökeres,Arsenal,7.5
 26,Havertz,Arsenal,7.5
 27,G.Jesus,Arsenal,6.0
+452,Bruno G.,Arsenal,7.0
 557,Tzolis,Arsenal,6.5
 28,Martinez,Aston Villa,5.0
 29,M.Bizot,Aston Villa,4.5
@@ -202,6 +203,7 @@ id,web_name,team,price
 195,Simms,Coventry City,5.0
 196,Markelo,Coventry City,5.0
 197,Bassette,Coventry City,4.5
+575,Yirenkyi,Coventry City,5.0
 198,Henderson,Crystal Palace,5.0
 199,Benitez,Crystal Palace,4.5
 201,Muñoz,Crystal Palace,5.5
@@ -230,6 +232,7 @@ id,web_name,team,price
 224,Nketiah,Crystal Palace,5.5
 225,Uche,Crystal Palace,5.0
 555,Matthews,Crystal Palace,4.0
+577,Tomiyasu,Crystal Palace,4.5
 21,Nørgaard,Everton,5.0
 226,Pickford,Everton,5.5
 227,Travers,Everton,5.0
@@ -269,7 +272,6 @@ id,web_name,team,price
 264,Bobb,Fulham,5.5
 265,Berge,Fulham,5.0
 266,Cairney,Fulham,5.0
-267,Lukić,Fulham,5.0
 268,King,Fulham,5.5
 269,Sessegnon,Fulham,4.5
 270,Reed,Fulham,4.5
@@ -307,7 +309,10 @@ id,web_name,team,price
 556,Targett,Hull City,4.0
 563,Morita,Hull City,5.0
 572,Tzolakis,Hull City,4.5
+574,Hjertø-Dahl,Hull City,5.0
+576,Stroud,Hull City,5.0
 259,Diop,Ipswich Town,4.0
+267,Lukić,Ipswich Town,5.0
 300,Walton,Ipswich Town,4.5
 301,Palmer,Ipswich Town,4.0
 302,Button,Ipswich Town,4.0
@@ -468,7 +473,6 @@ id,web_name,team,price
 449,Hall,Newcastle,5.0
 450,Livramento,Newcastle,5.0
 451,A.Murphy,Newcastle,4.0
-452,Bruno G.,Newcastle,7.0
 453,Barnes,Newcastle,6.0
 454,Elanga,Newcastle,6.0
 456,J.Ramsey,Newcastle,5.0
