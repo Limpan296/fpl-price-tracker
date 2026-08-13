@@ -174,6 +174,7 @@ id,web_name,team,price
 560,Penders,Chelsea,4.5
 561,Anselmino,Chelsea,4.5
 568,Barco,Chelsea,5.5
+578,Mudryk,Chelsea,5.5
 104,Onyeka,Coventry City,5.0
 110,Rushworth,Coventry City,4.5
 171,Dovin,Coventry City,4.0
@@ -214,7 +215,6 @@ id,web_name,team,price
 206,Chadi Riad,Crystal Palace,4.5
 207,Mingueza,Crystal Palace,4.5
 208,Sarr,Crystal Palace,6.5
-209,Johnson,Crystal Palace,6.0
 210,Wharton,Crystal Palace,5.5
 211,Yeremy,Crystal Palace,5.5
 212,Hughes,Crystal Palace,4.5
@@ -231,9 +231,11 @@ id,web_name,team,price
 223,Mateta,Crystal Palace,6.5
 224,Nketiah,Crystal Palace,5.5
 225,Uche,Crystal Palace,5.0
+241,McNeil,Crystal Palace,5.5
 555,Matthews,Crystal Palace,4.0
 577,Tomiyasu,Crystal Palace,4.5
 21,Nørgaard,Everton,5.0
+209,Johnson,Everton,6.0
 226,Pickford,Everton,5.5
 227,Travers,Everton,5.0
 228,King,Everton,4.5
@@ -248,7 +250,6 @@ id,web_name,team,price
 237,Ndiaye,Everton,6.0
 239,Garner,Everton,6.0
 240,Iroegbunam,Everton,5.0
-241,McNeil,Everton,5.5
 242,George,Everton,5.5
 243,Alcaraz,Everton,5.0
 244,Armstrong,Everton,5.0
@@ -279,6 +280,7 @@ id,web_name,team,price
 272,Kusi-Asare,Fulham,4.5
 569,García,Fulham,6.0
 570,Palacios,Fulham,5.5
+580,Charles,Fulham,5.0
 273,Phillips,Hull City,4.0
 274,Butland,Hull City,4.5
 275,Cartwright,Hull City,4.0
@@ -401,6 +403,7 @@ id,web_name,team,price
 381,Koumas,Liverpool,5.0
 382,Danns,Liverpool,4.5
 383,Elliott,Liverpool,5.5
+579,Araujo,Liverpool,5.5
 238,Grealish,Man City,6.5
 384,Donnarumma,Man City,5.5
 386,Bettinelli,Man City,4.5
@@ -515,6 +518,7 @@ id,web_name,team,price
 492,Awoniyi,Nott'm Forest,5.5
 493,Kalimuendo,Nott'm Forest,5.5
 558,Schlager,Nott'm Forest,5.0
+581,Diomande,Nott'm Forest,5.5
 112,Van Hecke,Spurs,5.0
 455,Tonali,Spurs,5.5
 494,Vicario,Spurs,4.5
