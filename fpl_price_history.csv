@@ -40,7 +40,6 @@ id,web_name,team,price
 38,A.García,Aston Villa,4.0
 39,Nedeljkovic,Aston Villa,4.0
 41,Buendía,Aston Villa,6.0
-42,Guessand,Aston Villa,5.5
 44,Bailey,Aston Villa,5.5
 45,McGinn,Aston Villa,5.5
 46,Barkley,Aston Villa,5.0
@@ -55,6 +54,7 @@ id,web_name,team,price
 55,Watkins,Aston Villa,8.0
 56,Abraham,Aston Villa,5.5
 160,Garnacho,Aston Villa,6.0
+582,Madjo,Aston Villa,5.5
 57,Petrović,Bournemouth,4.5
 58,Forster,Bournemouth,4.0
 59,Dennis,Bournemouth,4.0
@@ -175,6 +175,7 @@ id,web_name,team,price
 561,Anselmino,Chelsea,4.5
 568,Barco,Chelsea,5.5
 578,Mudryk,Chelsea,5.5
+583,Chavarria,Chelsea,5.0
 104,Onyeka,Coventry City,5.0
 110,Rushworth,Coventry City,4.5
 171,Dovin,Coventry City,4.0
@@ -205,6 +206,8 @@ id,web_name,team,price
 196,Markelo,Coventry City,5.0
 197,Bassette,Coventry City,4.5
 575,Yirenkyi,Coventry City,5.0
+584,Hamer,Coventry City,5.5
+42,Guessand,Crystal Palace,5.5
 198,Henderson,Crystal Palace,5.0
 199,Benitez,Crystal Palace,4.5
 201,Muñoz,Crystal Palace,5.5
