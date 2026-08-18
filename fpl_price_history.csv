@@ -237,6 +237,7 @@ id,web_name,team,price
 241,McNeil,Crystal Palace,5.5
 555,Matthews,Crystal Palace,4.0
 577,Tomiyasu,Crystal Palace,4.5
+588,Khalaili,Crystal Palace,5.0
 21,Nørgaard,Everton,5.0
 209,Johnson,Everton,6.0
 226,Pickford,Everton,5.5
@@ -311,6 +312,7 @@ id,web_name,team,price
 297,Gyabi,Hull City,4.5
 298,Destan,Hull City,4.5
 299,Burstow,Hull City,4.5
+340,Gelhardt,Hull City,5.0
 556,Targett,Hull City,4.0
 563,Morita,Hull City,5.0
 572,Tzolakis,Hull City,4.5
@@ -318,6 +320,7 @@ id,web_name,team,price
 576,Stroud,Hull City,5.0
 585,Herrington,Hull City,4.0
 586,Mendy,Hull City,4.0
+589,Gourna-Douath,Hull City,5.0
 259,Diop,Ipswich Town,4.0
 267,Lukić,Ipswich Town,5.0
 300,Walton,Ipswich Town,4.5
@@ -363,7 +366,6 @@ id,web_name,team,price
 337,Aaronson,Leeds,5.5
 338,Ampadu,Leeds,5.5
 339,Longstaff,Leeds,5.0
-340,Gelhardt,Leeds,5.0
 341,Gnonto,Leeds,5.0
 342,Harrison,Leeds,5.0
 343,James,Leeds,5.0
@@ -525,6 +527,7 @@ id,web_name,team,price
 493,Kalimuendo,Nott'm Forest,5.5
 558,Schlager,Nott'm Forest,5.0
 581,Diomande,Nott'm Forest,5.5
+590,Benda,Nott'm Forest,4.5
 112,Van Hecke,Spurs,5.0
 455,Tonali,Spurs,5.5
 494,Vicario,Spurs,4.5
