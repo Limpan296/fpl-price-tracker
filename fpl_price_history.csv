@@ -138,6 +138,7 @@ id,web_name,team,price
 139,Ferguson,Brighton,5.0
 328,Struijk,Brighton,5.0
 504,Vuskovic,Brighton,5.0
+594,David,Brighton,6.0
 40,Rogers,Chelsea,7.5
 101,Henderson,Chelsea,5.0
 136,Welbeck,Chelsea,6.0
@@ -239,6 +240,7 @@ id,web_name,team,price
 555,Matthews,Crystal Palace,4.0
 577,Tomiyasu,Crystal Palace,4.5
 588,Khalaili,Crystal Palace,5.0
+595,Gozo,Crystal Palace,5.0
 21,Nørgaard,Everton,5.0
 209,Johnson,Everton,6.0
 226,Pickford,Everton,5.5
@@ -502,6 +504,7 @@ id,web_name,team,price
 466,Neave,Newcastle,4.5
 559,Bamba,Newcastle,5.0
 567,Horníček,Newcastle,5.0
+593,Dedić,Newcastle,4.5
 467,Sels,Nott'm Forest,5.0
 468,John,Nott'm Forest,4.5
 469,N.Williams,Nott'm Forest,5.0
