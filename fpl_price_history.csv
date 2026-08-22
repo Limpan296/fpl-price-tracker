@@ -25,12 +25,12 @@ id,web_name,team,price
 25,Gyökeres,Arsenal,7.5
 26,Havertz,Arsenal,7.5
 27,G.Jesus,Arsenal,6.0
+31,Konsa,Arsenal,4.5
 452,Bruno G.,Arsenal,7.0
 557,Tzolis,Arsenal,6.5
 28,Martinez,Aston Villa,5.0
 29,M.Bizot,Aston Villa,4.5
 30,Digne,Aston Villa,4.5
-31,Konsa,Aston Villa,4.5
 32,Cash,Aston Villa,4.5
 33,Mings,Aston Villa,4.5
 34,Pau,Aston Villa,4.5
@@ -109,7 +109,7 @@ id,web_name,team,price
 106,Thiago,Brentford,8.0
 107,Furo,Brentford,4.5
 108,Wilson,Brentford,5.5
-565,Sangaré,Brentford,5.5
+565,M.Sangaré,Brentford,5.5
 109,Verbruggen,Brighton,4.5
 111,Steele,Brighton,4.0
 113,F.Kadıoğlu,Brighton,4.5
@@ -141,6 +141,7 @@ id,web_name,team,price
 328,Struijk,Brighton,5.0
 504,Vuskovic,Brighton,5.0
 594,David,Brighton,6.0
+600,Osman,Brighton,5.0
 40,Rogers,Chelsea,7.5
 101,Henderson,Chelsea,5.0
 136,Welbeck,Chelsea,6.0
@@ -529,7 +530,7 @@ id,web_name,team,price
 485,Bakwa,Nott'm Forest,5.5
 486,McAtee,Nott'm Forest,5.5
 487,Dominguez,Nott'm Forest,5.0
-488,Sangaré,Nott'm Forest,5.0
+488,I.Sangaré,Nott'm Forest,5.0
 489,Yates,Nott'm Forest,4.5
 490,Wood,Nott'm Forest,6.0
 491,Igor Jesus,Nott'm Forest,6.0
