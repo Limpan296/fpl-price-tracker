@@ -1,49 +1,49 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
-Calafiori,Arsenal,5.5,39.8,38671,31226,36.7
-White,Arsenal,5.5,4.6,7928,6401,6.1
-Saka,Arsenal,9.5,9.5,3618,2921,5.7
-Ødegaard,Arsenal,6.5,8.4,19980,16133,14.1
-Havertz,Arsenal,7.5,5.7,19819,16003,12.9
-Tzolis,Arsenal,6.5,25.2,26462,21368,24.3
-Cash,Aston Villa,4.5,9.0,8742,7059,8.3
-James,Chelsea,5.5,10.1,6390,5159,7.5
-João Pedro,Chelsea,7.5,64.3,8180,6605,30.1
-Thomas,Coventry City,4.0,8.1,3435,2773,5.1
-van Ewijk,Coventry City,4.0,13.9,1912,1543,6.6
-Hughes,Crystal Palace,4.5,12.2,1954,1577,5.9
-Diop,Ipswich Town,4.0,18.5,2099,1694,8.5
-Calvert-Lewin,Leeds,6.0,31.2,3852,3110,14.6
-Virgil,Liverpool,6.5,19.1,3210,2592,9.4
-Frimpong,Liverpool,5.5,3.5,2067,1669,2.5
-Szoboszlai,Liverpool,7.0,41.7,3740,3020,18.7
-Araujo,Liverpool,5.5,2.6,4020,3246,3.2
-O'Reilly,Man City,6.5,21.3,1548,1250,9.4
-Gvardiol,Man City,5.5,11.1,5091,4110,7.2
-Lammens,Man Utd,5.0,16.8,1526,1232,7.5
-Maguire,Man Utd,5.0,18.4,6674,5389,11.0
-Shaw,Man Utd,4.5,21.6,6325,5107,12.0
-B.Fernandes,Man Utd,12.0,51.9,1542,1245,21.6
-Mbeumo,Man Utd,8.0,38.8,3949,3188,17.6
-Burn,Newcastle,5.0,2.5,1604,1295,1.9
-Hall,Newcastle,5.0,3.6,1895,1530,2.5
-Van Hecke,Spurs,5.0,10.8,9065,7319,9.2
-Kinsky,Spurs,4.5,24.4,2011,1623,10.8
-Robertson,Spurs,4.5,4.0,2563,2069,3.0
-Gabriel,Arsenal,8.0,29.6,-5618,-4536,-1.3
-Hincapie,Arsenal,5.5,1.8,-6580,-5313,-24.1
-Rice,Arsenal,7.5,18.0,-10152,-8197,-3.8
-Eze,Arsenal,6.5,2.1,-5725,-4622,-18.0
-Zubimendi,Arsenal,5.5,1.2,-2098,-1694,-11.5
-Gyökeres,Arsenal,7.5,8.9,-30158,-24352,-22.5
-Konsa,Arsenal,4.5,13.1,-21082,-17023,-10.7
-Bruno G.,Arsenal,7.0,4.1,-17102,-13809,-23.0
-Watkins,Aston Villa,8.0,10.3,-2921,-2358,-1.9
-Welbeck,Chelsea,6.0,1.2,-2162,-1745,-9.9
-Henderson,Crystal Palace,5.0,1.9,-2299,-1856,-6.6
-Doku,Man City,7.5,2.0,-9614,-7763,-22.6
-Anderson,Man City,6.5,7.9,-1978,-1597,-1.7
-Gibbs-White,Nott'm Forest,8.0,11.6,-2421,-1954,-1.4
-Yates,Nott'm Forest,4.5,1.9,-4751,-3836,-11.8
-Pedro Porro,Spurs,5.5,16.7,-61847,-49941,-17.6
-Van de Ven,Spurs,5.0,5.4,-25916,-20927,-22.7
-Spence,Spurs,4.5,0.9,-11779,-9511,-61.6
+Calafiori,Arsenal,5.5,39.8,40403,32625,37.7
+White,Arsenal,5.5,4.6,8400,6783,6.4
+Saka,Arsenal,9.5,9.5,3862,3118,5.9
+Ødegaard,Arsenal,6.5,8.4,21132,17064,14.7
+Havertz,Arsenal,7.5,5.7,20500,16553,13.3
+Tzolis,Arsenal,6.5,25.2,27557,22252,24.9
+Cash,Aston Villa,4.5,9.0,9100,7348,8.5
+James,Chelsea,5.5,10.1,6659,5377,7.6
+João Pedro,Chelsea,7.5,64.2,8524,6883,30.3
+Thomas,Coventry City,4.0,8.1,3600,2907,5.2
+van Ewijk,Coventry City,4.0,13.9,1768,1427,6.5
+Hughes,Crystal Palace,4.5,12.2,2005,1619,6.0
+Diop,Ipswich Town,4.0,18.5,2005,1619,8.5
+Calvert-Lewin,Leeds,6.0,31.2,3935,3177,14.6
+Virgil,Liverpool,6.5,19.1,3398,2743,9.5
+Frimpong,Liverpool,5.5,3.5,2120,1711,2.5
+Szoboszlai,Liverpool,7.0,41.7,4027,3251,18.8
+Araujo,Liverpool,5.5,2.6,4176,3372,3.3
+O'Reilly,Man City,6.5,21.3,1622,1309,9.4
+Gvardiol,Man City,5.5,11.1,5255,4243,7.3
+Haaland,Man City,15.5,69.3,1547,1249,28.6
+Tielemans,Man Utd,6.0,2.6,1573,1270,1.9
+Maguire,Man Utd,5.0,18.4,6421,5184,10.8
+Shaw,Man Utd,4.5,21.5,6038,4875,11.9
+Mbeumo,Man Utd,8.0,38.8,3854,3112,17.6
+Burn,Newcastle,5.0,2.5,1693,1367,1.9
+Hall,Newcastle,5.0,3.6,1992,1608,2.5
+Van Hecke,Spurs,5.0,10.8,9544,7706,9.5
+Kinsky,Spurs,4.5,24.4,2150,1736,10.9
+Robertson,Spurs,4.5,4.0,2674,2159,3.0
+Gabriel,Arsenal,8.0,29.6,-5834,-4710,-1.3
+Hincapie,Arsenal,5.5,1.8,-6853,-5533,-25.1
+Rice,Arsenal,7.5,18.0,-10593,-8553,-3.9
+Eze,Arsenal,6.5,2.1,-5963,-4815,-18.7
+Zubimendi,Arsenal,5.5,1.2,-2196,-1773,-12.0
+Gyökeres,Arsenal,7.5,8.9,-31330,-25298,-23.3
+Konsa,Arsenal,4.5,13.0,-22027,-17786,-11.2
+Bruno G.,Arsenal,7.0,4.1,-17851,-14414,-23.9
+Watkins,Aston Villa,8.0,10.3,-3073,-2481,-2.0
+Welbeck,Chelsea,6.0,1.2,-2280,-1841,-10.4
+Henderson,Crystal Palace,5.0,1.8,-2404,-1941,-7.3
+Doku,Man City,7.5,2.0,-10042,-8108,-23.6
+Anderson,Man City,6.5,7.9,-2044,-1650,-1.7
+Gibbs-White,Nott'm Forest,8.0,11.6,-2489,-2009,-1.4
+Yates,Nott'm Forest,4.5,1.9,-5049,-4077,-12.5
+Pedro Porro,Spurs,5.5,16.7,-64150,-51801,-18.2
+Van de Ven,Spurs,5.0,5.4,-26901,-21722,-23.5
+Spence,Spurs,4.5,0.9,-12433,-10039,-64.9
