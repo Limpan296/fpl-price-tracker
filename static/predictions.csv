@@ -1,48 +1,49 @@
 Spelare,Lag,Pris,Ägd,Net transfers (GW),EffNet,Score
-Calafiori,Arsenal,5.5,39.8,37760,30491,36.2
-White,Arsenal,5.5,4.6,7719,6233,6.0
-Saka,Arsenal,9.5,9.5,3554,2869,5.7
-Ødegaard,Arsenal,6.5,8.4,19438,15696,13.8
-Havertz,Arsenal,7.5,5.7,19428,15688,12.7
-Tzolis,Arsenal,6.5,25.2,25876,20894,24.0
-Cash,Aston Villa,4.5,9.0,8571,6921,8.2
-James,Chelsea,5.5,10.1,6300,5087,7.4
-João Pedro,Chelsea,7.5,64.3,7963,6430,30.0
-Thomas,Coventry City,4.0,8.1,3268,2638,5.0
-van Ewijk,Coventry City,4.0,13.9,1894,1529,6.6
-Hughes,Crystal Palace,4.5,12.2,1932,1560,5.9
-Diop,Ipswich Town,4.0,18.5,2075,1675,8.5
-Calvert-Lewin,Leeds,6.0,31.2,3723,3006,14.5
-Virgil,Liverpool,6.5,19.1,3144,2538,9.3
-Frimpong,Liverpool,5.5,3.5,2038,1645,2.5
-Szoboszlai,Liverpool,7.0,41.7,3651,2948,18.6
-Araujo,Liverpool,5.5,2.6,3951,3190,3.2
-O'Reilly,Man City,6.5,21.3,1524,1230,9.3
-Gvardiol,Man City,5.5,11.1,5014,4048,7.1
-Maguire,Man Utd,5.0,18.4,6287,5076,10.7
-Martinez,Man Utd,5.0,1.4,1551,1252,1.4
-Shaw,Man Utd,4.5,21.6,6061,4894,11.9
-Mbeumo,Man Utd,8.0,38.8,3712,2997,17.5
-Burn,Newcastle,5.0,2.5,1579,1275,1.9
-Hall,Newcastle,5.0,3.6,1864,1505,2.4
-Van Hecke,Spurs,5.0,10.8,8898,7185,9.1
-Kinsky,Spurs,4.5,24.4,1960,1582,10.8
-Robertson,Spurs,4.5,4.0,2516,2031,3.0
-Gabriel,Arsenal,8.0,29.6,-5505,-4445,-1.3
-Hincapie,Arsenal,5.5,1.8,-6448,-5206,-23.6
-Rice,Arsenal,7.5,18.0,-9826,-7934,-3.6
-Eze,Arsenal,6.5,2.1,-5591,-4514,-17.6
-Zubimendi,Arsenal,5.5,1.2,-2047,-1652,-11.3
-Gyökeres,Arsenal,7.5,8.9,-29447,-23778,-21.9
-Konsa,Arsenal,4.5,13.1,-20592,-16628,-10.5
-Bruno G.,Arsenal,7.0,4.1,-16730,-13509,-22.5
-Watkins,Aston Villa,8.0,10.3,-2825,-2281,-1.8
-Welbeck,Chelsea,6.0,1.2,-2107,-1701,-9.7
-Henderson,Crystal Palace,5.0,1.9,-2240,-1808,-6.5
-Doku,Man City,7.5,2.0,-9364,-7561,-22.1
-Anderson,Man City,6.5,7.9,-1919,-1549,-1.6
-Gibbs-White,Nott'm Forest,8.0,11.6,-2339,-1888,-1.3
-Yates,Nott'm Forest,4.5,1.9,-4637,-3744,-11.5
-Pedro Porro,Spurs,5.5,16.8,-60660,-48982,-17.2
-Van de Ven,Spurs,5.0,5.4,-25349,-20469,-22.2
-Spence,Spurs,4.5,0.9,-11443,-9240,-59.9
+Calafiori,Arsenal,5.5,39.8,38671,31226,36.7
+White,Arsenal,5.5,4.6,7928,6401,6.1
+Saka,Arsenal,9.5,9.5,3618,2921,5.7
+Ødegaard,Arsenal,6.5,8.4,19980,16133,14.1
+Havertz,Arsenal,7.5,5.7,19819,16003,12.9
+Tzolis,Arsenal,6.5,25.2,26462,21368,24.3
+Cash,Aston Villa,4.5,9.0,8742,7059,8.3
+James,Chelsea,5.5,10.1,6390,5159,7.5
+João Pedro,Chelsea,7.5,64.3,8180,6605,30.1
+Thomas,Coventry City,4.0,8.1,3435,2773,5.1
+van Ewijk,Coventry City,4.0,13.9,1912,1543,6.6
+Hughes,Crystal Palace,4.5,12.2,1954,1577,5.9
+Diop,Ipswich Town,4.0,18.5,2099,1694,8.5
+Calvert-Lewin,Leeds,6.0,31.2,3852,3110,14.6
+Virgil,Liverpool,6.5,19.1,3210,2592,9.4
+Frimpong,Liverpool,5.5,3.5,2067,1669,2.5
+Szoboszlai,Liverpool,7.0,41.7,3740,3020,18.7
+Araujo,Liverpool,5.5,2.6,4020,3246,3.2
+O'Reilly,Man City,6.5,21.3,1548,1250,9.4
+Gvardiol,Man City,5.5,11.1,5091,4110,7.2
+Lammens,Man Utd,5.0,16.8,1526,1232,7.5
+Maguire,Man Utd,5.0,18.4,6674,5389,11.0
+Shaw,Man Utd,4.5,21.6,6325,5107,12.0
+B.Fernandes,Man Utd,12.0,51.9,1542,1245,21.6
+Mbeumo,Man Utd,8.0,38.8,3949,3188,17.6
+Burn,Newcastle,5.0,2.5,1604,1295,1.9
+Hall,Newcastle,5.0,3.6,1895,1530,2.5
+Van Hecke,Spurs,5.0,10.8,9065,7319,9.2
+Kinsky,Spurs,4.5,24.4,2011,1623,10.8
+Robertson,Spurs,4.5,4.0,2563,2069,3.0
+Gabriel,Arsenal,8.0,29.6,-5618,-4536,-1.3
+Hincapie,Arsenal,5.5,1.8,-6580,-5313,-24.1
+Rice,Arsenal,7.5,18.0,-10152,-8197,-3.8
+Eze,Arsenal,6.5,2.1,-5725,-4622,-18.0
+Zubimendi,Arsenal,5.5,1.2,-2098,-1694,-11.5
+Gyökeres,Arsenal,7.5,8.9,-30158,-24352,-22.5
+Konsa,Arsenal,4.5,13.1,-21082,-17023,-10.7
+Bruno G.,Arsenal,7.0,4.1,-17102,-13809,-23.0
+Watkins,Aston Villa,8.0,10.3,-2921,-2358,-1.9
+Welbeck,Chelsea,6.0,1.2,-2162,-1745,-9.9
+Henderson,Crystal Palace,5.0,1.9,-2299,-1856,-6.6
+Doku,Man City,7.5,2.0,-9614,-7763,-22.6
+Anderson,Man City,6.5,7.9,-1978,-1597,-1.7
+Gibbs-White,Nott'm Forest,8.0,11.6,-2421,-1954,-1.4
+Yates,Nott'm Forest,4.5,1.9,-4751,-3836,-11.8
+Pedro Porro,Spurs,5.5,16.7,-61847,-49941,-17.6
+Van de Ven,Spurs,5.0,5.4,-25916,-20927,-22.7
+Spence,Spurs,4.5,0.9,-11779,-9511,-61.6
