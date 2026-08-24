@@ -57,6 +57,8 @@ id,web_name,team,price
 582,Madjo,Aston Villa,5.5
 596,Ruggeri,Aston Villa,4.5
 597,Suzuki,Aston Villa,5.0
+606,Rowe,Aston Villa,4.0
+607,Lynch,Aston Villa,4.5
 57,Petrović,Bournemouth,4.5
 58,Forster,Bournemouth,4.0
 59,Dennis,Bournemouth,4.0
@@ -84,6 +86,7 @@ id,web_name,team,price
 81,Rodríguez,Bournemouth,6.0
 566,Silva,Bournemouth,5.0
 573,Sanchez,Bournemouth,4.5
+608,Jebbison,Bournemouth,5.0
 82,Kelleher,Brentford,5.0
 83,Valdimarsson,Brentford,4.5
 84,Collins,Brentford,5.5
@@ -142,6 +145,7 @@ id,web_name,team,price
 504,Vuskovic,Brighton,5.0
 594,David,Brighton,6.0
 600,Osman,Brighton,5.0
+605,Yalcouyé,Brighton,4.5
 40,Rogers,Chelsea,7.5
 101,Henderson,Chelsea,5.0
 136,Welbeck,Chelsea,6.0
@@ -513,6 +517,7 @@ id,web_name,team,price
 559,Bamba,Newcastle,5.0
 567,Horníček,Newcastle,5.0
 593,Dedić,Newcastle,4.5
+609,Shahar,Newcastle,4.0
 467,Sels,Nott'm Forest,5.0
 468,John,Nott'm Forest,4.5
 469,N.Williams,Nott'm Forest,5.0
