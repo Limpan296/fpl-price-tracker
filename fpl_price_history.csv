@@ -16,13 +16,13 @@ id,web_name,team,price
 15,Ødegaard,Arsenal,6.5
 16,Madueke,Arsenal,6.5
 17,Merino,Arsenal,6.0
-18,Martinelli,Arsenal,6.5
+18,Martinelli,Arsenal,6.4
 19,Zubimendi,Arsenal,5.5
 20,Dowman,Arsenal,5.5
 22,Nwaneri,Arsenal,5.5
 23,Fábio Vieira,Arsenal,5.5
 24,Nelson,Arsenal,5.5
-25,Gyökeres,Arsenal,7.5
+25,Gyökeres,Arsenal,7.4
 26,Havertz,Arsenal,7.5
 27,G.Jesus,Arsenal,6.0
 31,Konsa,Arsenal,4.5
@@ -59,6 +59,7 @@ id,web_name,team,price
 597,Suzuki,Aston Villa,5.0
 606,Rowe,Aston Villa,4.0
 607,Lynch,Aston Villa,4.5
+611,Wan-Bissaka,Aston Villa,4.5
 57,Petrović,Bournemouth,4.5
 58,Forster,Bournemouth,4.0
 59,Dennis,Bournemouth,4.0
@@ -112,12 +113,12 @@ id,web_name,team,price
 106,Thiago,Brentford,8.0
 107,Furo,Brentford,4.5
 108,Wilson,Brentford,5.5
-565,M.Sangaré,Brentford,5.5
+565,M.Sangaré,Brentford,5.6
 109,Verbruggen,Brighton,4.5
 111,Steele,Brighton,4.0
 113,F.Kadıoğlu,Brighton,4.5
 114,Boscagli,Brighton,4.5
-115,De Cuyper,Brighton,4.5
+115,De Cuyper,Brighton,4.6
 116,Dunk,Brighton,4.5
 117,Coppola,Brighton,4.5
 118,Igor,Brighton,4.5
@@ -448,7 +449,6 @@ id,web_name,team,price
 400,Doku,Man City,7.5
 401,Marmoush,Man City,7.0
 402,Rodrigo,Man City,6.5
-403,Savinho,Man City,6.5
 404,Reijnders,Man City,6.0
 405,N.Gonzalez,Man City,5.5
 406,Kovačić,Man City,5.5
@@ -548,6 +548,7 @@ id,web_name,team,price
 581,Diomande,Nott'm Forest,5.5
 590,Benda,Nott'm Forest,4.5
 112,Van Hecke,Spurs,5.0
+403,Savinho,Spurs,6.5
 455,Tonali,Spurs,5.5
 494,Vicario,Spurs,4.5
 495,Austin,Spurs,4.0
@@ -609,3 +610,4 @@ id,web_name,team,price
 551,Angulo,Sunderland,5.0
 552,Brobbey,Sunderland,6.0
 553,Isidor,Sunderland,5.5
+612,Methalie,Sunderland,4.5
