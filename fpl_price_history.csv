@@ -6,7 +6,7 @@ id,web_name,team,price
 5,J.Timber,Arsenal,6.5
 6,Saliba,Arsenal,6.0
 7,Lewis-Skelly,Arsenal,5.5
-8,Calafiori,Arsenal,5.5
+8,Calafiori,Arsenal,5.6
 9,Hincapie,Arsenal,5.5
 10,White,Arsenal,5.5
 11,Mosquera,Arsenal,5.5
@@ -18,7 +18,7 @@ id,web_name,team,price
 17,Merino,Arsenal,6.0
 18,Martinelli,Arsenal,6.4
 19,Zubimendi,Arsenal,5.5
-20,Dowman,Arsenal,5.5
+20,Dowman,Arsenal,5.4
 22,Nwaneri,Arsenal,5.5
 23,Fábio Vieira,Arsenal,5.5
 24,Nelson,Arsenal,5.5
@@ -51,7 +51,7 @@ id,web_name,team,price
 52,Alysson,Aston Villa,5.0
 53,Manzambi,Aston Villa,6.0
 54,Gomes,Aston Villa,5.5
-55,Watkins,Aston Villa,8.0
+55,Watkins,Aston Villa,7.9
 56,Abraham,Aston Villa,5.5
 160,Garnacho,Aston Villa,6.0
 582,Madjo,Aston Villa,5.5
@@ -94,7 +94,7 @@ id,web_name,team,price
 85,Van den Berg,Brentford,5.0
 86,Lewis-Potter,Brentford,5.5
 87,Ajer,Brentford,4.5
-88,Kayode,Brentford,4.5
+88,Kayode,Brentford,4.6
 89,Henry,Brentford,4.5
 90,Hickey,Brentford,4.5
 91,Pinnock,Brentford,4.5
@@ -134,7 +134,6 @@ id,web_name,team,price
 128,Buonanotte,Brighton,5.0
 129,Ayari,Brighton,5.5
 130,Wieffer,Brighton,5.0
-131,Baleba,Brighton,5.0
 132,Howell,Brighton,4.5
 133,Watson,Brighton,5.0
 134,Oriola,Brighton,4.5
@@ -147,6 +146,7 @@ id,web_name,team,price
 594,David,Brighton,6.0
 600,Osman,Brighton,5.0
 605,Yalcouyé,Brighton,4.5
+614,Hadjam,Brighton,4.5
 40,Rogers,Chelsea,7.5
 101,Henderson,Chelsea,5.0
 136,Welbeck,Chelsea,6.0
@@ -173,7 +173,7 @@ id,web_name,team,price
 161,Lavia,Chelsea,5.0
 163,D.Essugo,Chelsea,4.5
 164,Quenda,Chelsea,5.5
-165,João Pedro,Chelsea,7.5
+165,João Pedro,Chelsea,7.6
 166,N.Jackson,Chelsea,6.5
 167,Delap,Chelsea,5.5
 168,Marc Guiu,Chelsea,5.0
@@ -460,6 +460,7 @@ id,web_name,team,price
 481,Anderson,Man City,6.5
 587,Rulli,Man City,5.0
 43,Tielemans,Man Utd,6.0
+131,Baleba,Man Utd,5.0
 162,Andrey Santos,Man Utd,5.0
 325,Darlow,Man Utd,4.5
 412,Lammens,Man Utd,5.0
@@ -481,7 +482,7 @@ id,web_name,team,price
 428,Cunha,Man Utd,8.0
 429,Rashford,Man Utd,7.0
 430,Mount,Man Utd,5.5
-431,Amad,Man Utd,6.0
+431,Amad,Man Utd,5.9
 432,Mainoo,Man Utd,5.5
 433,Ugarte,Man Utd,5.0
 434,J.Fletcher,Man Utd,5.0
@@ -548,7 +549,7 @@ id,web_name,team,price
 581,Diomande,Nott'm Forest,5.5
 590,Benda,Nott'm Forest,4.5
 112,Van Hecke,Spurs,5.0
-403,Savinho,Spurs,6.5
+403,Sávio,Spurs,6.5
 455,Tonali,Spurs,5.5
 494,Vicario,Spurs,4.5
 495,Austin,Spurs,4.0
@@ -611,3 +612,4 @@ id,web_name,team,price
 552,Brobbey,Sunderland,6.0
 553,Isidor,Sunderland,5.5
 612,Methalie,Sunderland,4.5
+613,Ahoka,Sunderland,4.5
