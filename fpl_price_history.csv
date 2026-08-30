@@ -19,7 +19,7 @@ id,web_name,team,price
 18,Martinelli,Arsenal,6.4
 19,Zubimendi,Arsenal,5.4
 20,Dowman,Arsenal,5.4
-22,Nwaneri,Arsenal,5.5
+22,Nwaneri,Arsenal,5.4
 23,Fábio Vieira,Arsenal,5.5
 24,Nelson,Arsenal,5.5
 25,Gyökeres,Arsenal,7.4
@@ -49,7 +49,7 @@ id,web_name,team,price
 50,Burrowes,Aston Villa,4.5
 51,George Hemmings,Aston Villa,4.5
 52,Alysson,Aston Villa,5.0
-53,Manzambi,Aston Villa,6.0
+53,Manzambi,Aston Villa,5.9
 54,Gomes,Aston Villa,5.5
 55,Watkins,Aston Villa,7.9
 56,Abraham,Aston Villa,5.5
@@ -165,13 +165,13 @@ id,web_name,team,price
 149,Colwill,Chelsea,5.0
 150,M.Sarr,Chelsea,4.5
 151,Acheampong,Chelsea,4.5
-152,Palestra,Chelsea,5.5
+152,Palestra,Chelsea,5.4
 154,Palmer,Chelsea,9.6
-155,Enzo,Chelsea,7.0
+155,Enzo,Chelsea,6.9
 156,Neto,Chelsea,6.5
 157,Estêvão,Chelsea,6.5
 158,Gittens,Chelsea,6.0
-159,Caicedo,Chelsea,5.5
+159,Caicedo,Chelsea,5.4
 161,Lavia,Chelsea,5.0
 163,D.Essugo,Chelsea,4.5
 164,Quenda,Chelsea,5.5
@@ -219,6 +219,7 @@ id,web_name,team,price
 575,Yirenkyi,Coventry City,5.0
 584,Hamer,Coventry City,5.5
 599,Cherif,Coventry City,5.0
+623,Bentley,Coventry City,4.0
 42,Guessand,Crystal Palace,5.5
 153,Disasi,Crystal Palace,4.5
 198,Henderson,Crystal Palace,5.0
@@ -382,7 +383,7 @@ id,web_name,team,price
 333,Bornauw,Leeds,4.5
 334,Muharemović,Leeds,5.0
 335,Stach,Leeds,6.0
-336,Okafor,Leeds,6.0
+336,Okafor,Leeds,5.9
 337,Aaronson,Leeds,5.5
 338,Ampadu,Leeds,5.5
 339,Longstaff,Leeds,5.0
@@ -441,7 +442,7 @@ id,web_name,team,price
 388,Guéhi,Man City,6.0
 389,Matheus N.,Man City,6.0
 390,Rúben,Man City,5.5
-391,Gvardiol,Man City,5.5
+391,Gvardiol,Man City,5.6
 392,Aït-Nouri,Man City,5.4
 393,Khusanov,Man City,5.5
 394,Alleyne,Man City,5.0
@@ -505,7 +506,7 @@ id,web_name,team,price
 445,Thiaw,Newcastle,5.0
 446,Schär,Newcastle,5.0
 447,Botman,Newcastle,5.0
-448,Burn,Newcastle,5.0
+448,Burn,Newcastle,4.9
 449,Hall,Newcastle,5.0
 450,Livramento,Newcastle,5.0
 451,A.Murphy,Newcastle,4.0
@@ -516,7 +517,7 @@ id,web_name,team,price
 458,Joelinton,Newcastle,5.5
 459,L.Miley,Newcastle,5.5
 460,Willock,Newcastle,5.0
-461,Touré,Newcastle,6.0
+461,Touré,Newcastle,5.9
 462,Steur,Newcastle,5.0
 463,Woltemade,Newcastle,6.0
 464,Wissa,Newcastle,6.0
@@ -549,7 +550,7 @@ id,web_name,team,price
 487,Dominguez,Nott'm Forest,5.0
 488,I.Sangaré,Nott'm Forest,5.0
 489,Yates,Nott'm Forest,4.5
-490,Wood,Nott'm Forest,6.0
+490,Wood,Nott'm Forest,5.9
 491,Igor Jesus,Nott'm Forest,6.0
 493,Kalimuendo,Nott'm Forest,5.5
 558,Schlager,Nott'm Forest,5.0
