@@ -74,7 +74,7 @@ id,web_name,team,price
 65,J.Araujo,Bournemouth,4.4
 66,Soler,Bournemouth,4.0
 67,Rayan,Bournemouth,6.4
-68,Tavernier,Bournemouth,6.0
+68,Tavernier,Bournemouth,6.1
 69,Scott,Bournemouth,6.1
 70,Kluivert,Bournemouth,6.0
 71,Cook,Bournemouth,5.0
@@ -89,7 +89,7 @@ id,web_name,team,price
 80,Enes Ünal,Bournemouth,5.5
 81,Rodríguez,Bournemouth,6.0
 566,Silva,Bournemouth,5.0
-573,Sanchez,Bournemouth,4.5
+573,Sanchez,Bournemouth,4.4
 608,Jebbison,Bournemouth,5.0
 615,Di Gregorio,Bournemouth,4.5
 82,Kelleher,Brentford,5.0
@@ -99,7 +99,7 @@ id,web_name,team,price
 86,Lewis-Potter,Brentford,5.5
 87,Ajer,Brentford,4.5
 88,Kayode,Brentford,4.6
-89,Henry,Brentford,4.5
+89,Henry,Brentford,4.4
 90,Hickey,Brentford,4.5
 92,Ji-soo,Brentford,4.5
 93,Schuster,Brentford,4.5
@@ -131,7 +131,7 @@ id,web_name,team,price
 120,Svoboda,Brighton,5.0
 121,Mitoma,Brighton,5.9
 122,Minteh,Brighton,5.9
-123,Hinshelwood,Brighton,6.0
+123,Hinshelwood,Brighton,5.9
 124,Groß,Brighton,5.6
 125,Georginio,Brighton,5.4
 126,O'Riley,Brighton,5.5
@@ -155,6 +155,7 @@ id,web_name,team,price
 624,Cozier-Duberry,Brighton,5.0
 639,Andrés,Brighton,5.5
 652,Azeez,Brighton,5.5
+658,Ibrahim,Brighton,4.5
 28,Martinez,Chelsea,5.0
 40,Rogers,Chelsea,7.7
 101,Henderson,Chelsea,4.9
@@ -178,7 +179,7 @@ id,web_name,team,price
 159,Caicedo,Chelsea,5.4
 161,Lavia,Chelsea,5.0
 163,D.Essugo,Chelsea,4.5
-164,Quenda,Chelsea,5.4
+164,Quenda,Chelsea,5.3
 165,João Pedro,Chelsea,7.8
 168,Marc Guiu,Chelsea,5.0
 169,Mheuka,Chelsea,4.5
@@ -266,7 +267,7 @@ id,web_name,team,price
 226,Pickford,Everton,5.5
 227,Travers,Everton,5.0
 228,King,Everton,4.5
-229,Tarkowski,Everton,6.0
+229,Tarkowski,Everton,6.1
 230,Branthwaite,Everton,5.5
 231,Keane,Everton,4.8
 232,O'Brien,Everton,4.9
@@ -280,7 +281,7 @@ id,web_name,team,price
 243,Alcaraz,Everton,4.9
 244,Armstrong,Everton,5.0
 245,Dibling,Everton,5.4
-246,Röhl,Everton,5.0
+246,Röhl,Everton,4.9
 247,Hackney,Everton,5.5
 248,Beto,Everton,5.4
 249,Barry,Everton,5.6
@@ -303,11 +304,11 @@ id,web_name,team,price
 266,Cairney,Fulham,5.0
 268,King,Fulham,5.5
 269,Sessegnon,Fulham,4.4
-270,Reed,Fulham,4.5
+270,Reed,Fulham,4.4
 271,Muniz,Fulham,5.4
 272,Kusi-Asare,Fulham,4.5
 569,Gonzalo,Fulham,6.0
-570,Palacios,Fulham,5.5
+570,Palacios,Fulham,5.4
 580,Charles,Fulham,5.0
 610,De Fougerolles,Fulham,4.0
 626,Zepa,Fulham,4.5
@@ -362,7 +363,7 @@ id,web_name,team,price
 300,Walton,Ipswich Town,4.4
 301,Palmer,Ipswich Town,4.0
 302,Button,Ipswich Town,4.0
-303,Kipré,Ipswich Town,4.0
+303,Kipré,Ipswich Town,3.9
 304,O'Shea,Ipswich Town,4.0
 305,Davis,Ipswich Town,4.0
 306,Greaves,Ipswich Town,4.0
@@ -433,7 +434,7 @@ id,web_name,team,price
 356,Virgil,Liverpool,6.5
 357,Frimpong,Liverpool,5.4
 358,Kerkez,Liverpool,5.4
-359,Gomez,Liverpool,5.0
+359,Gomez,Liverpool,4.9
 360,Bradley,Liverpool,5.0
 361,Lucky,Liverpool,4.0
 362,Jacquet,Liverpool,5.0
@@ -468,7 +469,7 @@ id,web_name,team,price
 388,Guéhi,Man City,6.0
 389,Matheus N.,Man City,5.9
 390,Rúben,Man City,5.5
-391,Gvardiol,Man City,5.6
+391,Gvardiol,Man City,5.7
 392,Aït-Nouri,Man City,5.3
 393,Khusanov,Man City,5.5
 394,Alleyne,Man City,5.0
@@ -494,8 +495,8 @@ id,web_name,team,price
 628,Allan,Man City,6.0
 653,Samba,Man City,4.5
 43,Tielemans,Man Utd,5.9
-131,Baleba,Man Utd,5.0
-162,Andrey Santos,Man Utd,4.9
+131,Baleba,Man Utd,4.9
+162,Andrey Santos,Man Utd,4.8
 325,Darlow,Man Utd,4.5
 412,Lammens,Man Utd,4.9
 413,Bayindir,Man Utd,4.5
@@ -569,7 +570,7 @@ id,web_name,team,price
 475,Savona,Nott'm Forest,4.5
 476,O.Richards,Nott'm Forest,4.0
 477,Abbott,Nott'm Forest,4.0
-478,Netz,Nott'm Forest,4.5
+478,Netz,Nott'm Forest,4.4
 479,Bindon,Nott'm Forest,4.0
 480,Gibbs-White,Nott'm Forest,7.9
 482,Hudson-Odoi,Nott'm Forest,5.8
@@ -627,11 +628,11 @@ id,web_name,team,price
 578,Mudryk,Spurs,5.4
 601,Williams-Barnett,Spurs,4.5
 501,Danso,Sunderland,5.0
-529,Roefs,Sunderland,5.0
+529,Roefs,Sunderland,4.9
 530,Patterson,Sunderland,4.0
 531,Ellborg,Sunderland,4.5
 532,Ballard,Sunderland,4.9
-533,Mukiele,Sunderland,5.5
+533,Mukiele,Sunderland,5.4
 534,Hume,Sunderland,4.4
 535,Alderete,Sunderland,4.9
 536,Reinildo,Sunderland,4.5
@@ -647,7 +648,7 @@ id,web_name,team,price
 546,Adingra,Sunderland,4.9
 547,Mundle,Sunderland,4.9
 548,Rigg,Sunderland,4.9
-549,Talbi,Sunderland,5.4
+549,Talbi,Sunderland,5.3
 550,Jocelin.T,Sunderland,5.0
 551,N.Angulo,Sunderland,5.0
 552,Brobbey,Sunderland,5.8
