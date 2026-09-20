@@ -5,7 +5,7 @@ id,web_name,team,price
 4,Gabriel,Arsenal,8.0
 5,J.Timber,Arsenal,6.5
 6,Saliba,Arsenal,5.9
-7,Lewis-Skelly,Arsenal,5.5
+7,Lewis-Skelly,Arsenal,5.4
 8,Calafiori,Arsenal,5.8
 9,Hincapie,Arsenal,5.3
 10,White,Arsenal,5.5
@@ -22,12 +22,12 @@ id,web_name,team,price
 22,Nwaneri,Arsenal,5.4
 23,Fábio Vieira,Arsenal,5.5
 24,Nelson,Arsenal,5.5
-25,Gyökeres,Arsenal,7.2
+25,Gyökeres,Arsenal,7.1
 26,Havertz,Arsenal,7.6
 27,G.Jesus,Arsenal,5.9
 31,Konsa,Arsenal,4.6
 452,Bruno G.,Arsenal,6.7
-557,Tzolis,Arsenal,6.4
+557,Tzolis,Arsenal,6.3
 29,M.Bizot,Aston Villa,4.5
 30,Digne,Aston Villa,4.5
 32,Cash,Aston Villa,4.4
@@ -63,6 +63,7 @@ id,web_name,team,price
 618,Goretzka,Aston Villa,5.9
 630,Harwood-Bellis,Aston Villa,4.5
 631,Mbaye,Aston Villa,6.0
+667,Wright,Aston Villa,4.0
 57,Petrović,Bournemouth,4.5
 58,Forster,Bournemouth,4.0
 59,Dennis,Bournemouth,4.0
@@ -101,7 +102,7 @@ id,web_name,team,price
 88,Kayode,Brentford,4.6
 89,Henry,Brentford,4.4
 90,Hickey,Brentford,4.5
-92,Ji-soo,Brentford,4.5
+92,Ji-soo,Brentford,4.4
 93,Schuster,Brentford,4.5
 94,Schade,Brentford,6.1
 95,O.Dango,Brentford,6.3
@@ -132,10 +133,10 @@ id,web_name,team,price
 119,Costinha,Brighton,4.5
 120,Svoboda,Brighton,5.0
 121,Mitoma,Brighton,5.9
-122,Minteh,Brighton,5.9
+122,Minteh,Brighton,5.8
 123,Hinshelwood,Brighton,5.9
-124,Groß,Brighton,5.7
-125,Georginio,Brighton,5.4
+124,Groß,Brighton,5.8
+125,Georginio,Brighton,5.3
 126,O'Riley,Brighton,5.4
 127,Gomez,Brighton,5.0
 128,Buonanotte,Brighton,5.0
@@ -211,7 +212,7 @@ id,web_name,team,price
 184,Grimes,Coventry City,4.9
 185,Sakamoto,Coventry City,4.8
 186,Mason-Clark,Coventry City,5.4
-187,Eccles,Coventry City,4.9
+187,Eccles,Coventry City,4.8
 188,Torp,Coventry City,5.3
 189,Shepherd,Coventry City,4.4
 190,Tchaouna,Coventry City,5.4
@@ -362,7 +363,7 @@ id,web_name,team,price
 642,Thomas,Hull City,5.5
 645,Mouzakitis,Hull City,5.0
 259,Diop,Ipswich Town,4.0
-267,Lukić,Ipswich Town,5.0
+267,Lukić,Ipswich Town,4.9
 300,Walton,Ipswich Town,4.4
 301,Palmer,Ipswich Town,4.0
 302,Button,Ipswich Town,4.0
@@ -375,7 +376,7 @@ id,web_name,team,price
 309,Núñez,Ipswich Town,4.9
 310,Matusiwa,Ipswich Town,4.9
 311,Burns,Ipswich Town,5.0
-312,Taylor,Ipswich Town,4.5
+312,Taylor,Ipswich Town,4.4
 313,Clarke,Ipswich Town,5.4
 314,Ogbene,Ipswich Town,4.9
 315,Fatawu,Ipswich Town,5.4
@@ -387,9 +388,9 @@ id,web_name,team,price
 321,Walle Egeli,Ipswich Town,4.5
 322,Al-Hamadi,Ipswich Town,5.0
 323,McAteer,Ipswich Town,4.5
-324,Mehmeti,Ipswich Town,4.9
+324,Mehmeti,Ipswich Town,4.8
 554,Van Oevelen,Ipswich Town,4.5
-562,Maeda,Ipswich Town,5.4
+562,Maeda,Ipswich Town,5.3
 564,Scherpen,Ipswich Town,4.5
 571,Florentino,Ipswich Town,4.9
 591,Enciso,Ipswich Town,5.5
@@ -561,6 +562,10 @@ id,web_name,team,price
 609,Shahar,Newcastle,4.0
 634,Fernandez-Pardo,Newcastle,6.0
 659,Miley,Newcastle,4.5
+663,Pivas,Newcastle,4.0
+664,Salia,Newcastle,4.5
+665,Mills,Newcastle,4.5
+666,Thompson,Newcastle,4.5
 167,Delap,Nott'm Forest,5.6
 201,Muñoz,Nott'm Forest,5.4
 467,Sels,Nott'm Forest,5.0
@@ -629,7 +634,7 @@ id,web_name,team,price
 526,Solanke,Spurs,5.8
 527,Richarlison,Spurs,5.9
 528,Scarlett,Spurs,4.5
-578,Mudryk,Spurs,5.4
+578,Mudryk,Spurs,5.3
 601,Williams-Barnett,Spurs,4.5
 501,Danso,Sunderland,5.0
 529,Roefs,Sunderland,4.9
@@ -638,8 +643,8 @@ id,web_name,team,price
 532,Ballard,Sunderland,4.9
 533,Mukiele,Sunderland,5.4
 534,Hume,Sunderland,4.3
-535,Alderete,Sunderland,4.9
-536,Reinildo,Sunderland,4.5
+535,Alderete,Sunderland,4.8
+536,Reinildo,Sunderland,4.4
 537,Seelt,Sunderland,4.5
 538,Hjelde,Sunderland,4.0
 539,O'Nien,Sunderland,3.9
