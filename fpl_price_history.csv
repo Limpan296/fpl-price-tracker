@@ -32,7 +32,7 @@ id,web_name,team,price
 30,Digne,Aston Villa,4.5
 32,Cash,Aston Villa,4.4
 33,Mings,Aston Villa,4.5
-34,Pau,Aston Villa,4.5
+34,Pau,Aston Villa,4.4
 35,Bogarde,Aston Villa,4.9
 36,Maatsen,Aston Villa,4.4
 37,Lindelöf,Aston Villa,4.5
@@ -218,7 +218,7 @@ id,web_name,team,price
 190,Tchaouna,Coventry City,5.4
 191,Borges Rodrigues,Coventry City,4.5
 192,Andrews,Coventry City,4.5
-193,Wright,Coventry City,5.4
+193,Wright,Coventry City,5.3
 194,Thomas-Asante,Coventry City,5.0
 195,Simms,Coventry City,4.9
 196,Markelo,Coventry City,5.0
@@ -437,7 +437,7 @@ id,web_name,team,price
 355,Davies,Liverpool,4.0
 356,Virgil,Liverpool,6.5
 357,Frimpong,Liverpool,5.3
-358,Kerkez,Liverpool,5.4
+358,Kerkez,Liverpool,5.3
 359,Gomez,Liverpool,4.9
 360,Bradley,Liverpool,5.0
 361,Lucky,Liverpool,4.0
