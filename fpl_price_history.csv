@@ -147,12 +147,12 @@ id,web_name,team,price
 134,Oriola,Brighton,4.4
 135,Yohanna,Brighton,4.8
 137,Tzimas,Brighton,5.4
-138,Kostoulas,Brighton,5.6
+138,Kostoulas,Brighton,5.7
 139,Ferguson,Brighton,5.0
 328,Struijk,Brighton,4.9
 504,Vuskovic,Brighton,5.0
 594,David,Brighton,5.9
-600,Osman,Brighton,5.0
+600,Osman,Brighton,4.9
 605,Yalcouyé,Brighton,4.5
 614,Hadjam,Brighton,4.5
 624,Cozier-Duberry,Brighton,5.0
@@ -200,7 +200,7 @@ id,web_name,team,price
 172,Wilson,Coventry City,4.4
 173,Thomas,Coventry City,4.0
 174,Kitching,Coventry City,4.0
-175,van Ewijk,Coventry City,4.0
+175,van Ewijk,Coventry City,3.9
 176,Dasilva,Coventry City,4.0
 177,Kesler-Hayden,Coventry City,3.9
 178,Bidwell,Coventry City,4.0
@@ -505,7 +505,7 @@ id,web_name,team,price
 412,Lammens,Man Utd,4.9
 413,Bayindir,Man Utd,4.5
 414,Heaton,Man Utd,4.0
-415,Dorgu,Man Utd,5.8
+415,Dorgu,Man Utd,5.7
 416,De Ligt,Man Utd,4.9
 417,Dalot,Man Utd,4.8
 418,Maguire,Man Utd,4.8
