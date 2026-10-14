@@ -105,7 +105,7 @@ id,web_name,team,price
 92,Ji-soo,Brentford,4.4
 93,Schuster,Brentford,4.5
 94,Schade,Brentford,6.2
-95,O.Dango,Brentford,6.3
+95,O.Dango,Brentford,6.2
 96,Damsgaard,Brentford,5.4
 97,Jensen,Brentford,5.4
 98,Janelt,Brentford,5.0
@@ -122,7 +122,7 @@ id,web_name,team,price
 657,Nunes,Brentford,4.5
 660,Fredrick,Brentford,4.0
 661,Balcombe,Brentford,4.0
-109,Verbruggen,Brighton,4.5
+109,Verbruggen,Brighton,4.6
 111,Steele,Brighton,4.0
 113,F.Kadıoğlu,Brighton,4.4
 114,Boscagli,Brighton,4.5
@@ -150,7 +150,7 @@ id,web_name,team,price
 138,Kostoulas,Brighton,5.7
 139,Ferguson,Brighton,5.0
 328,Struijk,Brighton,4.9
-504,Vuskovic,Brighton,5.0
+504,Vuskovic,Brighton,5.1
 594,David,Brighton,5.9
 600,Osman,Brighton,4.9
 605,Yalcouyé,Brighton,4.5
@@ -207,7 +207,7 @@ id,web_name,team,price
 179,Latibeaudiere,Coventry City,4.0
 180,Woolfenden,Coventry City,3.9
 181,Brau,Coventry City,4.0
-182,Amenda,Coventry City,4.0
+182,Amenda,Coventry City,3.9
 183,Rudoni,Coventry City,4.9
 184,Grimes,Coventry City,4.9
 185,Sakamoto,Coventry City,4.8
@@ -310,7 +310,7 @@ id,web_name,team,price
 269,Sessegnon,Fulham,4.3
 270,Reed,Fulham,4.4
 271,Muniz,Fulham,5.4
-272,Kusi-Asare,Fulham,4.5
+272,Kusi-Asare,Fulham,4.4
 569,Gonzalo,Fulham,6.1
 570,Palacios,Fulham,5.4
 580,Charles,Fulham,5.0
@@ -477,11 +477,11 @@ id,web_name,team,price
 392,Aït-Nouri,Man City,5.2
 393,Khusanov,Man City,5.4
 394,Alleyne,Man City,5.0
-395,Lewis,Man City,4.4
+395,Lewis,Man City,4.3
 396,Vitor Reis,Man City,4.4
 397,Semenyo,Man City,8.3
 398,Foden,Man City,6.8
-399,Cherki,Man City,7.8
+399,Cherki,Man City,7.9
 400,Doku,Man City,7.4
 402,Rodrigo,Man City,6.5
 404,Reijnders,Man City,6.0
