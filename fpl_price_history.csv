@@ -112,7 +112,7 @@ id,web_name,team,price
 99,Milambo,Brentford,5.0
 100,Carvalho,Brentford,5.0
 102,Yarmoliuk,Brentford,4.8
-103,Dasilva,Brentford,4.9
+103,Dasilva,Brentford,4.8
 105,Anthony,Brentford,5.9
 106,Thiago,Brentford,7.8
 107,Furo,Brentford,4.5
@@ -512,7 +512,7 @@ id,web_name,team,price
 419,Martinez,Man Utd,4.9
 420,Yoro,Man Utd,4.8
 421,Heaven,Man Utd,4.3
-422,Mazraoui,Man Utd,4.4
+422,Mazraoui,Man Utd,4.3
 423,Shaw,Man Utd,4.3
 424,Amass,Man Utd,4.0
 425,Fredricson,Man Utd,4.0
@@ -567,7 +567,7 @@ id,web_name,team,price
 665,Mills,Newcastle,4.5
 666,Thompson,Newcastle,4.5
 167,Delap,Nott'm Forest,5.6
-201,Muñoz,Nott'm Forest,5.4
+201,Muñoz,Nott'm Forest,5.3
 467,Sels,Nott'm Forest,5.0
 468,John,Nott'm Forest,4.5
 469,N.Williams,Nott'm Forest,5.0
@@ -605,8 +605,8 @@ id,web_name,team,price
 495,Austin,Spurs,4.0
 496,Kinsky,Spurs,4.5
 497,Dubravka,Spurs,4.0
-498,Senesi,Spurs,5.8
-499,Pedro Porro,Spurs,5.4
+498,Senesi,Spurs,5.7
+499,Pedro Porro,Spurs,5.3
 500,Romero,Spurs,5.0
 502,Robertson,Spurs,4.4
 503,Van de Ven,Spurs,5.0
