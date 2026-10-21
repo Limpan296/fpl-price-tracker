@@ -22,7 +22,7 @@ id,web_name,team,price
 22,Nwaneri,Arsenal,5.4
 23,Fábio Vieira,Arsenal,5.5
 24,Nelson,Arsenal,5.5
-25,Gyökeres,Arsenal,7.1
+25,Gyökeres,Arsenal,7.0
 26,Havertz,Arsenal,7.5
 27,G.Jesus,Arsenal,5.9
 31,Konsa,Arsenal,4.6
@@ -55,7 +55,7 @@ id,web_name,team,price
 160,Garnacho,Aston Villa,5.7
 166,N.Jackson,Aston Villa,6.6
 582,Madjo,Aston Villa,5.4
-596,Ruggeri,Aston Villa,4.5
+596,Ruggeri,Aston Villa,4.4
 597,Suzuki,Aston Villa,5.0
 606,Rowe,Aston Villa,4.0
 607,Lynch,Aston Villa,4.5
@@ -243,7 +243,7 @@ id,web_name,team,price
 208,Sarr,Crystal Palace,6.2
 210,Wharton,Crystal Palace,5.4
 211,Yeremy,Crystal Palace,5.5
-212,Hughes,Crystal Palace,4.4
+212,Hughes,Crystal Palace,4.3
 213,Lerma,Crystal Palace,4.8
 214,Kamada,Crystal Palace,5.0
 215,Devenny,Crystal Palace,5.0
@@ -309,7 +309,7 @@ id,web_name,team,price
 268,King,Fulham,5.6
 269,Sessegnon,Fulham,4.3
 270,Reed,Fulham,4.4
-271,Muniz,Fulham,5.4
+271,Muniz,Fulham,5.3
 272,Kusi-Asare,Fulham,4.4
 569,Gonzalo,Fulham,6.1
 570,Palacios,Fulham,5.4
@@ -418,7 +418,7 @@ id,web_name,team,price
 344,Gruev,Leeds,5.0
 345,Tanaka,Leeds,4.9
 346,Calvert-Lewin,Leeds,6.0
-347,Nmecha,Leeds,5.4
+347,Nmecha,Leeds,5.3
 348,Piroe,Leeds,5.0
 349,Mateo Joseph,Leeds,4.5
 385,Trafford,Leeds,5.0
@@ -441,7 +441,7 @@ id,web_name,team,price
 359,Gomez,Liverpool,4.9
 360,Bradley,Liverpool,4.9
 361,Lucky,Liverpool,4.0
-362,Jacquet,Liverpool,5.0
+362,Jacquet,Liverpool,5.1
 363,Leoni,Liverpool,4.0
 364,Tsimikas,Liverpool,4.9
 365,Ramsay,Liverpool,4.0
@@ -453,7 +453,7 @@ id,web_name,team,price
 371,Gravenberch,Liverpool,5.8
 372,Mac Allister,Liverpool,5.4
 373,C.Jones,Liverpool,5.5
-374,Endo,Liverpool,4.9
+374,Endo,Liverpool,4.8
 375,Nyoni,Liverpool,4.8
 376,Bajcetic,Liverpool,5.0
 377,Munoz,Liverpool,6.5
@@ -582,7 +582,7 @@ id,web_name,team,price
 478,Netz,Nott'm Forest,4.4
 479,Bindon,Nott'm Forest,4.0
 480,Gibbs-White,Nott'm Forest,7.9
-482,Hudson-Odoi,Nott'm Forest,5.8
+482,Hudson-Odoi,Nott'm Forest,5.7
 483,Ndoye,Nott'm Forest,5.5
 484,Hutchinson,Nott'm Forest,5.4
 485,Bakwa,Nott'm Forest,5.5
