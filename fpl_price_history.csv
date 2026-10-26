@@ -25,7 +25,7 @@ id,web_name,team,price
 25,Gyökeres,Arsenal,7.0
 26,Havertz,Arsenal,7.5
 27,G.Jesus,Arsenal,5.9
-31,Konsa,Arsenal,4.6
+31,Konsa,Arsenal,4.7
 452,Bruno G.,Arsenal,6.7
 557,Tzolis,Arsenal,6.2
 29,M.Bizot,Aston Villa,4.5
@@ -289,7 +289,7 @@ id,web_name,team,price
 246,Röhl,Everton,4.9
 247,Hackney,Everton,5.3
 248,Beto,Everton,5.4
-249,Barry,Everton,5.7
+249,Barry,Everton,5.6
 649,Maitland-Niles,Everton,4.5
 654,Graham,Everton,4.5
 250,Leno,Fulham,4.5
@@ -303,13 +303,13 @@ id,web_name,team,price
 258,Castagne,Fulham,4.5
 261,Iwobi,Fulham,5.4
 262,Smith Rowe,Fulham,5.3
-263,Kevin,Fulham,5.3
+263,Kevin,Fulham,5.2
 264,Bobb,Fulham,5.5
 265,Berge,Fulham,4.9
 266,Cairney,Fulham,4.9
 268,King,Fulham,5.6
 269,Sessegnon,Fulham,4.3
-270,Reed,Fulham,4.4
+270,Reed,Fulham,4.3
 271,Muniz,Fulham,5.3
 272,Kusi-Asare,Fulham,4.4
 569,Gonzalo,Fulham,6.0
@@ -407,7 +407,7 @@ id,web_name,team,price
 331,Gudmundsson,Leeds,4.5
 332,Justin,Leeds,4.5
 333,Bornauw,Leeds,4.5
-334,Muharemović,Leeds,5.0
+334,Muharemović,Leeds,5.1
 335,Stach,Leeds,6.0
 336,Okafor,Leeds,5.8
 337,Aaronson,Leeds,5.2
@@ -465,7 +465,7 @@ id,web_name,team,price
 382,Danns,Liverpool,4.5
 383,Elliott,Liverpool,5.4
 579,Araujo,Liverpool,5.4
-627,Barcola,Liverpool,8.0
+627,Barcola,Liverpool,8.1
 155,Enzo,Man City,6.9
 237,Ndiaye,Man City,5.8
 384,Donnarumma,Man City,5.5
@@ -510,7 +510,7 @@ id,web_name,team,price
 416,De Ligt,Man Utd,4.9
 417,Dalot,Man Utd,4.8
 418,Maguire,Man Utd,4.7
-419,Martinez,Man Utd,4.9
+419,Martinez,Man Utd,4.8
 420,Yoro,Man Utd,4.8
 421,Heaven,Man Utd,4.3
 422,Mazraoui,Man Utd,4.3
@@ -542,7 +542,7 @@ id,web_name,team,price
 447,Botman,Newcastle,5.0
 448,Burn,Newcastle,4.8
 449,Hall,Newcastle,5.3
-450,Livramento,Newcastle,4.9
+450,Livramento,Newcastle,4.8
 451,A.Murphy,Newcastle,4.0
 453,Barnes,Newcastle,6.1
 454,Elanga,Newcastle,6.0
@@ -664,7 +664,7 @@ id,web_name,team,price
 552,Brobbey,Sunderland,5.7
 553,Isidor,Sunderland,5.4
 612,Methalie,Sunderland,4.5
-613,Ahoka,Sunderland,4.5
+613,Ahoka,Sunderland,4.4
 646,Fofana,Sunderland,5.5
 651,J.Angulo,Sunderland,4.5
 668,Tutierov,Sunderland,5.0
