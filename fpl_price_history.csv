@@ -5,7 +5,7 @@ id,web_name,team,price
 4,Gabriel,Arsenal,8.0
 5,J.Timber,Arsenal,6.5
 6,Saliba,Arsenal,5.9
-7,Lewis-Skelly,Arsenal,5.4
+7,Lewis-Skelly,Arsenal,5.3
 8,Calafiori,Arsenal,5.9
 9,Hincapie,Arsenal,5.2
 10,White,Arsenal,5.4
@@ -334,7 +334,7 @@ id,web_name,team,price
 282,Giles,Hull City,4.0
 283,Jacob,Hull City,4.0
 284,McCarthy,Hull City,4.0
-285,McNair,Hull City,4.0
+285,McNair,Hull City,3.9
 286,Belloumi,Hull City,5.3
 287,Millar,Hull City,5.0
 288,Dowell,Hull City,4.4
@@ -442,7 +442,7 @@ id,web_name,team,price
 358,Kerkez,Liverpool,5.3
 359,Gomez,Liverpool,4.9
 360,Bradley,Liverpool,4.9
-361,Lucky,Liverpool,4.0
+361,Lucky,Liverpool,3.9
 362,Jacquet,Liverpool,5.1
 363,Leoni,Liverpool,3.9
 364,Tsimikas,Liverpool,4.9
