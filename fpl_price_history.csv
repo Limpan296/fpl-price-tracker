@@ -25,7 +25,7 @@ id,web_name,team,price
 25,Gyökeres,Arsenal,7.0
 26,Havertz,Arsenal,7.4
 27,G.Jesus,Arsenal,5.9
-31,Konsa,Arsenal,4.7
+31,Konsa,Arsenal,4.8
 452,Bruno G.,Arsenal,6.7
 557,Tzolis,Arsenal,6.1
 29,M.Bizot,Aston Villa,4.5
@@ -89,7 +89,7 @@ id,web_name,team,price
 79,Evanilson,Bournemouth,6.4
 80,Enes Ünal,Bournemouth,5.5
 81,Rodríguez,Bournemouth,6.0
-566,Silva,Bournemouth,5.0
+566,Silva,Bournemouth,5.1
 573,Sanchez,Bournemouth,4.4
 608,Jebbison,Bournemouth,5.0
 615,Di Gregorio,Bournemouth,4.5
@@ -99,7 +99,7 @@ id,web_name,team,price
 85,Van den Berg,Brentford,4.9
 86,Lewis-Potter,Brentford,5.5
 87,Ajer,Brentford,4.5
-88,Kayode,Brentford,4.6
+88,Kayode,Brentford,4.5
 89,Henry,Brentford,4.4
 90,Hickey,Brentford,4.5
 92,Ji-soo,Brentford,4.4
@@ -160,7 +160,7 @@ id,web_name,team,price
 652,Azeez,Brighton,5.5
 658,Ibrahim,Brighton,4.5
 28,Martinez,Chelsea,4.9
-40,Rogers,Chelsea,8.1
+40,Rogers,Chelsea,8.2
 101,Henderson,Chelsea,4.9
 136,Welbeck,Chelsea,5.8
 140,Sánchez,Chelsea,4.9
@@ -232,7 +232,7 @@ id,web_name,team,price
 623,Bentley,Coventry City,4.0
 655,Gboho,Coventry City,5.5
 656,Mfuni,Coventry City,4.0
-42,Guessand,Crystal Palace,5.4
+42,Guessand,Crystal Palace,5.3
 153,Disasi,Crystal Palace,4.4
 198,Henderson,Crystal Palace,4.9
 199,Benitez,Crystal Palace,4.5
@@ -341,7 +341,7 @@ id,web_name,team,price
 289,Crooks,Hull City,4.4
 290,Slater,Hull City,4.5
 291,Matazo,Hull City,4.5
-292,Ömür,Hull City,4.9
+292,Ömür,Hull City,4.8
 293,Kamara,Hull City,5.0
 294,Zambrano,Hull City,4.5
 295,McBurnie,Hull City,5.5
@@ -389,7 +389,7 @@ id,web_name,team,price
 320,Akpom,Ipswich Town,5.0
 321,Walle Egeli,Ipswich Town,4.5
 322,Al-Hamadi,Ipswich Town,5.0
-323,McAteer,Ipswich Town,4.4
+323,McAteer,Ipswich Town,4.3
 324,Mehmeti,Ipswich Town,4.8
 554,Van Oevelen,Ipswich Town,4.5
 562,Maeda,Ipswich Town,5.3
@@ -538,7 +538,7 @@ id,web_name,team,price
 442,Pope,Newcastle,4.9
 443,Gillespie,Newcastle,4.5
 444,Jaouen,Newcastle,4.4
-445,Thiaw,Newcastle,5.0
+445,Thiaw,Newcastle,4.9
 446,Schär,Newcastle,4.9
 447,Botman,Newcastle,5.0
 448,Burn,Newcastle,4.8
@@ -576,7 +576,7 @@ id,web_name,team,price
 470,Morato,Nott'm Forest,5.0
 471,Milenković,Nott'm Forest,5.4
 472,Murillo,Nott'm Forest,5.5
-473,Aina,Nott'm Forest,4.3
+473,Aina,Nott'm Forest,4.2
 474,Jair Cunha,Nott'm Forest,4.4
 475,Savona,Nott'm Forest,4.5
 476,O.Richards,Nott'm Forest,3.9
@@ -601,7 +601,7 @@ id,web_name,team,price
 112,Van Hecke,Spurs,5.0
 147,Tosin,Spurs,4.3
 401,Marmoush,Spurs,7.0
-403,Sávio,Spurs,6.5
+403,Sávio,Spurs,6.4
 455,Tonali,Spurs,5.3
 494,Vicario,Spurs,4.5
 495,Austin,Spurs,4.0
@@ -619,7 +619,7 @@ id,web_name,team,price
 509,Byfield,Spurs,4.0
 510,Rowswell,Spurs,4.0
 511,Souza,Spurs,4.0
-512,Kudus,Spurs,6.5
+512,Kudus,Spurs,6.6
 513,Xavi,Spurs,5.9
 514,Tel,Spurs,5.6
 515,Maddison,Spurs,6.2
@@ -666,6 +666,6 @@ id,web_name,team,price
 553,Isidor,Sunderland,5.4
 612,Methalie,Sunderland,4.5
 613,Ahoka,Sunderland,4.4
-646,Fofana,Sunderland,5.5
+646,Fofana,Sunderland,5.4
 651,J.Angulo,Sunderland,4.5
 668,Tutierov,Sunderland,5.0
