@@ -25,7 +25,7 @@ id,web_name,team,price
 25,Gyökeres,Arsenal,7.0
 26,Havertz,Arsenal,7.4
 27,G.Jesus,Arsenal,5.9
-31,Konsa,Arsenal,4.8
+31,Konsa,Arsenal,4.9
 452,Bruno G.,Arsenal,6.7
 557,Tzolis,Arsenal,6.1
 29,M.Bizot,Aston Villa,4.5
@@ -124,7 +124,7 @@ id,web_name,team,price
 660,Fredrick,Brentford,4.0
 661,Balcombe,Brentford,4.0
 109,Verbruggen,Brighton,4.7
-111,Steele,Brighton,4.0
+111,Steele,Brighton,3.9
 113,F.Kadıoğlu,Brighton,4.3
 114,Boscagli,Brighton,4.5
 115,De Cuyper,Brighton,5.5
@@ -439,7 +439,7 @@ id,web_name,team,price
 354,Jaros,Liverpool,4.0
 355,Davies,Liverpool,4.0
 356,Virgil,Liverpool,6.4
-357,Frimpong,Liverpool,5.2
+357,Frimpong,Liverpool,5.1
 358,Kerkez,Liverpool,5.3
 359,Gomez,Liverpool,4.9
 360,Bradley,Liverpool,4.9
