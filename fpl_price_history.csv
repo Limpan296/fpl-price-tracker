@@ -87,7 +87,7 @@ id,web_name,team,price
 76,Tóth.A,Bournemouth,4.9
 77,Adli,Bournemouth,4.8
 78,Kroupi.Jr,Bournemouth,7.3
-79,Evanilson,Bournemouth,6.5
+79,Evanilson,Bournemouth,6.6
 80,Enes Ünal,Bournemouth,5.5
 81,Rodríguez,Bournemouth,6.0
 566,Silva,Bournemouth,5.1
@@ -104,7 +104,7 @@ id,web_name,team,price
 89,Henry,Brentford,4.4
 90,Hickey,Brentford,4.5
 92,Ji-soo,Brentford,4.4
-93,Schuster,Brentford,4.5
+93,Schuster,Brentford,4.4
 94,Schade,Brentford,6.1
 95,O.Dango,Brentford,6.2
 96,Damsgaard,Brentford,5.3
@@ -118,7 +118,7 @@ id,web_name,team,price
 106,Thiago,Brentford,7.8
 107,Furo,Brentford,4.4
 108,Wilson,Brentford,5.3
-565,M.Sangaré,Brentford,5.4
+565,M.Sangaré,Brentford,5.3
 620,Diouf,Brentford,4.4
 657,Nunes,Brentford,4.5
 660,Fredrick,Brentford,4.0
@@ -145,8 +145,8 @@ id,web_name,team,price
 130,Wieffer,Brighton,4.8
 132,Howell,Brighton,4.5
 133,Watson,Brighton,5.0
-134,Oriola,Brighton,4.4
-135,Yohanna,Brighton,4.8
+134,Oriola,Brighton,4.3
+135,Yohanna,Brighton,4.7
 137,Tzimas,Brighton,5.4
 138,Kostoulas,Brighton,5.8
 139,Ferguson,Brighton,4.9
@@ -161,7 +161,7 @@ id,web_name,team,price
 652,Azeez,Brighton,5.5
 658,Ibrahim,Brighton,4.5
 28,Martinez,Chelsea,4.9
-40,Rogers,Chelsea,8.2
+40,Rogers,Chelsea,8.3
 101,Henderson,Chelsea,4.9
 136,Welbeck,Chelsea,5.8
 140,Sánchez,Chelsea,4.9
@@ -217,8 +217,8 @@ id,web_name,team,price
 186,Mason-Clark,Coventry City,5.3
 187,Eccles,Coventry City,4.8
 188,Torp,Coventry City,5.3
-189,Shepherd,Coventry City,4.4
-190,Tchaouna,Coventry City,5.3
+189,Shepherd,Coventry City,4.3
+190,Tchaouna,Coventry City,5.2
 191,Borges Rodrigues,Coventry City,4.5
 192,Andrews,Coventry City,4.5
 193,Wright,Coventry City,5.3
@@ -255,12 +255,12 @@ id,web_name,team,price
 218,Doucouré,Crystal Palace,4.7
 219,J.Rak-Sakyi,Crystal Palace,4.9
 220,Cardines,Crystal Palace,4.5
-221,Drakes-Thomas,Crystal Palace,4.4
+221,Drakes-Thomas,Crystal Palace,4.3
 222,Strand Larsen,Crystal Palace,5.9
 223,Mateta,Crystal Palace,6.3
 224,Nketiah,Crystal Palace,5.4
 225,Uche,Crystal Palace,5.0
-241,McNeil,Crystal Palace,5.3
+241,McNeil,Crystal Palace,5.2
 555,Matthews,Crystal Palace,4.0
 577,Tomiyasu,Crystal Palace,4.3
 588,Khalaili,Crystal Palace,5.0
@@ -322,6 +322,7 @@ id,web_name,team,price
 635,Larsson,Fulham,5.0
 636,Ángel,Fulham,5.0
 650,Affengruber,Fulham,4.5
+674,Kaiser,Fulham,4.0
 240,Iroegbunam,Hull City,5.0
 273,Phillips,Hull City,4.0
 274,Butland,Hull City,4.4
@@ -336,7 +337,7 @@ id,web_name,team,price
 283,Jacob,Hull City,4.0
 284,McCarthy,Hull City,4.0
 285,McNair,Hull City,3.9
-286,Belloumi,Hull City,5.3
+286,Belloumi,Hull City,5.2
 287,Millar,Hull City,5.0
 288,Dowell,Hull City,4.3
 289,Crooks,Hull City,4.4
@@ -373,10 +374,10 @@ id,web_name,team,price
 303,Kipré,Ipswich Town,3.9
 304,O'Shea,Ipswich Town,4.0
 305,Davis,Ipswich Town,4.0
-306,Greaves,Ipswich Town,3.9
+306,Greaves,Ipswich Town,3.8
 307,Johnson,Ipswich Town,4.0
 308,Furlong,Ipswich Town,3.9
-309,Núñez,Ipswich Town,4.8
+309,Núñez,Ipswich Town,4.7
 310,Matusiwa,Ipswich Town,4.9
 311,Burns,Ipswich Town,5.0
 312,Taylor,Ipswich Town,4.4
@@ -421,10 +422,10 @@ id,web_name,team,price
 344,Gruev,Leeds,5.0
 345,Tanaka,Leeds,4.9
 346,Calvert-Lewin,Leeds,6.0
-347,Nmecha,Leeds,5.3
+347,Nmecha,Leeds,5.2
 348,Piroe,Leeds,5.0
 349,Mateo Joseph,Leeds,4.4
-385,Trafford,Leeds,5.0
+385,Trafford,Leeds,5.1
 598,Elvedi,Leeds,4.5
 603,Lienou,Leeds,4.0
 604,Cresswell,Leeds,4.5
@@ -440,7 +441,7 @@ id,web_name,team,price
 355,Davies,Liverpool,4.0
 356,Virgil,Liverpool,6.4
 357,Frimpong,Liverpool,5.1
-358,Kerkez,Liverpool,5.3
+358,Kerkez,Liverpool,5.2
 359,Gomez,Liverpool,4.9
 360,Bradley,Liverpool,4.9
 361,Lucky,Liverpool,3.9
@@ -469,7 +470,7 @@ id,web_name,team,price
 579,Araujo,Liverpool,5.5
 627,Barcola,Liverpool,8.1
 155,Enzo,Man City,6.9
-237,Ndiaye,Man City,5.8
+237,Ndiaye,Man City,5.7
 384,Donnarumma,Man City,5.4
 386,Bettinelli,Man City,4.4
 387,O'Reilly,Man City,6.2
@@ -482,7 +483,7 @@ id,web_name,team,price
 394,Alleyne,Man City,5.0
 395,Lewis,Man City,4.3
 396,Vitor Reis,Man City,4.4
-397,Semenyo,Man City,8.2
+397,Semenyo,Man City,8.1
 398,Foden,Man City,6.8
 399,Cherki,Man City,7.9
 400,Doku,Man City,7.5
@@ -599,7 +600,7 @@ id,web_name,team,price
 558,Schlager,Nott'm Forest,5.0
 581,Diomande,Nott'm Forest,5.3
 590,Benda,Nott'm Forest,4.5
-112,Van Hecke,Spurs,5.1
+112,Van Hecke,Spurs,5.2
 147,Tosin,Spurs,4.3
 401,Marmoush,Spurs,7.0
 403,Sávio,Spurs,6.4
@@ -671,3 +672,4 @@ id,web_name,team,price
 646,Fofana,Sunderland,5.4
 651,J.Angulo,Sunderland,4.5
 668,Tutierov,Sunderland,4.8
+673,Browne,Sunderland,4.5
