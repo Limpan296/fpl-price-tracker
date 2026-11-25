@@ -15,7 +15,7 @@ id,web_name,team,price
 14,Eze,Arsenal,6.2
 15,Ødegaard,Arsenal,6.7
 16,Madueke,Arsenal,6.2
-17,Merino,Arsenal,5.7
+17,Merino,Arsenal,5.6
 18,Martinelli,Arsenal,6.3
 19,Zubimendi,Arsenal,5.2
 20,Dowman,Arsenal,5.2
@@ -68,7 +68,7 @@ id,web_name,team,price
 57,Petrović,Bournemouth,4.5
 58,Forster,Bournemouth,4.0
 59,Dennis,Bournemouth,4.0
-60,Hill,Bournemouth,5.6
+60,Hill,Bournemouth,5.7
 61,Truffert,Bournemouth,5.4
 62,Diakité,Bournemouth,4.9
 63,Milosavljević,Bournemouth,4.9
@@ -101,7 +101,7 @@ id,web_name,team,price
 86,Lewis-Potter,Brentford,5.5
 87,Ajer,Brentford,4.5
 88,Kayode,Brentford,4.5
-89,Henry,Brentford,4.4
+89,Henry,Brentford,4.3
 90,Hickey,Brentford,4.5
 92,Ji-soo,Brentford,4.4
 93,Schuster,Brentford,4.4
@@ -212,7 +212,7 @@ id,web_name,team,price
 181,Brau,Coventry City,4.0
 182,Amenda,Coventry City,3.9
 183,Rudoni,Coventry City,5.0
-184,Grimes,Coventry City,4.8
+184,Grimes,Coventry City,4.7
 185,Sakamoto,Coventry City,4.8
 186,Mason-Clark,Coventry City,5.3
 187,Eccles,Coventry City,4.8
@@ -504,7 +504,7 @@ id,web_name,team,price
 653,Samba,Man City,4.4
 43,Tielemans,Man Utd,5.6
 131,Baleba,Man Utd,4.9
-162,Andrey Santos,Man Utd,4.7
+162,Andrey Santos,Man Utd,4.6
 325,Darlow,Man Utd,4.5
 412,Lammens,Man Utd,4.8
 413,Bayindir,Man Utd,4.5
@@ -597,7 +597,7 @@ id,web_name,team,price
 490,Wood,Nott'm Forest,5.6
 491,Igor Jesus,Nott'm Forest,5.6
 493,Kalimuendo,Nott'm Forest,5.4
-558,Schlager,Nott'm Forest,5.0
+558,Schlager,Nott'm Forest,4.9
 581,Diomande,Nott'm Forest,5.3
 590,Benda,Nott'm Forest,4.5
 112,Van Hecke,Spurs,5.2
